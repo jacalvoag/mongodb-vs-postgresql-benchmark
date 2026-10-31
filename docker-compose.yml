@@ -1,0 +1,105 @@
+name: mongodb-postgresql-benchmark
+
+x-db-limits: &db-limits
+  cpus: ${DB_CPUS:-4}
+  mem_limit: ${DB_MEMORY:-4096m}
+  memswap_limit: ${DB_MEMORY:-4096m}
+  # Este entorno descarta swappiness; memswap_limit impide usar swap.
+  mem_swappiness: 0
+  restart: "no"
+  stop_grace_period: 60s
+  # La disponibilidad se comprueba antes de cada corrida, sin sondeos extra.
+  healthcheck:
+    disable: true
+
+services:
+  mongodb:
+    <<: *db-limits
+    image: ${MONGO_IMAGE:?Define MONGO_IMAGE en .env}
+    profiles: [mongo]
+    command: ["mongod", "--bind_ip_all", "--storageEngine", "wiredTiger"]
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER:?Define MONGO_USER en .env}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:?Define MONGO_PASSWORD en .env}
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    labels:
+      benchmark.engine: mongodb
+      benchmark.profile: ${PROFILE_ID:-PROFILE_A_BASELINE}
+
+  postgresql:
+    <<: *db-limits
+    image: ${POSTGRES_IMAGE:?Define POSTGRES_IMAGE en .env}
+    profiles: [postgres]
+    command: ["postgres", "-c", "log_temp_files=0"]
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?Define POSTGRES_USER en .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:?Define POSTGRES_DB en .env}
+    shm_size: 256m
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    labels:
+      benchmark.engine: postgresql
+      benchmark.profile: ${PROFILE_ID:-PROFILE_A_BASELINE}
+
+  cadvisor:
+    image: ${CADVISOR_IMAGE:?Define CADVISOR_IMAGE en .env}
+    privileged: true
+    cgroup: host
+    pid: host
+    command:
+      - --docker_only=true
+      - --housekeeping_interval=1s
+      - --max_housekeeping_interval=1s
+      - --allow_dynamic_housekeeping=false
+      - --store_container_labels=false
+      - --whitelisted_container_labels=com.docker.compose.service,benchmark.engine,benchmark.profile
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker:/var/lib/docker:ro
+
+  node-exporter:
+    image: ${NODE_EXPORTER_IMAGE:?Define NODE_EXPORTER_IMAGE en .env}
+    pid: host
+    command:
+      - --path.rootfs=/host
+      - --path.procfs=/host/proc
+      - --path.sysfs=/host/sys
+      - --collector.disable-defaults
+      - --collector.cpu
+      - --collector.meminfo
+      - --collector.vmstat
+      - --collector.diskstats
+      - --collector.filesystem
+      - --collector.stat
+      - --collector.uname
+    ports:
+      - "127.0.0.1:9100:9100"
+    volumes:
+      - /:/host:ro
+
+  prometheus:
+    image: ${PROMETHEUS_IMAGE:?Define PROMETHEUS_IMAGE en .env}
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+      - --storage.tsdb.retention.time=7d
+    ports:
+      - "127.0.0.1:9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+
+volumes:
+  mongo_data:
+  postgres_data:
+  prometheus_data:
