@@ -1,0 +1,43 @@
+# Se combina con docker-compose.yml; datos y consultas de fase 4 se conservan.
+services:
+  mongodb:
+    command: [mongod, --bind_ip_all, --storageEngine, wiredTiger, --slowms, "0", --slowOpSampleRate, "1.0"]
+    logging:
+      driver: local
+      options:
+        max-size: "20m"
+        max-file: "3"
+  postgresql:
+    command: [postgres, -c, log_temp_files=0, -c, log_min_duration_statement=0, -c, "log_line_prefix=%m [%p] %a "]
+    logging:
+      driver: local
+      options:
+        max-size: "20m"
+        max-file: "3"
+  benchmark-runner:
+    profiles: [tools]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.loader
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:?Define PYTHON_IMAGE en .env}
+    entrypoint: [python, -u, -m, benchmark_runner]
+    cgroup: host
+    environment:
+      MONGO_USER: ${MONGO_USER:?Define MONGO_USER en .env}
+      MONGO_PASSWORD: ${MONGO_PASSWORD:?Define MONGO_PASSWORD en .env}
+      MONGO_DB: benchmark
+      POSTGRES_USER: ${POSTGRES_USER:?Define POSTGRES_USER en .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:?Define POSTGRES_DB en .env}
+      PROFILE_ID: ${PROFILE_ID:-PROFILE_A_BASELINE}
+      PROMETHEUS_URL: http://prometheus:9090
+      BENCHMARK_PROJECT: mongodb-postgresql-benchmark
+    volumes:
+      - ./benchmark_runner:/work/benchmark_runner:ro
+      - ./queries:/work/queries:ro
+      - ./results:/work/results
+      - ./evidence:/work/evidence
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /sys/fs/cgroup:/host/cgroup:ro
+      - /proc:/host/proc:ro
