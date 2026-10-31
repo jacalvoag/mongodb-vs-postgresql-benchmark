@@ -1,17 +1,20 @@
 [
   {
     "$match": {
-      "payment.status": "completed",
-      "timestamp": {"$gte": "2026-01-01T00:00:00Z"}
+      "estado": "finalizado",
+      "fecha_cierre": {"$gte": "2026-01-01T00:00:00Z", "$lt": "2026-10-01T00:00:00Z"}
     }
   },
-  {"$sort": {"payment.final_total": -1}},
+  {"$sort": {"retraso_acumulado_min": -1}},
   {"$limit": 1000},
   {
     "$project": {
-      "order_id": 1,
-      "customer.id": 1,
-      "payment.final_total": 1
+      "_id": 0,
+      "envio_id": 1,
+      "centro_id": "$centro_distribucion.id",
+      "servicio": 1,
+      "fecha_cierre": 1,
+      "retraso_acumulado_min": 1
     }
   }
 ]

@@ -1,8 +1,20 @@
-SELECT data->'customer'->'geo'->>'country' AS country,
-       item->>'category' AS category,
-       SUM((item->>'qty')::numeric * (item->>'price')::numeric) AS total_revenue,
-       AVG((item->>'qty')::numeric * (item->>'price')::numeric) AS avg_revenue,
-       COUNT(*) AS count
-FROM orders, jsonb_array_elements(data->'items') AS item
-WHERE (item->>'price')::numeric > 50
-GROUP BY 1, 2;
+WITH paquetes_entregados AS (
+    SELECT e.data->'centro_distribucion'->>'id' AS centro_id,
+           e.data->>'servicio' AS servicio,
+           EXTRACT(EPOCH FROM (
+               (p.paquete->>'fecha_entrega')::timestamptz
+               - (p.paquete->>'fecha_compromiso')::timestamptz
+           )) / 60 AS retraso_min
+    FROM public.envios AS e
+    CROSS JOIN LATERAL jsonb_array_elements(e.data->'paquetes') AS p(paquete)
+    WHERE p.paquete->>'estado' = 'entregado'
+      AND jsonb_typeof(p.paquete->'fecha_entrega') = 'string'
+)
+SELECT centro_id,
+       servicio,
+       COUNT(*) AS paquetes_retrasados,
+       SUM(retraso_min) AS retraso_total_min,
+       AVG(retraso_min) AS retraso_promedio_min
+FROM paquetes_entregados
+WHERE retraso_min > 0
+GROUP BY centro_id, servicio;

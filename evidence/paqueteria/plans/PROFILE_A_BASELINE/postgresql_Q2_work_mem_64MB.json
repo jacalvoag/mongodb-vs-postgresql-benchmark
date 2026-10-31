@@ -1,0 +1,170 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Limit",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 106234.88,
+      "Total Cost": 106335.16,
+      "Plan Rows": 861,
+      "Plan Width": 136,
+      "Actual Startup Time": 150.49,
+      "Actual Total Time": 154.782,
+      "Actual Rows": 1000.0,
+      "Actual Loops": 1,
+      "Disabled": false,
+      "Shared Hit Blocks": 4138,
+      "Shared Read Blocks": 95940,
+      "Shared Dirtied Blocks": 0,
+      "Shared Written Blocks": 0,
+      "Local Hit Blocks": 0,
+      "Local Read Blocks": 0,
+      "Local Dirtied Blocks": 0,
+      "Local Written Blocks": 0,
+      "Temp Read Blocks": 0,
+      "Temp Written Blocks": 0,
+      "Plans": [
+        {
+          "Node Type": "Gather Merge",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Startup Cost": 106234.88,
+          "Total Cost": 106335.16,
+          "Plan Rows": 861,
+          "Plan Width": 136,
+          "Actual Startup Time": 147.792,
+          "Actual Total Time": 152.022,
+          "Actual Rows": 1000.0,
+          "Actual Loops": 1,
+          "Disabled": false,
+          "Workers Planned": 2,
+          "Workers Launched": 2,
+          "Shared Hit Blocks": 4138,
+          "Shared Read Blocks": 95940,
+          "Shared Dirtied Blocks": 0,
+          "Shared Written Blocks": 0,
+          "Local Hit Blocks": 0,
+          "Local Read Blocks": 0,
+          "Local Dirtied Blocks": 0,
+          "Local Written Blocks": 0,
+          "Temp Read Blocks": 0,
+          "Temp Written Blocks": 0,
+          "Plans": [
+            {
+              "Node Type": "Sort",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 105234.85,
+              "Total Cost": 105235.75,
+              "Plan Rows": 359,
+              "Plan Width": 136,
+              "Actual Startup Time": 134.912,
+              "Actual Total Time": 134.95,
+              "Actual Rows": 649.33,
+              "Actual Loops": 3,
+              "Disabled": false,
+              "Sort Key": [
+                "(((data ->> 'retraso_acumulado_min'::text))::bigint) DESC"
+              ],
+              "Sort Method": "top-N heapsort",
+              "Sort Space Used": 269,
+              "Sort Space Type": "Memory",
+              "Shared Hit Blocks": 4138,
+              "Shared Read Blocks": 95940,
+              "Shared Dirtied Blocks": 0,
+              "Shared Written Blocks": 0,
+              "Local Hit Blocks": 0,
+              "Local Read Blocks": 0,
+              "Local Dirtied Blocks": 0,
+              "Local Written Blocks": 0,
+              "Temp Read Blocks": 0,
+              "Temp Written Blocks": 0,
+              "Workers": [
+                {
+                  "Worker Number": 0,
+                  "Sort Method": "top-N heapsort",
+                  "Sort Space Used": 267,
+                  "Sort Space Type": "Memory"
+                },
+                {
+                  "Worker Number": 1,
+                  "Sort Method": "top-N heapsort",
+                  "Sort Space Used": 267,
+                  "Sort Space Type": "Memory"
+                }
+              ],
+              "Plans": [
+                {
+                  "Node Type": "Seq Scan",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": true,
+                  "Async Capable": false,
+                  "Relation Name": "envios",
+                  "Alias": "envios",
+                  "Startup Cost": 0.0,
+                  "Total Cost": 105219.62,
+                  "Plan Rows": 359,
+                  "Plan Width": 136,
+                  "Actual Startup Time": 2.677,
+                  "Actual Total Time": 123.367,
+                  "Actual Rows": 53651.0,
+                  "Actual Loops": 3,
+                  "Disabled": false,
+                  "Filter": "(((data ->> 'fecha_cierre'::text) >= '2026-01-01T00:00:00Z'::text) AND ((data ->> 'fecha_cierre'::text) < '2026-10-01T00:00:00Z'::text) AND ((data ->> 'estado'::text) = 'finalizado'::text))",
+                  "Rows Removed by Filter": 113016,
+                  "Shared Hit Blocks": 4064,
+                  "Shared Read Blocks": 95940,
+                  "Shared Dirtied Blocks": 0,
+                  "Shared Written Blocks": 0,
+                  "Local Hit Blocks": 0,
+                  "Local Read Blocks": 0,
+                  "Local Dirtied Blocks": 0,
+                  "Local Written Blocks": 0,
+                  "Temp Read Blocks": 0,
+                  "Temp Written Blocks": 0,
+                  "Workers": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Planning": {
+      "Shared Hit Blocks": 4,
+      "Shared Read Blocks": 0,
+      "Shared Dirtied Blocks": 0,
+      "Shared Written Blocks": 0,
+      "Local Hit Blocks": 0,
+      "Local Read Blocks": 0,
+      "Local Dirtied Blocks": 0,
+      "Local Written Blocks": 0,
+      "Temp Read Blocks": 0,
+      "Temp Written Blocks": 0
+    },
+    "Planning Time": 0.129,
+    "Triggers": [],
+    "JIT": {
+      "Functions": 13,
+      "Options": {
+        "Inlining": false,
+        "Optimization": false,
+        "Expressions": true,
+        "Deforming": true
+      },
+      "Timing": {
+        "Generation": {
+          "Deform": 0.204,
+          "Total": 1.081
+        },
+        "Inlining": 0.0,
+        "Optimization": 0.613,
+        "Emission": 9.313,
+        "Total": 11.007
+      }
+    },
+    "Execution Time": 155.193
+  }
+]

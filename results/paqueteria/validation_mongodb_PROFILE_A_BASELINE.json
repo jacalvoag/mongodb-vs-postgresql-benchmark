@@ -1,0 +1,59 @@
+{
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "reference_schema": "paqueteria-q1-q2-v1",
+  "engine": "mongodb",
+  "profile": "PROFILE_A_BASELINE",
+  "server_version": "9.0.4",
+  "driver_version": "4.19.0",
+  "database": "benchmark",
+  "collection": "envios",
+  "server_settings": {
+    "allowDiskUseByDefault": true
+  },
+  "source_records": 500000,
+  "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+  "loaded_database": "benchmark",
+  "reference_file": "results/paqueteria/query_reference.json",
+  "reference_sha256": "e51502c26d7eca8edf56181517dcc563f475cd54bd37991d9319f2448da428f3",
+  "query_sha256": {
+    "Q1": "67caea11068eebc1bfc4ce938ffadfff145ab4168f438a497d997feee14c1a3e",
+    "Q2": "03a6ac06aa46183aed78f657275329585b5f4fe34afb0e29f02ae6b451627385"
+  },
+  "numeric_tolerance": {
+    "scope": "Q1.retraso_promedio_min only",
+    "absolute": "0.000001",
+    "relative": "1E-12"
+  },
+  "verified_at_utc": "2026-10-31T20:04:56.448732+00:00",
+  "cases": [
+    {
+      "query_id": "Q1",
+      "variant": "default",
+      "setting": null,
+      "status": "ok",
+      "rows": 12,
+      "results_file": "results/paqueteria/query_results/PROFILE_A_BASELINE/mongodb_Q1_default.json",
+      "plan_file": "evidence/paqueteria/plans/PROFILE_A_BASELINE/mongodb_Q1_default.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "allowDiskUse_false",
+      "setting": false,
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/paqueteria/query_results/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_false.json",
+      "plan_file": "evidence/paqueteria/plans/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_false.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "allowDiskUse_true",
+      "setting": true,
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/paqueteria/query_results/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_true.json",
+      "plan_file": "evidence/paqueteria/plans/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_true.json"
+    }
+  ],
+  "status": "ok"
+}

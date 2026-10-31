@@ -1,0 +1,86 @@
+[
+  {
+    "paquetes_retrasados": 56392,
+    "retraso_total_min": 20255584,
+    "retraso_promedio_min": 359.19250957582636,
+    "centro_id": "CD-04",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 56177,
+    "retraso_total_min": 20135379,
+    "retraso_promedio_min": 358.4274525161543,
+    "centro_id": "CD-02",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 55998,
+    "retraso_total_min": 20128099,
+    "retraso_promedio_min": 359.44317654201933,
+    "centro_id": "CD-06",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 56166,
+    "retraso_total_min": 20184053,
+    "retraso_promedio_min": 359.36425951643344,
+    "centro_id": "CD-01",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 25175,
+    "retraso_total_min": 9094631,
+    "retraso_promedio_min": 361.2564448857994,
+    "centro_id": "CD-05",
+    "servicio": "expres"
+  },
+  {
+    "paquetes_retrasados": 55840,
+    "retraso_total_min": 20118238,
+    "retraso_promedio_min": 360.2836318051576,
+    "centro_id": "CD-05",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 25629,
+    "retraso_total_min": 9222556,
+    "retraso_promedio_min": 359.84845292442157,
+    "centro_id": "CD-01",
+    "servicio": "expres"
+  },
+  {
+    "paquetes_retrasados": 55741,
+    "retraso_total_min": 20044304,
+    "retraso_promedio_min": 359.59713675750345,
+    "centro_id": "CD-03",
+    "servicio": "estandar"
+  },
+  {
+    "paquetes_retrasados": 25214,
+    "retraso_total_min": 9052891,
+    "retraso_promedio_min": 359.0422384389625,
+    "centro_id": "CD-04",
+    "servicio": "expres"
+  },
+  {
+    "paquetes_retrasados": 25187,
+    "retraso_total_min": 9078982,
+    "retraso_promedio_min": 360.46301663556596,
+    "centro_id": "CD-02",
+    "servicio": "expres"
+  },
+  {
+    "paquetes_retrasados": 25439,
+    "retraso_total_min": 9161656,
+    "retraso_promedio_min": 360.1421439521994,
+    "centro_id": "CD-06",
+    "servicio": "expres"
+  },
+  {
+    "paquetes_retrasados": 25176,
+    "retraso_total_min": 9015422,
+    "retraso_promedio_min": 358.0958849698125,
+    "centro_id": "CD-03",
+    "servicio": "expres"
+  }
+]

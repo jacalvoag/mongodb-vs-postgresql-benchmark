@@ -1,0 +1,272 @@
+{
+  "explainVersion": "1",
+  "stages": [
+    {
+      "$cursor": {
+        "queryPlanner": {
+          "namespace": "benchmark.envios",
+          "parsedQuery": {
+            "$and": [
+              {
+                "estado": {
+                  "$eq": "finalizado"
+                }
+              },
+              {
+                "fecha_cierre": {
+                  "$lt": "2026-10-01T00:00:00Z"
+                }
+              },
+              {
+                "fecha_cierre": {
+                  "$gte": "2026-01-01T00:00:00Z"
+                }
+              }
+            ]
+          },
+          "indexFilterSet": false,
+          "queryHash": "A9D1C268",
+          "planCacheShapeHash": "A9D1C268",
+          "planCacheKey": "55EF9AAF",
+          "optimizationTimeMillis": 0,
+          "optimizationTimeMicros": 186,
+          "cursorType": "regular",
+          "maxIndexedOrSolutionsReached": false,
+          "maxIndexedAndSolutionsReached": false,
+          "maxScansToExplodeReached": false,
+          "prunedSimilarIndexes": false,
+          "winningPlan": {
+            "isCached": false,
+            "stage": "PROJECTION_DEFAULT",
+            "transformBy": {
+              "centro_distribucion.id": 1,
+              "envio_id": 1,
+              "fecha_cierre": 1,
+              "retraso_acumulado_min": 1,
+              "servicio": 1,
+              "_id": 0
+            },
+            "inputStage": {
+              "stage": "SORT",
+              "sortPattern": {
+                "retraso_acumulado_min": -1
+              },
+              "memLimit": 104857600,
+              "limitAmount": 1000,
+              "type": "simple",
+              "inputStage": {
+                "stage": "FETCH",
+                "filter": {
+                  "estado": {
+                    "$eq": "finalizado"
+                  }
+                },
+                "nss": "benchmark.envios",
+                "inputStage": {
+                  "stage": "IXSCAN",
+                  "nss": "benchmark.envios",
+                  "keyPattern": {
+                    "fecha_cierre": 1
+                  },
+                  "indexName": "envios_fecha_cierre_idx",
+                  "isMultiKey": false,
+                  "multiKeyPaths": {
+                    "fecha_cierre": []
+                  },
+                  "isUnique": false,
+                  "isSparse": false,
+                  "isPartial": false,
+                  "indexVersion": 2,
+                  "direction": "forward",
+                  "indexBounds": {
+                    "fecha_cierre": [
+                      "[\"2026-01-01T00:00:00Z\", \"2026-10-01T00:00:00Z\")"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "rejectedPlans": []
+        },
+        "executionStats": {
+          "executionSuccess": true,
+          "nReturned": 1000,
+          "executionTimeMillis": 353,
+          "executionTimeMicros": 353349,
+          "totalKeysExamined": 171784,
+          "totalDocsExamined": 171784,
+          "executionStages": {
+            "isCached": false,
+            "stage": "PROJECTION_DEFAULT",
+            "nReturned": 1000,
+            "executionTimeMillisEstimate": 349,
+            "works": 172786,
+            "advanced": 1000,
+            "needTime": 171785,
+            "needYield": 0,
+            "saveState": 20,
+            "restoreState": 19,
+            "isEOF": 1,
+            "transformBy": {
+              "centro_distribucion.id": 1,
+              "envio_id": 1,
+              "fecha_cierre": 1,
+              "retraso_acumulado_min": 1,
+              "servicio": 1,
+              "_id": 0
+            },
+            "peakTrackedMemBytes": 0,
+            "inputStage": {
+              "stage": "SORT",
+              "nReturned": 1000,
+              "executionTimeMillisEstimate": 349,
+              "works": 172786,
+              "advanced": 1000,
+              "needTime": 171785,
+              "needYield": 0,
+              "saveState": 20,
+              "restoreState": 19,
+              "isEOF": 1,
+              "sortPattern": {
+                "retraso_acumulado_min": -1
+              },
+              "memLimit": 104857600,
+              "limitAmount": 1000,
+              "type": "simple",
+              "totalDataSizeSorted": 1512003,
+              "usedDisk": false,
+              "spills": 0,
+              "spilledRecords": 0,
+              "spilledBytes": 0,
+              "spilledDataStorageSize": 0,
+              "peakTrackedMemBytes": 1512003,
+              "inputStage": {
+                "stage": "FETCH",
+                "filter": {
+                  "estado": {
+                    "$eq": "finalizado"
+                  }
+                },
+                "nReturned": 160953,
+                "executionTimeMillisEstimate": 329,
+                "works": 171785,
+                "advanced": 160953,
+                "needTime": 10831,
+                "needYield": 0,
+                "saveState": 20,
+                "restoreState": 19,
+                "isEOF": 1,
+                "nss": "benchmark.envios",
+                "docsExamined": 171784,
+                "alreadyHasObj": 0,
+                "inputStage": {
+                  "stage": "IXSCAN",
+                  "nReturned": 171784,
+                  "executionTimeMillisEstimate": 38,
+                  "works": 171785,
+                  "advanced": 171784,
+                  "needTime": 0,
+                  "needYield": 0,
+                  "saveState": 20,
+                  "restoreState": 19,
+                  "isEOF": 1,
+                  "nss": "benchmark.envios",
+                  "keyPattern": {
+                    "fecha_cierre": 1
+                  },
+                  "indexName": "envios_fecha_cierre_idx",
+                  "isMultiKey": false,
+                  "multiKeyPaths": {
+                    "fecha_cierre": []
+                  },
+                  "isUnique": false,
+                  "isSparse": false,
+                  "isPartial": false,
+                  "indexVersion": 2,
+                  "direction": "forward",
+                  "indexBounds": {
+                    "fecha_cierre": [
+                      "[\"2026-01-01T00:00:00Z\", \"2026-10-01T00:00:00Z\")"
+                    ]
+                  },
+                  "keysExamined": 171784,
+                  "seeks": 1,
+                  "dupsTested": 0,
+                  "dupsDropped": 0,
+                  "peakTrackedMemBytes": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "nReturned": 1000,
+      "executionTimeMillisEstimate": 350
+    },
+    {
+      "$project": {
+        "envio_id": true,
+        "servicio": true,
+        "fecha_cierre": true,
+        "retraso_acumulado_min": true,
+        "centro_id": "$centro_distribucion.id",
+        "_id": false
+      },
+      "nReturned": 1000,
+      "executionTimeMillisEstimate": 350,
+      "expressionEvaluationPeakMemoryBytes": 0
+    }
+  ],
+  "queryShapeHash": "D1D40EEB4B754883F2570A20119970196F8428B75BEBA6223940A34D4865E6BC",
+  "peakTrackedMemBytes": 1512003,
+  "serverInfo": {
+    "host": "406da0c3884d",
+    "port": 27017,
+    "version": "9.0.4",
+    "gitVersion": "64ade602b836c9adeffba7fa038c887ffab56196"
+  },
+  "serverParameters": {
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "command": {
+    "aggregate": "envios",
+    "pipeline": [
+      {
+        "$match": {
+          "estado": "finalizado",
+          "fecha_cierre": {
+            "$gte": "2026-01-01T00:00:00Z",
+            "$lt": "2026-10-01T00:00:00Z"
+          }
+        }
+      },
+      {
+        "$sort": {
+          "retraso_acumulado_min": -1
+        }
+      },
+      {
+        "$limit": 1000
+      },
+      {
+        "$project": {
+          "_id": 0,
+          "envio_id": 1,
+          "centro_id": "$centro_distribucion.id",
+          "servicio": 1,
+          "fecha_cierre": 1,
+          "retraso_acumulado_min": 1
+        }
+      }
+    ],
+    "cursor": {},
+    "allowDiskUse": true,
+    "$db": "benchmark"
+  },
+  "ok": 1.0
+}

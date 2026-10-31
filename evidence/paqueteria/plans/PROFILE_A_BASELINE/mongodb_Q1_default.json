@@ -1,0 +1,288 @@
+{
+  "explainVersion": "1",
+  "stages": [
+    {
+      "$cursor": {
+        "queryPlanner": {
+          "namespace": "benchmark.envios",
+          "parsedQuery": {},
+          "indexFilterSet": false,
+          "queryHash": "C431C2D6",
+          "planCacheShapeHash": "C431C2D6",
+          "planCacheKey": "E123E17B",
+          "optimizationTimeMillis": 0,
+          "optimizationTimeMicros": 653,
+          "cursorType": "regular",
+          "maxIndexedOrSolutionsReached": false,
+          "maxIndexedAndSolutionsReached": false,
+          "maxScansToExplodeReached": false,
+          "prunedSimilarIndexes": false,
+          "winningPlan": {
+            "isCached": false,
+            "stage": "PROJECTION_DEFAULT",
+            "transformBy": {
+              "centro_distribucion.id": 1,
+              "paquetes": 1,
+              "servicio": 1,
+              "_id": 0
+            },
+            "inputStage": {
+              "stage": "COLLSCAN",
+              "nss": "benchmark.envios",
+              "direction": "forward"
+            }
+          },
+          "rejectedPlans": []
+        },
+        "executionStats": {
+          "executionSuccess": true,
+          "nReturned": 500000,
+          "executionTimeMillis": 14950,
+          "executionTimeMicros": 14950956,
+          "totalKeysExamined": 0,
+          "totalDocsExamined": 500000,
+          "executionStages": {
+            "isCached": false,
+            "stage": "PROJECTION_DEFAULT",
+            "nReturned": 500000,
+            "executionTimeMillisEstimate": 54,
+            "works": 500001,
+            "advanced": 500000,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 204,
+            "restoreState": 203,
+            "isEOF": 1,
+            "transformBy": {
+              "centro_distribucion.id": 1,
+              "paquetes": 1,
+              "servicio": 1,
+              "_id": 0
+            },
+            "peakTrackedMemBytes": 0,
+            "inputStage": {
+              "stage": "COLLSCAN",
+              "nReturned": 500000,
+              "executionTimeMillisEstimate": 6,
+              "works": 500001,
+              "advanced": 500000,
+              "needTime": 0,
+              "needYield": 0,
+              "saveState": 204,
+              "restoreState": 203,
+              "isEOF": 1,
+              "nss": "benchmark.envios",
+              "direction": "forward",
+              "docsExamined": 500000,
+              "seeks": 0
+            }
+          }
+        }
+      },
+      "nReturned": 500000,
+      "executionTimeMillisEstimate": 514
+    },
+    {
+      "$unwind": {
+        "path": "$paquetes"
+      },
+      "nReturned": 1500000,
+      "executionTimeMillisEstimate": 870
+    },
+    {
+      "$match": {
+        "$and": [
+          {
+            "paquetes.estado": {
+              "$eq": "entregado"
+            }
+          },
+          {
+            "paquetes.fecha_entrega": {
+              "$type": [
+                2
+              ]
+            }
+          }
+        ]
+      },
+      "nReturned": 1226194,
+      "executionTimeMillisEstimate": 1433,
+      "expressionEvaluationPeakMemoryBytes": 512
+    },
+    {
+      "$set": {
+        "retraso_min": {
+          "$dateDiff": {
+            "startDate": {
+              "$convert": {
+                "input": "$paquetes.fecha_compromiso",
+                "to": {
+                  "$const": "date"
+                }
+              }
+            },
+            "endDate": {
+              "$convert": {
+                "input": "$paquetes.fecha_entrega",
+                "to": {
+                  "$const": "date"
+                }
+              }
+            },
+            "unit": {
+              "$const": "minute"
+            },
+            "timezone": {
+              "$const": "UTC"
+            }
+          }
+        }
+      },
+      "nReturned": 1226194,
+      "executionTimeMillisEstimate": 14263,
+      "expressionEvaluationPeakMemoryBytes": 0
+    },
+    {
+      "$match": {
+        "retraso_min": {
+          "$gt": 0
+        }
+      },
+      "nReturned": 488134,
+      "executionTimeMillisEstimate": 14513,
+      "expressionEvaluationPeakMemoryBytes": 512
+    },
+    {
+      "$group": {
+        "_id": {
+          "centro_id": "$centro_distribucion.id",
+          "servicio": "$servicio"
+        },
+        "paquetes_retrasados": {
+          "$sum": {
+            "$const": 1
+          }
+        },
+        "retraso_total_min": {
+          "$sum": "$retraso_min"
+        },
+        "retraso_promedio_min": {
+          "$avg": "$retraso_min"
+        },
+        "$willBeMerged": false
+      },
+      "nReturned": 12,
+      "executionTimeMillisEstimate": 14947,
+      "maxAccumulatorMemoryUsageBytes": {
+        "paquetes_retrasados": 2400,
+        "retraso_total_min": 2400,
+        "retraso_promedio_min": 2112
+      },
+      "totalOutputDataSizeBytes": 7224,
+      "usedDisk": false,
+      "spills": 0,
+      "spilledDataStorageSize": 0,
+      "spilledBytes": 0,
+      "spilledRecords": 0,
+      "peakTrackedMemBytes": 7968
+    },
+    {
+      "$project": {
+        "paquetes_retrasados": true,
+        "retraso_total_min": true,
+        "retraso_promedio_min": true,
+        "centro_id": "$_id.centro_id",
+        "servicio": "$_id.servicio",
+        "_id": false
+      },
+      "nReturned": 12,
+      "executionTimeMillisEstimate": 14947,
+      "expressionEvaluationPeakMemoryBytes": 0
+    }
+  ],
+  "queryShapeHash": "4FC33D3AFCA5A35B87E79C525EBF7B4CC9D8F02DD783238BDF0FCC7753A49E28",
+  "peakTrackedMemBytes": 8992,
+  "serverInfo": {
+    "host": "406da0c3884d",
+    "port": 27017,
+    "version": "9.0.4",
+    "gitVersion": "64ade602b836c9adeffba7fa038c887ffab56196"
+  },
+  "serverParameters": {
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "command": {
+    "aggregate": "envios",
+    "pipeline": [
+      {
+        "$unwind": "$paquetes"
+      },
+      {
+        "$match": {
+          "paquetes.estado": "entregado",
+          "paquetes.fecha_entrega": {
+            "$type": "string"
+          }
+        }
+      },
+      {
+        "$set": {
+          "retraso_min": {
+            "$dateDiff": {
+              "startDate": {
+                "$toDate": "$paquetes.fecha_compromiso"
+              },
+              "endDate": {
+                "$toDate": "$paquetes.fecha_entrega"
+              },
+              "unit": "minute",
+              "timezone": "UTC"
+            }
+          }
+        }
+      },
+      {
+        "$match": {
+          "retraso_min": {
+            "$gt": 0
+          }
+        }
+      },
+      {
+        "$group": {
+          "_id": {
+            "centro_id": "$centro_distribucion.id",
+            "servicio": "$servicio"
+          },
+          "paquetes_retrasados": {
+            "$sum": 1
+          },
+          "retraso_total_min": {
+            "$sum": "$retraso_min"
+          },
+          "retraso_promedio_min": {
+            "$avg": "$retraso_min"
+          }
+        }
+      },
+      {
+        "$project": {
+          "_id": 0,
+          "centro_id": "$_id.centro_id",
+          "servicio": "$_id.servicio",
+          "paquetes_retrasados": 1,
+          "retraso_total_min": 1,
+          "retraso_promedio_min": 1
+        }
+      }
+    ],
+    "cursor": {},
+    "$db": "benchmark"
+  },
+  "ok": 1.0
+}

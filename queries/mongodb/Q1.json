@@ -1,15 +1,35 @@
 [
-    {"$unwind": "$items"},
-    {"$match": {"items.price": {"$gt": 50}}},
-    {
+  {"$unwind": "$paquetes"},
+  {"$match": {"paquetes.estado": "entregado", "paquetes.fecha_entrega": {"$type": "string"}}},
+  {
+    "$set": {
+      "retraso_min": {
+        "$dateDiff": {
+          "startDate": {"$toDate": "$paquetes.fecha_compromiso"},
+          "endDate": {"$toDate": "$paquetes.fecha_entrega"},
+          "unit": "minute",
+          "timezone": "UTC"
+        }
+      }
+    }
+  },
+  {"$match": {"retraso_min": {"$gt": 0}}},
+  {
     "$group": {
-        "_id": {
-        "country": "$customer.geo.country",
-        "category": "$items.category"
-        },
-        "total_revenue": {"$sum": {"$multiply": ["$items.qty", "$items.price"]}},
-        "avg_revenue": {"$avg": {"$multiply": ["$items.qty", "$items.price"]}},
-        "count": {"$sum": 1}
+      "_id": {"centro_id": "$centro_distribucion.id", "servicio": "$servicio"},
+      "paquetes_retrasados": {"$sum": 1},
+      "retraso_total_min": {"$sum": "$retraso_min"},
+      "retraso_promedio_min": {"$avg": "$retraso_min"}
     }
+  },
+  {
+    "$project": {
+      "_id": 0,
+      "centro_id": "$_id.centro_id",
+      "servicio": "$_id.servicio",
+      "paquetes_retrasados": 1,
+      "retraso_total_min": 1,
+      "retraso_promedio_min": 1
     }
+  }
 ]
