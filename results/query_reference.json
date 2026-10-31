@@ -1,0 +1,4229 @@
+{
+  "source_sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac",
+  "q1": [
+    {
+      "country": "AR",
+      "category": "books",
+      "count": 33675,
+      "total_cents": 1521085567
+    },
+    {
+      "country": "AR",
+      "category": "clothing",
+      "count": 33881,
+      "total_cents": 1532909806
+    },
+    {
+      "country": "AR",
+      "category": "electronics",
+      "count": 33455,
+      "total_cents": 1492439312
+    },
+    {
+      "country": "AR",
+      "category": "food",
+      "count": 33390,
+      "total_cents": 1491139591
+    },
+    {
+      "country": "AR",
+      "category": "home",
+      "count": 33506,
+      "total_cents": 1511278193
+    },
+    {
+      "country": "AR",
+      "category": "sports",
+      "count": 33543,
+      "total_cents": 1508859585
+    },
+    {
+      "country": "CA",
+      "category": "books",
+      "count": 33702,
+      "total_cents": 1533703032
+    },
+    {
+      "country": "CA",
+      "category": "clothing",
+      "count": 33645,
+      "total_cents": 1514797214
+    },
+    {
+      "country": "CA",
+      "category": "electronics",
+      "count": 33235,
+      "total_cents": 1509904855
+    },
+    {
+      "country": "CA",
+      "category": "food",
+      "count": 33298,
+      "total_cents": 1501616077
+    },
+    {
+      "country": "CA",
+      "category": "home",
+      "count": 33088,
+      "total_cents": 1487830777
+    },
+    {
+      "country": "CA",
+      "category": "sports",
+      "count": 33396,
+      "total_cents": 1506078066
+    },
+    {
+      "country": "CO",
+      "category": "books",
+      "count": 33361,
+      "total_cents": 1492199282
+    },
+    {
+      "country": "CO",
+      "category": "clothing",
+      "count": 33517,
+      "total_cents": 1499037892
+    },
+    {
+      "country": "CO",
+      "category": "electronics",
+      "count": 33431,
+      "total_cents": 1499800040
+    },
+    {
+      "country": "CO",
+      "category": "food",
+      "count": 33481,
+      "total_cents": 1510489020
+    },
+    {
+      "country": "CO",
+      "category": "home",
+      "count": 33480,
+      "total_cents": 1516811352
+    },
+    {
+      "country": "CO",
+      "category": "sports",
+      "count": 33455,
+      "total_cents": 1506756495
+    },
+    {
+      "country": "ES",
+      "category": "books",
+      "count": 33632,
+      "total_cents": 1513301009
+    },
+    {
+      "country": "ES",
+      "category": "clothing",
+      "count": 33468,
+      "total_cents": 1509121847
+    },
+    {
+      "country": "ES",
+      "category": "electronics",
+      "count": 33386,
+      "total_cents": 1497975673
+    },
+    {
+      "country": "ES",
+      "category": "food",
+      "count": 33302,
+      "total_cents": 1506765969
+    },
+    {
+      "country": "ES",
+      "category": "home",
+      "count": 33534,
+      "total_cents": 1506387180
+    },
+    {
+      "country": "ES",
+      "category": "sports",
+      "count": 33716,
+      "total_cents": 1523103192
+    },
+    {
+      "country": "MX",
+      "category": "books",
+      "count": 33345,
+      "total_cents": 1500887438
+    },
+    {
+      "country": "MX",
+      "category": "clothing",
+      "count": 33519,
+      "total_cents": 1509079096
+    },
+    {
+      "country": "MX",
+      "category": "electronics",
+      "count": 33201,
+      "total_cents": 1496207694
+    },
+    {
+      "country": "MX",
+      "category": "food",
+      "count": 33347,
+      "total_cents": 1500153635
+    },
+    {
+      "country": "MX",
+      "category": "home",
+      "count": 33439,
+      "total_cents": 1505240884
+    },
+    {
+      "country": "MX",
+      "category": "sports",
+      "count": 33493,
+      "total_cents": 1511179441
+    },
+    {
+      "country": "US",
+      "category": "books",
+      "count": 33744,
+      "total_cents": 1512478746
+    },
+    {
+      "country": "US",
+      "category": "clothing",
+      "count": 33355,
+      "total_cents": 1502499919
+    },
+    {
+      "country": "US",
+      "category": "electronics",
+      "count": 32984,
+      "total_cents": 1480441607
+    },
+    {
+      "country": "US",
+      "category": "food",
+      "count": 33225,
+      "total_cents": 1496591061
+    },
+    {
+      "country": "US",
+      "category": "home",
+      "count": 33123,
+      "total_cents": 1493244700
+    },
+    {
+      "country": "US",
+      "category": "sports",
+      "count": 33307,
+      "total_cents": 1502715464
+    }
+  ],
+  "q2": {
+    "limit": 1000,
+    "cutoff_cents": 344395,
+    "required": {
+      "3724a04f-bf46-5b19-ae28-e46e4b70827e": {
+        "customer_id": "C-096288",
+        "cents": 499631
+      },
+      "b91654b1-65b7-58ac-a972-88386d643adb": {
+        "customer_id": "C-098821",
+        "cents": 489934
+      },
+      "3e6d80a7-e896-5a1e-a294-d33c7af81f18": {
+        "customer_id": "C-005284",
+        "cents": 484153
+      },
+      "e1fe8a14-4cb8-5c20-8413-5befac5da47a": {
+        "customer_id": "C-060260",
+        "cents": 480296
+      },
+      "445e2d5e-72d9-5bc9-bcf7-2e3edcee196d": {
+        "customer_id": "C-076512",
+        "cents": 480028
+      },
+      "4975e147-14d7-5357-bf17-bdc567aea4d9": {
+        "customer_id": "C-076415",
+        "cents": 473877
+      },
+      "304fe7e6-b743-5a05-99a1-bc2b9893cdb5": {
+        "customer_id": "C-038571",
+        "cents": 464160
+      },
+      "52664182-c00a-5a61-a110-73633d60faae": {
+        "customer_id": "C-057955",
+        "cents": 463744
+      },
+      "5e3b9ce2-8d4e-5f64-b4cc-f90bb0e8264e": {
+        "customer_id": "C-060428",
+        "cents": 462169
+      },
+      "28fe4973-d608-5b70-8935-f31359ffebc7": {
+        "customer_id": "C-028511",
+        "cents": 458799
+      },
+      "14b1446b-efd1-52c0-8f92-efda7f8cf5d3": {
+        "customer_id": "C-001808",
+        "cents": 454788
+      },
+      "6cd338ff-0f6d-5050-b7e3-ab0f511e1319": {
+        "customer_id": "C-009260",
+        "cents": 454313
+      },
+      "ffd660cd-8445-5cfb-b753-acedcb05a1da": {
+        "customer_id": "C-028815",
+        "cents": 453481
+      },
+      "122de6ba-b9cd-59d6-83fb-92fcc7c8ba4e": {
+        "customer_id": "C-038603",
+        "cents": 451890
+      },
+      "a912b630-ec8d-5f7f-8a87-ef0322f3d02a": {
+        "customer_id": "C-003045",
+        "cents": 451414
+      },
+      "31cb5aea-290d-5366-8453-e84072082cab": {
+        "customer_id": "C-057542",
+        "cents": 451072
+      },
+      "2adfd2fb-92cc-5e9d-b9d6-e8e1ecba8f40": {
+        "customer_id": "C-009959",
+        "cents": 449571
+      },
+      "5e75fa3c-0473-5455-9755-79a7edd0bb51": {
+        "customer_id": "C-096362",
+        "cents": 449293
+      },
+      "4685df81-3b81-54a8-a493-f199cc836f41": {
+        "customer_id": "C-075770",
+        "cents": 446687
+      },
+      "1182da69-438a-50b4-8bfb-e98f683e0c99": {
+        "customer_id": "C-099835",
+        "cents": 444962
+      },
+      "7f42b450-2913-5380-821a-6b3a7f6785f5": {
+        "customer_id": "C-017734",
+        "cents": 444696
+      },
+      "4b4a94ff-3138-5303-8424-ee3cc77e8bcc": {
+        "customer_id": "C-095714",
+        "cents": 444540
+      },
+      "fd86bad8-b5e4-5c38-a9b1-80c2163e332f": {
+        "customer_id": "C-008937",
+        "cents": 444455
+      },
+      "fd41c67a-2b72-5e47-aa0f-bf79ff6d2a47": {
+        "customer_id": "C-075997",
+        "cents": 443899
+      },
+      "f0499670-cb20-5273-acb7-b5e14474c861": {
+        "customer_id": "C-025170",
+        "cents": 443292
+      },
+      "2578589e-170e-5ab1-8d39-1a8627911f1d": {
+        "customer_id": "C-032315",
+        "cents": 442771
+      },
+      "3ce0176d-4fca-5c70-a5e5-63ddb0de2608": {
+        "customer_id": "C-098241",
+        "cents": 441902
+      },
+      "88e9af95-aab1-51cc-a332-34753cc4125c": {
+        "customer_id": "C-008980",
+        "cents": 440276
+      },
+      "a185d834-f7ff-5e73-a063-92f6b6dcac74": {
+        "customer_id": "C-072830",
+        "cents": 437226
+      },
+      "bbd53357-ed7b-5fe3-8054-7b283369f294": {
+        "customer_id": "C-056526",
+        "cents": 436784
+      },
+      "d599d6cb-10d2-5817-b3c1-4fd81cfbb765": {
+        "customer_id": "C-086537",
+        "cents": 435873
+      },
+      "1989aeb2-d9de-575b-bcd8-ce3421e540a0": {
+        "customer_id": "C-025678",
+        "cents": 434508
+      },
+      "c72fa60a-2424-5472-8836-a9799602c098": {
+        "customer_id": "C-030911",
+        "cents": 434093
+      },
+      "f5d3014e-75b8-5a69-b675-515b29caead3": {
+        "customer_id": "C-076962",
+        "cents": 433965
+      },
+      "b8ee8a16-42ad-59cc-956c-ff7d39bffffd": {
+        "customer_id": "C-029327",
+        "cents": 433158
+      },
+      "e67794f1-a28d-5770-a8b4-78d2897149a4": {
+        "customer_id": "C-060229",
+        "cents": 432073
+      },
+      "3300e51e-2312-595e-a942-10b3f346f145": {
+        "customer_id": "C-061972",
+        "cents": 431905
+      },
+      "53a7a5bc-b895-5344-a38f-4351850b1bff": {
+        "customer_id": "C-017244",
+        "cents": 431598
+      },
+      "64117514-0022-5520-a9d0-f3543d66bcdb": {
+        "customer_id": "C-040231",
+        "cents": 431460
+      },
+      "5eb71ffc-abc8-5716-af52-5fe88cd7b170": {
+        "customer_id": "C-009338",
+        "cents": 431336
+      },
+      "5e003174-b9ed-57ef-a400-ac3b5eb2d32b": {
+        "customer_id": "C-050931",
+        "cents": 430828
+      },
+      "df56da2d-0231-56ac-8055-8d58f24c9306": {
+        "customer_id": "C-047109",
+        "cents": 430060
+      },
+      "b856bee6-0200-55a8-a04a-9ca84bb8ce8d": {
+        "customer_id": "C-021945",
+        "cents": 429953
+      },
+      "2016a5ad-58a7-500c-8988-5feff8d822e5": {
+        "customer_id": "C-041842",
+        "cents": 429924
+      },
+      "7e83813a-e407-5550-9959-0d9fdd4ed2a4": {
+        "customer_id": "C-040694",
+        "cents": 429767
+      },
+      "d376384f-02d7-5d96-b41f-168ee858110c": {
+        "customer_id": "C-094696",
+        "cents": 429642
+      },
+      "33d3ba92-3505-5e03-8951-d2bef81dc6b1": {
+        "customer_id": "C-030549",
+        "cents": 429449
+      },
+      "b7650f7f-ee49-5537-b917-1a04b93ed5d6": {
+        "customer_id": "C-016733",
+        "cents": 429180
+      },
+      "2d4dffb6-3e66-5d3e-8977-9f0d7144a7c7": {
+        "customer_id": "C-083519",
+        "cents": 428965
+      },
+      "b12d963c-0f25-544f-89b8-47ba38d3eb0c": {
+        "customer_id": "C-027302",
+        "cents": 428959
+      },
+      "68b4e9b1-9678-5ed0-9c79-52caaee87a8d": {
+        "customer_id": "C-049395",
+        "cents": 428735
+      },
+      "4c40e741-dafe-54d1-b902-d3cca5381904": {
+        "customer_id": "C-029866",
+        "cents": 428434
+      },
+      "7f91aace-057d-5279-8ba7-c2dea98b7847": {
+        "customer_id": "C-076480",
+        "cents": 428278
+      },
+      "01ece2f5-f5f7-5b31-8158-8b3555041d28": {
+        "customer_id": "C-042856",
+        "cents": 428067
+      },
+      "695a61a3-becd-57d3-8a0b-e1c324f1447a": {
+        "customer_id": "C-013470",
+        "cents": 426900
+      },
+      "5b3c668c-83c0-5bd8-9c00-9e1709b22ba5": {
+        "customer_id": "C-033696",
+        "cents": 426489
+      },
+      "4168af2e-59d4-5e45-ba45-b9ee82f1c858": {
+        "customer_id": "C-065292",
+        "cents": 426477
+      },
+      "ce023ca1-e503-5920-b55d-fd4540f1ebab": {
+        "customer_id": "C-071713",
+        "cents": 426256
+      },
+      "42da270e-259e-5dae-9906-df65c5e96c85": {
+        "customer_id": "C-063330",
+        "cents": 426006
+      },
+      "8104bc38-9bb4-5f9f-b7df-60d284e0d25a": {
+        "customer_id": "C-029596",
+        "cents": 425380
+      },
+      "4ff7d174-e83e-5fd4-8658-aa4ec38a4620": {
+        "customer_id": "C-013733",
+        "cents": 424977
+      },
+      "b453f8ec-9d61-5616-92aa-4107643400b8": {
+        "customer_id": "C-022339",
+        "cents": 424456
+      },
+      "cea35846-78af-5629-abfb-9880318704ac": {
+        "customer_id": "C-053315",
+        "cents": 424310
+      },
+      "71119341-a4a6-5193-8a70-82f445d29c10": {
+        "customer_id": "C-069019",
+        "cents": 423480
+      },
+      "877a55d7-090f-5d5a-9c41-d42841ea91fb": {
+        "customer_id": "C-092669",
+        "cents": 423180
+      },
+      "36fc212e-1287-54e5-b331-07e957bd446e": {
+        "customer_id": "C-084403",
+        "cents": 423129
+      },
+      "87194de5-7caa-5d38-a89a-81de39898450": {
+        "customer_id": "C-097999",
+        "cents": 423020
+      },
+      "54b8b843-a8c3-5cea-8e3b-c3875e703b66": {
+        "customer_id": "C-093845",
+        "cents": 422953
+      },
+      "3d72ae30-ffa9-5c76-b8fc-601386cec134": {
+        "customer_id": "C-017064",
+        "cents": 422869
+      },
+      "b33d9a5c-ff44-590c-a14a-42d3b08996f8": {
+        "customer_id": "C-097242",
+        "cents": 422616
+      },
+      "40fad468-763e-55e8-b877-4936dcc685ac": {
+        "customer_id": "C-073289",
+        "cents": 422323
+      },
+      "c60d8a42-e4e9-5f52-b4a6-45467706fea5": {
+        "customer_id": "C-063747",
+        "cents": 422031
+      },
+      "6bd3712f-dc45-5358-b369-d790a644006d": {
+        "customer_id": "C-048061",
+        "cents": 421848
+      },
+      "c87a7807-161c-54bd-9291-dc83a50e6b73": {
+        "customer_id": "C-025464",
+        "cents": 421801
+      },
+      "9aa22f4e-5c5f-5d47-8299-a1a6fcf2babc": {
+        "customer_id": "C-094850",
+        "cents": 421022
+      },
+      "272e4877-950e-534f-86a4-6078cc89c0ac": {
+        "customer_id": "C-047794",
+        "cents": 420881
+      },
+      "f02cbcd0-99a1-5446-992f-c3fb75f2c28e": {
+        "customer_id": "C-021035",
+        "cents": 420111
+      },
+      "10149d1b-8a19-5d9b-8f0d-89879c74f6c4": {
+        "customer_id": "C-061943",
+        "cents": 419079
+      },
+      "e85b5c18-7570-54c5-b79c-053542d86027": {
+        "customer_id": "C-047922",
+        "cents": 418941
+      },
+      "2e5fb874-e61d-5432-abde-771f346d2c9c": {
+        "customer_id": "C-011984",
+        "cents": 418838
+      },
+      "1955a9cf-3e6d-57b2-baee-a493343d87b2": {
+        "customer_id": "C-039059",
+        "cents": 418413
+      },
+      "13b25a02-1b7b-58cb-ae19-6ab8255584a4": {
+        "customer_id": "C-091799",
+        "cents": 418036
+      },
+      "5292bc44-07e4-5e0b-b7d3-641e7b04b588": {
+        "customer_id": "C-066325",
+        "cents": 416936
+      },
+      "fa64fdf7-321c-55b7-95e6-4693601741a5": {
+        "customer_id": "C-068718",
+        "cents": 416598
+      },
+      "af88f840-2dbf-544d-8a67-5eff1035c4f1": {
+        "customer_id": "C-021496",
+        "cents": 416407
+      },
+      "96fc9886-860d-53f0-9a43-0a400083180b": {
+        "customer_id": "C-095417",
+        "cents": 415961
+      },
+      "0e9ad172-cbab-5e7e-8ed1-d8c155d4f547": {
+        "customer_id": "C-065628",
+        "cents": 415877
+      },
+      "fb951030-3c86-5fed-bc05-f783e24ffeee": {
+        "customer_id": "C-059814",
+        "cents": 415771
+      },
+      "dc951526-56db-563d-9561-d313a296cd39": {
+        "customer_id": "C-050843",
+        "cents": 415582
+      },
+      "2ce72d30-0f93-5c3a-babe-33af776b98ff": {
+        "customer_id": "C-023503",
+        "cents": 415154
+      },
+      "f931b8d8-2ac3-5f67-a9b3-b5b4fa01ae40": {
+        "customer_id": "C-026835",
+        "cents": 415050
+      },
+      "5574bbcc-a23c-5624-ae6e-d4f04bd867ef": {
+        "customer_id": "C-069967",
+        "cents": 414136
+      },
+      "09bddae4-7f20-5aa9-801f-8c71e1370a80": {
+        "customer_id": "C-088755",
+        "cents": 413842
+      },
+      "f15021d3-d5fc-5478-a0d5-dbf2900ea952": {
+        "customer_id": "C-011031",
+        "cents": 413526
+      },
+      "9f83a547-9a1e-529f-8dcd-891892228c1a": {
+        "customer_id": "C-057693",
+        "cents": 413112
+      },
+      "1b58c4f3-2b8a-52f5-b023-db8123ade80e": {
+        "customer_id": "C-012152",
+        "cents": 413038
+      },
+      "5b8c73b0-1fb4-5661-b04e-b75aa19a671f": {
+        "customer_id": "C-058916",
+        "cents": 412716
+      },
+      "8bcd1685-8485-5cad-9091-0b9b9fbf1f3e": {
+        "customer_id": "C-019387",
+        "cents": 412377
+      },
+      "01dba1ff-c523-5eb8-9ce8-4e0329348c06": {
+        "customer_id": "C-045033",
+        "cents": 412313
+      },
+      "f97b3edd-a6f5-533a-a65f-a1e91bb4eac9": {
+        "customer_id": "C-020464",
+        "cents": 411884
+      },
+      "fb376cbf-87b1-57ce-ab84-4d3798ea254f": {
+        "customer_id": "C-029205",
+        "cents": 411357
+      },
+      "c74944c1-672f-50dd-82ca-159a6ab5724b": {
+        "customer_id": "C-030615",
+        "cents": 411338
+      },
+      "2d72c364-d676-556e-8035-ddb706cc5434": {
+        "customer_id": "C-029522",
+        "cents": 411318
+      },
+      "94376990-7269-5b22-a621-30d2446b896f": {
+        "customer_id": "C-070326",
+        "cents": 411011
+      },
+      "7c98582d-48a6-577c-a4e4-bf4b92685300": {
+        "customer_id": "C-037544",
+        "cents": 410799
+      },
+      "903481cf-e7e3-5520-bed7-2cd5c724d1a7": {
+        "customer_id": "C-078822",
+        "cents": 410719
+      },
+      "7379e389-fa87-5744-98dc-48d426ce4451": {
+        "customer_id": "C-040399",
+        "cents": 410502
+      },
+      "e75c1543-764e-55bf-9ade-e8f1db1dd8dc": {
+        "customer_id": "C-026356",
+        "cents": 410470
+      },
+      "28dca05f-a4be-5d00-8fd6-33e725bbab14": {
+        "customer_id": "C-071398",
+        "cents": 410314
+      },
+      "19535215-cd78-5a39-baa6-b450da73b027": {
+        "customer_id": "C-052953",
+        "cents": 410240
+      },
+      "2011f4b6-69a2-5289-88ed-af1cc84a44db": {
+        "customer_id": "C-065942",
+        "cents": 410156
+      },
+      "ab14e019-5db3-55d8-ae2e-1824f4563111": {
+        "customer_id": "C-092858",
+        "cents": 409277
+      },
+      "1a087f49-de89-5a41-a1b0-41b13d774ccb": {
+        "customer_id": "C-066583",
+        "cents": 408909
+      },
+      "e2a2211c-97ed-56c5-bb15-a7f7d10e174b": {
+        "customer_id": "C-049823",
+        "cents": 408650
+      },
+      "1641c0ed-e457-52ea-8499-3a38f84a9bc9": {
+        "customer_id": "C-056089",
+        "cents": 408154
+      },
+      "e48f0a02-333f-50a7-adb0-b62163f053d7": {
+        "customer_id": "C-074166",
+        "cents": 407925
+      },
+      "6e07aa1c-aa77-51f8-9fdc-2fc192858d6b": {
+        "customer_id": "C-019759",
+        "cents": 407675
+      },
+      "9dd3b644-7440-5870-b110-019834360569": {
+        "customer_id": "C-013504",
+        "cents": 407457
+      },
+      "d45454f3-4510-5a08-89b1-db2ab2ebc1f3": {
+        "customer_id": "C-071431",
+        "cents": 407255
+      },
+      "a3c518a1-7b78-5813-acda-2bc64015c078": {
+        "customer_id": "C-049385",
+        "cents": 407163
+      },
+      "16ea69b3-f497-522e-9fce-6fd44b943859": {
+        "customer_id": "C-028750",
+        "cents": 406933
+      },
+      "7a8e8857-8281-52d3-961a-a22df956fe8d": {
+        "customer_id": "C-004807",
+        "cents": 406859
+      },
+      "3fcb9a5c-2a09-544d-bcff-59f7669d6aa7": {
+        "customer_id": "C-065816",
+        "cents": 406723
+      },
+      "a6fe1a06-8277-5e29-9158-7d0166f7201f": {
+        "customer_id": "C-024051",
+        "cents": 406506
+      },
+      "c1e91a5e-27a7-56f0-a155-47943bf93afc": {
+        "customer_id": "C-081016",
+        "cents": 406284
+      },
+      "532414f6-a6db-537c-8b02-a7588fb59472": {
+        "customer_id": "C-016564",
+        "cents": 405681
+      },
+      "7f9fc1cf-7646-5bda-a2b4-fb0c50174fb8": {
+        "customer_id": "C-094397",
+        "cents": 405560
+      },
+      "4823ef7a-57a9-5529-9036-f88c4a65996a": {
+        "customer_id": "C-071679",
+        "cents": 405284
+      },
+      "7e511108-b041-5f83-bff9-89e68786967f": {
+        "customer_id": "C-051468",
+        "cents": 405270
+      },
+      "6d396f16-1fb7-58a0-838b-3b011ce929f7": {
+        "customer_id": "C-018452",
+        "cents": 404865
+      },
+      "6fc20027-7bbf-5773-8ea1-15aba20e54aa": {
+        "customer_id": "C-060197",
+        "cents": 404731
+      },
+      "c08d9a94-00ec-5f3f-9851-6b6d57af95db": {
+        "customer_id": "C-018343",
+        "cents": 404711
+      },
+      "8febe923-0678-5d07-b9f9-fcbbb6b544a3": {
+        "customer_id": "C-042767",
+        "cents": 404588
+      },
+      "b6ba6fac-fd04-5414-9995-f02f48f8afee": {
+        "customer_id": "C-015871",
+        "cents": 404364
+      },
+      "302c1dfa-e302-57c9-901a-34084a8b9f2c": {
+        "customer_id": "C-010017",
+        "cents": 404303
+      },
+      "9d35791c-7edb-50c6-8b57-b9bff5d8e169": {
+        "customer_id": "C-019265",
+        "cents": 403825
+      },
+      "35fe763f-713e-5960-a883-608d96f6de78": {
+        "customer_id": "C-013968",
+        "cents": 403777
+      },
+      "d057bd4a-4f2b-5959-8f9e-dba8fece7e0d": {
+        "customer_id": "C-019740",
+        "cents": 403736
+      },
+      "d43e2fdf-a1b1-5a8d-ad39-5eda17d0d43c": {
+        "customer_id": "C-050900",
+        "cents": 403734
+      },
+      "7ee2bd96-864e-5a4c-9b66-2b039187c333": {
+        "customer_id": "C-014523",
+        "cents": 403446
+      },
+      "3147388a-8f15-5a04-85ed-32a956f7c65d": {
+        "customer_id": "C-009094",
+        "cents": 403440
+      },
+      "68b3272c-4672-54c6-b388-721b8b977e51": {
+        "customer_id": "C-059760",
+        "cents": 403296
+      },
+      "7535af37-efeb-59b3-8293-5b68720c0458": {
+        "customer_id": "C-086633",
+        "cents": 403191
+      },
+      "5e2cc752-b597-5f86-bd8f-af92225b70bd": {
+        "customer_id": "C-026263",
+        "cents": 402089
+      },
+      "2341cb12-7511-501a-ab29-b444717ac08c": {
+        "customer_id": "C-054682",
+        "cents": 401612
+      },
+      "23a973bf-eee1-50a8-8d03-93476d44a99c": {
+        "customer_id": "C-015585",
+        "cents": 401433
+      },
+      "017f7382-8710-54a9-a3f1-988391edf5ad": {
+        "customer_id": "C-039311",
+        "cents": 401315
+      },
+      "27676304-5e03-54c6-b799-880154c6092c": {
+        "customer_id": "C-084064",
+        "cents": 401240
+      },
+      "9daf07ed-866a-5043-9d3a-70bbefd36f1d": {
+        "customer_id": "C-097857",
+        "cents": 400983
+      },
+      "1865b443-f986-5eee-b604-6b22dacc1d93": {
+        "customer_id": "C-047292",
+        "cents": 400965
+      },
+      "98225713-9c23-5555-856f-ff655a90bdfb": {
+        "customer_id": "C-060992",
+        "cents": 400912
+      },
+      "21f1b2c5-2a6b-5995-b9fe-954af7b2a0e3": {
+        "customer_id": "C-052835",
+        "cents": 400850
+      },
+      "047be4c9-e726-5ba8-b267-508b3a0b3080": {
+        "customer_id": "C-000119",
+        "cents": 400648
+      },
+      "31e35786-c916-5688-838f-c758d08646f5": {
+        "customer_id": "C-071991",
+        "cents": 400329
+      },
+      "59a9a0b0-5547-53a6-a2cf-16b0ccaa2070": {
+        "customer_id": "C-079136",
+        "cents": 400246
+      },
+      "568af1aa-fe9a-5192-a9d0-db78dfdb4600": {
+        "customer_id": "C-097357",
+        "cents": 400063
+      },
+      "2e87e485-75d1-5430-8bbd-a8bfdacce623": {
+        "customer_id": "C-008658",
+        "cents": 399940
+      },
+      "42958fe3-7117-5be5-b35b-e6862de600e1": {
+        "customer_id": "C-032287",
+        "cents": 399913
+      },
+      "02f72a2d-dfd2-5b74-9cc4-7c55908d05c2": {
+        "customer_id": "C-030233",
+        "cents": 399881
+      },
+      "7d4d317e-9f7a-5d43-8afd-a3711888c098": {
+        "customer_id": "C-015912",
+        "cents": 399816
+      },
+      "93cd3cf8-fc76-52af-a512-e13507005309": {
+        "customer_id": "C-040693",
+        "cents": 399557
+      },
+      "6772a5db-2e1e-58f6-ac37-63efde9ca1c5": {
+        "customer_id": "C-008416",
+        "cents": 399195
+      },
+      "4141a09b-05b5-5dfd-bd9e-ba89d4db2b30": {
+        "customer_id": "C-004916",
+        "cents": 398964
+      },
+      "78ba2877-1458-59f3-8892-1a0332a72974": {
+        "customer_id": "C-016074",
+        "cents": 398852
+      },
+      "8b262f30-779e-56d7-884c-292314917a1a": {
+        "customer_id": "C-017498",
+        "cents": 398750
+      },
+      "47e6ead7-9f43-54f2-a132-4932b738f000": {
+        "customer_id": "C-072245",
+        "cents": 398724
+      },
+      "7ae329ad-6fc3-5c90-983c-aa46906c387f": {
+        "customer_id": "C-045589",
+        "cents": 398506
+      },
+      "c7739b42-0275-536a-b646-cc23f0436612": {
+        "customer_id": "C-081921",
+        "cents": 397875
+      },
+      "1c04c638-9992-5e49-a0c0-84c219a7b4fd": {
+        "customer_id": "C-033916",
+        "cents": 397842
+      },
+      "ed68192a-b7b3-5124-b745-f08b283710e6": {
+        "customer_id": "C-012362",
+        "cents": 397841
+      },
+      "240769d9-8bc2-56e0-90cf-022cf5eec66e": {
+        "customer_id": "C-043366",
+        "cents": 397802
+      },
+      "f2e18232-b203-58bb-b120-0fad2bd1d71a": {
+        "customer_id": "C-026986",
+        "cents": 397281
+      },
+      "0464c94e-fd54-51a8-81ff-835d2a24d4de": {
+        "customer_id": "C-001137",
+        "cents": 397160
+      },
+      "b783877d-8dbd-57c6-aeb4-f826defd3e61": {
+        "customer_id": "C-029404",
+        "cents": 397078
+      },
+      "b9186ec2-1e61-5188-afa7-6302de4b9498": {
+        "customer_id": "C-065507",
+        "cents": 397037
+      },
+      "fa0f1c10-4f9c-5a2e-927c-402e9510795c": {
+        "customer_id": "C-033772",
+        "cents": 396930
+      },
+      "2a6b89de-2d4c-50cf-9329-93fa75ef806b": {
+        "customer_id": "C-050374",
+        "cents": 396561
+      },
+      "aed49e65-16d9-53a2-a3d6-c763863d69ba": {
+        "customer_id": "C-054967",
+        "cents": 396401
+      },
+      "f1dd1b96-9c8d-5af0-bb1b-5e287933b36b": {
+        "customer_id": "C-064148",
+        "cents": 396327
+      },
+      "277d1fb8-207e-5999-808e-36e7726d5fc6": {
+        "customer_id": "C-032888",
+        "cents": 396087
+      },
+      "d8a0ed66-9368-51ac-9549-a76cffe2fbc8": {
+        "customer_id": "C-082744",
+        "cents": 395929
+      },
+      "5db8922b-1cf4-587d-9225-da70870ccba3": {
+        "customer_id": "C-056757",
+        "cents": 394988
+      },
+      "ad4c17a6-a5bc-55c7-9fcc-d7dcd966520d": {
+        "customer_id": "C-039883",
+        "cents": 394918
+      },
+      "1e830263-2ea1-531d-9da0-3959e4890d12": {
+        "customer_id": "C-070065",
+        "cents": 394420
+      },
+      "5b935580-e039-5bc1-b78f-898d0864b510": {
+        "customer_id": "C-010031",
+        "cents": 394042
+      },
+      "0311e669-8d50-5691-8c50-84569dc6d6ad": {
+        "customer_id": "C-081696",
+        "cents": 393986
+      },
+      "c0ef8f79-c58c-5df6-8b0d-0b27c28fa30b": {
+        "customer_id": "C-051261",
+        "cents": 393829
+      },
+      "29392515-f7a6-5c59-bf14-ad876e266523": {
+        "customer_id": "C-012474",
+        "cents": 393431
+      },
+      "eb5898a6-ad6e-59fd-9b95-7b6f89ee8cda": {
+        "customer_id": "C-038054",
+        "cents": 393401
+      },
+      "1a192cb3-020e-568f-9eda-844d7faafbf1": {
+        "customer_id": "C-044082",
+        "cents": 393109
+      },
+      "8527440b-4bc1-567b-a8d1-4f1c43b655ce": {
+        "customer_id": "C-012474",
+        "cents": 392995
+      },
+      "c8d44e2e-3f33-55f8-ab8e-94422292ed32": {
+        "customer_id": "C-056017",
+        "cents": 392975
+      },
+      "9685d797-f3bd-5c3a-a4e3-f49933c1e5b2": {
+        "customer_id": "C-097072",
+        "cents": 392966
+      },
+      "9443811b-8211-5316-8218-5bab58df751b": {
+        "customer_id": "C-014235",
+        "cents": 392960
+      },
+      "08fab13c-b83c-5fd3-bed1-bc2808ed6847": {
+        "customer_id": "C-081488",
+        "cents": 392925
+      },
+      "387d1ec6-5b12-5c87-9a3b-a199ea357497": {
+        "customer_id": "C-012488",
+        "cents": 392641
+      },
+      "c3e905df-2e2f-5ee8-b8f7-c3adc76f0484": {
+        "customer_id": "C-097545",
+        "cents": 392540
+      },
+      "6ba6ba5d-76de-50fc-aafe-969b52868d81": {
+        "customer_id": "C-034594",
+        "cents": 392403
+      },
+      "0ce56561-86ea-54bd-8aea-fa046ebadd93": {
+        "customer_id": "C-015792",
+        "cents": 392327
+      },
+      "fa8a4a8e-02f8-5afd-8b2f-3715c65f7ab3": {
+        "customer_id": "C-079810",
+        "cents": 392193
+      },
+      "6daa105d-ffa7-5cf5-b327-107f37c49aab": {
+        "customer_id": "C-077747",
+        "cents": 392067
+      },
+      "23dab9bf-d1d3-57a9-8396-46d9709c58c4": {
+        "customer_id": "C-059692",
+        "cents": 392037
+      },
+      "e0fd21a1-f133-5681-9132-52353c8273ae": {
+        "customer_id": "C-092479",
+        "cents": 391975
+      },
+      "d399227f-10ee-524c-b21f-601e1e235d5f": {
+        "customer_id": "C-020573",
+        "cents": 391945
+      },
+      "c9f4ed57-e7c6-5359-abb4-a2d2307c147a": {
+        "customer_id": "C-025891",
+        "cents": 391870
+      },
+      "5e82c6f8-2d21-59b2-9f15-5fd9320c208e": {
+        "customer_id": "C-094194",
+        "cents": 391739
+      },
+      "8a13fd81-4e33-5759-8e95-216fdf69da5f": {
+        "customer_id": "C-081167",
+        "cents": 391565
+      },
+      "ac473288-bbff-59d6-8122-6993ea3494af": {
+        "customer_id": "C-066461",
+        "cents": 391534
+      },
+      "57f9c19b-0499-526e-ba5a-f17732f0222a": {
+        "customer_id": "C-011140",
+        "cents": 391496
+      },
+      "9df44db9-9943-539c-ba23-fea4f460d204": {
+        "customer_id": "C-060772",
+        "cents": 391317
+      },
+      "d9d503f1-07e1-5f52-9b1b-9e5cdbb5ccb7": {
+        "customer_id": "C-028130",
+        "cents": 391316
+      },
+      "dfa18ab6-0163-518b-8800-077e1fedf2e1": {
+        "customer_id": "C-074069",
+        "cents": 391253
+      },
+      "6985bc44-6648-553c-80da-f5ae4b4056c0": {
+        "customer_id": "C-016673",
+        "cents": 391190
+      },
+      "de6a249b-9376-519a-a781-f837c9ced808": {
+        "customer_id": "C-072715",
+        "cents": 390991
+      },
+      "3cdc63b8-7752-55b7-9529-36b328c44a84": {
+        "customer_id": "C-062198",
+        "cents": 390957
+      },
+      "d8b82fb2-ec43-5af8-aeec-b946477ece98": {
+        "customer_id": "C-057743",
+        "cents": 390936
+      },
+      "13b34b23-abb1-59cb-b063-5ef073777c68": {
+        "customer_id": "C-041241",
+        "cents": 390922
+      },
+      "93578dbe-4a51-5b7c-947a-eaefda9bb841": {
+        "customer_id": "C-074928",
+        "cents": 390629
+      },
+      "89345afc-7bf6-53c8-a844-4af8ca06d220": {
+        "customer_id": "C-053549",
+        "cents": 390537
+      },
+      "281e375f-5c2f-51a7-a304-34efc5f203fe": {
+        "customer_id": "C-039683",
+        "cents": 390467
+      },
+      "f3a2cf4f-1532-5160-82f7-ee807f5bdf3b": {
+        "customer_id": "C-089386",
+        "cents": 390457
+      },
+      "32b9eb73-2a77-5aa7-ba94-91c94197ac86": {
+        "customer_id": "C-058802",
+        "cents": 390424
+      },
+      "72a7a6a0-f987-50ba-8eb4-c77fb2737c2b": {
+        "customer_id": "C-055797",
+        "cents": 390416
+      },
+      "f65bdcd1-3fc7-51c8-9357-d0db5702968e": {
+        "customer_id": "C-036050",
+        "cents": 390406
+      },
+      "5f4b42b8-5685-5b78-966d-0f7da116f2b9": {
+        "customer_id": "C-023737",
+        "cents": 390292
+      },
+      "80f7d9f1-b48b-5250-bcf3-fa08eb1eb0c9": {
+        "customer_id": "C-031399",
+        "cents": 390231
+      },
+      "57662081-b4b8-589f-ba53-a515c2b9873c": {
+        "customer_id": "C-078934",
+        "cents": 390178
+      },
+      "5dd8ff0c-d000-58f1-93e0-6c570c63d09d": {
+        "customer_id": "C-085171",
+        "cents": 389748
+      },
+      "6c4bdb32-76f7-546a-8fb5-26fc71ae1bc3": {
+        "customer_id": "C-007664",
+        "cents": 389520
+      },
+      "38ba7f4d-802d-5c3a-979f-d2d7aeddb98d": {
+        "customer_id": "C-098970",
+        "cents": 389434
+      },
+      "5d42d79c-c935-547a-bad6-8c2db50baa6c": {
+        "customer_id": "C-027485",
+        "cents": 389335
+      },
+      "b20caf7e-4988-5ea9-8367-fc453e749233": {
+        "customer_id": "C-021730",
+        "cents": 389220
+      },
+      "c316f9b7-7edf-5eaa-bf5d-33639b84dd03": {
+        "customer_id": "C-008555",
+        "cents": 389167
+      },
+      "1578a6e6-f8b3-5f7f-92b0-11066308faa6": {
+        "customer_id": "C-010750",
+        "cents": 389122
+      },
+      "893ca218-34f3-5c38-bb5b-3606fca1bb16": {
+        "customer_id": "C-082242",
+        "cents": 389033
+      },
+      "3f9e8029-e198-5318-b1e2-ccd102f39732": {
+        "customer_id": "C-059917",
+        "cents": 388855
+      },
+      "90645277-6d4b-5564-98fd-28c34110bbea": {
+        "customer_id": "C-002762",
+        "cents": 388804
+      },
+      "69511859-b049-5471-94d2-27edbf7d4189": {
+        "customer_id": "C-093481",
+        "cents": 388767
+      },
+      "56ed6244-4e4f-5248-ad62-a76a7c7fbd91": {
+        "customer_id": "C-020824",
+        "cents": 388627
+      },
+      "794dd124-46d6-56dd-ac41-4041ac478979": {
+        "customer_id": "C-054388",
+        "cents": 388604
+      },
+      "2ea32712-f431-52d1-b077-007652012064": {
+        "customer_id": "C-078557",
+        "cents": 388580
+      },
+      "2f8968b3-5108-5849-9697-8cf3aca13e6b": {
+        "customer_id": "C-018441",
+        "cents": 388521
+      },
+      "b1973db3-7889-5757-a467-eb05f975d3a3": {
+        "customer_id": "C-049882",
+        "cents": 388237
+      },
+      "c392f2aa-8637-55d5-b2a1-6e9dd84d7f83": {
+        "customer_id": "C-041414",
+        "cents": 388163
+      },
+      "6e198f00-d857-5fff-9478-f1719b95b994": {
+        "customer_id": "C-096340",
+        "cents": 388147
+      },
+      "a965c6ad-12e0-5949-bee8-bc121bb93d15": {
+        "customer_id": "C-015321",
+        "cents": 387729
+      },
+      "22eb61e9-25f9-5877-93ca-1842b842273c": {
+        "customer_id": "C-068677",
+        "cents": 387636
+      },
+      "b5b68cf8-9369-5817-a102-98075a00de89": {
+        "customer_id": "C-083188",
+        "cents": 387385
+      },
+      "75c31687-fffd-573d-8aa6-f4564e9f9355": {
+        "customer_id": "C-050904",
+        "cents": 387384
+      },
+      "4434579c-3be3-5b42-84a8-ae617da2cbab": {
+        "customer_id": "C-017997",
+        "cents": 387267
+      },
+      "bc555420-02ed-5ee4-ba78-009776bd4927": {
+        "customer_id": "C-067291",
+        "cents": 386766
+      },
+      "92c242cd-8e02-53e2-a256-a676b8986fde": {
+        "customer_id": "C-019417",
+        "cents": 386675
+      },
+      "64ddc5b8-5015-5efa-b26f-2be689b2502f": {
+        "customer_id": "C-008065",
+        "cents": 386577
+      },
+      "b1a85297-dec1-5275-a8dc-25f840e7a4fd": {
+        "customer_id": "C-034372",
+        "cents": 386555
+      },
+      "ebe1cda9-c22a-52e8-8fdc-0d4dd129c06d": {
+        "customer_id": "C-062958",
+        "cents": 386468
+      },
+      "677127bb-3dd6-531a-b2a3-85710892619b": {
+        "customer_id": "C-003389",
+        "cents": 386413
+      },
+      "bb00ec98-0bd2-50c5-b556-0349387a742f": {
+        "customer_id": "C-078483",
+        "cents": 386382
+      },
+      "7b96b04d-3ce2-5785-83da-edb027c0e8b4": {
+        "customer_id": "C-017362",
+        "cents": 386317
+      },
+      "f0589f4d-46ba-5bdc-9713-2c59c45a0bab": {
+        "customer_id": "C-059157",
+        "cents": 386199
+      },
+      "c29be265-c15b-504b-973e-ebf3bef9885f": {
+        "customer_id": "C-057582",
+        "cents": 386151
+      },
+      "84aef7d7-a37f-5ed6-8576-d334c18813b1": {
+        "customer_id": "C-072478",
+        "cents": 385842
+      },
+      "ff4bbb0e-a24c-5410-b14e-c4938c0c48f1": {
+        "customer_id": "C-074178",
+        "cents": 385719
+      },
+      "0a9cdbe6-310d-5163-b2dd-6f8a2733660e": {
+        "customer_id": "C-031532",
+        "cents": 385716
+      },
+      "c7e8617d-1e06-5d1e-903a-227be3bc2cef": {
+        "customer_id": "C-085896",
+        "cents": 385689
+      },
+      "e47a369b-e7f9-5b33-9549-78e851288739": {
+        "customer_id": "C-039802",
+        "cents": 385660
+      },
+      "008001a7-4613-5708-987d-80412d09e75c": {
+        "customer_id": "C-015597",
+        "cents": 385479
+      },
+      "fe47adc9-f5c3-5696-a5f5-b55cf75de9be": {
+        "customer_id": "C-066497",
+        "cents": 385467
+      },
+      "38834ec1-6c50-50e0-b49a-1683df850286": {
+        "customer_id": "C-076614",
+        "cents": 385366
+      },
+      "75c9f09e-f01c-5289-be97-2eddac697448": {
+        "customer_id": "C-095804",
+        "cents": 385255
+      },
+      "3023c1f3-4f72-5dc7-991b-e7ce8eacd7f6": {
+        "customer_id": "C-048498",
+        "cents": 385211
+      },
+      "2b55e772-7a6a-5b26-8327-e033e8c1a356": {
+        "customer_id": "C-012582",
+        "cents": 385029
+      },
+      "569f7531-6de2-57c5-a4ab-ccd5d1d63283": {
+        "customer_id": "C-031045",
+        "cents": 384854
+      },
+      "703a9cde-509e-5b67-81c2-670e2b492efa": {
+        "customer_id": "C-079455",
+        "cents": 384652
+      },
+      "5de14d83-01f9-5e0c-9891-49b471c72106": {
+        "customer_id": "C-037658",
+        "cents": 384604
+      },
+      "914abadd-fa4b-568a-a30f-51c089ab8646": {
+        "customer_id": "C-081908",
+        "cents": 384375
+      },
+      "d797b382-ebec-5258-b7dc-174e88df0923": {
+        "customer_id": "C-072728",
+        "cents": 384373
+      },
+      "357b34d5-f05d-56ad-9bd5-bfd97d75c162": {
+        "customer_id": "C-009647",
+        "cents": 384140
+      },
+      "ab1b33d2-1984-5037-b50e-0328c58607db": {
+        "customer_id": "C-018538",
+        "cents": 384132
+      },
+      "f79ef31e-3757-5716-9510-0c2d0c2ad104": {
+        "customer_id": "C-034543",
+        "cents": 383806
+      },
+      "29db00e1-793a-5dfe-952c-61ef00d2ff5b": {
+        "customer_id": "C-026777",
+        "cents": 383765
+      },
+      "6cc9b4f3-8779-55e1-80f8-a51ae74d9ad4": {
+        "customer_id": "C-050074",
+        "cents": 383726
+      },
+      "5a74401b-b368-5cd6-a72c-5469864ecd34": {
+        "customer_id": "C-073960",
+        "cents": 383673
+      },
+      "8cc8bb1f-95ed-56d7-9c66-a6898f4b2a44": {
+        "customer_id": "C-001796",
+        "cents": 383329
+      },
+      "9254fc0d-ce56-5c32-bf2d-49f4631b26df": {
+        "customer_id": "C-051867",
+        "cents": 383308
+      },
+      "8fcf7ddb-f60a-5f77-b167-ab8b0e10ece9": {
+        "customer_id": "C-022903",
+        "cents": 383266
+      },
+      "f3933c4b-f0e7-523f-b28e-c1548893c446": {
+        "customer_id": "C-067752",
+        "cents": 382828
+      },
+      "d5f38e98-e310-5f98-87c8-fbbbcf6549ba": {
+        "customer_id": "C-039378",
+        "cents": 382777
+      },
+      "313492f1-09c8-5cde-b8c1-8e2ede020576": {
+        "customer_id": "C-088515",
+        "cents": 382628
+      },
+      "bb2d1741-c501-546b-9919-dea2dc17df7e": {
+        "customer_id": "C-023187",
+        "cents": 382442
+      },
+      "4e6668dc-6d3e-5650-b1a9-f591d1b9db6f": {
+        "customer_id": "C-008619",
+        "cents": 382396
+      },
+      "e61aed4e-3a1d-5a0e-a6f4-b5d1cd716026": {
+        "customer_id": "C-091418",
+        "cents": 382328
+      },
+      "3bb43467-4f12-5aaa-894d-547cbbbffef6": {
+        "customer_id": "C-035871",
+        "cents": 382281
+      },
+      "50d71f2f-3aef-5b94-953c-d59bd678f421": {
+        "customer_id": "C-016518",
+        "cents": 382203
+      },
+      "da9d35d6-85be-52c6-94dc-458d40c610e4": {
+        "customer_id": "C-019221",
+        "cents": 382167
+      },
+      "0ef00345-ab47-5e03-8563-24d023338944": {
+        "customer_id": "C-068683",
+        "cents": 382034
+      },
+      "9f2bef2a-de4c-5b6b-a527-a01b9a62a5de": {
+        "customer_id": "C-002142",
+        "cents": 381679
+      },
+      "fe831779-d117-54a8-bdd6-f4094d9f38ee": {
+        "customer_id": "C-088472",
+        "cents": 381645
+      },
+      "f7afa8fd-d4e2-533e-ab83-a9562dc97bed": {
+        "customer_id": "C-059096",
+        "cents": 381453
+      },
+      "0c286558-fb6d-5926-9895-2fba90163f91": {
+        "customer_id": "C-075754",
+        "cents": 381200
+      },
+      "c5a54145-677a-5e3a-bf54-eadcf949b66e": {
+        "customer_id": "C-010494",
+        "cents": 381162
+      },
+      "55c7478d-676e-5bfe-baaa-3e61d3f8a6ff": {
+        "customer_id": "C-035623",
+        "cents": 381162
+      },
+      "d4e91d0c-4c42-528f-afc6-372488d730f7": {
+        "customer_id": "C-017609",
+        "cents": 381152
+      },
+      "c908e336-c258-56d6-b2a6-6e8eee35caa4": {
+        "customer_id": "C-027859",
+        "cents": 381099
+      },
+      "4015e09c-c1cb-5b0c-93fe-a2f7e24cbe39": {
+        "customer_id": "C-097148",
+        "cents": 381045
+      },
+      "f340fbb3-0560-5d5c-8651-b6232bbc00fc": {
+        "customer_id": "C-066128",
+        "cents": 381019
+      },
+      "c4e36fd4-5078-52e2-a38b-5ef720dae7ea": {
+        "customer_id": "C-063180",
+        "cents": 381005
+      },
+      "aa635b80-385d-5d48-83e3-47d2ebd3b287": {
+        "customer_id": "C-092173",
+        "cents": 380886
+      },
+      "2e496699-014d-5b8b-ac1b-e42ae4cc73f1": {
+        "customer_id": "C-041254",
+        "cents": 380700
+      },
+      "91010ccd-5464-5ae2-9963-8f0975dc28ad": {
+        "customer_id": "C-028939",
+        "cents": 380660
+      },
+      "2418c048-0876-5a27-b025-cf880e96572d": {
+        "customer_id": "C-059784",
+        "cents": 380496
+      },
+      "e4df7c69-0190-5254-90be-b595949ec4e5": {
+        "customer_id": "C-067125",
+        "cents": 380431
+      },
+      "34f8319d-0380-5e65-9719-9b0e1e71361d": {
+        "customer_id": "C-030606",
+        "cents": 380429
+      },
+      "c642f2b3-3916-5ca6-8b93-1a6cff2a3e1d": {
+        "customer_id": "C-016020",
+        "cents": 380139
+      },
+      "7c808514-6ea8-57b8-ab9d-f9f858ca2b2b": {
+        "customer_id": "C-036794",
+        "cents": 380100
+      },
+      "32ec31ac-91cb-50d4-9577-ed7b87605a9c": {
+        "customer_id": "C-082627",
+        "cents": 380035
+      },
+      "ece5f90f-b3cc-5a9c-86b0-4cd1c5d5d412": {
+        "customer_id": "C-097055",
+        "cents": 379966
+      },
+      "7900402c-1fe8-5ef0-9354-1c080dcd22f4": {
+        "customer_id": "C-025924",
+        "cents": 379790
+      },
+      "9c6c389e-9845-5164-8dd1-72ff7c929726": {
+        "customer_id": "C-006281",
+        "cents": 379765
+      },
+      "b0323aee-1a0e-5f70-8a64-d14c2c363dda": {
+        "customer_id": "C-014362",
+        "cents": 379753
+      },
+      "08ed1427-3cf7-5b0f-8d27-4e019473ecfd": {
+        "customer_id": "C-011559",
+        "cents": 379742
+      },
+      "0bb0528d-1aee-52dc-b11e-6c1ce31948d5": {
+        "customer_id": "C-050877",
+        "cents": 379710
+      },
+      "857ed369-2aad-583b-8520-e815cdb8f773": {
+        "customer_id": "C-025089",
+        "cents": 379430
+      },
+      "55e96af6-69e2-558c-95b3-be91e6fdb622": {
+        "customer_id": "C-055393",
+        "cents": 379261
+      },
+      "fcd65421-d082-5674-bcc3-544077a59496": {
+        "customer_id": "C-099187",
+        "cents": 379194
+      },
+      "cd3d90de-5ac4-5694-bdc4-94abbf8d0412": {
+        "customer_id": "C-065249",
+        "cents": 379125
+      },
+      "ca10168a-f9eb-576e-9eef-ecd66f7c4f25": {
+        "customer_id": "C-092482",
+        "cents": 379121
+      },
+      "091e87de-2f84-56eb-baa0-e1c432fff8be": {
+        "customer_id": "C-030032",
+        "cents": 378895
+      },
+      "02fbfe2d-af47-50ec-ac70-d15b3c067585": {
+        "customer_id": "C-017049",
+        "cents": 378833
+      },
+      "c9a81e56-0a43-59f2-bf50-96b84258ff2f": {
+        "customer_id": "C-046975",
+        "cents": 378779
+      },
+      "3b54ff55-db25-59c0-94fb-22970ffd9a96": {
+        "customer_id": "C-050272",
+        "cents": 378744
+      },
+      "9b41bb91-32fc-5e3a-a994-0e9567066bc4": {
+        "customer_id": "C-069144",
+        "cents": 378698
+      },
+      "32d1b854-a1d8-5704-9383-902aa40bbfa6": {
+        "customer_id": "C-054935",
+        "cents": 378689
+      },
+      "8769eddf-5157-5e75-8e87-9e030a8485df": {
+        "customer_id": "C-017416",
+        "cents": 378612
+      },
+      "8b2cb144-334b-5f78-9c46-667d65f861f1": {
+        "customer_id": "C-087248",
+        "cents": 378491
+      },
+      "e5d98159-6ae6-5389-ba2e-120725c7efa6": {
+        "customer_id": "C-066666",
+        "cents": 378370
+      },
+      "05ad7fee-13d1-515e-95ab-e28ce4f2c17e": {
+        "customer_id": "C-081551",
+        "cents": 378361
+      },
+      "f6b89b6e-b455-5e71-a695-3092b6a6cd67": {
+        "customer_id": "C-038767",
+        "cents": 378263
+      },
+      "890143d8-90bd-52bb-ae44-98a05a473c82": {
+        "customer_id": "C-044094",
+        "cents": 378186
+      },
+      "3aef2199-ee8b-5e56-b6cd-14db6a163c4d": {
+        "customer_id": "C-012938",
+        "cents": 377982
+      },
+      "1d568c0a-54cc-52bc-89e6-dbd160b3da1e": {
+        "customer_id": "C-068534",
+        "cents": 377760
+      },
+      "d12c33b2-48bb-55ce-818c-47b247d8e5d2": {
+        "customer_id": "C-016654",
+        "cents": 377646
+      },
+      "66424ae6-6329-59e5-b105-1b6832a61c72": {
+        "customer_id": "C-026827",
+        "cents": 377643
+      },
+      "eba2fa17-80a0-5ba2-8fc8-5dc809e9f998": {
+        "customer_id": "C-001047",
+        "cents": 377593
+      },
+      "e724a2f1-0a88-5ef5-8914-a7cbe652eab7": {
+        "customer_id": "C-014286",
+        "cents": 377419
+      },
+      "20c9ed8a-334c-503c-8423-2cfd849fce58": {
+        "customer_id": "C-072549",
+        "cents": 377416
+      },
+      "30cda56c-a8aa-5ae8-9ef1-fa6992511796": {
+        "customer_id": "C-033775",
+        "cents": 377412
+      },
+      "079fe561-f106-5aca-9b43-da4c5a47204e": {
+        "customer_id": "C-059358",
+        "cents": 377405
+      },
+      "672152de-d098-5873-ba3a-47c2f134a589": {
+        "customer_id": "C-083429",
+        "cents": 377291
+      },
+      "e0a3eab5-6d4c-52cd-abef-d67151cc8871": {
+        "customer_id": "C-055845",
+        "cents": 377284
+      },
+      "bd2f3e2a-89ed-51cc-9a00-930636dc47ad": {
+        "customer_id": "C-026359",
+        "cents": 377255
+      },
+      "0749ec2a-fcf3-59ed-a5e7-dd54413a8b4f": {
+        "customer_id": "C-055008",
+        "cents": 377108
+      },
+      "dd2c6d48-2681-58ec-9a45-a650a0b3a7fb": {
+        "customer_id": "C-017481",
+        "cents": 376968
+      },
+      "9bd8884a-f8ad-5f84-8bc6-5319792e69e2": {
+        "customer_id": "C-047323",
+        "cents": 376923
+      },
+      "2b56148a-0f51-5572-9624-9bb35ad27a24": {
+        "customer_id": "C-045111",
+        "cents": 376887
+      },
+      "5681bdb3-f481-5177-955e-00867a4877d4": {
+        "customer_id": "C-059097",
+        "cents": 376662
+      },
+      "83ab0bb6-cbb2-592d-a13a-226f51d801c5": {
+        "customer_id": "C-087449",
+        "cents": 376652
+      },
+      "8f829ff4-0823-581e-afcd-2c974382ca83": {
+        "customer_id": "C-081909",
+        "cents": 376483
+      },
+      "b984f227-9979-5f30-9a48-204b951313a2": {
+        "customer_id": "C-020426",
+        "cents": 376409
+      },
+      "e2689416-099e-518e-a39c-9250ab62e9a7": {
+        "customer_id": "C-051854",
+        "cents": 376365
+      },
+      "56c3bde7-7d8f-5235-a634-24be86370480": {
+        "customer_id": "C-013819",
+        "cents": 376289
+      },
+      "b444f461-f310-5169-b42e-0a139785c339": {
+        "customer_id": "C-004162",
+        "cents": 376246
+      },
+      "fff9e9eb-e70a-5fc6-b8aa-c137b53669b6": {
+        "customer_id": "C-035404",
+        "cents": 376173
+      },
+      "5f7781c7-7b0a-5547-8c56-752dfb95c29c": {
+        "customer_id": "C-009847",
+        "cents": 376157
+      },
+      "7a9a21cf-5094-5d31-babd-12c0f50748bc": {
+        "customer_id": "C-041515",
+        "cents": 376068
+      },
+      "8cac41c1-1d5e-5652-81f9-bbf951e06485": {
+        "customer_id": "C-065626",
+        "cents": 376043
+      },
+      "5c48543b-25ac-5f6d-869e-8e1103843017": {
+        "customer_id": "C-001967",
+        "cents": 376020
+      },
+      "f99d8386-7bfb-5ab2-ba8f-79ec53308b7b": {
+        "customer_id": "C-051439",
+        "cents": 375967
+      },
+      "09e1b447-7eed-5bc5-8ad9-53c27bc7f592": {
+        "customer_id": "C-018105",
+        "cents": 375941
+      },
+      "9e6de882-c8bc-582e-8d8a-de17cfd888b5": {
+        "customer_id": "C-027564",
+        "cents": 375822
+      },
+      "36a232b6-1fe5-57d2-a91e-e662a1c07770": {
+        "customer_id": "C-082024",
+        "cents": 375789
+      },
+      "33514ce6-23cb-5d91-882b-80981da0e5dc": {
+        "customer_id": "C-025914",
+        "cents": 375768
+      },
+      "08e7b712-56d8-5e15-8aae-2b51a0db94e8": {
+        "customer_id": "C-090743",
+        "cents": 375766
+      },
+      "fb31eb86-7a6f-5a18-943f-cb095313426d": {
+        "customer_id": "C-091065",
+        "cents": 375716
+      },
+      "680c27ee-0e30-58a6-b06c-8f35f4797ba2": {
+        "customer_id": "C-002387",
+        "cents": 375621
+      },
+      "32624fdc-479c-514e-9a24-39e400271fcb": {
+        "customer_id": "C-071786",
+        "cents": 375596
+      },
+      "8023d32e-3f7e-52e3-94de-b90f59496131": {
+        "customer_id": "C-064577",
+        "cents": 375571
+      },
+      "50ff069e-f9b2-57cf-82de-5f344abc77de": {
+        "customer_id": "C-041419",
+        "cents": 375516
+      },
+      "adf76241-4ba6-5144-b3df-f400c0ea049f": {
+        "customer_id": "C-067785",
+        "cents": 375469
+      },
+      "207fea7d-f3cc-53f2-be59-0d36d6b4bacd": {
+        "customer_id": "C-000228",
+        "cents": 375391
+      },
+      "6fad27f0-7e62-58e5-ab02-7749474f64ab": {
+        "customer_id": "C-033971",
+        "cents": 375327
+      },
+      "b61d6d51-7366-5414-a90f-a0a6a682d32c": {
+        "customer_id": "C-030260",
+        "cents": 375311
+      },
+      "03f6f942-96f0-5b61-a3bb-6e13815b4fc4": {
+        "customer_id": "C-030557",
+        "cents": 375210
+      },
+      "67ec373b-fbc1-5cec-a0df-002743a83792": {
+        "customer_id": "C-015181",
+        "cents": 375100
+      },
+      "d680716c-a603-5674-a51a-6ad5f7cd144a": {
+        "customer_id": "C-064351",
+        "cents": 375083
+      },
+      "3905c309-e3ab-5fca-ae02-187272ec37b6": {
+        "customer_id": "C-053046",
+        "cents": 375082
+      },
+      "0d9c787d-ce92-58a7-b266-94a6210b05cf": {
+        "customer_id": "C-020884",
+        "cents": 375081
+      },
+      "60a91a5d-af40-5897-b0df-8a3c9ec9e062": {
+        "customer_id": "C-033536",
+        "cents": 375059
+      },
+      "1a0caa05-21b5-5c87-8185-7e83d8b7d1e9": {
+        "customer_id": "C-093158",
+        "cents": 374941
+      },
+      "e904cfa0-e34a-5295-94f1-ab1658b0ce3e": {
+        "customer_id": "C-057556",
+        "cents": 374856
+      },
+      "2c61f113-7206-514e-b7dd-05c25df34160": {
+        "customer_id": "C-042334",
+        "cents": 374814
+      },
+      "615c6e98-304d-5a4c-9949-90dbe389c735": {
+        "customer_id": "C-095079",
+        "cents": 374730
+      },
+      "09380f6d-33b2-5ade-906a-3dd81f481487": {
+        "customer_id": "C-013747",
+        "cents": 374726
+      },
+      "9df5f996-80c9-5087-951f-43574c5bac50": {
+        "customer_id": "C-082851",
+        "cents": 374684
+      },
+      "da04dca7-82ac-5bdc-b115-f145ed894340": {
+        "customer_id": "C-079801",
+        "cents": 374661
+      },
+      "899adf55-5f8f-586f-ab19-2404b3611ef2": {
+        "customer_id": "C-076285",
+        "cents": 374642
+      },
+      "9ed11dc5-d962-5aee-af1a-0e5cd9984d7c": {
+        "customer_id": "C-023831",
+        "cents": 374581
+      },
+      "963320bc-a47c-5128-a1e8-0647964e6ffd": {
+        "customer_id": "C-005561",
+        "cents": 374550
+      },
+      "afea509f-458b-5a9a-8db7-ec33f230406e": {
+        "customer_id": "C-002412",
+        "cents": 374268
+      },
+      "790ef06d-1903-50c5-894a-a5f310459255": {
+        "customer_id": "C-024484",
+        "cents": 374241
+      },
+      "77017b17-559c-56bd-8136-56b951b7b262": {
+        "customer_id": "C-076628",
+        "cents": 374058
+      },
+      "cc65d95d-db36-5d47-845c-3c2f5fff625b": {
+        "customer_id": "C-067159",
+        "cents": 373969
+      },
+      "53bfaf84-a4c9-5ef4-a587-79bb34c875ff": {
+        "customer_id": "C-050352",
+        "cents": 373637
+      },
+      "bc9fb2a6-df57-5b88-99f8-f10a1a0fd04c": {
+        "customer_id": "C-054233",
+        "cents": 373417
+      },
+      "0126a802-955c-5ad4-99f4-09195d01efa9": {
+        "customer_id": "C-084798",
+        "cents": 373392
+      },
+      "b1cae1df-0d45-5e29-9846-f243530ed66c": {
+        "customer_id": "C-091145",
+        "cents": 373380
+      },
+      "bab169e5-8be2-5534-a2a6-1b2ce36c5b88": {
+        "customer_id": "C-008964",
+        "cents": 373316
+      },
+      "6e48c389-c0d2-5dd8-a188-8d184c5f9238": {
+        "customer_id": "C-024431",
+        "cents": 372826
+      },
+      "9346ffe6-cc01-52bf-8344-55c0a5eb5bac": {
+        "customer_id": "C-084013",
+        "cents": 372817
+      },
+      "1d47777b-bf07-599e-a12b-395827b12f01": {
+        "customer_id": "C-028697",
+        "cents": 372800
+      },
+      "ef2e9bba-35df-506e-ba0c-f22dbb517229": {
+        "customer_id": "C-029677",
+        "cents": 372791
+      },
+      "9a191c98-3342-564c-ac10-4f3243c29810": {
+        "customer_id": "C-003448",
+        "cents": 372789
+      },
+      "b7ff4428-87ad-5005-8952-b0cb05ea5804": {
+        "customer_id": "C-096663",
+        "cents": 372742
+      },
+      "4aada1d6-92ec-59ff-8486-7caa5a5931d3": {
+        "customer_id": "C-007252",
+        "cents": 372666
+      },
+      "3c801c9e-bc5f-5e5e-a62c-9a8146e1b0ad": {
+        "customer_id": "C-084465",
+        "cents": 372654
+      },
+      "93df09ec-07db-59ae-a720-6cb1d7151ce2": {
+        "customer_id": "C-065367",
+        "cents": 372564
+      },
+      "bb3795cf-567f-51e3-95a4-92005cc73b3a": {
+        "customer_id": "C-019434",
+        "cents": 372474
+      },
+      "12683e02-5d1b-5945-9e49-2cf693ea2d96": {
+        "customer_id": "C-055406",
+        "cents": 372349
+      },
+      "61593755-befe-5cf8-93d3-ebd56c06efb6": {
+        "customer_id": "C-002967",
+        "cents": 372346
+      },
+      "50110cb6-dd65-5eeb-9f6a-bc31eaa2e21b": {
+        "customer_id": "C-058740",
+        "cents": 372346
+      },
+      "6c12f880-e55d-5639-ba63-706003ffe63e": {
+        "customer_id": "C-059945",
+        "cents": 372342
+      },
+      "e7c07d66-0830-56a7-a917-d34bb2f8de8c": {
+        "customer_id": "C-035050",
+        "cents": 372300
+      },
+      "a71480a0-9b59-535f-acab-32ccb60e0154": {
+        "customer_id": "C-037009",
+        "cents": 372137
+      },
+      "2753264a-75ee-5598-ab3c-a57330fe00eb": {
+        "customer_id": "C-003267",
+        "cents": 372088
+      },
+      "592b0d50-cbef-5184-9299-153ebdb01135": {
+        "customer_id": "C-010830",
+        "cents": 372076
+      },
+      "e7a5a64e-cbff-50f4-a5da-d5d99ae18a79": {
+        "customer_id": "C-067352",
+        "cents": 371969
+      },
+      "4002a347-5610-57a0-9b9d-e59bd56abdbd": {
+        "customer_id": "C-013430",
+        "cents": 371839
+      },
+      "521dcfbd-125e-56a8-850e-56f10a0e11e0": {
+        "customer_id": "C-069751",
+        "cents": 371808
+      },
+      "b43ce650-b2cb-5471-9557-dc5107567263": {
+        "customer_id": "C-086921",
+        "cents": 371716
+      },
+      "c56e8632-f5ca-5ae7-b58d-de69d4c39cf7": {
+        "customer_id": "C-067731",
+        "cents": 371709
+      },
+      "eeacbaa4-0356-58af-beeb-a569007ae777": {
+        "customer_id": "C-009228",
+        "cents": 371646
+      },
+      "351e2383-f25e-5baa-87af-f111eaa68f40": {
+        "customer_id": "C-040333",
+        "cents": 371606
+      },
+      "7bc98a0a-3669-59af-a591-3a783fb051ef": {
+        "customer_id": "C-095368",
+        "cents": 371570
+      },
+      "bf2a549b-6921-58cf-9d0c-37bab7e0c343": {
+        "customer_id": "C-021285",
+        "cents": 371444
+      },
+      "ddb3ffea-f50a-56ba-95a3-d9b0eb4f524f": {
+        "customer_id": "C-060988",
+        "cents": 371392
+      },
+      "8ad536b9-7c93-52b3-b909-c74861cb90a6": {
+        "customer_id": "C-041977",
+        "cents": 371391
+      },
+      "c1f83b06-e1be-506d-8aad-2a7a83dd1277": {
+        "customer_id": "C-086494",
+        "cents": 371390
+      },
+      "c20efd75-f900-50f4-a3b7-1b4fc9cd9c4c": {
+        "customer_id": "C-023019",
+        "cents": 371334
+      },
+      "428c9f38-a5fe-5a22-990a-fa1329435d26": {
+        "customer_id": "C-037531",
+        "cents": 371085
+      },
+      "c5adbe41-bfeb-5d3b-8a58-753e148a159d": {
+        "customer_id": "C-036405",
+        "cents": 371009
+      },
+      "fc9d81f9-6d21-555b-a947-c8631fc37c41": {
+        "customer_id": "C-000311",
+        "cents": 370984
+      },
+      "f9f6c08e-e72b-5ab1-9a2a-69698a62dcd9": {
+        "customer_id": "C-065271",
+        "cents": 370935
+      },
+      "d4e4b6e1-d9dc-5c0d-b736-23b62be615c1": {
+        "customer_id": "C-024564",
+        "cents": 370921
+      },
+      "3bdc2fbe-b3ca-5553-94b0-7a94d01a5da1": {
+        "customer_id": "C-037091",
+        "cents": 370845
+      },
+      "b1c64412-9254-5439-9181-15762df72df1": {
+        "customer_id": "C-047132",
+        "cents": 370824
+      },
+      "c9efd453-d7a1-518c-9371-4c4da7d0817d": {
+        "customer_id": "C-072080",
+        "cents": 370766
+      },
+      "13804f95-6503-54d0-a603-b90093a1670c": {
+        "customer_id": "C-067607",
+        "cents": 370766
+      },
+      "8abf59fe-8af1-5cfc-828c-300d483d2926": {
+        "customer_id": "C-013544",
+        "cents": 370697
+      },
+      "288326dc-72dd-58cb-b0a9-533163f3f6ee": {
+        "customer_id": "C-006105",
+        "cents": 370627
+      },
+      "cfe6fba8-4fd3-589a-844b-8c2231491f43": {
+        "customer_id": "C-043071",
+        "cents": 370433
+      },
+      "0efccf8a-27c2-5803-a338-5ba6e3c2aa38": {
+        "customer_id": "C-074412",
+        "cents": 370298
+      },
+      "2d891b3b-94f3-5cbe-8973-2b3104ab40e2": {
+        "customer_id": "C-070411",
+        "cents": 370276
+      },
+      "4d1accd2-35fd-584d-90dc-5c59db9ebe49": {
+        "customer_id": "C-077554",
+        "cents": 370268
+      },
+      "2114a37a-e21c-5e77-9297-70b511be669a": {
+        "customer_id": "C-097767",
+        "cents": 370204
+      },
+      "3a38d342-5850-5cd6-b47f-f1642f22d95d": {
+        "customer_id": "C-007743",
+        "cents": 370181
+      },
+      "2e918137-6aeb-57d0-a24f-09ad66b53509": {
+        "customer_id": "C-025646",
+        "cents": 370100
+      },
+      "f546819a-3751-56c1-8913-ced322c6cf4d": {
+        "customer_id": "C-055871",
+        "cents": 370057
+      },
+      "57c49e4e-e7b7-5a95-b288-bae33093f171": {
+        "customer_id": "C-040918",
+        "cents": 370007
+      },
+      "7fd79325-0529-546b-80d6-4e01c7da48f6": {
+        "customer_id": "C-015422",
+        "cents": 369952
+      },
+      "13b8d253-7cb5-5780-a014-cf336467eeb6": {
+        "customer_id": "C-058636",
+        "cents": 369772
+      },
+      "b140ca69-fef1-53b3-bab7-b4e2c1b7e207": {
+        "customer_id": "C-002699",
+        "cents": 369690
+      },
+      "a124d33e-b3bc-59f4-b810-b3456d65dda9": {
+        "customer_id": "C-083288",
+        "cents": 369642
+      },
+      "4b681aec-28ae-54fc-9856-3cabec162841": {
+        "customer_id": "C-078506",
+        "cents": 369641
+      },
+      "1466fd1c-c2c4-5c04-a391-008490ae7e72": {
+        "customer_id": "C-089984",
+        "cents": 369561
+      },
+      "a3427591-1393-5e92-82d1-d96a023c91ed": {
+        "customer_id": "C-057462",
+        "cents": 369497
+      },
+      "8ce8ccbc-636f-5933-90d1-b24921d218c8": {
+        "customer_id": "C-072814",
+        "cents": 369497
+      },
+      "22a7a229-3219-5fd4-8f98-9586f4ef4ebf": {
+        "customer_id": "C-020639",
+        "cents": 369428
+      },
+      "f53ef53e-709b-5e66-aa36-7c286a9ca18b": {
+        "customer_id": "C-065417",
+        "cents": 369278
+      },
+      "c910b7a1-e304-538e-99b7-1a898bbc4a41": {
+        "customer_id": "C-088020",
+        "cents": 369187
+      },
+      "bba18167-f8f3-5cc7-8c2c-e2c72573c57d": {
+        "customer_id": "C-093698",
+        "cents": 369125
+      },
+      "b73d8b30-191e-5112-b72a-3cc273e60675": {
+        "customer_id": "C-082607",
+        "cents": 369050
+      },
+      "473c7d46-a573-50b9-8328-5a6dc1743c72": {
+        "customer_id": "C-030754",
+        "cents": 369033
+      },
+      "7b5cc592-22f2-5184-96a9-f314053066fb": {
+        "customer_id": "C-095347",
+        "cents": 368920
+      },
+      "1c50c2a4-b4da-5dbe-afd9-2630e5a9bb45": {
+        "customer_id": "C-054230",
+        "cents": 368912
+      },
+      "a71d4916-67ba-5127-8216-41038e95e397": {
+        "customer_id": "C-030036",
+        "cents": 368775
+      },
+      "1590c8a6-6313-5cec-a9b2-f526cbd5d725": {
+        "customer_id": "C-060691",
+        "cents": 368712
+      },
+      "cb26d1ab-0917-5716-8bda-88a37346a476": {
+        "customer_id": "C-075400",
+        "cents": 368671
+      },
+      "feab1b71-4b9d-5331-a3b1-6e1b53f4a8c3": {
+        "customer_id": "C-086550",
+        "cents": 368330
+      },
+      "b5d3a362-681b-5a10-bdf5-0c886c957fee": {
+        "customer_id": "C-062178",
+        "cents": 368327
+      },
+      "9d478100-7b0f-5b32-94c6-8ef4d996156d": {
+        "customer_id": "C-050672",
+        "cents": 368172
+      },
+      "0617eafb-0a06-5c18-b2c3-b2c1ba3d9a34": {
+        "customer_id": "C-063117",
+        "cents": 368135
+      },
+      "f687496b-7631-51cd-b0cb-fcd6da07d444": {
+        "customer_id": "C-090052",
+        "cents": 368119
+      },
+      "39a72cf8-53ab-5b7f-8c9e-e625823d6bd3": {
+        "customer_id": "C-060111",
+        "cents": 368043
+      },
+      "32a3fddd-3771-54df-ac4e-64df4c30a3cb": {
+        "customer_id": "C-068370",
+        "cents": 368012
+      },
+      "8b236795-7f9d-53eb-857a-1a0a4d318e4c": {
+        "customer_id": "C-064558",
+        "cents": 367998
+      },
+      "d76a8dad-bbfb-5c31-8bf2-46e71e3f5b59": {
+        "customer_id": "C-020547",
+        "cents": 367962
+      },
+      "d8f5f4ad-21f6-54d9-b3ce-f0fba2137c21": {
+        "customer_id": "C-044130",
+        "cents": 367861
+      },
+      "447094dd-71f0-5de9-8346-111773f14523": {
+        "customer_id": "C-056869",
+        "cents": 367781
+      },
+      "650f410d-b5f6-5bb9-b09b-d307ddc44b1f": {
+        "customer_id": "C-027721",
+        "cents": 367763
+      },
+      "7a032467-94b5-555f-9c06-a0b03b14a102": {
+        "customer_id": "C-082822",
+        "cents": 367729
+      },
+      "13d485b7-a66d-53be-bd13-5f084a1fbda7": {
+        "customer_id": "C-035031",
+        "cents": 367646
+      },
+      "c14adc2b-a4e7-52c7-aa9a-ffff5c4abee1": {
+        "customer_id": "C-006954",
+        "cents": 367590
+      },
+      "3335f685-72a8-5972-9e21-05fa8470ad39": {
+        "customer_id": "C-046031",
+        "cents": 367531
+      },
+      "5e7d85b7-01f4-5261-9026-fedacaa22e27": {
+        "customer_id": "C-072754",
+        "cents": 367513
+      },
+      "67548b0e-7049-5987-86b3-f5c3b0fb5819": {
+        "customer_id": "C-054839",
+        "cents": 367511
+      },
+      "fb9f0381-3914-5c69-8f2c-e5f79566484e": {
+        "customer_id": "C-020533",
+        "cents": 367376
+      },
+      "54973a3e-ac26-5334-b795-dac6249cbef9": {
+        "customer_id": "C-036590",
+        "cents": 367242
+      },
+      "128a5fed-9ec8-5cb3-9bac-409dbfe07a13": {
+        "customer_id": "C-080784",
+        "cents": 367217
+      },
+      "5d610d12-7366-5193-91b0-8bd5d1ff971f": {
+        "customer_id": "C-074184",
+        "cents": 367074
+      },
+      "01d94efb-59dc-5c5c-9ad5-c331d233e481": {
+        "customer_id": "C-019930",
+        "cents": 366943
+      },
+      "857fe67e-ee72-5d4e-a1c9-5b59427a7843": {
+        "customer_id": "C-029055",
+        "cents": 366732
+      },
+      "37e46c4d-1061-5c49-9a67-d25506c784af": {
+        "customer_id": "C-048783",
+        "cents": 366707
+      },
+      "cb2b8af7-e801-5fe8-9c25-d5cb32f98621": {
+        "customer_id": "C-055675",
+        "cents": 366561
+      },
+      "dcc658c8-ab4d-5642-b6ef-f311ef078203": {
+        "customer_id": "C-069017",
+        "cents": 366529
+      },
+      "fcf6f553-2a43-51b7-8608-5c52b415d608": {
+        "customer_id": "C-013550",
+        "cents": 366507
+      },
+      "57e2722d-897c-5a9d-a44a-a12ad100a517": {
+        "customer_id": "C-026617",
+        "cents": 366498
+      },
+      "11030dfd-c4dd-585a-aa6b-cd3ea3082e38": {
+        "customer_id": "C-085097",
+        "cents": 366466
+      },
+      "4d61adde-f5e7-5f0c-93d5-c8d679deac0a": {
+        "customer_id": "C-060254",
+        "cents": 366455
+      },
+      "eb4c6343-025d-50cb-86eb-ba35548d0a0c": {
+        "customer_id": "C-063344",
+        "cents": 366407
+      },
+      "fd71d14a-c5ea-5786-8f05-a8a28f1d2ac8": {
+        "customer_id": "C-054577",
+        "cents": 366374
+      },
+      "7e6c96d5-987b-5929-9341-f57e38580b86": {
+        "customer_id": "C-029199",
+        "cents": 366336
+      },
+      "c9405488-0dc4-508e-a6f1-129013525f36": {
+        "customer_id": "C-099280",
+        "cents": 366286
+      },
+      "4510985a-cec9-54de-b434-1b828d18de27": {
+        "customer_id": "C-058506",
+        "cents": 366259
+      },
+      "ae737007-15a6-5e92-bf5a-16723bc78675": {
+        "customer_id": "C-095388",
+        "cents": 366105
+      },
+      "6ae22a06-e89b-550f-b835-e67842935b2d": {
+        "customer_id": "C-047388",
+        "cents": 365994
+      },
+      "3a5c3500-ec8f-5484-8abd-afca45903d75": {
+        "customer_id": "C-012100",
+        "cents": 365903
+      },
+      "3bbd9227-d57f-5fd3-a9c2-5eea67f162af": {
+        "customer_id": "C-018741",
+        "cents": 365769
+      },
+      "156b10a3-2942-53ea-9ec4-fc42eca59d5c": {
+        "customer_id": "C-008426",
+        "cents": 365766
+      },
+      "587b85cc-07cf-555b-9c06-20586435a0e1": {
+        "customer_id": "C-089755",
+        "cents": 365739
+      },
+      "a96b5764-d470-50bb-9b18-89bb795a1b12": {
+        "customer_id": "C-025291",
+        "cents": 365730
+      },
+      "43b981e0-286b-505d-8519-102250a7aeef": {
+        "customer_id": "C-021658",
+        "cents": 365716
+      },
+      "d8ab3ae7-7168-5af6-b07e-4734f1de8eb6": {
+        "customer_id": "C-090490",
+        "cents": 365617
+      },
+      "aa73321c-5d33-5ec0-9196-6e4d45e032f0": {
+        "customer_id": "C-034478",
+        "cents": 365507
+      },
+      "0db98b2c-389b-5aa0-9c77-23a9280b33b3": {
+        "customer_id": "C-087991",
+        "cents": 365422
+      },
+      "3ea08474-ad4a-52ff-846c-edbe56c836b0": {
+        "customer_id": "C-074275",
+        "cents": 365421
+      },
+      "31dfcfb7-5ebf-50af-a3dc-2b9eb1952da6": {
+        "customer_id": "C-094827",
+        "cents": 365398
+      },
+      "479d96e7-1aa0-5d0d-a07e-05b89ed6b696": {
+        "customer_id": "C-043816",
+        "cents": 365386
+      },
+      "705b4a1e-1e13-5b70-b45c-5fecfc897bdb": {
+        "customer_id": "C-067622",
+        "cents": 365371
+      },
+      "f8e13e8c-ae69-5a8a-aef2-80404c672cc5": {
+        "customer_id": "C-017257",
+        "cents": 365307
+      },
+      "4f10c32c-7b85-5f69-9c35-13afc19183df": {
+        "customer_id": "C-022467",
+        "cents": 365121
+      },
+      "8d9569f8-1c33-5958-956e-4dec44b3a946": {
+        "customer_id": "C-007331",
+        "cents": 365056
+      },
+      "be532a2b-27ce-554c-9fad-922a60a4bf50": {
+        "customer_id": "C-025602",
+        "cents": 365011
+      },
+      "d0904b36-0a8f-522c-844a-6fe482a26205": {
+        "customer_id": "C-096737",
+        "cents": 364919
+      },
+      "ff424879-98f3-5f30-a441-ceeb07d32266": {
+        "customer_id": "C-043844",
+        "cents": 364813
+      },
+      "b5149ab8-d176-54fa-84b5-dc2be3974bcb": {
+        "customer_id": "C-074335",
+        "cents": 364813
+      },
+      "e7632dd5-3207-5868-86ae-0eb3cb5f5f9b": {
+        "customer_id": "C-037179",
+        "cents": 364789
+      },
+      "7935a68e-698f-56df-b595-39177f80bd4f": {
+        "customer_id": "C-066200",
+        "cents": 364783
+      },
+      "7f49a0a2-437e-53b1-a068-82b3ed06027d": {
+        "customer_id": "C-033387",
+        "cents": 364681
+      },
+      "4d49a845-3574-5e6c-a583-66907f44b125": {
+        "customer_id": "C-004317",
+        "cents": 364675
+      },
+      "a0bca229-18d3-5457-bb8d-777a6f587e0a": {
+        "customer_id": "C-048995",
+        "cents": 364667
+      },
+      "d60e36ff-ab73-5974-a4e3-5836ddc1ce59": {
+        "customer_id": "C-084531",
+        "cents": 364663
+      },
+      "f31d1715-2bd4-58da-a53d-354f14d194fd": {
+        "customer_id": "C-018627",
+        "cents": 364635
+      },
+      "41322bbd-f80f-5bb1-9ab8-e67ddf506d46": {
+        "customer_id": "C-017917",
+        "cents": 364566
+      },
+      "e494a43c-d0f8-5ade-8229-77201e20163f": {
+        "customer_id": "C-000081",
+        "cents": 364497
+      },
+      "1ad4b36a-02cd-5d49-8c2a-91ea14c85a11": {
+        "customer_id": "C-077761",
+        "cents": 364236
+      },
+      "073436f3-a440-5f0b-b6d3-119a521fa0d4": {
+        "customer_id": "C-016018",
+        "cents": 364227
+      },
+      "92f5de99-04be-5388-af45-f0154c75a75d": {
+        "customer_id": "C-011301",
+        "cents": 364145
+      },
+      "2825d105-379e-5cdd-8a9a-407258a2df15": {
+        "customer_id": "C-045857",
+        "cents": 364116
+      },
+      "bfbfb778-7fa0-5588-9cdf-f8152ee04fe8": {
+        "customer_id": "C-036318",
+        "cents": 364073
+      },
+      "33b90b28-9c95-52f8-b56c-7aa7af317748": {
+        "customer_id": "C-094077",
+        "cents": 363972
+      },
+      "f647c07a-f471-5969-b71a-4bf1262f1172": {
+        "customer_id": "C-084006",
+        "cents": 363939
+      },
+      "aa360d53-9067-5f76-a736-eaaa2c119a3b": {
+        "customer_id": "C-036887",
+        "cents": 363928
+      },
+      "4d2fc1fe-1c3b-565d-a1b7-f51b401cb2e7": {
+        "customer_id": "C-032428",
+        "cents": 363849
+      },
+      "52fe55fc-9edf-50a8-b35e-0517b5a46c09": {
+        "customer_id": "C-015596",
+        "cents": 363816
+      },
+      "6e604dba-eec4-54bc-bb38-959ec1808445": {
+        "customer_id": "C-054453",
+        "cents": 363775
+      },
+      "4a295bca-4e75-54f5-a3f1-8547fa1b3f69": {
+        "customer_id": "C-091813",
+        "cents": 363684
+      },
+      "2e8278d0-6be7-56b7-952d-10e99901aefc": {
+        "customer_id": "C-095961",
+        "cents": 363609
+      },
+      "70381bbd-dbaf-51d1-8585-7e734bbd7cad": {
+        "customer_id": "C-070855",
+        "cents": 363517
+      },
+      "904d4739-70fe-5953-a565-f84ba8cf58c0": {
+        "customer_id": "C-038375",
+        "cents": 363445
+      },
+      "02ce35fd-8542-5a4b-afdc-14a07bb58a88": {
+        "customer_id": "C-097800",
+        "cents": 363357
+      },
+      "c6a2d10c-0ac0-5574-949e-296987215aa1": {
+        "customer_id": "C-079820",
+        "cents": 363331
+      },
+      "f8354c5f-0d6d-50ec-9d3b-75ca46d395f2": {
+        "customer_id": "C-072263",
+        "cents": 363267
+      },
+      "a895fc9a-3a1c-5e87-932d-5fce9d4b0047": {
+        "customer_id": "C-064361",
+        "cents": 363251
+      },
+      "54b75a45-ee0a-5020-8567-e2bdb7352601": {
+        "customer_id": "C-011621",
+        "cents": 363215
+      },
+      "7171be01-90bb-5c84-9e85-0d7b6da28470": {
+        "customer_id": "C-076266",
+        "cents": 363142
+      },
+      "ca8f3b72-0cb7-53fe-b998-1caa818b6a24": {
+        "customer_id": "C-047494",
+        "cents": 363071
+      },
+      "cd3ba0c8-28cc-56f8-9e25-45a10e69c283": {
+        "customer_id": "C-033868",
+        "cents": 363047
+      },
+      "d1070852-3023-5bc5-bc07-ad322ca21fb7": {
+        "customer_id": "C-088129",
+        "cents": 363040
+      },
+      "53a58bfd-7155-5b60-98aa-61bcdc10a8d1": {
+        "customer_id": "C-085865",
+        "cents": 363033
+      },
+      "b4bcc0fc-e15b-5b0d-b8bf-8d4b80801c8b": {
+        "customer_id": "C-027676",
+        "cents": 362984
+      },
+      "7e8d0376-1c9f-5313-90b0-a3c064777efb": {
+        "customer_id": "C-062945",
+        "cents": 362852
+      },
+      "b1302ed3-36b1-5372-87ab-50dd31bec4ea": {
+        "customer_id": "C-079349",
+        "cents": 362753
+      },
+      "dde83b67-9bf8-5295-835d-aa034072ed3c": {
+        "customer_id": "C-061094",
+        "cents": 362726
+      },
+      "d8d52de2-d787-540a-a995-761da8000fbb": {
+        "customer_id": "C-006518",
+        "cents": 362686
+      },
+      "93adab0b-6e26-5dbe-a93f-7824990ab3c1": {
+        "customer_id": "C-072928",
+        "cents": 362615
+      },
+      "37db2ed2-2641-5dad-af3e-ef0589e0d415": {
+        "customer_id": "C-029080",
+        "cents": 362596
+      },
+      "ab1bad8d-76c0-5b9d-96b6-cc55d28cb3f1": {
+        "customer_id": "C-013243",
+        "cents": 362489
+      },
+      "a86a7e18-cfe7-50df-b281-8fc78e8985ff": {
+        "customer_id": "C-035605",
+        "cents": 362485
+      },
+      "7f230c8a-b032-598e-981d-3fd6a77f2ed6": {
+        "customer_id": "C-015891",
+        "cents": 362448
+      },
+      "9303fc5b-3b15-59ef-bb7f-c7e27ffc9acc": {
+        "customer_id": "C-047613",
+        "cents": 362360
+      },
+      "d1f11561-a995-5cea-bf08-7329e65f8563": {
+        "customer_id": "C-027352",
+        "cents": 362336
+      },
+      "01f7f17a-7769-546c-ad10-79d3794b50fd": {
+        "customer_id": "C-069119",
+        "cents": 362334
+      },
+      "bc41d041-a768-58d5-a95f-af0a814ca423": {
+        "customer_id": "C-096975",
+        "cents": 362265
+      },
+      "a09648af-509a-51a5-a6b9-fb621d6e29e8": {
+        "customer_id": "C-061497",
+        "cents": 362227
+      },
+      "72a7e6c4-9055-553d-a332-04b324a1a42e": {
+        "customer_id": "C-043214",
+        "cents": 362198
+      },
+      "dca8f4cf-d336-5a3a-add5-2e5b8ba8a1d7": {
+        "customer_id": "C-009112",
+        "cents": 362095
+      },
+      "1a88e73e-2c25-5af6-a03d-bff83aa267fc": {
+        "customer_id": "C-000603",
+        "cents": 362093
+      },
+      "3d0ad6f5-0814-5bb2-abc1-16d881c201ce": {
+        "customer_id": "C-071592",
+        "cents": 362054
+      },
+      "9069c0ba-3d74-51ce-9e7d-b98ce3d5ad23": {
+        "customer_id": "C-072921",
+        "cents": 361993
+      },
+      "80635869-c015-5068-b689-8a378576123e": {
+        "customer_id": "C-012097",
+        "cents": 361960
+      },
+      "303ceea0-68d6-5018-8a44-3e61f8415e63": {
+        "customer_id": "C-016871",
+        "cents": 361918
+      },
+      "fe021de0-4aad-575c-9716-d844353c09e5": {
+        "customer_id": "C-095420",
+        "cents": 361884
+      },
+      "3c1eff18-8a89-5943-9f7c-71d915cbd458": {
+        "customer_id": "C-056010",
+        "cents": 361871
+      },
+      "1d12a839-15d7-5cbb-9765-5cc52a78e61e": {
+        "customer_id": "C-013892",
+        "cents": 361861
+      },
+      "dfc6126a-0dc3-5832-bd12-b4ffbe84427e": {
+        "customer_id": "C-087713",
+        "cents": 361810
+      },
+      "1ffb932c-e965-5ddf-8bba-fa6d88fdc62c": {
+        "customer_id": "C-022436",
+        "cents": 361681
+      },
+      "2bbb66dc-8583-5b88-a784-62a05a2dd435": {
+        "customer_id": "C-041206",
+        "cents": 361644
+      },
+      "40ee3e0c-c311-5515-ba30-29f16dffdfa4": {
+        "customer_id": "C-015459",
+        "cents": 361634
+      },
+      "27e4c64a-010a-5365-85dc-80eb601aadd6": {
+        "customer_id": "C-002161",
+        "cents": 361560
+      },
+      "c9cf5939-fd56-517b-ab95-b5dcea8dcb70": {
+        "customer_id": "C-066641",
+        "cents": 361522
+      },
+      "0416a0b7-3277-5fd8-838d-ccc33649b1c9": {
+        "customer_id": "C-092082",
+        "cents": 361514
+      },
+      "0c28b5de-b2fd-5a4d-bbe4-86e5236633a1": {
+        "customer_id": "C-067938",
+        "cents": 361512
+      },
+      "6e956bc2-05bd-57cc-85fa-5c07e527fc70": {
+        "customer_id": "C-037098",
+        "cents": 361481
+      },
+      "7b709f10-232b-50ad-a0e0-9dfb75a9589b": {
+        "customer_id": "C-034709",
+        "cents": 361439
+      },
+      "76080775-16c1-5214-8b71-be73b4758055": {
+        "customer_id": "C-007279",
+        "cents": 361413
+      },
+      "587c2b71-38ee-5f11-989d-07ba46fe0b05": {
+        "customer_id": "C-090367",
+        "cents": 361339
+      },
+      "d503b2a5-bd7a-58fd-9b01-5eab957909f3": {
+        "customer_id": "C-006032",
+        "cents": 361332
+      },
+      "ad02df63-e8ef-578a-aef8-802f70650fcf": {
+        "customer_id": "C-067478",
+        "cents": 361206
+      },
+      "4f9ab44c-34b9-5020-afeb-483d2504ccde": {
+        "customer_id": "C-072331",
+        "cents": 361166
+      },
+      "321a70cf-7522-5146-8258-0f4e3e6a6f09": {
+        "customer_id": "C-079732",
+        "cents": 361152
+      },
+      "faf97221-740e-5147-a956-671317798c06": {
+        "customer_id": "C-053992",
+        "cents": 361141
+      },
+      "7e1c7dfe-454e-51d4-899b-013282702b8d": {
+        "customer_id": "C-007345",
+        "cents": 361119
+      },
+      "7251b2f0-27be-5855-9ec7-9f6679583932": {
+        "customer_id": "C-074079",
+        "cents": 361119
+      },
+      "71739d32-7764-53ca-b967-9c303688ecda": {
+        "customer_id": "C-013699",
+        "cents": 361118
+      },
+      "2fe4cf1c-650e-5659-aa14-9f082bf72746": {
+        "customer_id": "C-099432",
+        "cents": 361020
+      },
+      "11dffb69-e4ec-5780-b8c3-329d4283c600": {
+        "customer_id": "C-082476",
+        "cents": 360980
+      },
+      "93c29823-a77a-55f7-9774-bdb67e8c7689": {
+        "customer_id": "C-040100",
+        "cents": 360964
+      },
+      "bcb57b55-e04b-5c66-96c6-ba6c7f07aa51": {
+        "customer_id": "C-030298",
+        "cents": 360902
+      },
+      "b96f68be-c73c-5da8-a994-93ff6af60daa": {
+        "customer_id": "C-058060",
+        "cents": 360847
+      },
+      "dbcd2e69-3049-5d16-93f0-f2e7ea6b41a7": {
+        "customer_id": "C-094167",
+        "cents": 360839
+      },
+      "555c8aea-667a-5f51-919e-498872e61ee4": {
+        "customer_id": "C-016829",
+        "cents": 360792
+      },
+      "522d5b64-ccc1-5a32-8fe9-353823da8e6e": {
+        "customer_id": "C-061768",
+        "cents": 360634
+      },
+      "1c8bcdb4-c5c7-56ac-b0f5-f2617cf2482c": {
+        "customer_id": "C-037586",
+        "cents": 360634
+      },
+      "6378338e-b748-5114-b2b1-a4ccd098633f": {
+        "customer_id": "C-028343",
+        "cents": 360619
+      },
+      "83546849-fdf9-57ac-bfae-944a0ba59ce1": {
+        "customer_id": "C-022988",
+        "cents": 360609
+      },
+      "f54a1f77-6ae1-562d-adb9-cb8d794b0f50": {
+        "customer_id": "C-014356",
+        "cents": 360541
+      },
+      "50f41907-36ca-5a89-8275-4af73d011835": {
+        "customer_id": "C-072656",
+        "cents": 360532
+      },
+      "a53c4fc6-2617-5364-8daf-58d69afb38ea": {
+        "customer_id": "C-067800",
+        "cents": 360508
+      },
+      "17f24331-0b2e-56ca-a9ed-b40630e5f37c": {
+        "customer_id": "C-007637",
+        "cents": 360503
+      },
+      "de966ba4-7eab-52b7-8068-ab52cb702ca6": {
+        "customer_id": "C-069775",
+        "cents": 360458
+      },
+      "95d85751-cf66-5610-a933-36594da9e623": {
+        "customer_id": "C-069017",
+        "cents": 360421
+      },
+      "eb03a71c-5283-57d9-b5e1-d23d14319c1e": {
+        "customer_id": "C-016725",
+        "cents": 360338
+      },
+      "bd0f249a-f6bb-597e-9e7a-242963f65fa8": {
+        "customer_id": "C-066722",
+        "cents": 360330
+      },
+      "75098294-4c42-5f33-9273-7f89d88a8dce": {
+        "customer_id": "C-069488",
+        "cents": 360324
+      },
+      "9df76c84-9f8a-5ff7-a2f8-f1ea0e9f7e83": {
+        "customer_id": "C-074667",
+        "cents": 360322
+      },
+      "c7be2cfa-b729-52d6-bd84-821b9c7c3a02": {
+        "customer_id": "C-066477",
+        "cents": 360309
+      },
+      "29ead854-8f06-5177-9e21-5658b4d0d3c0": {
+        "customer_id": "C-026085",
+        "cents": 360203
+      },
+      "7881fb03-e275-57b4-a468-1258c8680d54": {
+        "customer_id": "C-043630",
+        "cents": 360174
+      },
+      "7cc0b5ee-54c7-55c3-a0ae-5734fc7ca5b7": {
+        "customer_id": "C-086043",
+        "cents": 360153
+      },
+      "c9152e5e-78ce-5563-92ae-7a2435a6a272": {
+        "customer_id": "C-008282",
+        "cents": 360015
+      },
+      "6471c33c-05d3-57b4-abf8-82132cad015e": {
+        "customer_id": "C-036491",
+        "cents": 360001
+      },
+      "4fb8f41a-305d-5609-b07e-dd414942ba1c": {
+        "customer_id": "C-099052",
+        "cents": 359996
+      },
+      "2d852745-81b4-5c3e-b14b-ca92a936f175": {
+        "customer_id": "C-035828",
+        "cents": 359962
+      },
+      "aebc0d45-dceb-5464-bcfe-770465259bff": {
+        "customer_id": "C-055217",
+        "cents": 359901
+      },
+      "334ba2ed-133b-5184-8c1c-525c9e019db4": {
+        "customer_id": "C-093785",
+        "cents": 359794
+      },
+      "042df7e6-472b-5a62-97ab-8f2bbca6234d": {
+        "customer_id": "C-003005",
+        "cents": 359747
+      },
+      "3de6698d-48ce-57f9-8ca1-4092ca318cb5": {
+        "customer_id": "C-090013",
+        "cents": 359628
+      },
+      "ea7f03e5-0ad9-555e-99ff-632384e0d99d": {
+        "customer_id": "C-000259",
+        "cents": 359626
+      },
+      "9308ef59-3589-55d3-b53b-a56f20739356": {
+        "customer_id": "C-091787",
+        "cents": 359560
+      },
+      "bbf92090-d4e2-5252-a7d9-7120ffac71c3": {
+        "customer_id": "C-040035",
+        "cents": 359551
+      },
+      "a0516eb9-0a2f-5cb5-b32d-46be8890afd4": {
+        "customer_id": "C-095746",
+        "cents": 359548
+      },
+      "dbbf7c4f-a1d6-5a66-af12-ab544e2bacda": {
+        "customer_id": "C-020338",
+        "cents": 359531
+      },
+      "ec38ea76-5479-595a-9c21-59a893f86f4f": {
+        "customer_id": "C-097287",
+        "cents": 359512
+      },
+      "77a7e3a6-dc9e-5e1b-8c85-632961d64ae3": {
+        "customer_id": "C-073909",
+        "cents": 359470
+      },
+      "5907c64b-6335-56ef-b957-a7189acd8bac": {
+        "customer_id": "C-037919",
+        "cents": 359394
+      },
+      "6c652882-69b2-5e0c-8a98-8c58b79b866d": {
+        "customer_id": "C-002712",
+        "cents": 359332
+      },
+      "d5c678f7-6bc0-5738-948d-c6e45190af44": {
+        "customer_id": "C-024190",
+        "cents": 359240
+      },
+      "9386991a-287a-538a-b12c-b9ee85337c45": {
+        "customer_id": "C-079066",
+        "cents": 359213
+      },
+      "fc70178d-caff-53f5-b3e2-0e3fb56319db": {
+        "customer_id": "C-027290",
+        "cents": 359201
+      },
+      "f5e442f3-25d4-508c-8f85-fd1fc2b09f34": {
+        "customer_id": "C-025865",
+        "cents": 359194
+      },
+      "01693b39-a046-584e-8f74-4584b36c72ae": {
+        "customer_id": "C-015402",
+        "cents": 359106
+      },
+      "6415fbb0-9bc7-57fc-9f01-8d2f449a70e6": {
+        "customer_id": "C-087558",
+        "cents": 359081
+      },
+      "8ced2c09-2b56-5c55-a90f-68f34a68bbe4": {
+        "customer_id": "C-089040",
+        "cents": 359060
+      },
+      "33aff1f4-5408-5314-8bc3-54584af99c2c": {
+        "customer_id": "C-051017",
+        "cents": 359014
+      },
+      "cd7aa8a3-8c51-54b2-bdf9-9c4edf7a0e37": {
+        "customer_id": "C-048400",
+        "cents": 358997
+      },
+      "6a7ef373-d7d8-5e82-b152-1d418e089338": {
+        "customer_id": "C-075175",
+        "cents": 358968
+      },
+      "d40fb34a-f221-5091-a38e-4f69f1c92461": {
+        "customer_id": "C-052044",
+        "cents": 358880
+      },
+      "1e9a33c9-679d-5c13-88ab-13a5480f1079": {
+        "customer_id": "C-023953",
+        "cents": 358863
+      },
+      "c6823a9c-c865-56c7-aced-f91f6f1685f0": {
+        "customer_id": "C-005789",
+        "cents": 358784
+      },
+      "50109031-354e-5f7a-be9b-393b33d77321": {
+        "customer_id": "C-038336",
+        "cents": 358784
+      },
+      "373df3ba-6823-5176-a368-39f838399f70": {
+        "customer_id": "C-027989",
+        "cents": 358717
+      },
+      "1aef4002-22ec-52ab-a2f5-bdcb05dd4943": {
+        "customer_id": "C-065407",
+        "cents": 358667
+      },
+      "25d182eb-12b8-5d0e-b94f-079660085f51": {
+        "customer_id": "C-043074",
+        "cents": 358444
+      },
+      "7593dddf-4446-58b4-a9dc-a54a980a740e": {
+        "customer_id": "C-063621",
+        "cents": 358406
+      },
+      "0afa41b3-a007-5bca-ba71-92cfd31917e0": {
+        "customer_id": "C-098069",
+        "cents": 358381
+      },
+      "490c2b85-000f-511e-9f6f-82a4aec7d242": {
+        "customer_id": "C-056433",
+        "cents": 358339
+      },
+      "b7f619ae-7e77-5715-8722-64246e412c64": {
+        "customer_id": "C-067401",
+        "cents": 358268
+      },
+      "8f919674-af14-5eb5-a85d-cf0471f739b7": {
+        "customer_id": "C-029574",
+        "cents": 358222
+      },
+      "3089c9d8-bbd3-5227-b195-22e282fb5814": {
+        "customer_id": "C-094944",
+        "cents": 358220
+      },
+      "a7b59cf4-8f68-52ec-b9ba-7ed2e9c7b6ed": {
+        "customer_id": "C-038034",
+        "cents": 358213
+      },
+      "78b58436-bc0c-587c-a241-0f6f59f017c1": {
+        "customer_id": "C-049882",
+        "cents": 358112
+      },
+      "9b11d1ae-877b-5ef5-bdee-4968edeff3c9": {
+        "customer_id": "C-044499",
+        "cents": 358096
+      },
+      "dc7fc4c8-21a4-5295-9243-a18576633f02": {
+        "customer_id": "C-086119",
+        "cents": 357966
+      },
+      "85034d95-d071-55e5-a62f-7fc2495c079b": {
+        "customer_id": "C-044096",
+        "cents": 357952
+      },
+      "1dd8e91b-d19b-55ff-b596-58a1043447e2": {
+        "customer_id": "C-003935",
+        "cents": 357950
+      },
+      "c42c2018-4aa7-53df-bbd1-eac780356ff0": {
+        "customer_id": "C-093365",
+        "cents": 357623
+      },
+      "06eab58e-5730-5ce3-bb5f-df03ec8c7134": {
+        "customer_id": "C-051109",
+        "cents": 357498
+      },
+      "f29af600-8352-5854-a29e-b245adfea9da": {
+        "customer_id": "C-099588",
+        "cents": 357482
+      },
+      "6c1f7366-02d3-5718-bc4c-099c63af1115": {
+        "customer_id": "C-032309",
+        "cents": 357441
+      },
+      "5591c99c-ba09-593a-b184-77dee9a35336": {
+        "customer_id": "C-078982",
+        "cents": 357357
+      },
+      "d3910ef5-fcdb-5aa2-b9ee-36839d4029b4": {
+        "customer_id": "C-009141",
+        "cents": 357333
+      },
+      "2c5047af-f018-5c64-a56f-aed721cbd350": {
+        "customer_id": "C-018922",
+        "cents": 357270
+      },
+      "fd1bba90-67df-5ae0-b2a8-46a7b3377c58": {
+        "customer_id": "C-057049",
+        "cents": 357216
+      },
+      "b42afe0a-e325-5c96-93b9-8f915de52b14": {
+        "customer_id": "C-034994",
+        "cents": 357177
+      },
+      "1d0f7b7c-63f6-594f-ba65-67470b9f299c": {
+        "customer_id": "C-000052",
+        "cents": 357154
+      },
+      "caa006b9-fdbd-5957-996e-5fb52d5af8d0": {
+        "customer_id": "C-066422",
+        "cents": 356978
+      },
+      "d8942bb6-cc6c-536a-bc4f-739a6a95be68": {
+        "customer_id": "C-018226",
+        "cents": 356940
+      },
+      "48dc3a2d-10db-5659-9aa6-4f0cd5ad9774": {
+        "customer_id": "C-000218",
+        "cents": 356919
+      },
+      "57373a9e-c710-5453-bb8c-c46975ea2817": {
+        "customer_id": "C-030808",
+        "cents": 356905
+      },
+      "fbe86759-7c30-542d-ba24-171e894e6b27": {
+        "customer_id": "C-091317",
+        "cents": 356886
+      },
+      "517b7012-ed30-5344-b2b3-91cc59b2350b": {
+        "customer_id": "C-011516",
+        "cents": 356803
+      },
+      "434deb00-11f2-5b75-9af0-be25d4480a17": {
+        "customer_id": "C-020655",
+        "cents": 356743
+      },
+      "e7781344-096b-557c-a1db-e6e13643ec1f": {
+        "customer_id": "C-068400",
+        "cents": 356651
+      },
+      "165e58c1-2c2f-523a-aacf-c74a47481cc9": {
+        "customer_id": "C-042909",
+        "cents": 356593
+      },
+      "4e9e00e1-147b-50eb-9f88-e9df1a1b3bfd": {
+        "customer_id": "C-045411",
+        "cents": 356492
+      },
+      "0bbd5af6-fe87-57e9-aa8a-c2dd6d0b5370": {
+        "customer_id": "C-008540",
+        "cents": 356448
+      },
+      "4ed004ba-6bd6-51fb-b282-4313543e7f44": {
+        "customer_id": "C-019610",
+        "cents": 356418
+      },
+      "7be79511-bb40-5ffb-a23b-3ad73a7ca6a8": {
+        "customer_id": "C-032650",
+        "cents": 356336
+      },
+      "d2e19cab-4392-53b5-9f00-f71346d43f96": {
+        "customer_id": "C-092636",
+        "cents": 356269
+      },
+      "2ce35b71-a0ec-5de2-ae76-5644c588342f": {
+        "customer_id": "C-023137",
+        "cents": 356267
+      },
+      "2b65aa80-49d6-5f99-87ce-1536dac544f7": {
+        "customer_id": "C-055532",
+        "cents": 356233
+      },
+      "d9a13b1b-2fae-5802-9b0d-58744635dbe8": {
+        "customer_id": "C-098027",
+        "cents": 356229
+      },
+      "1792fa8c-e74e-5cb0-b7d5-c44fab6062a7": {
+        "customer_id": "C-020562",
+        "cents": 356199
+      },
+      "0e81f854-340d-58ec-884f-200eae9b35a5": {
+        "customer_id": "C-002275",
+        "cents": 356162
+      },
+      "c5d8bc7b-ae23-515a-bbbc-a3f9244ee4e4": {
+        "customer_id": "C-094538",
+        "cents": 356122
+      },
+      "57c85b81-3f4c-5af2-a509-65ddfadf4ba8": {
+        "customer_id": "C-046236",
+        "cents": 356088
+      },
+      "411030cc-b49f-5988-9590-230a47a05a94": {
+        "customer_id": "C-090208",
+        "cents": 356084
+      },
+      "fe91709d-42cb-5d00-a6bf-41925e89d373": {
+        "customer_id": "C-017751",
+        "cents": 356076
+      },
+      "c1462df9-f7c2-5a30-9bbf-06e7e3fe1c22": {
+        "customer_id": "C-065635",
+        "cents": 356075
+      },
+      "738f4cbb-fd98-5ff2-9582-cb9e4ddc6c0b": {
+        "customer_id": "C-044947",
+        "cents": 355987
+      },
+      "acd8ae08-336b-513e-8962-52584ae44779": {
+        "customer_id": "C-081745",
+        "cents": 355904
+      },
+      "fb57c77e-a990-5f91-87d8-a2817e45d45b": {
+        "customer_id": "C-028585",
+        "cents": 355903
+      },
+      "243d7106-b076-51b4-b941-a3c14d8f76d6": {
+        "customer_id": "C-070713",
+        "cents": 355821
+      },
+      "91288428-f86f-5c72-988b-faa391f3e784": {
+        "customer_id": "C-031054",
+        "cents": 355750
+      },
+      "08ff35da-79e9-5d1e-9895-4689acaa3cdd": {
+        "customer_id": "C-067129",
+        "cents": 355747
+      },
+      "42a860b4-2369-51f8-9619-abcdf8ce9fb1": {
+        "customer_id": "C-055396",
+        "cents": 355723
+      },
+      "87d08f99-ab47-56f2-9030-55bfae1a5edb": {
+        "customer_id": "C-063340",
+        "cents": 355710
+      },
+      "ab2d44a5-9b7b-5162-a09f-da37ee518265": {
+        "customer_id": "C-076139",
+        "cents": 355667
+      },
+      "9a45b9de-546d-5e1a-b34f-17554a3b002c": {
+        "customer_id": "C-076379",
+        "cents": 355638
+      },
+      "40570555-244a-54d5-94cc-0ea8ee931cab": {
+        "customer_id": "C-093243",
+        "cents": 355624
+      },
+      "3004c7e1-6e63-5f48-8c68-9bbcafa2c780": {
+        "customer_id": "C-061492",
+        "cents": 355598
+      },
+      "b8c0f996-ae3c-55b8-b785-c34f93815276": {
+        "customer_id": "C-064754",
+        "cents": 355596
+      },
+      "8e040672-4cab-5095-8e48-481cfaf94e78": {
+        "customer_id": "C-054868",
+        "cents": 355560
+      },
+      "319d70c3-3b16-507a-8119-87096d44d7bf": {
+        "customer_id": "C-053699",
+        "cents": 355526
+      },
+      "aefa0ddc-2fda-5e4c-8b31-79dbb53e51f6": {
+        "customer_id": "C-021264",
+        "cents": 355479
+      },
+      "17060006-44b9-50fa-99df-0de2250c2b16": {
+        "customer_id": "C-032691",
+        "cents": 355430
+      },
+      "9ac57a88-b114-550a-aa8b-ef68ee31be88": {
+        "customer_id": "C-064438",
+        "cents": 355328
+      },
+      "2314268b-ad20-5166-8101-eb3763a33a6c": {
+        "customer_id": "C-052321",
+        "cents": 355314
+      },
+      "2faadeb6-47ca-5280-82e0-fc2e7130cc63": {
+        "customer_id": "C-057876",
+        "cents": 355290
+      },
+      "35acbbc5-abd3-592b-8247-2c7fe097272f": {
+        "customer_id": "C-009874",
+        "cents": 355268
+      },
+      "9df46faf-fc9f-59db-bd3e-d2da1c91dfc8": {
+        "customer_id": "C-073849",
+        "cents": 355101
+      },
+      "e530e66d-12d5-54a1-b3a7-614140c5f129": {
+        "customer_id": "C-069169",
+        "cents": 355079
+      },
+      "2803d3bb-84a1-50ca-9d9b-21471247ffd6": {
+        "customer_id": "C-024793",
+        "cents": 355046
+      },
+      "423018b7-e6db-5863-a9c5-fa1e13e8c0ae": {
+        "customer_id": "C-079787",
+        "cents": 354977
+      },
+      "2d07be6b-3cae-5a1a-9635-8211d5562313": {
+        "customer_id": "C-022380",
+        "cents": 354869
+      },
+      "bab2147b-0c04-5c2e-9ed6-52f221809b9c": {
+        "customer_id": "C-082363",
+        "cents": 354865
+      },
+      "4fff994b-01c4-51bf-a7e5-594830e4bfc7": {
+        "customer_id": "C-046689",
+        "cents": 354710
+      },
+      "2dcd1724-c4aa-5435-be1b-59645cbd809f": {
+        "customer_id": "C-021084",
+        "cents": 354702
+      },
+      "e24cae9d-7e2a-56ff-a529-1778fe4e35e0": {
+        "customer_id": "C-048320",
+        "cents": 354683
+      },
+      "cac1258f-d86b-5539-9c10-76b5c2d898be": {
+        "customer_id": "C-093744",
+        "cents": 354671
+      },
+      "7aeb627e-f772-59c1-a0ed-0aa5a5572665": {
+        "customer_id": "C-008776",
+        "cents": 354640
+      },
+      "361dcdc9-43ac-562b-9b57-43bf36f02957": {
+        "customer_id": "C-034725",
+        "cents": 354611
+      },
+      "628cd158-b641-514c-a250-1ce526839183": {
+        "customer_id": "C-070350",
+        "cents": 354589
+      },
+      "275f4783-7947-51e1-976d-df71a297c9cf": {
+        "customer_id": "C-097143",
+        "cents": 354572
+      },
+      "53b508b4-a395-5aae-8ed2-30d15066f875": {
+        "customer_id": "C-010850",
+        "cents": 354541
+      },
+      "38aec59b-9c4b-5269-8b56-d038877a70f5": {
+        "customer_id": "C-091503",
+        "cents": 354513
+      },
+      "035cb8a9-768d-5f45-845f-1b4b1f054101": {
+        "customer_id": "C-002689",
+        "cents": 354496
+      },
+      "fea0c796-ba0f-576c-829b-8c73f74ba1e7": {
+        "customer_id": "C-070331",
+        "cents": 354478
+      },
+      "b92dd794-eadf-5220-8618-d223432d723d": {
+        "customer_id": "C-005717",
+        "cents": 354443
+      },
+      "9bf9cec6-7aec-5656-9a9b-ac5929cdd53f": {
+        "customer_id": "C-070147",
+        "cents": 354442
+      },
+      "1d75aa8c-01c9-541b-96a9-b967656836df": {
+        "customer_id": "C-028154",
+        "cents": 354439
+      },
+      "0efa0fe3-cb6c-5a5c-9280-b10142ff4d45": {
+        "customer_id": "C-014756",
+        "cents": 354438
+      },
+      "86b3c912-fd1d-5f43-ad07-4bb1ed361cd9": {
+        "customer_id": "C-006716",
+        "cents": 354414
+      },
+      "181e7618-0289-53e6-83e5-ac67f61312a6": {
+        "customer_id": "C-033682",
+        "cents": 354293
+      },
+      "47bb54e6-09a1-5792-a815-80789ac5df47": {
+        "customer_id": "C-008229",
+        "cents": 354176
+      },
+      "7fce2ce6-aad8-552d-9317-10799a2541a2": {
+        "customer_id": "C-080665",
+        "cents": 354172
+      },
+      "b41003dd-21d9-5e4a-9911-73953ffd336b": {
+        "customer_id": "C-061878",
+        "cents": 354113
+      },
+      "31806c9c-65ff-58f7-9102-d5f289259c8b": {
+        "customer_id": "C-092336",
+        "cents": 353951
+      },
+      "96216738-c783-5beb-8d82-6c03dcd2b8cf": {
+        "customer_id": "C-019198",
+        "cents": 353949
+      },
+      "ca982fec-1acd-56fa-a8a3-2c3aa94cd9b1": {
+        "customer_id": "C-039267",
+        "cents": 353878
+      },
+      "7ed63fbb-0b60-5744-abf7-0fcb0afe79f6": {
+        "customer_id": "C-015400",
+        "cents": 353873
+      },
+      "f9a00229-13cd-5b41-8569-9707c365f8f9": {
+        "customer_id": "C-086701",
+        "cents": 353744
+      },
+      "4f003a47-8d06-5be9-860a-017ec5459eb8": {
+        "customer_id": "C-032813",
+        "cents": 353697
+      },
+      "824af15f-c11d-5a7c-8ef3-29dae47a5ea7": {
+        "customer_id": "C-063380",
+        "cents": 353677
+      },
+      "5bec11a7-6f58-5d27-99e3-9afae1815bed": {
+        "customer_id": "C-035394",
+        "cents": 353672
+      },
+      "91c46a80-12ff-5310-9bb5-c4964bd7c87f": {
+        "customer_id": "C-015457",
+        "cents": 353665
+      },
+      "7276529c-1b45-5d97-a9ff-a7317ffdb838": {
+        "customer_id": "C-000767",
+        "cents": 353644
+      },
+      "a58afbc8-d666-58ee-a4b2-26c2b8abbf61": {
+        "customer_id": "C-020313",
+        "cents": 353507
+      },
+      "d63d6457-424f-549e-8819-442a4c05509d": {
+        "customer_id": "C-023120",
+        "cents": 353446
+      },
+      "a4e6eb54-bff5-5bc7-95b6-aceb302cd2d8": {
+        "customer_id": "C-083060",
+        "cents": 353444
+      },
+      "a148b534-b099-59b3-ae6e-c1671829c136": {
+        "customer_id": "C-067896",
+        "cents": 353418
+      },
+      "f2d34138-1458-57e3-b2e2-ca0bfe24a1e7": {
+        "customer_id": "C-020241",
+        "cents": 353366
+      },
+      "e6f9c95f-6264-5a79-ae0b-6fb19bc55f1d": {
+        "customer_id": "C-000613",
+        "cents": 353265
+      },
+      "6ffba661-43c8-5d4f-8753-039388aa628c": {
+        "customer_id": "C-034739",
+        "cents": 353193
+      },
+      "dafbeb56-1c57-5097-8160-ce28541c0711": {
+        "customer_id": "C-021285",
+        "cents": 353136
+      },
+      "ff241208-87a5-5dc8-92e5-452e614ed50e": {
+        "customer_id": "C-033590",
+        "cents": 353085
+      },
+      "4b735e9c-3999-5c1a-907b-142cd7e373a9": {
+        "customer_id": "C-009665",
+        "cents": 353015
+      },
+      "13f2a618-707b-5704-93b4-cd789f440b49": {
+        "customer_id": "C-068584",
+        "cents": 352913
+      },
+      "3987b711-9563-5085-85e5-796508c471be": {
+        "customer_id": "C-046430",
+        "cents": 352866
+      },
+      "4c2175c4-a50c-5d24-878c-2fb45e8ac164": {
+        "customer_id": "C-022227",
+        "cents": 352838
+      },
+      "70ec6ac0-840d-5d30-ab77-0dba3eb6692b": {
+        "customer_id": "C-061067",
+        "cents": 352800
+      },
+      "1da93d42-2c59-5191-9ba4-4bd7143cdb3e": {
+        "customer_id": "C-018910",
+        "cents": 352781
+      },
+      "eb187970-087b-50fd-ab3d-402b489e996c": {
+        "customer_id": "C-023208",
+        "cents": 352727
+      },
+      "c297cd95-cfc6-52d7-9fc5-b7b09029aa93": {
+        "customer_id": "C-099657",
+        "cents": 352639
+      },
+      "0bce38d7-ef7c-59f9-ae29-84859eab63bc": {
+        "customer_id": "C-050536",
+        "cents": 352632
+      },
+      "63b23181-d879-5fad-8518-5157709dceb2": {
+        "customer_id": "C-016537",
+        "cents": 352591
+      },
+      "c6a571b4-f349-5a21-8aec-7a6ae5e47e67": {
+        "customer_id": "C-033675",
+        "cents": 352565
+      },
+      "0c47754b-0a65-53ff-81f2-fcbf1e57c35c": {
+        "customer_id": "C-073656",
+        "cents": 352565
+      },
+      "6338c79b-35c5-5e98-9997-41901be7389b": {
+        "customer_id": "C-059956",
+        "cents": 352519
+      },
+      "12028a6f-2966-5a4e-8d49-d9961435a888": {
+        "customer_id": "C-028025",
+        "cents": 352516
+      },
+      "ea878dd4-06d5-5073-b6ae-847f83b1d417": {
+        "customer_id": "C-067163",
+        "cents": 352498
+      },
+      "98fe8f14-fff9-53b6-8360-aa19261c3183": {
+        "customer_id": "C-098845",
+        "cents": 352445
+      },
+      "785ebc83-f34f-5e18-b98e-67ca7ebcfc37": {
+        "customer_id": "C-052621",
+        "cents": 352419
+      },
+      "9bffacc0-7ddc-5d79-9df0-e8fb9e31c202": {
+        "customer_id": "C-061198",
+        "cents": 352391
+      },
+      "5f1e18a4-95d9-5c15-b885-284a8f573a92": {
+        "customer_id": "C-084597",
+        "cents": 352316
+      },
+      "3197e0f7-a02d-5587-a64f-8e079739ac9f": {
+        "customer_id": "C-010865",
+        "cents": 352290
+      },
+      "642cdae0-eff8-5b37-980e-351c5881b9ee": {
+        "customer_id": "C-082046",
+        "cents": 352252
+      },
+      "d8aaca25-b531-5849-b8ae-a537abd2abd4": {
+        "customer_id": "C-028893",
+        "cents": 352191
+      },
+      "bfbe5d94-f7cf-5abd-a20d-8ed527b9c718": {
+        "customer_id": "C-085004",
+        "cents": 352011
+      },
+      "6a884743-0f9b-598c-a547-d29499583913": {
+        "customer_id": "C-074345",
+        "cents": 351850
+      },
+      "cf623367-070a-59b7-bd8d-0eb6bc613834": {
+        "customer_id": "C-035691",
+        "cents": 351824
+      },
+      "cf4faf53-9dc0-57d9-9040-2d2fb8758ecb": {
+        "customer_id": "C-029654",
+        "cents": 351761
+      },
+      "87e3d670-145c-59ed-be53-2dfeb491d06a": {
+        "customer_id": "C-068899",
+        "cents": 351691
+      },
+      "d7e43efa-bd6c-51f5-acd5-899b820cdc04": {
+        "customer_id": "C-028079",
+        "cents": 351684
+      },
+      "6f7be8d7-ab46-5e3e-98e9-d59282d62e08": {
+        "customer_id": "C-089269",
+        "cents": 351647
+      },
+      "fe4bb618-60ac-5c43-bfcd-ba0fd244b30f": {
+        "customer_id": "C-036038",
+        "cents": 351637
+      },
+      "4bcd24eb-acf0-5924-b2d2-f1d8e78430d6": {
+        "customer_id": "C-060192",
+        "cents": 351585
+      },
+      "dc1149c8-adc0-5ffd-bde4-32d1c2082da0": {
+        "customer_id": "C-068714",
+        "cents": 351584
+      },
+      "6a5be044-f883-55bf-8731-7b905885e179": {
+        "customer_id": "C-000318",
+        "cents": 351581
+      },
+      "e5f2ba7e-6e24-5026-85e2-00910a82b35c": {
+        "customer_id": "C-086217",
+        "cents": 351538
+      },
+      "10fa147f-2e42-5643-8f2f-222e0f052c70": {
+        "customer_id": "C-058215",
+        "cents": 351524
+      },
+      "cd06f29c-a643-5c5c-a1a5-390ff2cef062": {
+        "customer_id": "C-085289",
+        "cents": 351471
+      },
+      "d84ea35b-3bae-5d9c-99e0-f3594dc6ead0": {
+        "customer_id": "C-021202",
+        "cents": 351443
+      },
+      "053beddf-ec0e-566a-b4e6-07cf8712d394": {
+        "customer_id": "C-058979",
+        "cents": 351425
+      },
+      "366b4d76-72f4-5be1-a59e-cee850814538": {
+        "customer_id": "C-028961",
+        "cents": 351405
+      },
+      "c2876349-6f74-57ec-8c10-328ec0f2b00b": {
+        "customer_id": "C-054027",
+        "cents": 351359
+      },
+      "7e7dc0fd-571d-5443-b9aa-e4e1a7e9f35c": {
+        "customer_id": "C-064341",
+        "cents": 351302
+      },
+      "23aa12f9-9da6-5e6a-a5c5-f23d057a3297": {
+        "customer_id": "C-060685",
+        "cents": 351263
+      },
+      "3926b53d-9918-5236-ab56-1744f9c73348": {
+        "customer_id": "C-094428",
+        "cents": 351250
+      },
+      "ebb92f1a-571c-5049-9b05-7a66be824b7b": {
+        "customer_id": "C-087200",
+        "cents": 351226
+      },
+      "9d4afd00-c6a6-552a-b2d3-22fa583c15d5": {
+        "customer_id": "C-035290",
+        "cents": 351129
+      },
+      "f7b7b69c-cb2b-581d-9fdd-c28f7c8f1d43": {
+        "customer_id": "C-091782",
+        "cents": 351094
+      },
+      "617d8411-b735-558c-98c3-b82e1ccc1cce": {
+        "customer_id": "C-036439",
+        "cents": 351089
+      },
+      "6e77486c-40c4-5730-b22b-a33cc6b02953": {
+        "customer_id": "C-056743",
+        "cents": 351023
+      },
+      "7a316ce5-c936-54d3-92d9-e7b14b7ab87a": {
+        "customer_id": "C-066106",
+        "cents": 350778
+      },
+      "353dcd54-d765-5bb0-89ef-ec06ad057a99": {
+        "customer_id": "C-013775",
+        "cents": 350731
+      },
+      "1d60f989-10f9-5a8e-9b9f-fd9899401b08": {
+        "customer_id": "C-020696",
+        "cents": 350703
+      },
+      "7c37187c-c346-59af-b334-f33cbefd7c92": {
+        "customer_id": "C-094186",
+        "cents": 350672
+      },
+      "a38a6841-2f55-5f88-b193-f15dad25f0c8": {
+        "customer_id": "C-004729",
+        "cents": 350670
+      },
+      "617e5dc2-b0a9-5ce1-9643-a92ebb31bce1": {
+        "customer_id": "C-059500",
+        "cents": 350638
+      },
+      "c5b99f95-c275-57db-88d2-abdf5a21ea6f": {
+        "customer_id": "C-007221",
+        "cents": 350636
+      },
+      "55f795d5-6a2d-5c96-ba99-0d8c3a53a21d": {
+        "customer_id": "C-053834",
+        "cents": 350622
+      },
+      "973b4240-239c-5186-b937-141800c62c68": {
+        "customer_id": "C-016386",
+        "cents": 350594
+      },
+      "74f2c797-da00-5a5c-b32c-046ca2250d15": {
+        "customer_id": "C-076872",
+        "cents": 350566
+      },
+      "bc229280-2cd8-5aa7-b7e2-134c4a39f291": {
+        "customer_id": "C-098918",
+        "cents": 350480
+      },
+      "7a99a431-9d4c-5cad-b1ca-353b5147d29f": {
+        "customer_id": "C-089426",
+        "cents": 350424
+      },
+      "4b087073-614c-56cf-96e9-50a7eebc919f": {
+        "customer_id": "C-000219",
+        "cents": 350385
+      },
+      "33f1f8e7-cf23-5531-8eed-1af963928190": {
+        "customer_id": "C-091361",
+        "cents": 350364
+      },
+      "4aed7ed9-5cf9-5ace-9db8-3d0e04ff4430": {
+        "customer_id": "C-051878",
+        "cents": 350363
+      },
+      "64dfdcf1-309c-500a-a9f7-60a000c2139f": {
+        "customer_id": "C-083739",
+        "cents": 350356
+      },
+      "87f5c481-73f6-5171-9ec9-16f5fbec0361": {
+        "customer_id": "C-006300",
+        "cents": 350335
+      },
+      "43989ccc-0cac-5e9b-9dc0-870758654353": {
+        "customer_id": "C-025295",
+        "cents": 350260
+      },
+      "6e213af8-14d4-5cc1-b703-5e5c22163750": {
+        "customer_id": "C-003407",
+        "cents": 350258
+      },
+      "0ec243e9-e74d-5aae-b065-e0cf747002b9": {
+        "customer_id": "C-075913",
+        "cents": 350256
+      },
+      "af5a5ae0-44d3-58f8-9c5b-de191d6111ce": {
+        "customer_id": "C-021112",
+        "cents": 350247
+      },
+      "fbc9f993-b8d3-55f6-8bd3-090ae6b76f0f": {
+        "customer_id": "C-088676",
+        "cents": 350226
+      },
+      "639dd7fb-b90b-54d8-8cb6-55805a4506bc": {
+        "customer_id": "C-066560",
+        "cents": 350153
+      },
+      "8819508d-1509-51e6-8064-6a24e84fe734": {
+        "customer_id": "C-025972",
+        "cents": 350084
+      },
+      "e85cc504-f184-5896-91bc-f1da85763073": {
+        "customer_id": "C-066560",
+        "cents": 350022
+      },
+      "c7ae3b19-a33d-52c4-8716-22730865ec80": {
+        "customer_id": "C-086679",
+        "cents": 349901
+      },
+      "793b9c97-04e8-5563-9d6b-048678885a24": {
+        "customer_id": "C-092224",
+        "cents": 349882
+      },
+      "7240e5ea-a212-5ff5-8d82-8ab613682866": {
+        "customer_id": "C-072043",
+        "cents": 349882
+      },
+      "2ddda8ee-589d-5c60-9a14-03089afb2eb2": {
+        "customer_id": "C-079612",
+        "cents": 349758
+      },
+      "618ffa19-03cc-5624-af30-44a8ba9e7d9f": {
+        "customer_id": "C-057333",
+        "cents": 349622
+      },
+      "24dc2510-7dac-503c-bbca-dc14a638267d": {
+        "customer_id": "C-057664",
+        "cents": 349615
+      },
+      "5c20666a-d425-5e9c-b03a-b65668ddfb78": {
+        "customer_id": "C-076903",
+        "cents": 349583
+      },
+      "4a977aea-43bf-5187-ab73-b9c57c06123d": {
+        "customer_id": "C-051227",
+        "cents": 349575
+      },
+      "2e6de474-360f-571a-88f5-07db2d5a1d6f": {
+        "customer_id": "C-046514",
+        "cents": 349499
+      },
+      "fcb0ea69-8108-59f9-8ad8-8950f3404095": {
+        "customer_id": "C-061967",
+        "cents": 349471
+      },
+      "2af5f69e-b370-56ee-8b82-22aaaf73b97f": {
+        "customer_id": "C-054387",
+        "cents": 349461
+      },
+      "3bb252e9-9877-5d6a-93cd-57efc8e46edc": {
+        "customer_id": "C-056053",
+        "cents": 349451
+      },
+      "8c9ff065-52d2-5a37-8c11-6db9ddc79f88": {
+        "customer_id": "C-090582",
+        "cents": 349326
+      },
+      "3979a6da-7e1b-532e-911c-9b8965cc4cd3": {
+        "customer_id": "C-039477",
+        "cents": 349297
+      },
+      "e7aad0f6-c63c-5c2d-a768-a32b6dd24407": {
+        "customer_id": "C-041240",
+        "cents": 349214
+      },
+      "63379e6c-3a97-5506-a326-188a42658e65": {
+        "customer_id": "C-081192",
+        "cents": 349174
+      },
+      "137055c6-adb7-53e9-a1f0-80f78df3ad04": {
+        "customer_id": "C-036443",
+        "cents": 349159
+      },
+      "8fd871e8-eb6f-5f68-a78c-067610bbe36b": {
+        "customer_id": "C-076299",
+        "cents": 349155
+      },
+      "6a076013-a5c2-50b2-9e92-4371ae462dd9": {
+        "customer_id": "C-092435",
+        "cents": 349147
+      },
+      "024095c5-4923-5d14-8952-bc80f6f5a78d": {
+        "customer_id": "C-014080",
+        "cents": 349134
+      },
+      "b367186a-60d2-57a2-995e-6f6bdc421731": {
+        "customer_id": "C-097233",
+        "cents": 349042
+      },
+      "b13ae5c9-1e1e-5fa2-8f03-9b4ce08ed950": {
+        "customer_id": "C-078115",
+        "cents": 348922
+      },
+      "25e85b7b-e7ab-584a-8b92-7228776be657": {
+        "customer_id": "C-066615",
+        "cents": 348850
+      },
+      "f42c8695-c267-5990-b801-da2e168f8ea8": {
+        "customer_id": "C-092625",
+        "cents": 348775
+      },
+      "f7a2cf27-ea41-5d44-9120-eda98c4ff876": {
+        "customer_id": "C-022130",
+        "cents": 348689
+      },
+      "81a4bf3a-9c17-5de4-96e5-8364c021feca": {
+        "customer_id": "C-081873",
+        "cents": 348625
+      },
+      "d609e769-3f89-51c0-a995-bc5dfbdf72f2": {
+        "customer_id": "C-017633",
+        "cents": 348582
+      },
+      "75f9f9d9-0280-5108-8e2b-3b0bffae3930": {
+        "customer_id": "C-004976",
+        "cents": 348533
+      },
+      "b93038c7-806c-5fcb-b96b-14d6ffa18d48": {
+        "customer_id": "C-015055",
+        "cents": 348484
+      },
+      "040865fd-5a23-5add-93c5-41313909a018": {
+        "customer_id": "C-058199",
+        "cents": 348369
+      },
+      "6c26ff9f-f44d-5968-a60a-083cfa9917e5": {
+        "customer_id": "C-084168",
+        "cents": 348354
+      },
+      "798278da-d6ff-5385-a4f2-0a7aa094b403": {
+        "customer_id": "C-068742",
+        "cents": 348292
+      },
+      "a0d484b6-f798-5f6c-b383-354ffa9393c7": {
+        "customer_id": "C-014779",
+        "cents": 348212
+      },
+      "46cbcabe-b23d-5350-a012-884ef50da3ca": {
+        "customer_id": "C-033673",
+        "cents": 348207
+      },
+      "6a6ead9b-68c7-549e-b4aa-2c2b2ac522ba": {
+        "customer_id": "C-005269",
+        "cents": 348167
+      },
+      "6274db1e-b99a-596b-823f-7cc61c500a92": {
+        "customer_id": "C-022405",
+        "cents": 348150
+      },
+      "6183b721-b32c-5dcb-bf1d-04b10ee2f7c0": {
+        "customer_id": "C-016539",
+        "cents": 348101
+      },
+      "13a22d69-1971-5340-9097-6e6ce1b89f83": {
+        "customer_id": "C-009425",
+        "cents": 348036
+      },
+      "020093c8-b87b-5511-92aa-dfd82c16281a": {
+        "customer_id": "C-005876",
+        "cents": 348025
+      },
+      "f96fcaf9-4138-5092-806a-0d01e6349cf9": {
+        "customer_id": "C-061592",
+        "cents": 348014
+      },
+      "033a973b-1d35-54ed-bf35-b482ea52948e": {
+        "customer_id": "C-083077",
+        "cents": 347924
+      },
+      "bdc730a8-d6fc-5b41-9e59-77674dac40de": {
+        "customer_id": "C-075274",
+        "cents": 347900
+      },
+      "e57ae25b-d90c-523b-8160-f91cb9ec8ed4": {
+        "customer_id": "C-031016",
+        "cents": 347893
+      },
+      "aca71fac-d7d2-56c7-a7f0-5c232a20792c": {
+        "customer_id": "C-044448",
+        "cents": 347742
+      },
+      "7d088b52-d63b-5d6c-bc3e-0fd75db99cfb": {
+        "customer_id": "C-047031",
+        "cents": 347742
+      },
+      "199960ef-0952-50b1-92bd-284db6ec4dde": {
+        "customer_id": "C-083768",
+        "cents": 347725
+      },
+      "67e998d5-9c7c-5150-acfd-d9baffbf0ddb": {
+        "customer_id": "C-064315",
+        "cents": 347706
+      },
+      "138c4bd5-7f1a-5f69-b26c-7ba8cf2c4164": {
+        "customer_id": "C-004448",
+        "cents": 347695
+      },
+      "1d9a363f-fcfb-50d6-94bb-264a71d6d22a": {
+        "customer_id": "C-099665",
+        "cents": 347681
+      },
+      "c1db2834-488a-5d75-9857-e6d967291472": {
+        "customer_id": "C-068663",
+        "cents": 347665
+      },
+      "ad33d1a4-507a-5c88-a43e-756703513a97": {
+        "customer_id": "C-044695",
+        "cents": 347643
+      },
+      "f61582b8-8356-52c7-b828-39d87b0aba68": {
+        "customer_id": "C-062458",
+        "cents": 347630
+      },
+      "41b181f2-13b4-5bfa-b556-a8269ae1d93f": {
+        "customer_id": "C-049532",
+        "cents": 347618
+      },
+      "17338a46-e50c-5532-98f0-e0e1b07c9727": {
+        "customer_id": "C-019628",
+        "cents": 347562
+      },
+      "a9e9f3af-86cb-5d7c-ac5f-ca49e06215d0": {
+        "customer_id": "C-098211",
+        "cents": 347467
+      },
+      "4faebb8f-3322-5ff3-94b1-0e6ea85616d6": {
+        "customer_id": "C-010768",
+        "cents": 347444
+      },
+      "aac887f0-aef1-5220-8c2d-160a21767931": {
+        "customer_id": "C-039858",
+        "cents": 347439
+      },
+      "b7256ce9-db98-5b59-881b-4a19005a4c91": {
+        "customer_id": "C-095687",
+        "cents": 347401
+      },
+      "9affa684-7c9c-5d7e-8752-c16d0b389299": {
+        "customer_id": "C-017408",
+        "cents": 347384
+      },
+      "c9069a21-2b4b-50f5-8cc8-05aece097535": {
+        "customer_id": "C-079111",
+        "cents": 347342
+      },
+      "a4af4e8c-3a12-55f5-8acc-f62821a14fe6": {
+        "customer_id": "C-092916",
+        "cents": 347342
+      },
+      "03e5a8e3-9f61-5964-9f59-f143cd725b2c": {
+        "customer_id": "C-020259",
+        "cents": 347290
+      },
+      "46c04b69-72b6-5009-a60b-d07107cdb083": {
+        "customer_id": "C-075720",
+        "cents": 347259
+      },
+      "3700a708-9977-5f64-b8f2-97e2c0eb4f40": {
+        "customer_id": "C-042280",
+        "cents": 347203
+      },
+      "9aeaa2d3-1b69-53ab-97fa-05bbc9a7298c": {
+        "customer_id": "C-052181",
+        "cents": 347173
+      },
+      "e06f909d-b113-5f0b-aaf6-6c10112d380a": {
+        "customer_id": "C-006840",
+        "cents": 347145
+      },
+      "9c93a9a4-9853-5f0f-8ce1-8da5c3e68728": {
+        "customer_id": "C-060314",
+        "cents": 347132
+      },
+      "3dd558fe-337b-5a63-becd-3b6eba2fe93b": {
+        "customer_id": "C-005563",
+        "cents": 347064
+      },
+      "e07028ba-9a21-5669-b1e1-2ffd231d714d": {
+        "customer_id": "C-058924",
+        "cents": 347056
+      },
+      "47b4e871-311f-5bdf-b23f-ebb87d806549": {
+        "customer_id": "C-023845",
+        "cents": 347038
+      },
+      "39a4986f-eef4-5721-86dc-db2baa690ba1": {
+        "customer_id": "C-022199",
+        "cents": 347038
+      },
+      "9dcb2f4d-8cde-507a-85ab-d8e4e3416036": {
+        "customer_id": "C-077963",
+        "cents": 347015
+      },
+      "f4718ea4-3632-5ed9-b862-c84384571829": {
+        "customer_id": "C-014875",
+        "cents": 347010
+      },
+      "fcb399ee-228a-5c93-acf8-0343bdc867c7": {
+        "customer_id": "C-025364",
+        "cents": 346946
+      },
+      "5649c375-06ed-5454-87f1-6fa5f64b4419": {
+        "customer_id": "C-093007",
+        "cents": 346927
+      },
+      "c26f25e4-c486-5594-955a-24218fb244d7": {
+        "customer_id": "C-025620",
+        "cents": 346924
+      },
+      "579d2afd-db7a-55da-947f-309e67c2acda": {
+        "customer_id": "C-067992",
+        "cents": 346707
+      },
+      "00082934-1ac6-5c0f-bea3-0f758dff048b": {
+        "customer_id": "C-042472",
+        "cents": 346697
+      },
+      "a617af8c-9380-56aa-a386-6913273b5c96": {
+        "customer_id": "C-027938",
+        "cents": 346685
+      },
+      "0f8f2809-3d1f-56c4-b037-d3d8f86efc64": {
+        "customer_id": "C-003931",
+        "cents": 346677
+      },
+      "a5971ba2-2d15-5d93-b3c4-7064ee4bef66": {
+        "customer_id": "C-065000",
+        "cents": 346661
+      },
+      "10cd4bb4-8ba9-591a-9e5a-d5e9c66e14c4": {
+        "customer_id": "C-068784",
+        "cents": 346645
+      },
+      "05eeb5cc-a836-55f7-8af6-7a005203b5dd": {
+        "customer_id": "C-084253",
+        "cents": 346583
+      },
+      "f2425578-810d-508d-bef8-5ff4b5dc0fc7": {
+        "customer_id": "C-019599",
+        "cents": 346558
+      },
+      "c95a64c4-a7cb-54dc-af3a-e67ff3c2f40b": {
+        "customer_id": "C-072712",
+        "cents": 346493
+      },
+      "ec7e6992-ba36-5e2a-bb8f-9ae9ab0bab54": {
+        "customer_id": "C-081120",
+        "cents": 346319
+      },
+      "eb38f2dc-9a28-59fc-ac86-5d505fea8909": {
+        "customer_id": "C-095016",
+        "cents": 346289
+      },
+      "5378a37b-3c16-516e-a176-d1afa909573f": {
+        "customer_id": "C-044481",
+        "cents": 346255
+      },
+      "b3544e75-16c9-5cfd-9da4-50e7416c073d": {
+        "customer_id": "C-081297",
+        "cents": 346243
+      },
+      "28beccdb-0cbf-59bd-a47d-321c7564f002": {
+        "customer_id": "C-025779",
+        "cents": 346240
+      },
+      "4f38699c-66e1-5f4c-a933-e325c808f94d": {
+        "customer_id": "C-057239",
+        "cents": 346160
+      },
+      "55c858d9-2323-5619-b251-885fc155a10e": {
+        "customer_id": "C-062557",
+        "cents": 346062
+      },
+      "0416f3de-5147-5575-843f-7de9a70f0b77": {
+        "customer_id": "C-040036",
+        "cents": 346030
+      },
+      "b7750497-9236-5cfb-a1c8-a8bb05802489": {
+        "customer_id": "C-085289",
+        "cents": 346002
+      },
+      "19c6660b-f293-5278-b36a-13cd3d9ea355": {
+        "customer_id": "C-013407",
+        "cents": 345993
+      },
+      "fee6ebee-bccc-51a7-b53f-6bf32824bd0f": {
+        "customer_id": "C-008120",
+        "cents": 345930
+      },
+      "0a0eda56-3b89-538d-be45-e01f9f44b974": {
+        "customer_id": "C-025643",
+        "cents": 345908
+      },
+      "b9fde79c-da70-5eed-a439-16571d64c98d": {
+        "customer_id": "C-086117",
+        "cents": 345848
+      },
+      "c6950141-4a27-5fff-91e3-4bcf2c52b408": {
+        "customer_id": "C-062617",
+        "cents": 345829
+      },
+      "2033b76b-2771-528e-b139-55a545a2aa08": {
+        "customer_id": "C-034985",
+        "cents": 345825
+      },
+      "45f2ba7e-67f3-5421-b3ef-dd6130628958": {
+        "customer_id": "C-007701",
+        "cents": 345803
+      },
+      "f19ac92e-7b39-5188-b9c3-831255c468f0": {
+        "customer_id": "C-045030",
+        "cents": 345796
+      },
+      "bbc7d934-9f7b-53e0-948e-ce083b8d0134": {
+        "customer_id": "C-035636",
+        "cents": 345778
+      },
+      "05d5394f-fc31-5f65-b3fc-95bcaaa92d3b": {
+        "customer_id": "C-048942",
+        "cents": 345768
+      },
+      "d19609a4-a4dc-5ec7-b2f3-3ec14690f676": {
+        "customer_id": "C-015682",
+        "cents": 345723
+      },
+      "7e56382d-4c2f-549a-a444-c46e248d2f34": {
+        "customer_id": "C-017261",
+        "cents": 345701
+      },
+      "b2273451-1ca6-5047-ac1b-3fed1439939f": {
+        "customer_id": "C-056728",
+        "cents": 345696
+      },
+      "b59dbebe-139c-5f30-94f1-bbdf601b13bc": {
+        "customer_id": "C-084269",
+        "cents": 345689
+      },
+      "163c670d-78e2-5862-9377-4b15e135a3b8": {
+        "customer_id": "C-094030",
+        "cents": 345658
+      },
+      "3ed387eb-1b21-5062-bf6a-6c956bea59d9": {
+        "customer_id": "C-015612",
+        "cents": 345567
+      },
+      "3ad26f8e-86df-5d02-a358-1e3f46d190c2": {
+        "customer_id": "C-073734",
+        "cents": 345550
+      },
+      "b7580fb6-be22-5854-a9a0-5617f0ef25c2": {
+        "customer_id": "C-017826",
+        "cents": 345489
+      },
+      "6de52369-adc8-5153-92e6-76ea7ef9c108": {
+        "customer_id": "C-061181",
+        "cents": 345463
+      },
+      "6fabafcc-13ae-5b82-8402-3da1fed29e4b": {
+        "customer_id": "C-012699",
+        "cents": 345321
+      },
+      "318bf525-668c-5032-94e6-5df83b3fb316": {
+        "customer_id": "C-032752",
+        "cents": 345312
+      },
+      "f6b916e1-9367-5e24-a30c-171365af077c": {
+        "customer_id": "C-012673",
+        "cents": 345297
+      },
+      "67619bcd-87d0-5867-a066-6a6d0b66e6f4": {
+        "customer_id": "C-063724",
+        "cents": 345276
+      },
+      "1e410d6a-db6f-5a0d-92c7-ea9a3ef2d935": {
+        "customer_id": "C-010823",
+        "cents": 345227
+      },
+      "82a92b0e-cde1-5782-aa85-38b0fd6017b2": {
+        "customer_id": "C-063601",
+        "cents": 345192
+      },
+      "a6b71013-c682-56e3-8595-8ea4d07c87eb": {
+        "customer_id": "C-028577",
+        "cents": 345187
+      },
+      "93d8080d-f697-5e38-bb5c-7ed3f73b317d": {
+        "customer_id": "C-090433",
+        "cents": 345169
+      },
+      "8a3c395d-bf76-5e24-8e77-a8c6cee331a1": {
+        "customer_id": "C-066253",
+        "cents": 345165
+      },
+      "2ff94e9d-2efc-5c05-958c-6f769f0c6d31": {
+        "customer_id": "C-098020",
+        "cents": 345131
+      },
+      "a82b9108-0292-5c09-aabf-80a2c38ccca9": {
+        "customer_id": "C-059224",
+        "cents": 345058
+      },
+      "21e0f10a-1cc6-5760-a975-a1783171fe05": {
+        "customer_id": "C-042101",
+        "cents": 345041
+      },
+      "ba2bd836-de9b-5739-96d4-fbefd32068d8": {
+        "customer_id": "C-045518",
+        "cents": 345027
+      },
+      "f6ea8c87-f8e1-5d70-ae47-8191e95ae034": {
+        "customer_id": "C-021788",
+        "cents": 345019
+      },
+      "c4d028f7-dfe7-5b57-a4f2-591e1f4f2b3e": {
+        "customer_id": "C-070885",
+        "cents": 345010
+      },
+      "bec28a72-e9a5-533d-b5cd-f7468ccfce49": {
+        "customer_id": "C-048102",
+        "cents": 344914
+      },
+      "021d6664-d32c-52cd-b2fb-bda527d99da1": {
+        "customer_id": "C-085070",
+        "cents": 344820
+      },
+      "218296ea-311d-55c8-9741-30ac5baa8e67": {
+        "customer_id": "C-008954",
+        "cents": 344714
+      },
+      "bd8dba1f-b6f5-56b9-8fcc-0b32fd701bd1": {
+        "customer_id": "C-044137",
+        "cents": 344709
+      },
+      "26770872-de35-5fb0-82a5-e8edc30b8a3b": {
+        "customer_id": "C-045540",
+        "cents": 344649
+      },
+      "2bd59ccc-02d9-5fea-a45a-41b77dc60ab1": {
+        "customer_id": "C-060931",
+        "cents": 344641
+      },
+      "1db4982a-291d-5fb6-8492-c473b4c99e68": {
+        "customer_id": "C-010729",
+        "cents": 344563
+      },
+      "30f4c513-0ecb-5e09-8957-a2169f2d54dc": {
+        "customer_id": "C-054654",
+        "cents": 344536
+      },
+      "aedec227-b44d-50ee-8ab6-0adfecacd52b": {
+        "customer_id": "C-010445",
+        "cents": 344534
+      },
+      "f57f9ed8-dea4-5d1f-92f3-1c85800575f5": {
+        "customer_id": "C-034014",
+        "cents": 344503
+      },
+      "28da326e-ba79-5d89-b315-26f262224863": {
+        "customer_id": "C-062653",
+        "cents": 344495
+      },
+      "b26033a2-a303-59d9-915e-a542aa7bb2b5": {
+        "customer_id": "C-048260",
+        "cents": 344479
+      },
+      "28199eaf-0ee2-5197-b568-e96544ef0b06": {
+        "customer_id": "C-000569",
+        "cents": 344400
+      }
+    },
+    "boundary": {
+      "437744a6-1722-50be-8d20-48993a434c2a": {
+        "customer_id": "C-088361",
+        "cents": 344395
+      }
+    }
+  }
+}

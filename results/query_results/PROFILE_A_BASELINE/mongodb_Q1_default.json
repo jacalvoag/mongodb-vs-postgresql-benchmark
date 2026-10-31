@@ -1,0 +1,254 @@
+[
+  {
+    "country": "AR",
+    "category": "sports",
+    "total_revenue": "15088595.85",
+    "avg_revenue": "449.8284545210625",
+    "count": 33543
+  },
+  {
+    "country": "US",
+    "category": "food",
+    "total_revenue": "14965910.61",
+    "avg_revenue": "450.44125237020313",
+    "count": 33225
+  },
+  {
+    "country": "MX",
+    "category": "books",
+    "total_revenue": "15008874.38",
+    "avg_revenue": "450.10869335732497",
+    "count": 33345
+  },
+  {
+    "country": "CA",
+    "category": "books",
+    "total_revenue": "15337030.32",
+    "avg_revenue": "455.0777496884458",
+    "count": 33702
+  },
+  {
+    "country": "ES",
+    "category": "books",
+    "total_revenue": "15133010.09",
+    "avg_revenue": "449.9586729900095",
+    "count": 33632
+  },
+  {
+    "country": "CA",
+    "category": "food",
+    "total_revenue": "15016160.77",
+    "avg_revenue": "450.96284371433717",
+    "count": 33298
+  },
+  {
+    "country": "AR",
+    "category": "clothing",
+    "total_revenue": "15329098.06",
+    "avg_revenue": "452.4393630648446",
+    "count": 33881
+  },
+  {
+    "country": "ES",
+    "category": "electronics",
+    "total_revenue": "14979756.73",
+    "avg_revenue": "448.6837815251902",
+    "count": 33386
+  },
+  {
+    "country": "CO",
+    "category": "food",
+    "total_revenue": "15104890.2",
+    "avg_revenue": "451.1481198291568",
+    "count": 33481
+  },
+  {
+    "country": "MX",
+    "category": "clothing",
+    "total_revenue": "15090790.96",
+    "avg_revenue": "450.2160255377547",
+    "count": 33519
+  },
+  {
+    "country": "MX",
+    "category": "home",
+    "total_revenue": "15052408.84",
+    "avg_revenue": "450.1453045844672",
+    "count": 33439
+  },
+  {
+    "country": "AR",
+    "category": "food",
+    "total_revenue": "14911395.91",
+    "avg_revenue": "446.58268673255463",
+    "count": 33390
+  },
+  {
+    "country": "CO",
+    "category": "electronics",
+    "total_revenue": "14998000.4",
+    "avg_revenue": "448.6255391702312",
+    "count": 33431
+  },
+  {
+    "country": "CA",
+    "category": "clothing",
+    "total_revenue": "15147972.14",
+    "avg_revenue": "450.2295182047853",
+    "count": 33645
+  },
+  {
+    "country": "CA",
+    "category": "home",
+    "total_revenue": "14878307.77",
+    "avg_revenue": "449.6587212886847",
+    "count": 33088
+  },
+  {
+    "country": "US",
+    "category": "clothing",
+    "total_revenue": "15024999.19",
+    "avg_revenue": "450.4571785339529",
+    "count": 33355
+  },
+  {
+    "country": "US",
+    "category": "electronics",
+    "total_revenue": "14804416.07",
+    "avg_revenue": "448.8362863812758",
+    "count": 32984
+  },
+  {
+    "country": "CA",
+    "category": "electronics",
+    "total_revenue": "15099048.55",
+    "avg_revenue": "454.3116759440349",
+    "count": 33235
+  },
+  {
+    "country": "MX",
+    "category": "sports",
+    "total_revenue": "15111794.41",
+    "avg_revenue": "451.1926196518676",
+    "count": 33493
+  },
+  {
+    "country": "US",
+    "category": "books",
+    "total_revenue": "15124787.46",
+    "avg_revenue": "448.2215344950214",
+    "count": 33744
+  },
+  {
+    "country": "CO",
+    "category": "home",
+    "total_revenue": "15168113.52",
+    "avg_revenue": "453.0499856630824",
+    "count": 33480
+  },
+  {
+    "country": "MX",
+    "category": "food",
+    "total_revenue": "15001536.35",
+    "avg_revenue": "449.86164722463786",
+    "count": 33347
+  },
+  {
+    "country": "ES",
+    "category": "clothing",
+    "total_revenue": "15091218.47",
+    "avg_revenue": "450.9148580733835",
+    "count": 33468
+  },
+  {
+    "country": "AR",
+    "category": "electronics",
+    "total_revenue": "14924393.12",
+    "avg_revenue": "446.1035157674488",
+    "count": 33455
+  },
+  {
+    "country": "ES",
+    "category": "home",
+    "total_revenue": "15063871.8",
+    "avg_revenue": "449.2118983718018",
+    "count": 33534
+  },
+  {
+    "country": "AR",
+    "category": "books",
+    "total_revenue": "15210855.67",
+    "avg_revenue": "451.69578827023014",
+    "count": 33675
+  },
+  {
+    "country": "ES",
+    "category": "sports",
+    "total_revenue": "15231031.92",
+    "avg_revenue": "451.7449258512279",
+    "count": 33716
+  },
+  {
+    "country": "CA",
+    "category": "sports",
+    "total_revenue": "15060780.66",
+    "avg_revenue": "450.9755856988861",
+    "count": 33396
+  },
+  {
+    "country": "CO",
+    "category": "clothing",
+    "total_revenue": "14990378.92",
+    "avg_revenue": "447.2470364292747",
+    "count": 33517
+  },
+  {
+    "country": "CO",
+    "category": "books",
+    "total_revenue": "14921992.82",
+    "avg_revenue": "447.28853511585385",
+    "count": 33361
+  },
+  {
+    "country": "ES",
+    "category": "food",
+    "total_revenue": "15067659.69",
+    "avg_revenue": "452.45509849258303",
+    "count": 33302
+  },
+  {
+    "country": "AR",
+    "category": "home",
+    "total_revenue": "15112781.93",
+    "avg_revenue": "451.0470342625201",
+    "count": 33506
+  },
+  {
+    "country": "US",
+    "category": "home",
+    "total_revenue": "14932447.0",
+    "avg_revenue": "450.8180720345379",
+    "count": 33123
+  },
+  {
+    "country": "CO",
+    "category": "sports",
+    "total_revenue": "15067564.95",
+    "avg_revenue": "450.3830503661635",
+    "count": 33455
+  },
+  {
+    "country": "US",
+    "category": "sports",
+    "total_revenue": "15027154.64",
+    "avg_revenue": "451.1710643408293",
+    "count": 33307
+  },
+  {
+    "country": "MX",
+    "category": "electronics",
+    "total_revenue": "14962076.94",
+    "avg_revenue": "450.6513942351134",
+    "count": 33201
+  }
+]

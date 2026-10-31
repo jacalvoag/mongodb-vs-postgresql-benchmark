@@ -1,0 +1,15 @@
+[
+    {"$unwind": "$items"},
+    {"$match": {"items.price": {"$gt": 50}}},
+    {
+    "$group": {
+        "_id": {
+        "country": "$customer.geo.country",
+        "category": "$items.category"
+        },
+        "total_revenue": {"$sum": {"$multiply": ["$items.qty", "$items.price"]}},
+        "avg_revenue": {"$avg": {"$multiply": ["$items.qty", "$items.price"]}},
+        "count": {"$sum": 1}
+    }
+    }
+]

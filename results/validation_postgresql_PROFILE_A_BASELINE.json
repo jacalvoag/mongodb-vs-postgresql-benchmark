@@ -1,0 +1,45 @@
+{
+  "engine": "postgresql",
+  "profile": "PROFILE_A_BASELINE",
+  "server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+  "source_sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac",
+  "query_sha256": {
+    "Q1": "9d71411869ec80f9b14874fd3b513a25cc49402f2d9977cb0eaad78ec1b72c64",
+    "Q2": "02c5c956023972d22e4e22895730b6fe8f992ade1cd1cd48dc8e15e47e8f193f"
+  },
+  "numeric_tolerance": {
+    "absolute": "0.000001",
+    "relative": "1E-12"
+  },
+  "verified_at_utc": "2026-10-31T05:20:43.515470+00:00",
+  "cases": [
+    {
+      "query_id": "Q1",
+      "variant": "default",
+      "setting": null,
+      "status": "ok",
+      "rows": 36,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/postgresql_Q1_default.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/postgresql_Q1_default.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "work_mem_4MB",
+      "setting": "4MB",
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/postgresql_Q2_work_mem_4MB.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/postgresql_Q2_work_mem_4MB.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "work_mem_64MB",
+      "setting": "64MB",
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/postgresql_Q2_work_mem_64MB.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/postgresql_Q2_work_mem_64MB.json"
+    }
+  ],
+  "status": "ok"
+}

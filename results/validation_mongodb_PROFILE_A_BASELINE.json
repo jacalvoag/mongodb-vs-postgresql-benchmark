@@ -1,0 +1,45 @@
+{
+  "engine": "mongodb",
+  "profile": "PROFILE_A_BASELINE",
+  "server_version": "9.0.4",
+  "source_sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac",
+  "query_sha256": {
+    "Q1": "ef9d7f79b5f1686fbfb8270a078466af61b7e27ce38740d447c80310707e00ea",
+    "Q2": "9ec49df9fc698b76399757915442f18785052db5ac1af31eeb6c7a6f70746dcf"
+  },
+  "numeric_tolerance": {
+    "absolute": "0.000001",
+    "relative": "1E-12"
+  },
+  "verified_at_utc": "2026-10-31T05:19:13.537669+00:00",
+  "cases": [
+    {
+      "query_id": "Q1",
+      "variant": "default",
+      "setting": null,
+      "status": "ok",
+      "rows": 36,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/mongodb_Q1_default.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/mongodb_Q1_default.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "allowDiskUse_false",
+      "setting": false,
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_false.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_false.json"
+    },
+    {
+      "query_id": "Q2",
+      "variant": "allowDiskUse_true",
+      "setting": true,
+      "status": "ok",
+      "rows": 1000,
+      "results_file": "results/query_results/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_true.json",
+      "plan_file": "evidence/plans/PROFILE_A_BASELINE/mongodb_Q2_allowDiskUse_true.json"
+    }
+  ],
+  "status": "ok"
+}

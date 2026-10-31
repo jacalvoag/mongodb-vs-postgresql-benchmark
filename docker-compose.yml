@@ -127,6 +127,26 @@ services:
       - ./data:/work/data:ro
       - ./results:/work/results
 
+  query-validator:
+    profiles: [tools]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.validator
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:?Define PYTHON_IMAGE en .env}
+    environment:
+      MONGO_USER: ${MONGO_USER:?Define MONGO_USER en .env}
+      MONGO_PASSWORD: ${MONGO_PASSWORD:?Define MONGO_PASSWORD en .env}
+      MONGO_DB: benchmark
+      POSTGRES_USER: ${POSTGRES_USER:?Define POSTGRES_USER en .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:?Define POSTGRES_DB en .env}
+      PROFILE_ID: ${PROFILE_ID:-PROFILE_A_BASELINE}
+    volumes:
+      - ./data:/work/data:ro
+      - ./results:/work/results
+      - ./evidence:/work/evidence
+
 volumes:
   mongo_data:
   postgres_data:

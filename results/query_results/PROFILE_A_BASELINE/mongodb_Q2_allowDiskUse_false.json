@@ -1,0 +1,5002 @@
+[
+  {
+    "order_id": "3724a04f-bf46-5b19-ae28-e46e4b70827e",
+    "customer_id": "C-096288",
+    "final_total": "4996.31"
+  },
+  {
+    "order_id": "b91654b1-65b7-58ac-a972-88386d643adb",
+    "customer_id": "C-098821",
+    "final_total": "4899.34"
+  },
+  {
+    "order_id": "3e6d80a7-e896-5a1e-a294-d33c7af81f18",
+    "customer_id": "C-005284",
+    "final_total": "4841.53"
+  },
+  {
+    "order_id": "e1fe8a14-4cb8-5c20-8413-5befac5da47a",
+    "customer_id": "C-060260",
+    "final_total": "4802.96"
+  },
+  {
+    "order_id": "445e2d5e-72d9-5bc9-bcf7-2e3edcee196d",
+    "customer_id": "C-076512",
+    "final_total": "4800.28"
+  },
+  {
+    "order_id": "4975e147-14d7-5357-bf17-bdc567aea4d9",
+    "customer_id": "C-076415",
+    "final_total": "4738.77"
+  },
+  {
+    "order_id": "304fe7e6-b743-5a05-99a1-bc2b9893cdb5",
+    "customer_id": "C-038571",
+    "final_total": "4641.6"
+  },
+  {
+    "order_id": "52664182-c00a-5a61-a110-73633d60faae",
+    "customer_id": "C-057955",
+    "final_total": "4637.44"
+  },
+  {
+    "order_id": "5e3b9ce2-8d4e-5f64-b4cc-f90bb0e8264e",
+    "customer_id": "C-060428",
+    "final_total": "4621.69"
+  },
+  {
+    "order_id": "28fe4973-d608-5b70-8935-f31359ffebc7",
+    "customer_id": "C-028511",
+    "final_total": "4587.99"
+  },
+  {
+    "order_id": "14b1446b-efd1-52c0-8f92-efda7f8cf5d3",
+    "customer_id": "C-001808",
+    "final_total": "4547.88"
+  },
+  {
+    "order_id": "6cd338ff-0f6d-5050-b7e3-ab0f511e1319",
+    "customer_id": "C-009260",
+    "final_total": "4543.13"
+  },
+  {
+    "order_id": "ffd660cd-8445-5cfb-b753-acedcb05a1da",
+    "customer_id": "C-028815",
+    "final_total": "4534.81"
+  },
+  {
+    "order_id": "122de6ba-b9cd-59d6-83fb-92fcc7c8ba4e",
+    "customer_id": "C-038603",
+    "final_total": "4518.9"
+  },
+  {
+    "order_id": "a912b630-ec8d-5f7f-8a87-ef0322f3d02a",
+    "customer_id": "C-003045",
+    "final_total": "4514.14"
+  },
+  {
+    "order_id": "31cb5aea-290d-5366-8453-e84072082cab",
+    "customer_id": "C-057542",
+    "final_total": "4510.72"
+  },
+  {
+    "order_id": "2adfd2fb-92cc-5e9d-b9d6-e8e1ecba8f40",
+    "customer_id": "C-009959",
+    "final_total": "4495.71"
+  },
+  {
+    "order_id": "5e75fa3c-0473-5455-9755-79a7edd0bb51",
+    "customer_id": "C-096362",
+    "final_total": "4492.93"
+  },
+  {
+    "order_id": "4685df81-3b81-54a8-a493-f199cc836f41",
+    "customer_id": "C-075770",
+    "final_total": "4466.87"
+  },
+  {
+    "order_id": "1182da69-438a-50b4-8bfb-e98f683e0c99",
+    "customer_id": "C-099835",
+    "final_total": "4449.62"
+  },
+  {
+    "order_id": "7f42b450-2913-5380-821a-6b3a7f6785f5",
+    "customer_id": "C-017734",
+    "final_total": "4446.96"
+  },
+  {
+    "order_id": "4b4a94ff-3138-5303-8424-ee3cc77e8bcc",
+    "customer_id": "C-095714",
+    "final_total": "4445.4"
+  },
+  {
+    "order_id": "fd86bad8-b5e4-5c38-a9b1-80c2163e332f",
+    "customer_id": "C-008937",
+    "final_total": "4444.55"
+  },
+  {
+    "order_id": "fd41c67a-2b72-5e47-aa0f-bf79ff6d2a47",
+    "customer_id": "C-075997",
+    "final_total": "4438.99"
+  },
+  {
+    "order_id": "f0499670-cb20-5273-acb7-b5e14474c861",
+    "customer_id": "C-025170",
+    "final_total": "4432.92"
+  },
+  {
+    "order_id": "2578589e-170e-5ab1-8d39-1a8627911f1d",
+    "customer_id": "C-032315",
+    "final_total": "4427.71"
+  },
+  {
+    "order_id": "3ce0176d-4fca-5c70-a5e5-63ddb0de2608",
+    "customer_id": "C-098241",
+    "final_total": "4419.02"
+  },
+  {
+    "order_id": "88e9af95-aab1-51cc-a332-34753cc4125c",
+    "customer_id": "C-008980",
+    "final_total": "4402.76"
+  },
+  {
+    "order_id": "a185d834-f7ff-5e73-a063-92f6b6dcac74",
+    "customer_id": "C-072830",
+    "final_total": "4372.26"
+  },
+  {
+    "order_id": "bbd53357-ed7b-5fe3-8054-7b283369f294",
+    "customer_id": "C-056526",
+    "final_total": "4367.84"
+  },
+  {
+    "order_id": "d599d6cb-10d2-5817-b3c1-4fd81cfbb765",
+    "customer_id": "C-086537",
+    "final_total": "4358.73"
+  },
+  {
+    "order_id": "1989aeb2-d9de-575b-bcd8-ce3421e540a0",
+    "customer_id": "C-025678",
+    "final_total": "4345.08"
+  },
+  {
+    "order_id": "c72fa60a-2424-5472-8836-a9799602c098",
+    "customer_id": "C-030911",
+    "final_total": "4340.93"
+  },
+  {
+    "order_id": "f5d3014e-75b8-5a69-b675-515b29caead3",
+    "customer_id": "C-076962",
+    "final_total": "4339.65"
+  },
+  {
+    "order_id": "b8ee8a16-42ad-59cc-956c-ff7d39bffffd",
+    "customer_id": "C-029327",
+    "final_total": "4331.58"
+  },
+  {
+    "order_id": "e67794f1-a28d-5770-a8b4-78d2897149a4",
+    "customer_id": "C-060229",
+    "final_total": "4320.73"
+  },
+  {
+    "order_id": "3300e51e-2312-595e-a942-10b3f346f145",
+    "customer_id": "C-061972",
+    "final_total": "4319.05"
+  },
+  {
+    "order_id": "53a7a5bc-b895-5344-a38f-4351850b1bff",
+    "customer_id": "C-017244",
+    "final_total": "4315.98"
+  },
+  {
+    "order_id": "64117514-0022-5520-a9d0-f3543d66bcdb",
+    "customer_id": "C-040231",
+    "final_total": "4314.6"
+  },
+  {
+    "order_id": "5eb71ffc-abc8-5716-af52-5fe88cd7b170",
+    "customer_id": "C-009338",
+    "final_total": "4313.36"
+  },
+  {
+    "order_id": "5e003174-b9ed-57ef-a400-ac3b5eb2d32b",
+    "customer_id": "C-050931",
+    "final_total": "4308.28"
+  },
+  {
+    "order_id": "df56da2d-0231-56ac-8055-8d58f24c9306",
+    "customer_id": "C-047109",
+    "final_total": "4300.6"
+  },
+  {
+    "order_id": "b856bee6-0200-55a8-a04a-9ca84bb8ce8d",
+    "customer_id": "C-021945",
+    "final_total": "4299.53"
+  },
+  {
+    "order_id": "2016a5ad-58a7-500c-8988-5feff8d822e5",
+    "customer_id": "C-041842",
+    "final_total": "4299.24"
+  },
+  {
+    "order_id": "7e83813a-e407-5550-9959-0d9fdd4ed2a4",
+    "customer_id": "C-040694",
+    "final_total": "4297.67"
+  },
+  {
+    "order_id": "d376384f-02d7-5d96-b41f-168ee858110c",
+    "customer_id": "C-094696",
+    "final_total": "4296.42"
+  },
+  {
+    "order_id": "33d3ba92-3505-5e03-8951-d2bef81dc6b1",
+    "customer_id": "C-030549",
+    "final_total": "4294.49"
+  },
+  {
+    "order_id": "b7650f7f-ee49-5537-b917-1a04b93ed5d6",
+    "customer_id": "C-016733",
+    "final_total": "4291.8"
+  },
+  {
+    "order_id": "2d4dffb6-3e66-5d3e-8977-9f0d7144a7c7",
+    "customer_id": "C-083519",
+    "final_total": "4289.65"
+  },
+  {
+    "order_id": "b12d963c-0f25-544f-89b8-47ba38d3eb0c",
+    "customer_id": "C-027302",
+    "final_total": "4289.59"
+  },
+  {
+    "order_id": "68b4e9b1-9678-5ed0-9c79-52caaee87a8d",
+    "customer_id": "C-049395",
+    "final_total": "4287.35"
+  },
+  {
+    "order_id": "4c40e741-dafe-54d1-b902-d3cca5381904",
+    "customer_id": "C-029866",
+    "final_total": "4284.34"
+  },
+  {
+    "order_id": "7f91aace-057d-5279-8ba7-c2dea98b7847",
+    "customer_id": "C-076480",
+    "final_total": "4282.78"
+  },
+  {
+    "order_id": "01ece2f5-f5f7-5b31-8158-8b3555041d28",
+    "customer_id": "C-042856",
+    "final_total": "4280.67"
+  },
+  {
+    "order_id": "695a61a3-becd-57d3-8a0b-e1c324f1447a",
+    "customer_id": "C-013470",
+    "final_total": "4269.0"
+  },
+  {
+    "order_id": "5b3c668c-83c0-5bd8-9c00-9e1709b22ba5",
+    "customer_id": "C-033696",
+    "final_total": "4264.89"
+  },
+  {
+    "order_id": "4168af2e-59d4-5e45-ba45-b9ee82f1c858",
+    "customer_id": "C-065292",
+    "final_total": "4264.77"
+  },
+  {
+    "order_id": "ce023ca1-e503-5920-b55d-fd4540f1ebab",
+    "customer_id": "C-071713",
+    "final_total": "4262.56"
+  },
+  {
+    "order_id": "42da270e-259e-5dae-9906-df65c5e96c85",
+    "customer_id": "C-063330",
+    "final_total": "4260.06"
+  },
+  {
+    "order_id": "8104bc38-9bb4-5f9f-b7df-60d284e0d25a",
+    "customer_id": "C-029596",
+    "final_total": "4253.8"
+  },
+  {
+    "order_id": "4ff7d174-e83e-5fd4-8658-aa4ec38a4620",
+    "customer_id": "C-013733",
+    "final_total": "4249.77"
+  },
+  {
+    "order_id": "b453f8ec-9d61-5616-92aa-4107643400b8",
+    "customer_id": "C-022339",
+    "final_total": "4244.56"
+  },
+  {
+    "order_id": "cea35846-78af-5629-abfb-9880318704ac",
+    "customer_id": "C-053315",
+    "final_total": "4243.1"
+  },
+  {
+    "order_id": "71119341-a4a6-5193-8a70-82f445d29c10",
+    "customer_id": "C-069019",
+    "final_total": "4234.8"
+  },
+  {
+    "order_id": "877a55d7-090f-5d5a-9c41-d42841ea91fb",
+    "customer_id": "C-092669",
+    "final_total": "4231.8"
+  },
+  {
+    "order_id": "36fc212e-1287-54e5-b331-07e957bd446e",
+    "customer_id": "C-084403",
+    "final_total": "4231.29"
+  },
+  {
+    "order_id": "87194de5-7caa-5d38-a89a-81de39898450",
+    "customer_id": "C-097999",
+    "final_total": "4230.2"
+  },
+  {
+    "order_id": "54b8b843-a8c3-5cea-8e3b-c3875e703b66",
+    "customer_id": "C-093845",
+    "final_total": "4229.53"
+  },
+  {
+    "order_id": "3d72ae30-ffa9-5c76-b8fc-601386cec134",
+    "customer_id": "C-017064",
+    "final_total": "4228.69"
+  },
+  {
+    "order_id": "b33d9a5c-ff44-590c-a14a-42d3b08996f8",
+    "customer_id": "C-097242",
+    "final_total": "4226.16"
+  },
+  {
+    "order_id": "40fad468-763e-55e8-b877-4936dcc685ac",
+    "customer_id": "C-073289",
+    "final_total": "4223.23"
+  },
+  {
+    "order_id": "c60d8a42-e4e9-5f52-b4a6-45467706fea5",
+    "customer_id": "C-063747",
+    "final_total": "4220.31"
+  },
+  {
+    "order_id": "6bd3712f-dc45-5358-b369-d790a644006d",
+    "customer_id": "C-048061",
+    "final_total": "4218.48"
+  },
+  {
+    "order_id": "c87a7807-161c-54bd-9291-dc83a50e6b73",
+    "customer_id": "C-025464",
+    "final_total": "4218.01"
+  },
+  {
+    "order_id": "9aa22f4e-5c5f-5d47-8299-a1a6fcf2babc",
+    "customer_id": "C-094850",
+    "final_total": "4210.22"
+  },
+  {
+    "order_id": "272e4877-950e-534f-86a4-6078cc89c0ac",
+    "customer_id": "C-047794",
+    "final_total": "4208.81"
+  },
+  {
+    "order_id": "f02cbcd0-99a1-5446-992f-c3fb75f2c28e",
+    "customer_id": "C-021035",
+    "final_total": "4201.11"
+  },
+  {
+    "order_id": "10149d1b-8a19-5d9b-8f0d-89879c74f6c4",
+    "customer_id": "C-061943",
+    "final_total": "4190.79"
+  },
+  {
+    "order_id": "e85b5c18-7570-54c5-b79c-053542d86027",
+    "customer_id": "C-047922",
+    "final_total": "4189.41"
+  },
+  {
+    "order_id": "2e5fb874-e61d-5432-abde-771f346d2c9c",
+    "customer_id": "C-011984",
+    "final_total": "4188.38"
+  },
+  {
+    "order_id": "1955a9cf-3e6d-57b2-baee-a493343d87b2",
+    "customer_id": "C-039059",
+    "final_total": "4184.13"
+  },
+  {
+    "order_id": "13b25a02-1b7b-58cb-ae19-6ab8255584a4",
+    "customer_id": "C-091799",
+    "final_total": "4180.36"
+  },
+  {
+    "order_id": "5292bc44-07e4-5e0b-b7d3-641e7b04b588",
+    "customer_id": "C-066325",
+    "final_total": "4169.36"
+  },
+  {
+    "order_id": "fa64fdf7-321c-55b7-95e6-4693601741a5",
+    "customer_id": "C-068718",
+    "final_total": "4165.98"
+  },
+  {
+    "order_id": "af88f840-2dbf-544d-8a67-5eff1035c4f1",
+    "customer_id": "C-021496",
+    "final_total": "4164.07"
+  },
+  {
+    "order_id": "96fc9886-860d-53f0-9a43-0a400083180b",
+    "customer_id": "C-095417",
+    "final_total": "4159.61"
+  },
+  {
+    "order_id": "0e9ad172-cbab-5e7e-8ed1-d8c155d4f547",
+    "customer_id": "C-065628",
+    "final_total": "4158.77"
+  },
+  {
+    "order_id": "fb951030-3c86-5fed-bc05-f783e24ffeee",
+    "customer_id": "C-059814",
+    "final_total": "4157.71"
+  },
+  {
+    "order_id": "dc951526-56db-563d-9561-d313a296cd39",
+    "customer_id": "C-050843",
+    "final_total": "4155.82"
+  },
+  {
+    "order_id": "2ce72d30-0f93-5c3a-babe-33af776b98ff",
+    "customer_id": "C-023503",
+    "final_total": "4151.54"
+  },
+  {
+    "order_id": "f931b8d8-2ac3-5f67-a9b3-b5b4fa01ae40",
+    "customer_id": "C-026835",
+    "final_total": "4150.5"
+  },
+  {
+    "order_id": "5574bbcc-a23c-5624-ae6e-d4f04bd867ef",
+    "customer_id": "C-069967",
+    "final_total": "4141.36"
+  },
+  {
+    "order_id": "09bddae4-7f20-5aa9-801f-8c71e1370a80",
+    "customer_id": "C-088755",
+    "final_total": "4138.42"
+  },
+  {
+    "order_id": "f15021d3-d5fc-5478-a0d5-dbf2900ea952",
+    "customer_id": "C-011031",
+    "final_total": "4135.26"
+  },
+  {
+    "order_id": "9f83a547-9a1e-529f-8dcd-891892228c1a",
+    "customer_id": "C-057693",
+    "final_total": "4131.12"
+  },
+  {
+    "order_id": "1b58c4f3-2b8a-52f5-b023-db8123ade80e",
+    "customer_id": "C-012152",
+    "final_total": "4130.38"
+  },
+  {
+    "order_id": "5b8c73b0-1fb4-5661-b04e-b75aa19a671f",
+    "customer_id": "C-058916",
+    "final_total": "4127.16"
+  },
+  {
+    "order_id": "8bcd1685-8485-5cad-9091-0b9b9fbf1f3e",
+    "customer_id": "C-019387",
+    "final_total": "4123.77"
+  },
+  {
+    "order_id": "01dba1ff-c523-5eb8-9ce8-4e0329348c06",
+    "customer_id": "C-045033",
+    "final_total": "4123.13"
+  },
+  {
+    "order_id": "f97b3edd-a6f5-533a-a65f-a1e91bb4eac9",
+    "customer_id": "C-020464",
+    "final_total": "4118.84"
+  },
+  {
+    "order_id": "fb376cbf-87b1-57ce-ab84-4d3798ea254f",
+    "customer_id": "C-029205",
+    "final_total": "4113.57"
+  },
+  {
+    "order_id": "c74944c1-672f-50dd-82ca-159a6ab5724b",
+    "customer_id": "C-030615",
+    "final_total": "4113.38"
+  },
+  {
+    "order_id": "2d72c364-d676-556e-8035-ddb706cc5434",
+    "customer_id": "C-029522",
+    "final_total": "4113.18"
+  },
+  {
+    "order_id": "94376990-7269-5b22-a621-30d2446b896f",
+    "customer_id": "C-070326",
+    "final_total": "4110.11"
+  },
+  {
+    "order_id": "7c98582d-48a6-577c-a4e4-bf4b92685300",
+    "customer_id": "C-037544",
+    "final_total": "4107.99"
+  },
+  {
+    "order_id": "903481cf-e7e3-5520-bed7-2cd5c724d1a7",
+    "customer_id": "C-078822",
+    "final_total": "4107.19"
+  },
+  {
+    "order_id": "7379e389-fa87-5744-98dc-48d426ce4451",
+    "customer_id": "C-040399",
+    "final_total": "4105.02"
+  },
+  {
+    "order_id": "e75c1543-764e-55bf-9ade-e8f1db1dd8dc",
+    "customer_id": "C-026356",
+    "final_total": "4104.7"
+  },
+  {
+    "order_id": "28dca05f-a4be-5d00-8fd6-33e725bbab14",
+    "customer_id": "C-071398",
+    "final_total": "4103.14"
+  },
+  {
+    "order_id": "19535215-cd78-5a39-baa6-b450da73b027",
+    "customer_id": "C-052953",
+    "final_total": "4102.4"
+  },
+  {
+    "order_id": "2011f4b6-69a2-5289-88ed-af1cc84a44db",
+    "customer_id": "C-065942",
+    "final_total": "4101.56"
+  },
+  {
+    "order_id": "ab14e019-5db3-55d8-ae2e-1824f4563111",
+    "customer_id": "C-092858",
+    "final_total": "4092.77"
+  },
+  {
+    "order_id": "1a087f49-de89-5a41-a1b0-41b13d774ccb",
+    "customer_id": "C-066583",
+    "final_total": "4089.09"
+  },
+  {
+    "order_id": "e2a2211c-97ed-56c5-bb15-a7f7d10e174b",
+    "customer_id": "C-049823",
+    "final_total": "4086.5"
+  },
+  {
+    "order_id": "1641c0ed-e457-52ea-8499-3a38f84a9bc9",
+    "customer_id": "C-056089",
+    "final_total": "4081.54"
+  },
+  {
+    "order_id": "e48f0a02-333f-50a7-adb0-b62163f053d7",
+    "customer_id": "C-074166",
+    "final_total": "4079.25"
+  },
+  {
+    "order_id": "6e07aa1c-aa77-51f8-9fdc-2fc192858d6b",
+    "customer_id": "C-019759",
+    "final_total": "4076.75"
+  },
+  {
+    "order_id": "9dd3b644-7440-5870-b110-019834360569",
+    "customer_id": "C-013504",
+    "final_total": "4074.57"
+  },
+  {
+    "order_id": "d45454f3-4510-5a08-89b1-db2ab2ebc1f3",
+    "customer_id": "C-071431",
+    "final_total": "4072.55"
+  },
+  {
+    "order_id": "a3c518a1-7b78-5813-acda-2bc64015c078",
+    "customer_id": "C-049385",
+    "final_total": "4071.63"
+  },
+  {
+    "order_id": "16ea69b3-f497-522e-9fce-6fd44b943859",
+    "customer_id": "C-028750",
+    "final_total": "4069.33"
+  },
+  {
+    "order_id": "7a8e8857-8281-52d3-961a-a22df956fe8d",
+    "customer_id": "C-004807",
+    "final_total": "4068.59"
+  },
+  {
+    "order_id": "3fcb9a5c-2a09-544d-bcff-59f7669d6aa7",
+    "customer_id": "C-065816",
+    "final_total": "4067.23"
+  },
+  {
+    "order_id": "a6fe1a06-8277-5e29-9158-7d0166f7201f",
+    "customer_id": "C-024051",
+    "final_total": "4065.06"
+  },
+  {
+    "order_id": "c1e91a5e-27a7-56f0-a155-47943bf93afc",
+    "customer_id": "C-081016",
+    "final_total": "4062.84"
+  },
+  {
+    "order_id": "532414f6-a6db-537c-8b02-a7588fb59472",
+    "customer_id": "C-016564",
+    "final_total": "4056.81"
+  },
+  {
+    "order_id": "7f9fc1cf-7646-5bda-a2b4-fb0c50174fb8",
+    "customer_id": "C-094397",
+    "final_total": "4055.6"
+  },
+  {
+    "order_id": "4823ef7a-57a9-5529-9036-f88c4a65996a",
+    "customer_id": "C-071679",
+    "final_total": "4052.84"
+  },
+  {
+    "order_id": "7e511108-b041-5f83-bff9-89e68786967f",
+    "customer_id": "C-051468",
+    "final_total": "4052.7"
+  },
+  {
+    "order_id": "6d396f16-1fb7-58a0-838b-3b011ce929f7",
+    "customer_id": "C-018452",
+    "final_total": "4048.65"
+  },
+  {
+    "order_id": "6fc20027-7bbf-5773-8ea1-15aba20e54aa",
+    "customer_id": "C-060197",
+    "final_total": "4047.31"
+  },
+  {
+    "order_id": "c08d9a94-00ec-5f3f-9851-6b6d57af95db",
+    "customer_id": "C-018343",
+    "final_total": "4047.11"
+  },
+  {
+    "order_id": "8febe923-0678-5d07-b9f9-fcbbb6b544a3",
+    "customer_id": "C-042767",
+    "final_total": "4045.88"
+  },
+  {
+    "order_id": "b6ba6fac-fd04-5414-9995-f02f48f8afee",
+    "customer_id": "C-015871",
+    "final_total": "4043.64"
+  },
+  {
+    "order_id": "302c1dfa-e302-57c9-901a-34084a8b9f2c",
+    "customer_id": "C-010017",
+    "final_total": "4043.03"
+  },
+  {
+    "order_id": "9d35791c-7edb-50c6-8b57-b9bff5d8e169",
+    "customer_id": "C-019265",
+    "final_total": "4038.25"
+  },
+  {
+    "order_id": "35fe763f-713e-5960-a883-608d96f6de78",
+    "customer_id": "C-013968",
+    "final_total": "4037.77"
+  },
+  {
+    "order_id": "d057bd4a-4f2b-5959-8f9e-dba8fece7e0d",
+    "customer_id": "C-019740",
+    "final_total": "4037.36"
+  },
+  {
+    "order_id": "d43e2fdf-a1b1-5a8d-ad39-5eda17d0d43c",
+    "customer_id": "C-050900",
+    "final_total": "4037.34"
+  },
+  {
+    "order_id": "7ee2bd96-864e-5a4c-9b66-2b039187c333",
+    "customer_id": "C-014523",
+    "final_total": "4034.46"
+  },
+  {
+    "order_id": "3147388a-8f15-5a04-85ed-32a956f7c65d",
+    "customer_id": "C-009094",
+    "final_total": "4034.4"
+  },
+  {
+    "order_id": "68b3272c-4672-54c6-b388-721b8b977e51",
+    "customer_id": "C-059760",
+    "final_total": "4032.96"
+  },
+  {
+    "order_id": "7535af37-efeb-59b3-8293-5b68720c0458",
+    "customer_id": "C-086633",
+    "final_total": "4031.91"
+  },
+  {
+    "order_id": "5e2cc752-b597-5f86-bd8f-af92225b70bd",
+    "customer_id": "C-026263",
+    "final_total": "4020.89"
+  },
+  {
+    "order_id": "2341cb12-7511-501a-ab29-b444717ac08c",
+    "customer_id": "C-054682",
+    "final_total": "4016.12"
+  },
+  {
+    "order_id": "23a973bf-eee1-50a8-8d03-93476d44a99c",
+    "customer_id": "C-015585",
+    "final_total": "4014.33"
+  },
+  {
+    "order_id": "017f7382-8710-54a9-a3f1-988391edf5ad",
+    "customer_id": "C-039311",
+    "final_total": "4013.15"
+  },
+  {
+    "order_id": "27676304-5e03-54c6-b799-880154c6092c",
+    "customer_id": "C-084064",
+    "final_total": "4012.4"
+  },
+  {
+    "order_id": "9daf07ed-866a-5043-9d3a-70bbefd36f1d",
+    "customer_id": "C-097857",
+    "final_total": "4009.83"
+  },
+  {
+    "order_id": "1865b443-f986-5eee-b604-6b22dacc1d93",
+    "customer_id": "C-047292",
+    "final_total": "4009.65"
+  },
+  {
+    "order_id": "98225713-9c23-5555-856f-ff655a90bdfb",
+    "customer_id": "C-060992",
+    "final_total": "4009.12"
+  },
+  {
+    "order_id": "21f1b2c5-2a6b-5995-b9fe-954af7b2a0e3",
+    "customer_id": "C-052835",
+    "final_total": "4008.5"
+  },
+  {
+    "order_id": "047be4c9-e726-5ba8-b267-508b3a0b3080",
+    "customer_id": "C-000119",
+    "final_total": "4006.48"
+  },
+  {
+    "order_id": "31e35786-c916-5688-838f-c758d08646f5",
+    "customer_id": "C-071991",
+    "final_total": "4003.29"
+  },
+  {
+    "order_id": "59a9a0b0-5547-53a6-a2cf-16b0ccaa2070",
+    "customer_id": "C-079136",
+    "final_total": "4002.46"
+  },
+  {
+    "order_id": "568af1aa-fe9a-5192-a9d0-db78dfdb4600",
+    "customer_id": "C-097357",
+    "final_total": "4000.63"
+  },
+  {
+    "order_id": "2e87e485-75d1-5430-8bbd-a8bfdacce623",
+    "customer_id": "C-008658",
+    "final_total": "3999.4"
+  },
+  {
+    "order_id": "42958fe3-7117-5be5-b35b-e6862de600e1",
+    "customer_id": "C-032287",
+    "final_total": "3999.13"
+  },
+  {
+    "order_id": "02f72a2d-dfd2-5b74-9cc4-7c55908d05c2",
+    "customer_id": "C-030233",
+    "final_total": "3998.81"
+  },
+  {
+    "order_id": "7d4d317e-9f7a-5d43-8afd-a3711888c098",
+    "customer_id": "C-015912",
+    "final_total": "3998.16"
+  },
+  {
+    "order_id": "93cd3cf8-fc76-52af-a512-e13507005309",
+    "customer_id": "C-040693",
+    "final_total": "3995.57"
+  },
+  {
+    "order_id": "6772a5db-2e1e-58f6-ac37-63efde9ca1c5",
+    "customer_id": "C-008416",
+    "final_total": "3991.95"
+  },
+  {
+    "order_id": "4141a09b-05b5-5dfd-bd9e-ba89d4db2b30",
+    "customer_id": "C-004916",
+    "final_total": "3989.64"
+  },
+  {
+    "order_id": "78ba2877-1458-59f3-8892-1a0332a72974",
+    "customer_id": "C-016074",
+    "final_total": "3988.52"
+  },
+  {
+    "order_id": "8b262f30-779e-56d7-884c-292314917a1a",
+    "customer_id": "C-017498",
+    "final_total": "3987.5"
+  },
+  {
+    "order_id": "47e6ead7-9f43-54f2-a132-4932b738f000",
+    "customer_id": "C-072245",
+    "final_total": "3987.24"
+  },
+  {
+    "order_id": "7ae329ad-6fc3-5c90-983c-aa46906c387f",
+    "customer_id": "C-045589",
+    "final_total": "3985.06"
+  },
+  {
+    "order_id": "c7739b42-0275-536a-b646-cc23f0436612",
+    "customer_id": "C-081921",
+    "final_total": "3978.75"
+  },
+  {
+    "order_id": "1c04c638-9992-5e49-a0c0-84c219a7b4fd",
+    "customer_id": "C-033916",
+    "final_total": "3978.42"
+  },
+  {
+    "order_id": "ed68192a-b7b3-5124-b745-f08b283710e6",
+    "customer_id": "C-012362",
+    "final_total": "3978.41"
+  },
+  {
+    "order_id": "240769d9-8bc2-56e0-90cf-022cf5eec66e",
+    "customer_id": "C-043366",
+    "final_total": "3978.02"
+  },
+  {
+    "order_id": "f2e18232-b203-58bb-b120-0fad2bd1d71a",
+    "customer_id": "C-026986",
+    "final_total": "3972.81"
+  },
+  {
+    "order_id": "0464c94e-fd54-51a8-81ff-835d2a24d4de",
+    "customer_id": "C-001137",
+    "final_total": "3971.6"
+  },
+  {
+    "order_id": "b783877d-8dbd-57c6-aeb4-f826defd3e61",
+    "customer_id": "C-029404",
+    "final_total": "3970.78"
+  },
+  {
+    "order_id": "b9186ec2-1e61-5188-afa7-6302de4b9498",
+    "customer_id": "C-065507",
+    "final_total": "3970.37"
+  },
+  {
+    "order_id": "fa0f1c10-4f9c-5a2e-927c-402e9510795c",
+    "customer_id": "C-033772",
+    "final_total": "3969.3"
+  },
+  {
+    "order_id": "2a6b89de-2d4c-50cf-9329-93fa75ef806b",
+    "customer_id": "C-050374",
+    "final_total": "3965.61"
+  },
+  {
+    "order_id": "aed49e65-16d9-53a2-a3d6-c763863d69ba",
+    "customer_id": "C-054967",
+    "final_total": "3964.01"
+  },
+  {
+    "order_id": "f1dd1b96-9c8d-5af0-bb1b-5e287933b36b",
+    "customer_id": "C-064148",
+    "final_total": "3963.27"
+  },
+  {
+    "order_id": "277d1fb8-207e-5999-808e-36e7726d5fc6",
+    "customer_id": "C-032888",
+    "final_total": "3960.87"
+  },
+  {
+    "order_id": "d8a0ed66-9368-51ac-9549-a76cffe2fbc8",
+    "customer_id": "C-082744",
+    "final_total": "3959.29"
+  },
+  {
+    "order_id": "5db8922b-1cf4-587d-9225-da70870ccba3",
+    "customer_id": "C-056757",
+    "final_total": "3949.88"
+  },
+  {
+    "order_id": "ad4c17a6-a5bc-55c7-9fcc-d7dcd966520d",
+    "customer_id": "C-039883",
+    "final_total": "3949.18"
+  },
+  {
+    "order_id": "1e830263-2ea1-531d-9da0-3959e4890d12",
+    "customer_id": "C-070065",
+    "final_total": "3944.2"
+  },
+  {
+    "order_id": "5b935580-e039-5bc1-b78f-898d0864b510",
+    "customer_id": "C-010031",
+    "final_total": "3940.42"
+  },
+  {
+    "order_id": "0311e669-8d50-5691-8c50-84569dc6d6ad",
+    "customer_id": "C-081696",
+    "final_total": "3939.86"
+  },
+  {
+    "order_id": "c0ef8f79-c58c-5df6-8b0d-0b27c28fa30b",
+    "customer_id": "C-051261",
+    "final_total": "3938.29"
+  },
+  {
+    "order_id": "29392515-f7a6-5c59-bf14-ad876e266523",
+    "customer_id": "C-012474",
+    "final_total": "3934.31"
+  },
+  {
+    "order_id": "eb5898a6-ad6e-59fd-9b95-7b6f89ee8cda",
+    "customer_id": "C-038054",
+    "final_total": "3934.01"
+  },
+  {
+    "order_id": "1a192cb3-020e-568f-9eda-844d7faafbf1",
+    "customer_id": "C-044082",
+    "final_total": "3931.09"
+  },
+  {
+    "order_id": "8527440b-4bc1-567b-a8d1-4f1c43b655ce",
+    "customer_id": "C-012474",
+    "final_total": "3929.95"
+  },
+  {
+    "order_id": "c8d44e2e-3f33-55f8-ab8e-94422292ed32",
+    "customer_id": "C-056017",
+    "final_total": "3929.75"
+  },
+  {
+    "order_id": "9685d797-f3bd-5c3a-a4e3-f49933c1e5b2",
+    "customer_id": "C-097072",
+    "final_total": "3929.66"
+  },
+  {
+    "order_id": "9443811b-8211-5316-8218-5bab58df751b",
+    "customer_id": "C-014235",
+    "final_total": "3929.6"
+  },
+  {
+    "order_id": "08fab13c-b83c-5fd3-bed1-bc2808ed6847",
+    "customer_id": "C-081488",
+    "final_total": "3929.25"
+  },
+  {
+    "order_id": "387d1ec6-5b12-5c87-9a3b-a199ea357497",
+    "customer_id": "C-012488",
+    "final_total": "3926.41"
+  },
+  {
+    "order_id": "c3e905df-2e2f-5ee8-b8f7-c3adc76f0484",
+    "customer_id": "C-097545",
+    "final_total": "3925.4"
+  },
+  {
+    "order_id": "6ba6ba5d-76de-50fc-aafe-969b52868d81",
+    "customer_id": "C-034594",
+    "final_total": "3924.03"
+  },
+  {
+    "order_id": "0ce56561-86ea-54bd-8aea-fa046ebadd93",
+    "customer_id": "C-015792",
+    "final_total": "3923.27"
+  },
+  {
+    "order_id": "fa8a4a8e-02f8-5afd-8b2f-3715c65f7ab3",
+    "customer_id": "C-079810",
+    "final_total": "3921.93"
+  },
+  {
+    "order_id": "6daa105d-ffa7-5cf5-b327-107f37c49aab",
+    "customer_id": "C-077747",
+    "final_total": "3920.67"
+  },
+  {
+    "order_id": "23dab9bf-d1d3-57a9-8396-46d9709c58c4",
+    "customer_id": "C-059692",
+    "final_total": "3920.37"
+  },
+  {
+    "order_id": "e0fd21a1-f133-5681-9132-52353c8273ae",
+    "customer_id": "C-092479",
+    "final_total": "3919.75"
+  },
+  {
+    "order_id": "d399227f-10ee-524c-b21f-601e1e235d5f",
+    "customer_id": "C-020573",
+    "final_total": "3919.45"
+  },
+  {
+    "order_id": "c9f4ed57-e7c6-5359-abb4-a2d2307c147a",
+    "customer_id": "C-025891",
+    "final_total": "3918.7"
+  },
+  {
+    "order_id": "5e82c6f8-2d21-59b2-9f15-5fd9320c208e",
+    "customer_id": "C-094194",
+    "final_total": "3917.39"
+  },
+  {
+    "order_id": "8a13fd81-4e33-5759-8e95-216fdf69da5f",
+    "customer_id": "C-081167",
+    "final_total": "3915.65"
+  },
+  {
+    "order_id": "ac473288-bbff-59d6-8122-6993ea3494af",
+    "customer_id": "C-066461",
+    "final_total": "3915.34"
+  },
+  {
+    "order_id": "57f9c19b-0499-526e-ba5a-f17732f0222a",
+    "customer_id": "C-011140",
+    "final_total": "3914.96"
+  },
+  {
+    "order_id": "9df44db9-9943-539c-ba23-fea4f460d204",
+    "customer_id": "C-060772",
+    "final_total": "3913.17"
+  },
+  {
+    "order_id": "d9d503f1-07e1-5f52-9b1b-9e5cdbb5ccb7",
+    "customer_id": "C-028130",
+    "final_total": "3913.16"
+  },
+  {
+    "order_id": "dfa18ab6-0163-518b-8800-077e1fedf2e1",
+    "customer_id": "C-074069",
+    "final_total": "3912.53"
+  },
+  {
+    "order_id": "6985bc44-6648-553c-80da-f5ae4b4056c0",
+    "customer_id": "C-016673",
+    "final_total": "3911.9"
+  },
+  {
+    "order_id": "de6a249b-9376-519a-a781-f837c9ced808",
+    "customer_id": "C-072715",
+    "final_total": "3909.91"
+  },
+  {
+    "order_id": "3cdc63b8-7752-55b7-9529-36b328c44a84",
+    "customer_id": "C-062198",
+    "final_total": "3909.57"
+  },
+  {
+    "order_id": "d8b82fb2-ec43-5af8-aeec-b946477ece98",
+    "customer_id": "C-057743",
+    "final_total": "3909.36"
+  },
+  {
+    "order_id": "13b34b23-abb1-59cb-b063-5ef073777c68",
+    "customer_id": "C-041241",
+    "final_total": "3909.22"
+  },
+  {
+    "order_id": "93578dbe-4a51-5b7c-947a-eaefda9bb841",
+    "customer_id": "C-074928",
+    "final_total": "3906.29"
+  },
+  {
+    "order_id": "89345afc-7bf6-53c8-a844-4af8ca06d220",
+    "customer_id": "C-053549",
+    "final_total": "3905.37"
+  },
+  {
+    "order_id": "281e375f-5c2f-51a7-a304-34efc5f203fe",
+    "customer_id": "C-039683",
+    "final_total": "3904.67"
+  },
+  {
+    "order_id": "f3a2cf4f-1532-5160-82f7-ee807f5bdf3b",
+    "customer_id": "C-089386",
+    "final_total": "3904.57"
+  },
+  {
+    "order_id": "32b9eb73-2a77-5aa7-ba94-91c94197ac86",
+    "customer_id": "C-058802",
+    "final_total": "3904.24"
+  },
+  {
+    "order_id": "72a7a6a0-f987-50ba-8eb4-c77fb2737c2b",
+    "customer_id": "C-055797",
+    "final_total": "3904.16"
+  },
+  {
+    "order_id": "f65bdcd1-3fc7-51c8-9357-d0db5702968e",
+    "customer_id": "C-036050",
+    "final_total": "3904.06"
+  },
+  {
+    "order_id": "5f4b42b8-5685-5b78-966d-0f7da116f2b9",
+    "customer_id": "C-023737",
+    "final_total": "3902.92"
+  },
+  {
+    "order_id": "80f7d9f1-b48b-5250-bcf3-fa08eb1eb0c9",
+    "customer_id": "C-031399",
+    "final_total": "3902.31"
+  },
+  {
+    "order_id": "57662081-b4b8-589f-ba53-a515c2b9873c",
+    "customer_id": "C-078934",
+    "final_total": "3901.78"
+  },
+  {
+    "order_id": "5dd8ff0c-d000-58f1-93e0-6c570c63d09d",
+    "customer_id": "C-085171",
+    "final_total": "3897.48"
+  },
+  {
+    "order_id": "6c4bdb32-76f7-546a-8fb5-26fc71ae1bc3",
+    "customer_id": "C-007664",
+    "final_total": "3895.2"
+  },
+  {
+    "order_id": "38ba7f4d-802d-5c3a-979f-d2d7aeddb98d",
+    "customer_id": "C-098970",
+    "final_total": "3894.34"
+  },
+  {
+    "order_id": "5d42d79c-c935-547a-bad6-8c2db50baa6c",
+    "customer_id": "C-027485",
+    "final_total": "3893.35"
+  },
+  {
+    "order_id": "b20caf7e-4988-5ea9-8367-fc453e749233",
+    "customer_id": "C-021730",
+    "final_total": "3892.2"
+  },
+  {
+    "order_id": "c316f9b7-7edf-5eaa-bf5d-33639b84dd03",
+    "customer_id": "C-008555",
+    "final_total": "3891.67"
+  },
+  {
+    "order_id": "1578a6e6-f8b3-5f7f-92b0-11066308faa6",
+    "customer_id": "C-010750",
+    "final_total": "3891.22"
+  },
+  {
+    "order_id": "893ca218-34f3-5c38-bb5b-3606fca1bb16",
+    "customer_id": "C-082242",
+    "final_total": "3890.33"
+  },
+  {
+    "order_id": "3f9e8029-e198-5318-b1e2-ccd102f39732",
+    "customer_id": "C-059917",
+    "final_total": "3888.55"
+  },
+  {
+    "order_id": "90645277-6d4b-5564-98fd-28c34110bbea",
+    "customer_id": "C-002762",
+    "final_total": "3888.04"
+  },
+  {
+    "order_id": "69511859-b049-5471-94d2-27edbf7d4189",
+    "customer_id": "C-093481",
+    "final_total": "3887.67"
+  },
+  {
+    "order_id": "56ed6244-4e4f-5248-ad62-a76a7c7fbd91",
+    "customer_id": "C-020824",
+    "final_total": "3886.27"
+  },
+  {
+    "order_id": "794dd124-46d6-56dd-ac41-4041ac478979",
+    "customer_id": "C-054388",
+    "final_total": "3886.04"
+  },
+  {
+    "order_id": "2ea32712-f431-52d1-b077-007652012064",
+    "customer_id": "C-078557",
+    "final_total": "3885.8"
+  },
+  {
+    "order_id": "2f8968b3-5108-5849-9697-8cf3aca13e6b",
+    "customer_id": "C-018441",
+    "final_total": "3885.21"
+  },
+  {
+    "order_id": "b1973db3-7889-5757-a467-eb05f975d3a3",
+    "customer_id": "C-049882",
+    "final_total": "3882.37"
+  },
+  {
+    "order_id": "c392f2aa-8637-55d5-b2a1-6e9dd84d7f83",
+    "customer_id": "C-041414",
+    "final_total": "3881.63"
+  },
+  {
+    "order_id": "6e198f00-d857-5fff-9478-f1719b95b994",
+    "customer_id": "C-096340",
+    "final_total": "3881.47"
+  },
+  {
+    "order_id": "a965c6ad-12e0-5949-bee8-bc121bb93d15",
+    "customer_id": "C-015321",
+    "final_total": "3877.29"
+  },
+  {
+    "order_id": "22eb61e9-25f9-5877-93ca-1842b842273c",
+    "customer_id": "C-068677",
+    "final_total": "3876.36"
+  },
+  {
+    "order_id": "b5b68cf8-9369-5817-a102-98075a00de89",
+    "customer_id": "C-083188",
+    "final_total": "3873.85"
+  },
+  {
+    "order_id": "75c31687-fffd-573d-8aa6-f4564e9f9355",
+    "customer_id": "C-050904",
+    "final_total": "3873.84"
+  },
+  {
+    "order_id": "4434579c-3be3-5b42-84a8-ae617da2cbab",
+    "customer_id": "C-017997",
+    "final_total": "3872.67"
+  },
+  {
+    "order_id": "bc555420-02ed-5ee4-ba78-009776bd4927",
+    "customer_id": "C-067291",
+    "final_total": "3867.66"
+  },
+  {
+    "order_id": "92c242cd-8e02-53e2-a256-a676b8986fde",
+    "customer_id": "C-019417",
+    "final_total": "3866.75"
+  },
+  {
+    "order_id": "64ddc5b8-5015-5efa-b26f-2be689b2502f",
+    "customer_id": "C-008065",
+    "final_total": "3865.77"
+  },
+  {
+    "order_id": "b1a85297-dec1-5275-a8dc-25f840e7a4fd",
+    "customer_id": "C-034372",
+    "final_total": "3865.55"
+  },
+  {
+    "order_id": "ebe1cda9-c22a-52e8-8fdc-0d4dd129c06d",
+    "customer_id": "C-062958",
+    "final_total": "3864.68"
+  },
+  {
+    "order_id": "677127bb-3dd6-531a-b2a3-85710892619b",
+    "customer_id": "C-003389",
+    "final_total": "3864.13"
+  },
+  {
+    "order_id": "bb00ec98-0bd2-50c5-b556-0349387a742f",
+    "customer_id": "C-078483",
+    "final_total": "3863.82"
+  },
+  {
+    "order_id": "7b96b04d-3ce2-5785-83da-edb027c0e8b4",
+    "customer_id": "C-017362",
+    "final_total": "3863.17"
+  },
+  {
+    "order_id": "f0589f4d-46ba-5bdc-9713-2c59c45a0bab",
+    "customer_id": "C-059157",
+    "final_total": "3861.99"
+  },
+  {
+    "order_id": "c29be265-c15b-504b-973e-ebf3bef9885f",
+    "customer_id": "C-057582",
+    "final_total": "3861.51"
+  },
+  {
+    "order_id": "84aef7d7-a37f-5ed6-8576-d334c18813b1",
+    "customer_id": "C-072478",
+    "final_total": "3858.42"
+  },
+  {
+    "order_id": "ff4bbb0e-a24c-5410-b14e-c4938c0c48f1",
+    "customer_id": "C-074178",
+    "final_total": "3857.19"
+  },
+  {
+    "order_id": "0a9cdbe6-310d-5163-b2dd-6f8a2733660e",
+    "customer_id": "C-031532",
+    "final_total": "3857.16"
+  },
+  {
+    "order_id": "c7e8617d-1e06-5d1e-903a-227be3bc2cef",
+    "customer_id": "C-085896",
+    "final_total": "3856.89"
+  },
+  {
+    "order_id": "e47a369b-e7f9-5b33-9549-78e851288739",
+    "customer_id": "C-039802",
+    "final_total": "3856.6"
+  },
+  {
+    "order_id": "008001a7-4613-5708-987d-80412d09e75c",
+    "customer_id": "C-015597",
+    "final_total": "3854.79"
+  },
+  {
+    "order_id": "fe47adc9-f5c3-5696-a5f5-b55cf75de9be",
+    "customer_id": "C-066497",
+    "final_total": "3854.67"
+  },
+  {
+    "order_id": "38834ec1-6c50-50e0-b49a-1683df850286",
+    "customer_id": "C-076614",
+    "final_total": "3853.66"
+  },
+  {
+    "order_id": "75c9f09e-f01c-5289-be97-2eddac697448",
+    "customer_id": "C-095804",
+    "final_total": "3852.55"
+  },
+  {
+    "order_id": "3023c1f3-4f72-5dc7-991b-e7ce8eacd7f6",
+    "customer_id": "C-048498",
+    "final_total": "3852.11"
+  },
+  {
+    "order_id": "2b55e772-7a6a-5b26-8327-e033e8c1a356",
+    "customer_id": "C-012582",
+    "final_total": "3850.29"
+  },
+  {
+    "order_id": "569f7531-6de2-57c5-a4ab-ccd5d1d63283",
+    "customer_id": "C-031045",
+    "final_total": "3848.54"
+  },
+  {
+    "order_id": "703a9cde-509e-5b67-81c2-670e2b492efa",
+    "customer_id": "C-079455",
+    "final_total": "3846.52"
+  },
+  {
+    "order_id": "5de14d83-01f9-5e0c-9891-49b471c72106",
+    "customer_id": "C-037658",
+    "final_total": "3846.04"
+  },
+  {
+    "order_id": "914abadd-fa4b-568a-a30f-51c089ab8646",
+    "customer_id": "C-081908",
+    "final_total": "3843.75"
+  },
+  {
+    "order_id": "d797b382-ebec-5258-b7dc-174e88df0923",
+    "customer_id": "C-072728",
+    "final_total": "3843.73"
+  },
+  {
+    "order_id": "357b34d5-f05d-56ad-9bd5-bfd97d75c162",
+    "customer_id": "C-009647",
+    "final_total": "3841.4"
+  },
+  {
+    "order_id": "ab1b33d2-1984-5037-b50e-0328c58607db",
+    "customer_id": "C-018538",
+    "final_total": "3841.32"
+  },
+  {
+    "order_id": "f79ef31e-3757-5716-9510-0c2d0c2ad104",
+    "customer_id": "C-034543",
+    "final_total": "3838.06"
+  },
+  {
+    "order_id": "29db00e1-793a-5dfe-952c-61ef00d2ff5b",
+    "customer_id": "C-026777",
+    "final_total": "3837.65"
+  },
+  {
+    "order_id": "6cc9b4f3-8779-55e1-80f8-a51ae74d9ad4",
+    "customer_id": "C-050074",
+    "final_total": "3837.26"
+  },
+  {
+    "order_id": "5a74401b-b368-5cd6-a72c-5469864ecd34",
+    "customer_id": "C-073960",
+    "final_total": "3836.73"
+  },
+  {
+    "order_id": "8cc8bb1f-95ed-56d7-9c66-a6898f4b2a44",
+    "customer_id": "C-001796",
+    "final_total": "3833.29"
+  },
+  {
+    "order_id": "9254fc0d-ce56-5c32-bf2d-49f4631b26df",
+    "customer_id": "C-051867",
+    "final_total": "3833.08"
+  },
+  {
+    "order_id": "8fcf7ddb-f60a-5f77-b167-ab8b0e10ece9",
+    "customer_id": "C-022903",
+    "final_total": "3832.66"
+  },
+  {
+    "order_id": "f3933c4b-f0e7-523f-b28e-c1548893c446",
+    "customer_id": "C-067752",
+    "final_total": "3828.28"
+  },
+  {
+    "order_id": "d5f38e98-e310-5f98-87c8-fbbbcf6549ba",
+    "customer_id": "C-039378",
+    "final_total": "3827.77"
+  },
+  {
+    "order_id": "313492f1-09c8-5cde-b8c1-8e2ede020576",
+    "customer_id": "C-088515",
+    "final_total": "3826.28"
+  },
+  {
+    "order_id": "bb2d1741-c501-546b-9919-dea2dc17df7e",
+    "customer_id": "C-023187",
+    "final_total": "3824.42"
+  },
+  {
+    "order_id": "4e6668dc-6d3e-5650-b1a9-f591d1b9db6f",
+    "customer_id": "C-008619",
+    "final_total": "3823.96"
+  },
+  {
+    "order_id": "e61aed4e-3a1d-5a0e-a6f4-b5d1cd716026",
+    "customer_id": "C-091418",
+    "final_total": "3823.28"
+  },
+  {
+    "order_id": "3bb43467-4f12-5aaa-894d-547cbbbffef6",
+    "customer_id": "C-035871",
+    "final_total": "3822.81"
+  },
+  {
+    "order_id": "50d71f2f-3aef-5b94-953c-d59bd678f421",
+    "customer_id": "C-016518",
+    "final_total": "3822.03"
+  },
+  {
+    "order_id": "da9d35d6-85be-52c6-94dc-458d40c610e4",
+    "customer_id": "C-019221",
+    "final_total": "3821.67"
+  },
+  {
+    "order_id": "0ef00345-ab47-5e03-8563-24d023338944",
+    "customer_id": "C-068683",
+    "final_total": "3820.34"
+  },
+  {
+    "order_id": "9f2bef2a-de4c-5b6b-a527-a01b9a62a5de",
+    "customer_id": "C-002142",
+    "final_total": "3816.79"
+  },
+  {
+    "order_id": "fe831779-d117-54a8-bdd6-f4094d9f38ee",
+    "customer_id": "C-088472",
+    "final_total": "3816.45"
+  },
+  {
+    "order_id": "f7afa8fd-d4e2-533e-ab83-a9562dc97bed",
+    "customer_id": "C-059096",
+    "final_total": "3814.53"
+  },
+  {
+    "order_id": "0c286558-fb6d-5926-9895-2fba90163f91",
+    "customer_id": "C-075754",
+    "final_total": "3812.0"
+  },
+  {
+    "order_id": "c5a54145-677a-5e3a-bf54-eadcf949b66e",
+    "customer_id": "C-010494",
+    "final_total": "3811.62"
+  },
+  {
+    "order_id": "55c7478d-676e-5bfe-baaa-3e61d3f8a6ff",
+    "customer_id": "C-035623",
+    "final_total": "3811.62"
+  },
+  {
+    "order_id": "d4e91d0c-4c42-528f-afc6-372488d730f7",
+    "customer_id": "C-017609",
+    "final_total": "3811.52"
+  },
+  {
+    "order_id": "c908e336-c258-56d6-b2a6-6e8eee35caa4",
+    "customer_id": "C-027859",
+    "final_total": "3810.99"
+  },
+  {
+    "order_id": "4015e09c-c1cb-5b0c-93fe-a2f7e24cbe39",
+    "customer_id": "C-097148",
+    "final_total": "3810.45"
+  },
+  {
+    "order_id": "f340fbb3-0560-5d5c-8651-b6232bbc00fc",
+    "customer_id": "C-066128",
+    "final_total": "3810.19"
+  },
+  {
+    "order_id": "c4e36fd4-5078-52e2-a38b-5ef720dae7ea",
+    "customer_id": "C-063180",
+    "final_total": "3810.05"
+  },
+  {
+    "order_id": "aa635b80-385d-5d48-83e3-47d2ebd3b287",
+    "customer_id": "C-092173",
+    "final_total": "3808.86"
+  },
+  {
+    "order_id": "2e496699-014d-5b8b-ac1b-e42ae4cc73f1",
+    "customer_id": "C-041254",
+    "final_total": "3807.0"
+  },
+  {
+    "order_id": "91010ccd-5464-5ae2-9963-8f0975dc28ad",
+    "customer_id": "C-028939",
+    "final_total": "3806.6"
+  },
+  {
+    "order_id": "2418c048-0876-5a27-b025-cf880e96572d",
+    "customer_id": "C-059784",
+    "final_total": "3804.96"
+  },
+  {
+    "order_id": "e4df7c69-0190-5254-90be-b595949ec4e5",
+    "customer_id": "C-067125",
+    "final_total": "3804.31"
+  },
+  {
+    "order_id": "34f8319d-0380-5e65-9719-9b0e1e71361d",
+    "customer_id": "C-030606",
+    "final_total": "3804.29"
+  },
+  {
+    "order_id": "c642f2b3-3916-5ca6-8b93-1a6cff2a3e1d",
+    "customer_id": "C-016020",
+    "final_total": "3801.39"
+  },
+  {
+    "order_id": "7c808514-6ea8-57b8-ab9d-f9f858ca2b2b",
+    "customer_id": "C-036794",
+    "final_total": "3801.0"
+  },
+  {
+    "order_id": "32ec31ac-91cb-50d4-9577-ed7b87605a9c",
+    "customer_id": "C-082627",
+    "final_total": "3800.35"
+  },
+  {
+    "order_id": "ece5f90f-b3cc-5a9c-86b0-4cd1c5d5d412",
+    "customer_id": "C-097055",
+    "final_total": "3799.66"
+  },
+  {
+    "order_id": "7900402c-1fe8-5ef0-9354-1c080dcd22f4",
+    "customer_id": "C-025924",
+    "final_total": "3797.9"
+  },
+  {
+    "order_id": "9c6c389e-9845-5164-8dd1-72ff7c929726",
+    "customer_id": "C-006281",
+    "final_total": "3797.65"
+  },
+  {
+    "order_id": "b0323aee-1a0e-5f70-8a64-d14c2c363dda",
+    "customer_id": "C-014362",
+    "final_total": "3797.53"
+  },
+  {
+    "order_id": "08ed1427-3cf7-5b0f-8d27-4e019473ecfd",
+    "customer_id": "C-011559",
+    "final_total": "3797.42"
+  },
+  {
+    "order_id": "0bb0528d-1aee-52dc-b11e-6c1ce31948d5",
+    "customer_id": "C-050877",
+    "final_total": "3797.1"
+  },
+  {
+    "order_id": "857ed369-2aad-583b-8520-e815cdb8f773",
+    "customer_id": "C-025089",
+    "final_total": "3794.3"
+  },
+  {
+    "order_id": "55e96af6-69e2-558c-95b3-be91e6fdb622",
+    "customer_id": "C-055393",
+    "final_total": "3792.61"
+  },
+  {
+    "order_id": "fcd65421-d082-5674-bcc3-544077a59496",
+    "customer_id": "C-099187",
+    "final_total": "3791.94"
+  },
+  {
+    "order_id": "cd3d90de-5ac4-5694-bdc4-94abbf8d0412",
+    "customer_id": "C-065249",
+    "final_total": "3791.25"
+  },
+  {
+    "order_id": "ca10168a-f9eb-576e-9eef-ecd66f7c4f25",
+    "customer_id": "C-092482",
+    "final_total": "3791.21"
+  },
+  {
+    "order_id": "091e87de-2f84-56eb-baa0-e1c432fff8be",
+    "customer_id": "C-030032",
+    "final_total": "3788.95"
+  },
+  {
+    "order_id": "02fbfe2d-af47-50ec-ac70-d15b3c067585",
+    "customer_id": "C-017049",
+    "final_total": "3788.33"
+  },
+  {
+    "order_id": "c9a81e56-0a43-59f2-bf50-96b84258ff2f",
+    "customer_id": "C-046975",
+    "final_total": "3787.79"
+  },
+  {
+    "order_id": "3b54ff55-db25-59c0-94fb-22970ffd9a96",
+    "customer_id": "C-050272",
+    "final_total": "3787.44"
+  },
+  {
+    "order_id": "9b41bb91-32fc-5e3a-a994-0e9567066bc4",
+    "customer_id": "C-069144",
+    "final_total": "3786.98"
+  },
+  {
+    "order_id": "32d1b854-a1d8-5704-9383-902aa40bbfa6",
+    "customer_id": "C-054935",
+    "final_total": "3786.89"
+  },
+  {
+    "order_id": "8769eddf-5157-5e75-8e87-9e030a8485df",
+    "customer_id": "C-017416",
+    "final_total": "3786.12"
+  },
+  {
+    "order_id": "8b2cb144-334b-5f78-9c46-667d65f861f1",
+    "customer_id": "C-087248",
+    "final_total": "3784.91"
+  },
+  {
+    "order_id": "e5d98159-6ae6-5389-ba2e-120725c7efa6",
+    "customer_id": "C-066666",
+    "final_total": "3783.7"
+  },
+  {
+    "order_id": "05ad7fee-13d1-515e-95ab-e28ce4f2c17e",
+    "customer_id": "C-081551",
+    "final_total": "3783.61"
+  },
+  {
+    "order_id": "f6b89b6e-b455-5e71-a695-3092b6a6cd67",
+    "customer_id": "C-038767",
+    "final_total": "3782.63"
+  },
+  {
+    "order_id": "890143d8-90bd-52bb-ae44-98a05a473c82",
+    "customer_id": "C-044094",
+    "final_total": "3781.86"
+  },
+  {
+    "order_id": "3aef2199-ee8b-5e56-b6cd-14db6a163c4d",
+    "customer_id": "C-012938",
+    "final_total": "3779.82"
+  },
+  {
+    "order_id": "1d568c0a-54cc-52bc-89e6-dbd160b3da1e",
+    "customer_id": "C-068534",
+    "final_total": "3777.6"
+  },
+  {
+    "order_id": "d12c33b2-48bb-55ce-818c-47b247d8e5d2",
+    "customer_id": "C-016654",
+    "final_total": "3776.46"
+  },
+  {
+    "order_id": "66424ae6-6329-59e5-b105-1b6832a61c72",
+    "customer_id": "C-026827",
+    "final_total": "3776.43"
+  },
+  {
+    "order_id": "eba2fa17-80a0-5ba2-8fc8-5dc809e9f998",
+    "customer_id": "C-001047",
+    "final_total": "3775.93"
+  },
+  {
+    "order_id": "e724a2f1-0a88-5ef5-8914-a7cbe652eab7",
+    "customer_id": "C-014286",
+    "final_total": "3774.19"
+  },
+  {
+    "order_id": "20c9ed8a-334c-503c-8423-2cfd849fce58",
+    "customer_id": "C-072549",
+    "final_total": "3774.16"
+  },
+  {
+    "order_id": "30cda56c-a8aa-5ae8-9ef1-fa6992511796",
+    "customer_id": "C-033775",
+    "final_total": "3774.12"
+  },
+  {
+    "order_id": "079fe561-f106-5aca-9b43-da4c5a47204e",
+    "customer_id": "C-059358",
+    "final_total": "3774.05"
+  },
+  {
+    "order_id": "672152de-d098-5873-ba3a-47c2f134a589",
+    "customer_id": "C-083429",
+    "final_total": "3772.91"
+  },
+  {
+    "order_id": "e0a3eab5-6d4c-52cd-abef-d67151cc8871",
+    "customer_id": "C-055845",
+    "final_total": "3772.84"
+  },
+  {
+    "order_id": "bd2f3e2a-89ed-51cc-9a00-930636dc47ad",
+    "customer_id": "C-026359",
+    "final_total": "3772.55"
+  },
+  {
+    "order_id": "0749ec2a-fcf3-59ed-a5e7-dd54413a8b4f",
+    "customer_id": "C-055008",
+    "final_total": "3771.08"
+  },
+  {
+    "order_id": "dd2c6d48-2681-58ec-9a45-a650a0b3a7fb",
+    "customer_id": "C-017481",
+    "final_total": "3769.68"
+  },
+  {
+    "order_id": "9bd8884a-f8ad-5f84-8bc6-5319792e69e2",
+    "customer_id": "C-047323",
+    "final_total": "3769.23"
+  },
+  {
+    "order_id": "2b56148a-0f51-5572-9624-9bb35ad27a24",
+    "customer_id": "C-045111",
+    "final_total": "3768.87"
+  },
+  {
+    "order_id": "5681bdb3-f481-5177-955e-00867a4877d4",
+    "customer_id": "C-059097",
+    "final_total": "3766.62"
+  },
+  {
+    "order_id": "83ab0bb6-cbb2-592d-a13a-226f51d801c5",
+    "customer_id": "C-087449",
+    "final_total": "3766.52"
+  },
+  {
+    "order_id": "8f829ff4-0823-581e-afcd-2c974382ca83",
+    "customer_id": "C-081909",
+    "final_total": "3764.83"
+  },
+  {
+    "order_id": "b984f227-9979-5f30-9a48-204b951313a2",
+    "customer_id": "C-020426",
+    "final_total": "3764.09"
+  },
+  {
+    "order_id": "e2689416-099e-518e-a39c-9250ab62e9a7",
+    "customer_id": "C-051854",
+    "final_total": "3763.65"
+  },
+  {
+    "order_id": "56c3bde7-7d8f-5235-a634-24be86370480",
+    "customer_id": "C-013819",
+    "final_total": "3762.89"
+  },
+  {
+    "order_id": "b444f461-f310-5169-b42e-0a139785c339",
+    "customer_id": "C-004162",
+    "final_total": "3762.46"
+  },
+  {
+    "order_id": "fff9e9eb-e70a-5fc6-b8aa-c137b53669b6",
+    "customer_id": "C-035404",
+    "final_total": "3761.73"
+  },
+  {
+    "order_id": "5f7781c7-7b0a-5547-8c56-752dfb95c29c",
+    "customer_id": "C-009847",
+    "final_total": "3761.57"
+  },
+  {
+    "order_id": "7a9a21cf-5094-5d31-babd-12c0f50748bc",
+    "customer_id": "C-041515",
+    "final_total": "3760.68"
+  },
+  {
+    "order_id": "8cac41c1-1d5e-5652-81f9-bbf951e06485",
+    "customer_id": "C-065626",
+    "final_total": "3760.43"
+  },
+  {
+    "order_id": "5c48543b-25ac-5f6d-869e-8e1103843017",
+    "customer_id": "C-001967",
+    "final_total": "3760.2"
+  },
+  {
+    "order_id": "f99d8386-7bfb-5ab2-ba8f-79ec53308b7b",
+    "customer_id": "C-051439",
+    "final_total": "3759.67"
+  },
+  {
+    "order_id": "09e1b447-7eed-5bc5-8ad9-53c27bc7f592",
+    "customer_id": "C-018105",
+    "final_total": "3759.41"
+  },
+  {
+    "order_id": "9e6de882-c8bc-582e-8d8a-de17cfd888b5",
+    "customer_id": "C-027564",
+    "final_total": "3758.22"
+  },
+  {
+    "order_id": "36a232b6-1fe5-57d2-a91e-e662a1c07770",
+    "customer_id": "C-082024",
+    "final_total": "3757.89"
+  },
+  {
+    "order_id": "33514ce6-23cb-5d91-882b-80981da0e5dc",
+    "customer_id": "C-025914",
+    "final_total": "3757.68"
+  },
+  {
+    "order_id": "08e7b712-56d8-5e15-8aae-2b51a0db94e8",
+    "customer_id": "C-090743",
+    "final_total": "3757.66"
+  },
+  {
+    "order_id": "fb31eb86-7a6f-5a18-943f-cb095313426d",
+    "customer_id": "C-091065",
+    "final_total": "3757.16"
+  },
+  {
+    "order_id": "680c27ee-0e30-58a6-b06c-8f35f4797ba2",
+    "customer_id": "C-002387",
+    "final_total": "3756.21"
+  },
+  {
+    "order_id": "32624fdc-479c-514e-9a24-39e400271fcb",
+    "customer_id": "C-071786",
+    "final_total": "3755.96"
+  },
+  {
+    "order_id": "8023d32e-3f7e-52e3-94de-b90f59496131",
+    "customer_id": "C-064577",
+    "final_total": "3755.71"
+  },
+  {
+    "order_id": "50ff069e-f9b2-57cf-82de-5f344abc77de",
+    "customer_id": "C-041419",
+    "final_total": "3755.16"
+  },
+  {
+    "order_id": "adf76241-4ba6-5144-b3df-f400c0ea049f",
+    "customer_id": "C-067785",
+    "final_total": "3754.69"
+  },
+  {
+    "order_id": "207fea7d-f3cc-53f2-be59-0d36d6b4bacd",
+    "customer_id": "C-000228",
+    "final_total": "3753.91"
+  },
+  {
+    "order_id": "6fad27f0-7e62-58e5-ab02-7749474f64ab",
+    "customer_id": "C-033971",
+    "final_total": "3753.27"
+  },
+  {
+    "order_id": "b61d6d51-7366-5414-a90f-a0a6a682d32c",
+    "customer_id": "C-030260",
+    "final_total": "3753.11"
+  },
+  {
+    "order_id": "03f6f942-96f0-5b61-a3bb-6e13815b4fc4",
+    "customer_id": "C-030557",
+    "final_total": "3752.1"
+  },
+  {
+    "order_id": "67ec373b-fbc1-5cec-a0df-002743a83792",
+    "customer_id": "C-015181",
+    "final_total": "3751.0"
+  },
+  {
+    "order_id": "d680716c-a603-5674-a51a-6ad5f7cd144a",
+    "customer_id": "C-064351",
+    "final_total": "3750.83"
+  },
+  {
+    "order_id": "3905c309-e3ab-5fca-ae02-187272ec37b6",
+    "customer_id": "C-053046",
+    "final_total": "3750.82"
+  },
+  {
+    "order_id": "0d9c787d-ce92-58a7-b266-94a6210b05cf",
+    "customer_id": "C-020884",
+    "final_total": "3750.81"
+  },
+  {
+    "order_id": "60a91a5d-af40-5897-b0df-8a3c9ec9e062",
+    "customer_id": "C-033536",
+    "final_total": "3750.59"
+  },
+  {
+    "order_id": "1a0caa05-21b5-5c87-8185-7e83d8b7d1e9",
+    "customer_id": "C-093158",
+    "final_total": "3749.41"
+  },
+  {
+    "order_id": "e904cfa0-e34a-5295-94f1-ab1658b0ce3e",
+    "customer_id": "C-057556",
+    "final_total": "3748.56"
+  },
+  {
+    "order_id": "2c61f113-7206-514e-b7dd-05c25df34160",
+    "customer_id": "C-042334",
+    "final_total": "3748.14"
+  },
+  {
+    "order_id": "615c6e98-304d-5a4c-9949-90dbe389c735",
+    "customer_id": "C-095079",
+    "final_total": "3747.3"
+  },
+  {
+    "order_id": "09380f6d-33b2-5ade-906a-3dd81f481487",
+    "customer_id": "C-013747",
+    "final_total": "3747.26"
+  },
+  {
+    "order_id": "9df5f996-80c9-5087-951f-43574c5bac50",
+    "customer_id": "C-082851",
+    "final_total": "3746.84"
+  },
+  {
+    "order_id": "da04dca7-82ac-5bdc-b115-f145ed894340",
+    "customer_id": "C-079801",
+    "final_total": "3746.61"
+  },
+  {
+    "order_id": "899adf55-5f8f-586f-ab19-2404b3611ef2",
+    "customer_id": "C-076285",
+    "final_total": "3746.42"
+  },
+  {
+    "order_id": "9ed11dc5-d962-5aee-af1a-0e5cd9984d7c",
+    "customer_id": "C-023831",
+    "final_total": "3745.81"
+  },
+  {
+    "order_id": "963320bc-a47c-5128-a1e8-0647964e6ffd",
+    "customer_id": "C-005561",
+    "final_total": "3745.5"
+  },
+  {
+    "order_id": "afea509f-458b-5a9a-8db7-ec33f230406e",
+    "customer_id": "C-002412",
+    "final_total": "3742.68"
+  },
+  {
+    "order_id": "790ef06d-1903-50c5-894a-a5f310459255",
+    "customer_id": "C-024484",
+    "final_total": "3742.41"
+  },
+  {
+    "order_id": "77017b17-559c-56bd-8136-56b951b7b262",
+    "customer_id": "C-076628",
+    "final_total": "3740.58"
+  },
+  {
+    "order_id": "cc65d95d-db36-5d47-845c-3c2f5fff625b",
+    "customer_id": "C-067159",
+    "final_total": "3739.69"
+  },
+  {
+    "order_id": "53bfaf84-a4c9-5ef4-a587-79bb34c875ff",
+    "customer_id": "C-050352",
+    "final_total": "3736.37"
+  },
+  {
+    "order_id": "bc9fb2a6-df57-5b88-99f8-f10a1a0fd04c",
+    "customer_id": "C-054233",
+    "final_total": "3734.17"
+  },
+  {
+    "order_id": "0126a802-955c-5ad4-99f4-09195d01efa9",
+    "customer_id": "C-084798",
+    "final_total": "3733.92"
+  },
+  {
+    "order_id": "b1cae1df-0d45-5e29-9846-f243530ed66c",
+    "customer_id": "C-091145",
+    "final_total": "3733.8"
+  },
+  {
+    "order_id": "bab169e5-8be2-5534-a2a6-1b2ce36c5b88",
+    "customer_id": "C-008964",
+    "final_total": "3733.16"
+  },
+  {
+    "order_id": "6e48c389-c0d2-5dd8-a188-8d184c5f9238",
+    "customer_id": "C-024431",
+    "final_total": "3728.26"
+  },
+  {
+    "order_id": "9346ffe6-cc01-52bf-8344-55c0a5eb5bac",
+    "customer_id": "C-084013",
+    "final_total": "3728.17"
+  },
+  {
+    "order_id": "1d47777b-bf07-599e-a12b-395827b12f01",
+    "customer_id": "C-028697",
+    "final_total": "3728.0"
+  },
+  {
+    "order_id": "ef2e9bba-35df-506e-ba0c-f22dbb517229",
+    "customer_id": "C-029677",
+    "final_total": "3727.91"
+  },
+  {
+    "order_id": "9a191c98-3342-564c-ac10-4f3243c29810",
+    "customer_id": "C-003448",
+    "final_total": "3727.89"
+  },
+  {
+    "order_id": "b7ff4428-87ad-5005-8952-b0cb05ea5804",
+    "customer_id": "C-096663",
+    "final_total": "3727.42"
+  },
+  {
+    "order_id": "4aada1d6-92ec-59ff-8486-7caa5a5931d3",
+    "customer_id": "C-007252",
+    "final_total": "3726.66"
+  },
+  {
+    "order_id": "3c801c9e-bc5f-5e5e-a62c-9a8146e1b0ad",
+    "customer_id": "C-084465",
+    "final_total": "3726.54"
+  },
+  {
+    "order_id": "93df09ec-07db-59ae-a720-6cb1d7151ce2",
+    "customer_id": "C-065367",
+    "final_total": "3725.64"
+  },
+  {
+    "order_id": "bb3795cf-567f-51e3-95a4-92005cc73b3a",
+    "customer_id": "C-019434",
+    "final_total": "3724.74"
+  },
+  {
+    "order_id": "12683e02-5d1b-5945-9e49-2cf693ea2d96",
+    "customer_id": "C-055406",
+    "final_total": "3723.49"
+  },
+  {
+    "order_id": "50110cb6-dd65-5eeb-9f6a-bc31eaa2e21b",
+    "customer_id": "C-058740",
+    "final_total": "3723.46"
+  },
+  {
+    "order_id": "61593755-befe-5cf8-93d3-ebd56c06efb6",
+    "customer_id": "C-002967",
+    "final_total": "3723.46"
+  },
+  {
+    "order_id": "6c12f880-e55d-5639-ba63-706003ffe63e",
+    "customer_id": "C-059945",
+    "final_total": "3723.42"
+  },
+  {
+    "order_id": "e7c07d66-0830-56a7-a917-d34bb2f8de8c",
+    "customer_id": "C-035050",
+    "final_total": "3723.0"
+  },
+  {
+    "order_id": "a71480a0-9b59-535f-acab-32ccb60e0154",
+    "customer_id": "C-037009",
+    "final_total": "3721.37"
+  },
+  {
+    "order_id": "2753264a-75ee-5598-ab3c-a57330fe00eb",
+    "customer_id": "C-003267",
+    "final_total": "3720.88"
+  },
+  {
+    "order_id": "592b0d50-cbef-5184-9299-153ebdb01135",
+    "customer_id": "C-010830",
+    "final_total": "3720.76"
+  },
+  {
+    "order_id": "e7a5a64e-cbff-50f4-a5da-d5d99ae18a79",
+    "customer_id": "C-067352",
+    "final_total": "3719.69"
+  },
+  {
+    "order_id": "4002a347-5610-57a0-9b9d-e59bd56abdbd",
+    "customer_id": "C-013430",
+    "final_total": "3718.39"
+  },
+  {
+    "order_id": "521dcfbd-125e-56a8-850e-56f10a0e11e0",
+    "customer_id": "C-069751",
+    "final_total": "3718.08"
+  },
+  {
+    "order_id": "b43ce650-b2cb-5471-9557-dc5107567263",
+    "customer_id": "C-086921",
+    "final_total": "3717.16"
+  },
+  {
+    "order_id": "c56e8632-f5ca-5ae7-b58d-de69d4c39cf7",
+    "customer_id": "C-067731",
+    "final_total": "3717.09"
+  },
+  {
+    "order_id": "eeacbaa4-0356-58af-beeb-a569007ae777",
+    "customer_id": "C-009228",
+    "final_total": "3716.46"
+  },
+  {
+    "order_id": "351e2383-f25e-5baa-87af-f111eaa68f40",
+    "customer_id": "C-040333",
+    "final_total": "3716.06"
+  },
+  {
+    "order_id": "7bc98a0a-3669-59af-a591-3a783fb051ef",
+    "customer_id": "C-095368",
+    "final_total": "3715.7"
+  },
+  {
+    "order_id": "bf2a549b-6921-58cf-9d0c-37bab7e0c343",
+    "customer_id": "C-021285",
+    "final_total": "3714.44"
+  },
+  {
+    "order_id": "ddb3ffea-f50a-56ba-95a3-d9b0eb4f524f",
+    "customer_id": "C-060988",
+    "final_total": "3713.92"
+  },
+  {
+    "order_id": "8ad536b9-7c93-52b3-b909-c74861cb90a6",
+    "customer_id": "C-041977",
+    "final_total": "3713.91"
+  },
+  {
+    "order_id": "c1f83b06-e1be-506d-8aad-2a7a83dd1277",
+    "customer_id": "C-086494",
+    "final_total": "3713.9"
+  },
+  {
+    "order_id": "c20efd75-f900-50f4-a3b7-1b4fc9cd9c4c",
+    "customer_id": "C-023019",
+    "final_total": "3713.34"
+  },
+  {
+    "order_id": "428c9f38-a5fe-5a22-990a-fa1329435d26",
+    "customer_id": "C-037531",
+    "final_total": "3710.85"
+  },
+  {
+    "order_id": "c5adbe41-bfeb-5d3b-8a58-753e148a159d",
+    "customer_id": "C-036405",
+    "final_total": "3710.09"
+  },
+  {
+    "order_id": "fc9d81f9-6d21-555b-a947-c8631fc37c41",
+    "customer_id": "C-000311",
+    "final_total": "3709.84"
+  },
+  {
+    "order_id": "f9f6c08e-e72b-5ab1-9a2a-69698a62dcd9",
+    "customer_id": "C-065271",
+    "final_total": "3709.35"
+  },
+  {
+    "order_id": "d4e4b6e1-d9dc-5c0d-b736-23b62be615c1",
+    "customer_id": "C-024564",
+    "final_total": "3709.21"
+  },
+  {
+    "order_id": "3bdc2fbe-b3ca-5553-94b0-7a94d01a5da1",
+    "customer_id": "C-037091",
+    "final_total": "3708.45"
+  },
+  {
+    "order_id": "b1c64412-9254-5439-9181-15762df72df1",
+    "customer_id": "C-047132",
+    "final_total": "3708.24"
+  },
+  {
+    "order_id": "c9efd453-d7a1-518c-9371-4c4da7d0817d",
+    "customer_id": "C-072080",
+    "final_total": "3707.66"
+  },
+  {
+    "order_id": "13804f95-6503-54d0-a603-b90093a1670c",
+    "customer_id": "C-067607",
+    "final_total": "3707.66"
+  },
+  {
+    "order_id": "8abf59fe-8af1-5cfc-828c-300d483d2926",
+    "customer_id": "C-013544",
+    "final_total": "3706.97"
+  },
+  {
+    "order_id": "288326dc-72dd-58cb-b0a9-533163f3f6ee",
+    "customer_id": "C-006105",
+    "final_total": "3706.27"
+  },
+  {
+    "order_id": "cfe6fba8-4fd3-589a-844b-8c2231491f43",
+    "customer_id": "C-043071",
+    "final_total": "3704.33"
+  },
+  {
+    "order_id": "0efccf8a-27c2-5803-a338-5ba6e3c2aa38",
+    "customer_id": "C-074412",
+    "final_total": "3702.98"
+  },
+  {
+    "order_id": "2d891b3b-94f3-5cbe-8973-2b3104ab40e2",
+    "customer_id": "C-070411",
+    "final_total": "3702.76"
+  },
+  {
+    "order_id": "4d1accd2-35fd-584d-90dc-5c59db9ebe49",
+    "customer_id": "C-077554",
+    "final_total": "3702.68"
+  },
+  {
+    "order_id": "2114a37a-e21c-5e77-9297-70b511be669a",
+    "customer_id": "C-097767",
+    "final_total": "3702.04"
+  },
+  {
+    "order_id": "3a38d342-5850-5cd6-b47f-f1642f22d95d",
+    "customer_id": "C-007743",
+    "final_total": "3701.81"
+  },
+  {
+    "order_id": "2e918137-6aeb-57d0-a24f-09ad66b53509",
+    "customer_id": "C-025646",
+    "final_total": "3701.0"
+  },
+  {
+    "order_id": "f546819a-3751-56c1-8913-ced322c6cf4d",
+    "customer_id": "C-055871",
+    "final_total": "3700.57"
+  },
+  {
+    "order_id": "57c49e4e-e7b7-5a95-b288-bae33093f171",
+    "customer_id": "C-040918",
+    "final_total": "3700.07"
+  },
+  {
+    "order_id": "7fd79325-0529-546b-80d6-4e01c7da48f6",
+    "customer_id": "C-015422",
+    "final_total": "3699.52"
+  },
+  {
+    "order_id": "13b8d253-7cb5-5780-a014-cf336467eeb6",
+    "customer_id": "C-058636",
+    "final_total": "3697.72"
+  },
+  {
+    "order_id": "b140ca69-fef1-53b3-bab7-b4e2c1b7e207",
+    "customer_id": "C-002699",
+    "final_total": "3696.9"
+  },
+  {
+    "order_id": "a124d33e-b3bc-59f4-b810-b3456d65dda9",
+    "customer_id": "C-083288",
+    "final_total": "3696.42"
+  },
+  {
+    "order_id": "4b681aec-28ae-54fc-9856-3cabec162841",
+    "customer_id": "C-078506",
+    "final_total": "3696.41"
+  },
+  {
+    "order_id": "1466fd1c-c2c4-5c04-a391-008490ae7e72",
+    "customer_id": "C-089984",
+    "final_total": "3695.61"
+  },
+  {
+    "order_id": "8ce8ccbc-636f-5933-90d1-b24921d218c8",
+    "customer_id": "C-072814",
+    "final_total": "3694.97"
+  },
+  {
+    "order_id": "a3427591-1393-5e92-82d1-d96a023c91ed",
+    "customer_id": "C-057462",
+    "final_total": "3694.97"
+  },
+  {
+    "order_id": "22a7a229-3219-5fd4-8f98-9586f4ef4ebf",
+    "customer_id": "C-020639",
+    "final_total": "3694.28"
+  },
+  {
+    "order_id": "f53ef53e-709b-5e66-aa36-7c286a9ca18b",
+    "customer_id": "C-065417",
+    "final_total": "3692.78"
+  },
+  {
+    "order_id": "c910b7a1-e304-538e-99b7-1a898bbc4a41",
+    "customer_id": "C-088020",
+    "final_total": "3691.87"
+  },
+  {
+    "order_id": "bba18167-f8f3-5cc7-8c2c-e2c72573c57d",
+    "customer_id": "C-093698",
+    "final_total": "3691.25"
+  },
+  {
+    "order_id": "b73d8b30-191e-5112-b72a-3cc273e60675",
+    "customer_id": "C-082607",
+    "final_total": "3690.5"
+  },
+  {
+    "order_id": "473c7d46-a573-50b9-8328-5a6dc1743c72",
+    "customer_id": "C-030754",
+    "final_total": "3690.33"
+  },
+  {
+    "order_id": "7b5cc592-22f2-5184-96a9-f314053066fb",
+    "customer_id": "C-095347",
+    "final_total": "3689.2"
+  },
+  {
+    "order_id": "1c50c2a4-b4da-5dbe-afd9-2630e5a9bb45",
+    "customer_id": "C-054230",
+    "final_total": "3689.12"
+  },
+  {
+    "order_id": "a71d4916-67ba-5127-8216-41038e95e397",
+    "customer_id": "C-030036",
+    "final_total": "3687.75"
+  },
+  {
+    "order_id": "1590c8a6-6313-5cec-a9b2-f526cbd5d725",
+    "customer_id": "C-060691",
+    "final_total": "3687.12"
+  },
+  {
+    "order_id": "cb26d1ab-0917-5716-8bda-88a37346a476",
+    "customer_id": "C-075400",
+    "final_total": "3686.71"
+  },
+  {
+    "order_id": "feab1b71-4b9d-5331-a3b1-6e1b53f4a8c3",
+    "customer_id": "C-086550",
+    "final_total": "3683.3"
+  },
+  {
+    "order_id": "b5d3a362-681b-5a10-bdf5-0c886c957fee",
+    "customer_id": "C-062178",
+    "final_total": "3683.27"
+  },
+  {
+    "order_id": "9d478100-7b0f-5b32-94c6-8ef4d996156d",
+    "customer_id": "C-050672",
+    "final_total": "3681.72"
+  },
+  {
+    "order_id": "0617eafb-0a06-5c18-b2c3-b2c1ba3d9a34",
+    "customer_id": "C-063117",
+    "final_total": "3681.35"
+  },
+  {
+    "order_id": "f687496b-7631-51cd-b0cb-fcd6da07d444",
+    "customer_id": "C-090052",
+    "final_total": "3681.19"
+  },
+  {
+    "order_id": "39a72cf8-53ab-5b7f-8c9e-e625823d6bd3",
+    "customer_id": "C-060111",
+    "final_total": "3680.43"
+  },
+  {
+    "order_id": "32a3fddd-3771-54df-ac4e-64df4c30a3cb",
+    "customer_id": "C-068370",
+    "final_total": "3680.12"
+  },
+  {
+    "order_id": "8b236795-7f9d-53eb-857a-1a0a4d318e4c",
+    "customer_id": "C-064558",
+    "final_total": "3679.98"
+  },
+  {
+    "order_id": "d76a8dad-bbfb-5c31-8bf2-46e71e3f5b59",
+    "customer_id": "C-020547",
+    "final_total": "3679.62"
+  },
+  {
+    "order_id": "d8f5f4ad-21f6-54d9-b3ce-f0fba2137c21",
+    "customer_id": "C-044130",
+    "final_total": "3678.61"
+  },
+  {
+    "order_id": "447094dd-71f0-5de9-8346-111773f14523",
+    "customer_id": "C-056869",
+    "final_total": "3677.81"
+  },
+  {
+    "order_id": "650f410d-b5f6-5bb9-b09b-d307ddc44b1f",
+    "customer_id": "C-027721",
+    "final_total": "3677.63"
+  },
+  {
+    "order_id": "7a032467-94b5-555f-9c06-a0b03b14a102",
+    "customer_id": "C-082822",
+    "final_total": "3677.29"
+  },
+  {
+    "order_id": "13d485b7-a66d-53be-bd13-5f084a1fbda7",
+    "customer_id": "C-035031",
+    "final_total": "3676.46"
+  },
+  {
+    "order_id": "c14adc2b-a4e7-52c7-aa9a-ffff5c4abee1",
+    "customer_id": "C-006954",
+    "final_total": "3675.9"
+  },
+  {
+    "order_id": "3335f685-72a8-5972-9e21-05fa8470ad39",
+    "customer_id": "C-046031",
+    "final_total": "3675.31"
+  },
+  {
+    "order_id": "5e7d85b7-01f4-5261-9026-fedacaa22e27",
+    "customer_id": "C-072754",
+    "final_total": "3675.13"
+  },
+  {
+    "order_id": "67548b0e-7049-5987-86b3-f5c3b0fb5819",
+    "customer_id": "C-054839",
+    "final_total": "3675.11"
+  },
+  {
+    "order_id": "fb9f0381-3914-5c69-8f2c-e5f79566484e",
+    "customer_id": "C-020533",
+    "final_total": "3673.76"
+  },
+  {
+    "order_id": "54973a3e-ac26-5334-b795-dac6249cbef9",
+    "customer_id": "C-036590",
+    "final_total": "3672.42"
+  },
+  {
+    "order_id": "128a5fed-9ec8-5cb3-9bac-409dbfe07a13",
+    "customer_id": "C-080784",
+    "final_total": "3672.17"
+  },
+  {
+    "order_id": "5d610d12-7366-5193-91b0-8bd5d1ff971f",
+    "customer_id": "C-074184",
+    "final_total": "3670.74"
+  },
+  {
+    "order_id": "01d94efb-59dc-5c5c-9ad5-c331d233e481",
+    "customer_id": "C-019930",
+    "final_total": "3669.43"
+  },
+  {
+    "order_id": "857fe67e-ee72-5d4e-a1c9-5b59427a7843",
+    "customer_id": "C-029055",
+    "final_total": "3667.32"
+  },
+  {
+    "order_id": "37e46c4d-1061-5c49-9a67-d25506c784af",
+    "customer_id": "C-048783",
+    "final_total": "3667.07"
+  },
+  {
+    "order_id": "cb2b8af7-e801-5fe8-9c25-d5cb32f98621",
+    "customer_id": "C-055675",
+    "final_total": "3665.61"
+  },
+  {
+    "order_id": "dcc658c8-ab4d-5642-b6ef-f311ef078203",
+    "customer_id": "C-069017",
+    "final_total": "3665.29"
+  },
+  {
+    "order_id": "fcf6f553-2a43-51b7-8608-5c52b415d608",
+    "customer_id": "C-013550",
+    "final_total": "3665.07"
+  },
+  {
+    "order_id": "57e2722d-897c-5a9d-a44a-a12ad100a517",
+    "customer_id": "C-026617",
+    "final_total": "3664.98"
+  },
+  {
+    "order_id": "11030dfd-c4dd-585a-aa6b-cd3ea3082e38",
+    "customer_id": "C-085097",
+    "final_total": "3664.66"
+  },
+  {
+    "order_id": "4d61adde-f5e7-5f0c-93d5-c8d679deac0a",
+    "customer_id": "C-060254",
+    "final_total": "3664.55"
+  },
+  {
+    "order_id": "eb4c6343-025d-50cb-86eb-ba35548d0a0c",
+    "customer_id": "C-063344",
+    "final_total": "3664.07"
+  },
+  {
+    "order_id": "fd71d14a-c5ea-5786-8f05-a8a28f1d2ac8",
+    "customer_id": "C-054577",
+    "final_total": "3663.74"
+  },
+  {
+    "order_id": "7e6c96d5-987b-5929-9341-f57e38580b86",
+    "customer_id": "C-029199",
+    "final_total": "3663.36"
+  },
+  {
+    "order_id": "c9405488-0dc4-508e-a6f1-129013525f36",
+    "customer_id": "C-099280",
+    "final_total": "3662.86"
+  },
+  {
+    "order_id": "4510985a-cec9-54de-b434-1b828d18de27",
+    "customer_id": "C-058506",
+    "final_total": "3662.59"
+  },
+  {
+    "order_id": "ae737007-15a6-5e92-bf5a-16723bc78675",
+    "customer_id": "C-095388",
+    "final_total": "3661.05"
+  },
+  {
+    "order_id": "6ae22a06-e89b-550f-b835-e67842935b2d",
+    "customer_id": "C-047388",
+    "final_total": "3659.94"
+  },
+  {
+    "order_id": "3a5c3500-ec8f-5484-8abd-afca45903d75",
+    "customer_id": "C-012100",
+    "final_total": "3659.03"
+  },
+  {
+    "order_id": "3bbd9227-d57f-5fd3-a9c2-5eea67f162af",
+    "customer_id": "C-018741",
+    "final_total": "3657.69"
+  },
+  {
+    "order_id": "156b10a3-2942-53ea-9ec4-fc42eca59d5c",
+    "customer_id": "C-008426",
+    "final_total": "3657.66"
+  },
+  {
+    "order_id": "587b85cc-07cf-555b-9c06-20586435a0e1",
+    "customer_id": "C-089755",
+    "final_total": "3657.39"
+  },
+  {
+    "order_id": "a96b5764-d470-50bb-9b18-89bb795a1b12",
+    "customer_id": "C-025291",
+    "final_total": "3657.3"
+  },
+  {
+    "order_id": "43b981e0-286b-505d-8519-102250a7aeef",
+    "customer_id": "C-021658",
+    "final_total": "3657.16"
+  },
+  {
+    "order_id": "d8ab3ae7-7168-5af6-b07e-4734f1de8eb6",
+    "customer_id": "C-090490",
+    "final_total": "3656.17"
+  },
+  {
+    "order_id": "aa73321c-5d33-5ec0-9196-6e4d45e032f0",
+    "customer_id": "C-034478",
+    "final_total": "3655.07"
+  },
+  {
+    "order_id": "0db98b2c-389b-5aa0-9c77-23a9280b33b3",
+    "customer_id": "C-087991",
+    "final_total": "3654.22"
+  },
+  {
+    "order_id": "3ea08474-ad4a-52ff-846c-edbe56c836b0",
+    "customer_id": "C-074275",
+    "final_total": "3654.21"
+  },
+  {
+    "order_id": "31dfcfb7-5ebf-50af-a3dc-2b9eb1952da6",
+    "customer_id": "C-094827",
+    "final_total": "3653.98"
+  },
+  {
+    "order_id": "479d96e7-1aa0-5d0d-a07e-05b89ed6b696",
+    "customer_id": "C-043816",
+    "final_total": "3653.86"
+  },
+  {
+    "order_id": "705b4a1e-1e13-5b70-b45c-5fecfc897bdb",
+    "customer_id": "C-067622",
+    "final_total": "3653.71"
+  },
+  {
+    "order_id": "f8e13e8c-ae69-5a8a-aef2-80404c672cc5",
+    "customer_id": "C-017257",
+    "final_total": "3653.07"
+  },
+  {
+    "order_id": "4f10c32c-7b85-5f69-9c35-13afc19183df",
+    "customer_id": "C-022467",
+    "final_total": "3651.21"
+  },
+  {
+    "order_id": "8d9569f8-1c33-5958-956e-4dec44b3a946",
+    "customer_id": "C-007331",
+    "final_total": "3650.56"
+  },
+  {
+    "order_id": "be532a2b-27ce-554c-9fad-922a60a4bf50",
+    "customer_id": "C-025602",
+    "final_total": "3650.11"
+  },
+  {
+    "order_id": "d0904b36-0a8f-522c-844a-6fe482a26205",
+    "customer_id": "C-096737",
+    "final_total": "3649.19"
+  },
+  {
+    "order_id": "ff424879-98f3-5f30-a441-ceeb07d32266",
+    "customer_id": "C-043844",
+    "final_total": "3648.13"
+  },
+  {
+    "order_id": "b5149ab8-d176-54fa-84b5-dc2be3974bcb",
+    "customer_id": "C-074335",
+    "final_total": "3648.13"
+  },
+  {
+    "order_id": "e7632dd5-3207-5868-86ae-0eb3cb5f5f9b",
+    "customer_id": "C-037179",
+    "final_total": "3647.89"
+  },
+  {
+    "order_id": "7935a68e-698f-56df-b595-39177f80bd4f",
+    "customer_id": "C-066200",
+    "final_total": "3647.83"
+  },
+  {
+    "order_id": "7f49a0a2-437e-53b1-a068-82b3ed06027d",
+    "customer_id": "C-033387",
+    "final_total": "3646.81"
+  },
+  {
+    "order_id": "4d49a845-3574-5e6c-a583-66907f44b125",
+    "customer_id": "C-004317",
+    "final_total": "3646.75"
+  },
+  {
+    "order_id": "a0bca229-18d3-5457-bb8d-777a6f587e0a",
+    "customer_id": "C-048995",
+    "final_total": "3646.67"
+  },
+  {
+    "order_id": "d60e36ff-ab73-5974-a4e3-5836ddc1ce59",
+    "customer_id": "C-084531",
+    "final_total": "3646.63"
+  },
+  {
+    "order_id": "f31d1715-2bd4-58da-a53d-354f14d194fd",
+    "customer_id": "C-018627",
+    "final_total": "3646.35"
+  },
+  {
+    "order_id": "41322bbd-f80f-5bb1-9ab8-e67ddf506d46",
+    "customer_id": "C-017917",
+    "final_total": "3645.66"
+  },
+  {
+    "order_id": "e494a43c-d0f8-5ade-8229-77201e20163f",
+    "customer_id": "C-000081",
+    "final_total": "3644.97"
+  },
+  {
+    "order_id": "1ad4b36a-02cd-5d49-8c2a-91ea14c85a11",
+    "customer_id": "C-077761",
+    "final_total": "3642.36"
+  },
+  {
+    "order_id": "073436f3-a440-5f0b-b6d3-119a521fa0d4",
+    "customer_id": "C-016018",
+    "final_total": "3642.27"
+  },
+  {
+    "order_id": "92f5de99-04be-5388-af45-f0154c75a75d",
+    "customer_id": "C-011301",
+    "final_total": "3641.45"
+  },
+  {
+    "order_id": "2825d105-379e-5cdd-8a9a-407258a2df15",
+    "customer_id": "C-045857",
+    "final_total": "3641.16"
+  },
+  {
+    "order_id": "bfbfb778-7fa0-5588-9cdf-f8152ee04fe8",
+    "customer_id": "C-036318",
+    "final_total": "3640.73"
+  },
+  {
+    "order_id": "33b90b28-9c95-52f8-b56c-7aa7af317748",
+    "customer_id": "C-094077",
+    "final_total": "3639.72"
+  },
+  {
+    "order_id": "f647c07a-f471-5969-b71a-4bf1262f1172",
+    "customer_id": "C-084006",
+    "final_total": "3639.39"
+  },
+  {
+    "order_id": "aa360d53-9067-5f76-a736-eaaa2c119a3b",
+    "customer_id": "C-036887",
+    "final_total": "3639.28"
+  },
+  {
+    "order_id": "4d2fc1fe-1c3b-565d-a1b7-f51b401cb2e7",
+    "customer_id": "C-032428",
+    "final_total": "3638.49"
+  },
+  {
+    "order_id": "52fe55fc-9edf-50a8-b35e-0517b5a46c09",
+    "customer_id": "C-015596",
+    "final_total": "3638.16"
+  },
+  {
+    "order_id": "6e604dba-eec4-54bc-bb38-959ec1808445",
+    "customer_id": "C-054453",
+    "final_total": "3637.75"
+  },
+  {
+    "order_id": "4a295bca-4e75-54f5-a3f1-8547fa1b3f69",
+    "customer_id": "C-091813",
+    "final_total": "3636.84"
+  },
+  {
+    "order_id": "2e8278d0-6be7-56b7-952d-10e99901aefc",
+    "customer_id": "C-095961",
+    "final_total": "3636.09"
+  },
+  {
+    "order_id": "70381bbd-dbaf-51d1-8585-7e734bbd7cad",
+    "customer_id": "C-070855",
+    "final_total": "3635.17"
+  },
+  {
+    "order_id": "904d4739-70fe-5953-a565-f84ba8cf58c0",
+    "customer_id": "C-038375",
+    "final_total": "3634.45"
+  },
+  {
+    "order_id": "02ce35fd-8542-5a4b-afdc-14a07bb58a88",
+    "customer_id": "C-097800",
+    "final_total": "3633.57"
+  },
+  {
+    "order_id": "c6a2d10c-0ac0-5574-949e-296987215aa1",
+    "customer_id": "C-079820",
+    "final_total": "3633.31"
+  },
+  {
+    "order_id": "f8354c5f-0d6d-50ec-9d3b-75ca46d395f2",
+    "customer_id": "C-072263",
+    "final_total": "3632.67"
+  },
+  {
+    "order_id": "a895fc9a-3a1c-5e87-932d-5fce9d4b0047",
+    "customer_id": "C-064361",
+    "final_total": "3632.51"
+  },
+  {
+    "order_id": "54b75a45-ee0a-5020-8567-e2bdb7352601",
+    "customer_id": "C-011621",
+    "final_total": "3632.15"
+  },
+  {
+    "order_id": "7171be01-90bb-5c84-9e85-0d7b6da28470",
+    "customer_id": "C-076266",
+    "final_total": "3631.42"
+  },
+  {
+    "order_id": "ca8f3b72-0cb7-53fe-b998-1caa818b6a24",
+    "customer_id": "C-047494",
+    "final_total": "3630.71"
+  },
+  {
+    "order_id": "cd3ba0c8-28cc-56f8-9e25-45a10e69c283",
+    "customer_id": "C-033868",
+    "final_total": "3630.47"
+  },
+  {
+    "order_id": "d1070852-3023-5bc5-bc07-ad322ca21fb7",
+    "customer_id": "C-088129",
+    "final_total": "3630.4"
+  },
+  {
+    "order_id": "53a58bfd-7155-5b60-98aa-61bcdc10a8d1",
+    "customer_id": "C-085865",
+    "final_total": "3630.33"
+  },
+  {
+    "order_id": "b4bcc0fc-e15b-5b0d-b8bf-8d4b80801c8b",
+    "customer_id": "C-027676",
+    "final_total": "3629.84"
+  },
+  {
+    "order_id": "7e8d0376-1c9f-5313-90b0-a3c064777efb",
+    "customer_id": "C-062945",
+    "final_total": "3628.52"
+  },
+  {
+    "order_id": "b1302ed3-36b1-5372-87ab-50dd31bec4ea",
+    "customer_id": "C-079349",
+    "final_total": "3627.53"
+  },
+  {
+    "order_id": "dde83b67-9bf8-5295-835d-aa034072ed3c",
+    "customer_id": "C-061094",
+    "final_total": "3627.26"
+  },
+  {
+    "order_id": "d8d52de2-d787-540a-a995-761da8000fbb",
+    "customer_id": "C-006518",
+    "final_total": "3626.86"
+  },
+  {
+    "order_id": "93adab0b-6e26-5dbe-a93f-7824990ab3c1",
+    "customer_id": "C-072928",
+    "final_total": "3626.15"
+  },
+  {
+    "order_id": "37db2ed2-2641-5dad-af3e-ef0589e0d415",
+    "customer_id": "C-029080",
+    "final_total": "3625.96"
+  },
+  {
+    "order_id": "ab1bad8d-76c0-5b9d-96b6-cc55d28cb3f1",
+    "customer_id": "C-013243",
+    "final_total": "3624.89"
+  },
+  {
+    "order_id": "a86a7e18-cfe7-50df-b281-8fc78e8985ff",
+    "customer_id": "C-035605",
+    "final_total": "3624.85"
+  },
+  {
+    "order_id": "7f230c8a-b032-598e-981d-3fd6a77f2ed6",
+    "customer_id": "C-015891",
+    "final_total": "3624.48"
+  },
+  {
+    "order_id": "9303fc5b-3b15-59ef-bb7f-c7e27ffc9acc",
+    "customer_id": "C-047613",
+    "final_total": "3623.6"
+  },
+  {
+    "order_id": "d1f11561-a995-5cea-bf08-7329e65f8563",
+    "customer_id": "C-027352",
+    "final_total": "3623.36"
+  },
+  {
+    "order_id": "01f7f17a-7769-546c-ad10-79d3794b50fd",
+    "customer_id": "C-069119",
+    "final_total": "3623.34"
+  },
+  {
+    "order_id": "bc41d041-a768-58d5-a95f-af0a814ca423",
+    "customer_id": "C-096975",
+    "final_total": "3622.65"
+  },
+  {
+    "order_id": "a09648af-509a-51a5-a6b9-fb621d6e29e8",
+    "customer_id": "C-061497",
+    "final_total": "3622.27"
+  },
+  {
+    "order_id": "72a7e6c4-9055-553d-a332-04b324a1a42e",
+    "customer_id": "C-043214",
+    "final_total": "3621.98"
+  },
+  {
+    "order_id": "dca8f4cf-d336-5a3a-add5-2e5b8ba8a1d7",
+    "customer_id": "C-009112",
+    "final_total": "3620.95"
+  },
+  {
+    "order_id": "1a88e73e-2c25-5af6-a03d-bff83aa267fc",
+    "customer_id": "C-000603",
+    "final_total": "3620.93"
+  },
+  {
+    "order_id": "3d0ad6f5-0814-5bb2-abc1-16d881c201ce",
+    "customer_id": "C-071592",
+    "final_total": "3620.54"
+  },
+  {
+    "order_id": "9069c0ba-3d74-51ce-9e7d-b98ce3d5ad23",
+    "customer_id": "C-072921",
+    "final_total": "3619.93"
+  },
+  {
+    "order_id": "80635869-c015-5068-b689-8a378576123e",
+    "customer_id": "C-012097",
+    "final_total": "3619.6"
+  },
+  {
+    "order_id": "303ceea0-68d6-5018-8a44-3e61f8415e63",
+    "customer_id": "C-016871",
+    "final_total": "3619.18"
+  },
+  {
+    "order_id": "fe021de0-4aad-575c-9716-d844353c09e5",
+    "customer_id": "C-095420",
+    "final_total": "3618.84"
+  },
+  {
+    "order_id": "3c1eff18-8a89-5943-9f7c-71d915cbd458",
+    "customer_id": "C-056010",
+    "final_total": "3618.71"
+  },
+  {
+    "order_id": "1d12a839-15d7-5cbb-9765-5cc52a78e61e",
+    "customer_id": "C-013892",
+    "final_total": "3618.61"
+  },
+  {
+    "order_id": "dfc6126a-0dc3-5832-bd12-b4ffbe84427e",
+    "customer_id": "C-087713",
+    "final_total": "3618.1"
+  },
+  {
+    "order_id": "1ffb932c-e965-5ddf-8bba-fa6d88fdc62c",
+    "customer_id": "C-022436",
+    "final_total": "3616.81"
+  },
+  {
+    "order_id": "2bbb66dc-8583-5b88-a784-62a05a2dd435",
+    "customer_id": "C-041206",
+    "final_total": "3616.44"
+  },
+  {
+    "order_id": "40ee3e0c-c311-5515-ba30-29f16dffdfa4",
+    "customer_id": "C-015459",
+    "final_total": "3616.34"
+  },
+  {
+    "order_id": "27e4c64a-010a-5365-85dc-80eb601aadd6",
+    "customer_id": "C-002161",
+    "final_total": "3615.6"
+  },
+  {
+    "order_id": "c9cf5939-fd56-517b-ab95-b5dcea8dcb70",
+    "customer_id": "C-066641",
+    "final_total": "3615.22"
+  },
+  {
+    "order_id": "0416a0b7-3277-5fd8-838d-ccc33649b1c9",
+    "customer_id": "C-092082",
+    "final_total": "3615.14"
+  },
+  {
+    "order_id": "0c28b5de-b2fd-5a4d-bbe4-86e5236633a1",
+    "customer_id": "C-067938",
+    "final_total": "3615.12"
+  },
+  {
+    "order_id": "6e956bc2-05bd-57cc-85fa-5c07e527fc70",
+    "customer_id": "C-037098",
+    "final_total": "3614.81"
+  },
+  {
+    "order_id": "7b709f10-232b-50ad-a0e0-9dfb75a9589b",
+    "customer_id": "C-034709",
+    "final_total": "3614.39"
+  },
+  {
+    "order_id": "76080775-16c1-5214-8b71-be73b4758055",
+    "customer_id": "C-007279",
+    "final_total": "3614.13"
+  },
+  {
+    "order_id": "587c2b71-38ee-5f11-989d-07ba46fe0b05",
+    "customer_id": "C-090367",
+    "final_total": "3613.39"
+  },
+  {
+    "order_id": "d503b2a5-bd7a-58fd-9b01-5eab957909f3",
+    "customer_id": "C-006032",
+    "final_total": "3613.32"
+  },
+  {
+    "order_id": "ad02df63-e8ef-578a-aef8-802f70650fcf",
+    "customer_id": "C-067478",
+    "final_total": "3612.06"
+  },
+  {
+    "order_id": "4f9ab44c-34b9-5020-afeb-483d2504ccde",
+    "customer_id": "C-072331",
+    "final_total": "3611.66"
+  },
+  {
+    "order_id": "321a70cf-7522-5146-8258-0f4e3e6a6f09",
+    "customer_id": "C-079732",
+    "final_total": "3611.52"
+  },
+  {
+    "order_id": "faf97221-740e-5147-a956-671317798c06",
+    "customer_id": "C-053992",
+    "final_total": "3611.41"
+  },
+  {
+    "order_id": "7251b2f0-27be-5855-9ec7-9f6679583932",
+    "customer_id": "C-074079",
+    "final_total": "3611.19"
+  },
+  {
+    "order_id": "7e1c7dfe-454e-51d4-899b-013282702b8d",
+    "customer_id": "C-007345",
+    "final_total": "3611.19"
+  },
+  {
+    "order_id": "71739d32-7764-53ca-b967-9c303688ecda",
+    "customer_id": "C-013699",
+    "final_total": "3611.18"
+  },
+  {
+    "order_id": "2fe4cf1c-650e-5659-aa14-9f082bf72746",
+    "customer_id": "C-099432",
+    "final_total": "3610.2"
+  },
+  {
+    "order_id": "11dffb69-e4ec-5780-b8c3-329d4283c600",
+    "customer_id": "C-082476",
+    "final_total": "3609.8"
+  },
+  {
+    "order_id": "93c29823-a77a-55f7-9774-bdb67e8c7689",
+    "customer_id": "C-040100",
+    "final_total": "3609.64"
+  },
+  {
+    "order_id": "bcb57b55-e04b-5c66-96c6-ba6c7f07aa51",
+    "customer_id": "C-030298",
+    "final_total": "3609.02"
+  },
+  {
+    "order_id": "b96f68be-c73c-5da8-a994-93ff6af60daa",
+    "customer_id": "C-058060",
+    "final_total": "3608.47"
+  },
+  {
+    "order_id": "dbcd2e69-3049-5d16-93f0-f2e7ea6b41a7",
+    "customer_id": "C-094167",
+    "final_total": "3608.39"
+  },
+  {
+    "order_id": "555c8aea-667a-5f51-919e-498872e61ee4",
+    "customer_id": "C-016829",
+    "final_total": "3607.92"
+  },
+  {
+    "order_id": "522d5b64-ccc1-5a32-8fe9-353823da8e6e",
+    "customer_id": "C-061768",
+    "final_total": "3606.34"
+  },
+  {
+    "order_id": "1c8bcdb4-c5c7-56ac-b0f5-f2617cf2482c",
+    "customer_id": "C-037586",
+    "final_total": "3606.34"
+  },
+  {
+    "order_id": "6378338e-b748-5114-b2b1-a4ccd098633f",
+    "customer_id": "C-028343",
+    "final_total": "3606.19"
+  },
+  {
+    "order_id": "83546849-fdf9-57ac-bfae-944a0ba59ce1",
+    "customer_id": "C-022988",
+    "final_total": "3606.09"
+  },
+  {
+    "order_id": "f54a1f77-6ae1-562d-adb9-cb8d794b0f50",
+    "customer_id": "C-014356",
+    "final_total": "3605.41"
+  },
+  {
+    "order_id": "50f41907-36ca-5a89-8275-4af73d011835",
+    "customer_id": "C-072656",
+    "final_total": "3605.32"
+  },
+  {
+    "order_id": "a53c4fc6-2617-5364-8daf-58d69afb38ea",
+    "customer_id": "C-067800",
+    "final_total": "3605.08"
+  },
+  {
+    "order_id": "17f24331-0b2e-56ca-a9ed-b40630e5f37c",
+    "customer_id": "C-007637",
+    "final_total": "3605.03"
+  },
+  {
+    "order_id": "de966ba4-7eab-52b7-8068-ab52cb702ca6",
+    "customer_id": "C-069775",
+    "final_total": "3604.58"
+  },
+  {
+    "order_id": "95d85751-cf66-5610-a933-36594da9e623",
+    "customer_id": "C-069017",
+    "final_total": "3604.21"
+  },
+  {
+    "order_id": "eb03a71c-5283-57d9-b5e1-d23d14319c1e",
+    "customer_id": "C-016725",
+    "final_total": "3603.38"
+  },
+  {
+    "order_id": "bd0f249a-f6bb-597e-9e7a-242963f65fa8",
+    "customer_id": "C-066722",
+    "final_total": "3603.3"
+  },
+  {
+    "order_id": "75098294-4c42-5f33-9273-7f89d88a8dce",
+    "customer_id": "C-069488",
+    "final_total": "3603.24"
+  },
+  {
+    "order_id": "9df76c84-9f8a-5ff7-a2f8-f1ea0e9f7e83",
+    "customer_id": "C-074667",
+    "final_total": "3603.22"
+  },
+  {
+    "order_id": "c7be2cfa-b729-52d6-bd84-821b9c7c3a02",
+    "customer_id": "C-066477",
+    "final_total": "3603.09"
+  },
+  {
+    "order_id": "29ead854-8f06-5177-9e21-5658b4d0d3c0",
+    "customer_id": "C-026085",
+    "final_total": "3602.03"
+  },
+  {
+    "order_id": "7881fb03-e275-57b4-a468-1258c8680d54",
+    "customer_id": "C-043630",
+    "final_total": "3601.74"
+  },
+  {
+    "order_id": "7cc0b5ee-54c7-55c3-a0ae-5734fc7ca5b7",
+    "customer_id": "C-086043",
+    "final_total": "3601.53"
+  },
+  {
+    "order_id": "c9152e5e-78ce-5563-92ae-7a2435a6a272",
+    "customer_id": "C-008282",
+    "final_total": "3600.15"
+  },
+  {
+    "order_id": "6471c33c-05d3-57b4-abf8-82132cad015e",
+    "customer_id": "C-036491",
+    "final_total": "3600.01"
+  },
+  {
+    "order_id": "4fb8f41a-305d-5609-b07e-dd414942ba1c",
+    "customer_id": "C-099052",
+    "final_total": "3599.96"
+  },
+  {
+    "order_id": "2d852745-81b4-5c3e-b14b-ca92a936f175",
+    "customer_id": "C-035828",
+    "final_total": "3599.62"
+  },
+  {
+    "order_id": "aebc0d45-dceb-5464-bcfe-770465259bff",
+    "customer_id": "C-055217",
+    "final_total": "3599.01"
+  },
+  {
+    "order_id": "334ba2ed-133b-5184-8c1c-525c9e019db4",
+    "customer_id": "C-093785",
+    "final_total": "3597.94"
+  },
+  {
+    "order_id": "042df7e6-472b-5a62-97ab-8f2bbca6234d",
+    "customer_id": "C-003005",
+    "final_total": "3597.47"
+  },
+  {
+    "order_id": "3de6698d-48ce-57f9-8ca1-4092ca318cb5",
+    "customer_id": "C-090013",
+    "final_total": "3596.28"
+  },
+  {
+    "order_id": "ea7f03e5-0ad9-555e-99ff-632384e0d99d",
+    "customer_id": "C-000259",
+    "final_total": "3596.26"
+  },
+  {
+    "order_id": "9308ef59-3589-55d3-b53b-a56f20739356",
+    "customer_id": "C-091787",
+    "final_total": "3595.6"
+  },
+  {
+    "order_id": "bbf92090-d4e2-5252-a7d9-7120ffac71c3",
+    "customer_id": "C-040035",
+    "final_total": "3595.51"
+  },
+  {
+    "order_id": "a0516eb9-0a2f-5cb5-b32d-46be8890afd4",
+    "customer_id": "C-095746",
+    "final_total": "3595.48"
+  },
+  {
+    "order_id": "dbbf7c4f-a1d6-5a66-af12-ab544e2bacda",
+    "customer_id": "C-020338",
+    "final_total": "3595.31"
+  },
+  {
+    "order_id": "ec38ea76-5479-595a-9c21-59a893f86f4f",
+    "customer_id": "C-097287",
+    "final_total": "3595.12"
+  },
+  {
+    "order_id": "77a7e3a6-dc9e-5e1b-8c85-632961d64ae3",
+    "customer_id": "C-073909",
+    "final_total": "3594.7"
+  },
+  {
+    "order_id": "5907c64b-6335-56ef-b957-a7189acd8bac",
+    "customer_id": "C-037919",
+    "final_total": "3593.94"
+  },
+  {
+    "order_id": "6c652882-69b2-5e0c-8a98-8c58b79b866d",
+    "customer_id": "C-002712",
+    "final_total": "3593.32"
+  },
+  {
+    "order_id": "d5c678f7-6bc0-5738-948d-c6e45190af44",
+    "customer_id": "C-024190",
+    "final_total": "3592.4"
+  },
+  {
+    "order_id": "9386991a-287a-538a-b12c-b9ee85337c45",
+    "customer_id": "C-079066",
+    "final_total": "3592.13"
+  },
+  {
+    "order_id": "fc70178d-caff-53f5-b3e2-0e3fb56319db",
+    "customer_id": "C-027290",
+    "final_total": "3592.01"
+  },
+  {
+    "order_id": "f5e442f3-25d4-508c-8f85-fd1fc2b09f34",
+    "customer_id": "C-025865",
+    "final_total": "3591.94"
+  },
+  {
+    "order_id": "01693b39-a046-584e-8f74-4584b36c72ae",
+    "customer_id": "C-015402",
+    "final_total": "3591.06"
+  },
+  {
+    "order_id": "6415fbb0-9bc7-57fc-9f01-8d2f449a70e6",
+    "customer_id": "C-087558",
+    "final_total": "3590.81"
+  },
+  {
+    "order_id": "8ced2c09-2b56-5c55-a90f-68f34a68bbe4",
+    "customer_id": "C-089040",
+    "final_total": "3590.6"
+  },
+  {
+    "order_id": "33aff1f4-5408-5314-8bc3-54584af99c2c",
+    "customer_id": "C-051017",
+    "final_total": "3590.14"
+  },
+  {
+    "order_id": "cd7aa8a3-8c51-54b2-bdf9-9c4edf7a0e37",
+    "customer_id": "C-048400",
+    "final_total": "3589.97"
+  },
+  {
+    "order_id": "6a7ef373-d7d8-5e82-b152-1d418e089338",
+    "customer_id": "C-075175",
+    "final_total": "3589.68"
+  },
+  {
+    "order_id": "d40fb34a-f221-5091-a38e-4f69f1c92461",
+    "customer_id": "C-052044",
+    "final_total": "3588.8"
+  },
+  {
+    "order_id": "1e9a33c9-679d-5c13-88ab-13a5480f1079",
+    "customer_id": "C-023953",
+    "final_total": "3588.63"
+  },
+  {
+    "order_id": "c6823a9c-c865-56c7-aced-f91f6f1685f0",
+    "customer_id": "C-005789",
+    "final_total": "3587.84"
+  },
+  {
+    "order_id": "50109031-354e-5f7a-be9b-393b33d77321",
+    "customer_id": "C-038336",
+    "final_total": "3587.84"
+  },
+  {
+    "order_id": "373df3ba-6823-5176-a368-39f838399f70",
+    "customer_id": "C-027989",
+    "final_total": "3587.17"
+  },
+  {
+    "order_id": "1aef4002-22ec-52ab-a2f5-bdcb05dd4943",
+    "customer_id": "C-065407",
+    "final_total": "3586.67"
+  },
+  {
+    "order_id": "25d182eb-12b8-5d0e-b94f-079660085f51",
+    "customer_id": "C-043074",
+    "final_total": "3584.44"
+  },
+  {
+    "order_id": "7593dddf-4446-58b4-a9dc-a54a980a740e",
+    "customer_id": "C-063621",
+    "final_total": "3584.06"
+  },
+  {
+    "order_id": "0afa41b3-a007-5bca-ba71-92cfd31917e0",
+    "customer_id": "C-098069",
+    "final_total": "3583.81"
+  },
+  {
+    "order_id": "490c2b85-000f-511e-9f6f-82a4aec7d242",
+    "customer_id": "C-056433",
+    "final_total": "3583.39"
+  },
+  {
+    "order_id": "b7f619ae-7e77-5715-8722-64246e412c64",
+    "customer_id": "C-067401",
+    "final_total": "3582.68"
+  },
+  {
+    "order_id": "8f919674-af14-5eb5-a85d-cf0471f739b7",
+    "customer_id": "C-029574",
+    "final_total": "3582.22"
+  },
+  {
+    "order_id": "3089c9d8-bbd3-5227-b195-22e282fb5814",
+    "customer_id": "C-094944",
+    "final_total": "3582.2"
+  },
+  {
+    "order_id": "a7b59cf4-8f68-52ec-b9ba-7ed2e9c7b6ed",
+    "customer_id": "C-038034",
+    "final_total": "3582.13"
+  },
+  {
+    "order_id": "78b58436-bc0c-587c-a241-0f6f59f017c1",
+    "customer_id": "C-049882",
+    "final_total": "3581.12"
+  },
+  {
+    "order_id": "9b11d1ae-877b-5ef5-bdee-4968edeff3c9",
+    "customer_id": "C-044499",
+    "final_total": "3580.96"
+  },
+  {
+    "order_id": "dc7fc4c8-21a4-5295-9243-a18576633f02",
+    "customer_id": "C-086119",
+    "final_total": "3579.66"
+  },
+  {
+    "order_id": "85034d95-d071-55e5-a62f-7fc2495c079b",
+    "customer_id": "C-044096",
+    "final_total": "3579.52"
+  },
+  {
+    "order_id": "1dd8e91b-d19b-55ff-b596-58a1043447e2",
+    "customer_id": "C-003935",
+    "final_total": "3579.5"
+  },
+  {
+    "order_id": "c42c2018-4aa7-53df-bbd1-eac780356ff0",
+    "customer_id": "C-093365",
+    "final_total": "3576.23"
+  },
+  {
+    "order_id": "06eab58e-5730-5ce3-bb5f-df03ec8c7134",
+    "customer_id": "C-051109",
+    "final_total": "3574.98"
+  },
+  {
+    "order_id": "f29af600-8352-5854-a29e-b245adfea9da",
+    "customer_id": "C-099588",
+    "final_total": "3574.82"
+  },
+  {
+    "order_id": "6c1f7366-02d3-5718-bc4c-099c63af1115",
+    "customer_id": "C-032309",
+    "final_total": "3574.41"
+  },
+  {
+    "order_id": "5591c99c-ba09-593a-b184-77dee9a35336",
+    "customer_id": "C-078982",
+    "final_total": "3573.57"
+  },
+  {
+    "order_id": "d3910ef5-fcdb-5aa2-b9ee-36839d4029b4",
+    "customer_id": "C-009141",
+    "final_total": "3573.33"
+  },
+  {
+    "order_id": "2c5047af-f018-5c64-a56f-aed721cbd350",
+    "customer_id": "C-018922",
+    "final_total": "3572.7"
+  },
+  {
+    "order_id": "fd1bba90-67df-5ae0-b2a8-46a7b3377c58",
+    "customer_id": "C-057049",
+    "final_total": "3572.16"
+  },
+  {
+    "order_id": "b42afe0a-e325-5c96-93b9-8f915de52b14",
+    "customer_id": "C-034994",
+    "final_total": "3571.77"
+  },
+  {
+    "order_id": "1d0f7b7c-63f6-594f-ba65-67470b9f299c",
+    "customer_id": "C-000052",
+    "final_total": "3571.54"
+  },
+  {
+    "order_id": "caa006b9-fdbd-5957-996e-5fb52d5af8d0",
+    "customer_id": "C-066422",
+    "final_total": "3569.78"
+  },
+  {
+    "order_id": "d8942bb6-cc6c-536a-bc4f-739a6a95be68",
+    "customer_id": "C-018226",
+    "final_total": "3569.4"
+  },
+  {
+    "order_id": "48dc3a2d-10db-5659-9aa6-4f0cd5ad9774",
+    "customer_id": "C-000218",
+    "final_total": "3569.19"
+  },
+  {
+    "order_id": "57373a9e-c710-5453-bb8c-c46975ea2817",
+    "customer_id": "C-030808",
+    "final_total": "3569.05"
+  },
+  {
+    "order_id": "fbe86759-7c30-542d-ba24-171e894e6b27",
+    "customer_id": "C-091317",
+    "final_total": "3568.86"
+  },
+  {
+    "order_id": "517b7012-ed30-5344-b2b3-91cc59b2350b",
+    "customer_id": "C-011516",
+    "final_total": "3568.03"
+  },
+  {
+    "order_id": "434deb00-11f2-5b75-9af0-be25d4480a17",
+    "customer_id": "C-020655",
+    "final_total": "3567.43"
+  },
+  {
+    "order_id": "e7781344-096b-557c-a1db-e6e13643ec1f",
+    "customer_id": "C-068400",
+    "final_total": "3566.51"
+  },
+  {
+    "order_id": "165e58c1-2c2f-523a-aacf-c74a47481cc9",
+    "customer_id": "C-042909",
+    "final_total": "3565.93"
+  },
+  {
+    "order_id": "4e9e00e1-147b-50eb-9f88-e9df1a1b3bfd",
+    "customer_id": "C-045411",
+    "final_total": "3564.92"
+  },
+  {
+    "order_id": "0bbd5af6-fe87-57e9-aa8a-c2dd6d0b5370",
+    "customer_id": "C-008540",
+    "final_total": "3564.48"
+  },
+  {
+    "order_id": "4ed004ba-6bd6-51fb-b282-4313543e7f44",
+    "customer_id": "C-019610",
+    "final_total": "3564.18"
+  },
+  {
+    "order_id": "7be79511-bb40-5ffb-a23b-3ad73a7ca6a8",
+    "customer_id": "C-032650",
+    "final_total": "3563.36"
+  },
+  {
+    "order_id": "d2e19cab-4392-53b5-9f00-f71346d43f96",
+    "customer_id": "C-092636",
+    "final_total": "3562.69"
+  },
+  {
+    "order_id": "2ce35b71-a0ec-5de2-ae76-5644c588342f",
+    "customer_id": "C-023137",
+    "final_total": "3562.67"
+  },
+  {
+    "order_id": "2b65aa80-49d6-5f99-87ce-1536dac544f7",
+    "customer_id": "C-055532",
+    "final_total": "3562.33"
+  },
+  {
+    "order_id": "d9a13b1b-2fae-5802-9b0d-58744635dbe8",
+    "customer_id": "C-098027",
+    "final_total": "3562.29"
+  },
+  {
+    "order_id": "1792fa8c-e74e-5cb0-b7d5-c44fab6062a7",
+    "customer_id": "C-020562",
+    "final_total": "3561.99"
+  },
+  {
+    "order_id": "0e81f854-340d-58ec-884f-200eae9b35a5",
+    "customer_id": "C-002275",
+    "final_total": "3561.62"
+  },
+  {
+    "order_id": "c5d8bc7b-ae23-515a-bbbc-a3f9244ee4e4",
+    "customer_id": "C-094538",
+    "final_total": "3561.22"
+  },
+  {
+    "order_id": "57c85b81-3f4c-5af2-a509-65ddfadf4ba8",
+    "customer_id": "C-046236",
+    "final_total": "3560.88"
+  },
+  {
+    "order_id": "411030cc-b49f-5988-9590-230a47a05a94",
+    "customer_id": "C-090208",
+    "final_total": "3560.84"
+  },
+  {
+    "order_id": "fe91709d-42cb-5d00-a6bf-41925e89d373",
+    "customer_id": "C-017751",
+    "final_total": "3560.76"
+  },
+  {
+    "order_id": "c1462df9-f7c2-5a30-9bbf-06e7e3fe1c22",
+    "customer_id": "C-065635",
+    "final_total": "3560.75"
+  },
+  {
+    "order_id": "738f4cbb-fd98-5ff2-9582-cb9e4ddc6c0b",
+    "customer_id": "C-044947",
+    "final_total": "3559.87"
+  },
+  {
+    "order_id": "acd8ae08-336b-513e-8962-52584ae44779",
+    "customer_id": "C-081745",
+    "final_total": "3559.04"
+  },
+  {
+    "order_id": "fb57c77e-a990-5f91-87d8-a2817e45d45b",
+    "customer_id": "C-028585",
+    "final_total": "3559.03"
+  },
+  {
+    "order_id": "243d7106-b076-51b4-b941-a3c14d8f76d6",
+    "customer_id": "C-070713",
+    "final_total": "3558.21"
+  },
+  {
+    "order_id": "91288428-f86f-5c72-988b-faa391f3e784",
+    "customer_id": "C-031054",
+    "final_total": "3557.5"
+  },
+  {
+    "order_id": "08ff35da-79e9-5d1e-9895-4689acaa3cdd",
+    "customer_id": "C-067129",
+    "final_total": "3557.47"
+  },
+  {
+    "order_id": "42a860b4-2369-51f8-9619-abcdf8ce9fb1",
+    "customer_id": "C-055396",
+    "final_total": "3557.23"
+  },
+  {
+    "order_id": "87d08f99-ab47-56f2-9030-55bfae1a5edb",
+    "customer_id": "C-063340",
+    "final_total": "3557.1"
+  },
+  {
+    "order_id": "ab2d44a5-9b7b-5162-a09f-da37ee518265",
+    "customer_id": "C-076139",
+    "final_total": "3556.67"
+  },
+  {
+    "order_id": "9a45b9de-546d-5e1a-b34f-17554a3b002c",
+    "customer_id": "C-076379",
+    "final_total": "3556.38"
+  },
+  {
+    "order_id": "40570555-244a-54d5-94cc-0ea8ee931cab",
+    "customer_id": "C-093243",
+    "final_total": "3556.24"
+  },
+  {
+    "order_id": "3004c7e1-6e63-5f48-8c68-9bbcafa2c780",
+    "customer_id": "C-061492",
+    "final_total": "3555.98"
+  },
+  {
+    "order_id": "b8c0f996-ae3c-55b8-b785-c34f93815276",
+    "customer_id": "C-064754",
+    "final_total": "3555.96"
+  },
+  {
+    "order_id": "8e040672-4cab-5095-8e48-481cfaf94e78",
+    "customer_id": "C-054868",
+    "final_total": "3555.6"
+  },
+  {
+    "order_id": "319d70c3-3b16-507a-8119-87096d44d7bf",
+    "customer_id": "C-053699",
+    "final_total": "3555.26"
+  },
+  {
+    "order_id": "aefa0ddc-2fda-5e4c-8b31-79dbb53e51f6",
+    "customer_id": "C-021264",
+    "final_total": "3554.79"
+  },
+  {
+    "order_id": "17060006-44b9-50fa-99df-0de2250c2b16",
+    "customer_id": "C-032691",
+    "final_total": "3554.3"
+  },
+  {
+    "order_id": "9ac57a88-b114-550a-aa8b-ef68ee31be88",
+    "customer_id": "C-064438",
+    "final_total": "3553.28"
+  },
+  {
+    "order_id": "2314268b-ad20-5166-8101-eb3763a33a6c",
+    "customer_id": "C-052321",
+    "final_total": "3553.14"
+  },
+  {
+    "order_id": "2faadeb6-47ca-5280-82e0-fc2e7130cc63",
+    "customer_id": "C-057876",
+    "final_total": "3552.9"
+  },
+  {
+    "order_id": "35acbbc5-abd3-592b-8247-2c7fe097272f",
+    "customer_id": "C-009874",
+    "final_total": "3552.68"
+  },
+  {
+    "order_id": "9df46faf-fc9f-59db-bd3e-d2da1c91dfc8",
+    "customer_id": "C-073849",
+    "final_total": "3551.01"
+  },
+  {
+    "order_id": "e530e66d-12d5-54a1-b3a7-614140c5f129",
+    "customer_id": "C-069169",
+    "final_total": "3550.79"
+  },
+  {
+    "order_id": "2803d3bb-84a1-50ca-9d9b-21471247ffd6",
+    "customer_id": "C-024793",
+    "final_total": "3550.46"
+  },
+  {
+    "order_id": "423018b7-e6db-5863-a9c5-fa1e13e8c0ae",
+    "customer_id": "C-079787",
+    "final_total": "3549.77"
+  },
+  {
+    "order_id": "2d07be6b-3cae-5a1a-9635-8211d5562313",
+    "customer_id": "C-022380",
+    "final_total": "3548.69"
+  },
+  {
+    "order_id": "bab2147b-0c04-5c2e-9ed6-52f221809b9c",
+    "customer_id": "C-082363",
+    "final_total": "3548.65"
+  },
+  {
+    "order_id": "4fff994b-01c4-51bf-a7e5-594830e4bfc7",
+    "customer_id": "C-046689",
+    "final_total": "3547.1"
+  },
+  {
+    "order_id": "2dcd1724-c4aa-5435-be1b-59645cbd809f",
+    "customer_id": "C-021084",
+    "final_total": "3547.02"
+  },
+  {
+    "order_id": "e24cae9d-7e2a-56ff-a529-1778fe4e35e0",
+    "customer_id": "C-048320",
+    "final_total": "3546.83"
+  },
+  {
+    "order_id": "cac1258f-d86b-5539-9c10-76b5c2d898be",
+    "customer_id": "C-093744",
+    "final_total": "3546.71"
+  },
+  {
+    "order_id": "7aeb627e-f772-59c1-a0ed-0aa5a5572665",
+    "customer_id": "C-008776",
+    "final_total": "3546.4"
+  },
+  {
+    "order_id": "361dcdc9-43ac-562b-9b57-43bf36f02957",
+    "customer_id": "C-034725",
+    "final_total": "3546.11"
+  },
+  {
+    "order_id": "628cd158-b641-514c-a250-1ce526839183",
+    "customer_id": "C-070350",
+    "final_total": "3545.89"
+  },
+  {
+    "order_id": "275f4783-7947-51e1-976d-df71a297c9cf",
+    "customer_id": "C-097143",
+    "final_total": "3545.72"
+  },
+  {
+    "order_id": "53b508b4-a395-5aae-8ed2-30d15066f875",
+    "customer_id": "C-010850",
+    "final_total": "3545.41"
+  },
+  {
+    "order_id": "38aec59b-9c4b-5269-8b56-d038877a70f5",
+    "customer_id": "C-091503",
+    "final_total": "3545.13"
+  },
+  {
+    "order_id": "035cb8a9-768d-5f45-845f-1b4b1f054101",
+    "customer_id": "C-002689",
+    "final_total": "3544.96"
+  },
+  {
+    "order_id": "fea0c796-ba0f-576c-829b-8c73f74ba1e7",
+    "customer_id": "C-070331",
+    "final_total": "3544.78"
+  },
+  {
+    "order_id": "b92dd794-eadf-5220-8618-d223432d723d",
+    "customer_id": "C-005717",
+    "final_total": "3544.43"
+  },
+  {
+    "order_id": "9bf9cec6-7aec-5656-9a9b-ac5929cdd53f",
+    "customer_id": "C-070147",
+    "final_total": "3544.42"
+  },
+  {
+    "order_id": "1d75aa8c-01c9-541b-96a9-b967656836df",
+    "customer_id": "C-028154",
+    "final_total": "3544.39"
+  },
+  {
+    "order_id": "0efa0fe3-cb6c-5a5c-9280-b10142ff4d45",
+    "customer_id": "C-014756",
+    "final_total": "3544.38"
+  },
+  {
+    "order_id": "86b3c912-fd1d-5f43-ad07-4bb1ed361cd9",
+    "customer_id": "C-006716",
+    "final_total": "3544.14"
+  },
+  {
+    "order_id": "181e7618-0289-53e6-83e5-ac67f61312a6",
+    "customer_id": "C-033682",
+    "final_total": "3542.93"
+  },
+  {
+    "order_id": "47bb54e6-09a1-5792-a815-80789ac5df47",
+    "customer_id": "C-008229",
+    "final_total": "3541.76"
+  },
+  {
+    "order_id": "7fce2ce6-aad8-552d-9317-10799a2541a2",
+    "customer_id": "C-080665",
+    "final_total": "3541.72"
+  },
+  {
+    "order_id": "b41003dd-21d9-5e4a-9911-73953ffd336b",
+    "customer_id": "C-061878",
+    "final_total": "3541.13"
+  },
+  {
+    "order_id": "31806c9c-65ff-58f7-9102-d5f289259c8b",
+    "customer_id": "C-092336",
+    "final_total": "3539.51"
+  },
+  {
+    "order_id": "96216738-c783-5beb-8d82-6c03dcd2b8cf",
+    "customer_id": "C-019198",
+    "final_total": "3539.49"
+  },
+  {
+    "order_id": "ca982fec-1acd-56fa-a8a3-2c3aa94cd9b1",
+    "customer_id": "C-039267",
+    "final_total": "3538.78"
+  },
+  {
+    "order_id": "7ed63fbb-0b60-5744-abf7-0fcb0afe79f6",
+    "customer_id": "C-015400",
+    "final_total": "3538.73"
+  },
+  {
+    "order_id": "f9a00229-13cd-5b41-8569-9707c365f8f9",
+    "customer_id": "C-086701",
+    "final_total": "3537.44"
+  },
+  {
+    "order_id": "4f003a47-8d06-5be9-860a-017ec5459eb8",
+    "customer_id": "C-032813",
+    "final_total": "3536.97"
+  },
+  {
+    "order_id": "824af15f-c11d-5a7c-8ef3-29dae47a5ea7",
+    "customer_id": "C-063380",
+    "final_total": "3536.77"
+  },
+  {
+    "order_id": "5bec11a7-6f58-5d27-99e3-9afae1815bed",
+    "customer_id": "C-035394",
+    "final_total": "3536.72"
+  },
+  {
+    "order_id": "91c46a80-12ff-5310-9bb5-c4964bd7c87f",
+    "customer_id": "C-015457",
+    "final_total": "3536.65"
+  },
+  {
+    "order_id": "7276529c-1b45-5d97-a9ff-a7317ffdb838",
+    "customer_id": "C-000767",
+    "final_total": "3536.44"
+  },
+  {
+    "order_id": "a58afbc8-d666-58ee-a4b2-26c2b8abbf61",
+    "customer_id": "C-020313",
+    "final_total": "3535.07"
+  },
+  {
+    "order_id": "d63d6457-424f-549e-8819-442a4c05509d",
+    "customer_id": "C-023120",
+    "final_total": "3534.46"
+  },
+  {
+    "order_id": "a4e6eb54-bff5-5bc7-95b6-aceb302cd2d8",
+    "customer_id": "C-083060",
+    "final_total": "3534.44"
+  },
+  {
+    "order_id": "a148b534-b099-59b3-ae6e-c1671829c136",
+    "customer_id": "C-067896",
+    "final_total": "3534.18"
+  },
+  {
+    "order_id": "f2d34138-1458-57e3-b2e2-ca0bfe24a1e7",
+    "customer_id": "C-020241",
+    "final_total": "3533.66"
+  },
+  {
+    "order_id": "e6f9c95f-6264-5a79-ae0b-6fb19bc55f1d",
+    "customer_id": "C-000613",
+    "final_total": "3532.65"
+  },
+  {
+    "order_id": "6ffba661-43c8-5d4f-8753-039388aa628c",
+    "customer_id": "C-034739",
+    "final_total": "3531.93"
+  },
+  {
+    "order_id": "dafbeb56-1c57-5097-8160-ce28541c0711",
+    "customer_id": "C-021285",
+    "final_total": "3531.36"
+  },
+  {
+    "order_id": "ff241208-87a5-5dc8-92e5-452e614ed50e",
+    "customer_id": "C-033590",
+    "final_total": "3530.85"
+  },
+  {
+    "order_id": "4b735e9c-3999-5c1a-907b-142cd7e373a9",
+    "customer_id": "C-009665",
+    "final_total": "3530.15"
+  },
+  {
+    "order_id": "13f2a618-707b-5704-93b4-cd789f440b49",
+    "customer_id": "C-068584",
+    "final_total": "3529.13"
+  },
+  {
+    "order_id": "3987b711-9563-5085-85e5-796508c471be",
+    "customer_id": "C-046430",
+    "final_total": "3528.66"
+  },
+  {
+    "order_id": "4c2175c4-a50c-5d24-878c-2fb45e8ac164",
+    "customer_id": "C-022227",
+    "final_total": "3528.38"
+  },
+  {
+    "order_id": "70ec6ac0-840d-5d30-ab77-0dba3eb6692b",
+    "customer_id": "C-061067",
+    "final_total": "3528.0"
+  },
+  {
+    "order_id": "1da93d42-2c59-5191-9ba4-4bd7143cdb3e",
+    "customer_id": "C-018910",
+    "final_total": "3527.81"
+  },
+  {
+    "order_id": "eb187970-087b-50fd-ab3d-402b489e996c",
+    "customer_id": "C-023208",
+    "final_total": "3527.27"
+  },
+  {
+    "order_id": "c297cd95-cfc6-52d7-9fc5-b7b09029aa93",
+    "customer_id": "C-099657",
+    "final_total": "3526.39"
+  },
+  {
+    "order_id": "0bce38d7-ef7c-59f9-ae29-84859eab63bc",
+    "customer_id": "C-050536",
+    "final_total": "3526.32"
+  },
+  {
+    "order_id": "63b23181-d879-5fad-8518-5157709dceb2",
+    "customer_id": "C-016537",
+    "final_total": "3525.91"
+  },
+  {
+    "order_id": "c6a571b4-f349-5a21-8aec-7a6ae5e47e67",
+    "customer_id": "C-033675",
+    "final_total": "3525.65"
+  },
+  {
+    "order_id": "0c47754b-0a65-53ff-81f2-fcbf1e57c35c",
+    "customer_id": "C-073656",
+    "final_total": "3525.65"
+  },
+  {
+    "order_id": "6338c79b-35c5-5e98-9997-41901be7389b",
+    "customer_id": "C-059956",
+    "final_total": "3525.19"
+  },
+  {
+    "order_id": "12028a6f-2966-5a4e-8d49-d9961435a888",
+    "customer_id": "C-028025",
+    "final_total": "3525.16"
+  },
+  {
+    "order_id": "ea878dd4-06d5-5073-b6ae-847f83b1d417",
+    "customer_id": "C-067163",
+    "final_total": "3524.98"
+  },
+  {
+    "order_id": "98fe8f14-fff9-53b6-8360-aa19261c3183",
+    "customer_id": "C-098845",
+    "final_total": "3524.45"
+  },
+  {
+    "order_id": "785ebc83-f34f-5e18-b98e-67ca7ebcfc37",
+    "customer_id": "C-052621",
+    "final_total": "3524.19"
+  },
+  {
+    "order_id": "9bffacc0-7ddc-5d79-9df0-e8fb9e31c202",
+    "customer_id": "C-061198",
+    "final_total": "3523.91"
+  },
+  {
+    "order_id": "5f1e18a4-95d9-5c15-b885-284a8f573a92",
+    "customer_id": "C-084597",
+    "final_total": "3523.16"
+  },
+  {
+    "order_id": "3197e0f7-a02d-5587-a64f-8e079739ac9f",
+    "customer_id": "C-010865",
+    "final_total": "3522.9"
+  },
+  {
+    "order_id": "642cdae0-eff8-5b37-980e-351c5881b9ee",
+    "customer_id": "C-082046",
+    "final_total": "3522.52"
+  },
+  {
+    "order_id": "d8aaca25-b531-5849-b8ae-a537abd2abd4",
+    "customer_id": "C-028893",
+    "final_total": "3521.91"
+  },
+  {
+    "order_id": "bfbe5d94-f7cf-5abd-a20d-8ed527b9c718",
+    "customer_id": "C-085004",
+    "final_total": "3520.11"
+  },
+  {
+    "order_id": "6a884743-0f9b-598c-a547-d29499583913",
+    "customer_id": "C-074345",
+    "final_total": "3518.5"
+  },
+  {
+    "order_id": "cf623367-070a-59b7-bd8d-0eb6bc613834",
+    "customer_id": "C-035691",
+    "final_total": "3518.24"
+  },
+  {
+    "order_id": "cf4faf53-9dc0-57d9-9040-2d2fb8758ecb",
+    "customer_id": "C-029654",
+    "final_total": "3517.61"
+  },
+  {
+    "order_id": "87e3d670-145c-59ed-be53-2dfeb491d06a",
+    "customer_id": "C-068899",
+    "final_total": "3516.91"
+  },
+  {
+    "order_id": "d7e43efa-bd6c-51f5-acd5-899b820cdc04",
+    "customer_id": "C-028079",
+    "final_total": "3516.84"
+  },
+  {
+    "order_id": "6f7be8d7-ab46-5e3e-98e9-d59282d62e08",
+    "customer_id": "C-089269",
+    "final_total": "3516.47"
+  },
+  {
+    "order_id": "fe4bb618-60ac-5c43-bfcd-ba0fd244b30f",
+    "customer_id": "C-036038",
+    "final_total": "3516.37"
+  },
+  {
+    "order_id": "4bcd24eb-acf0-5924-b2d2-f1d8e78430d6",
+    "customer_id": "C-060192",
+    "final_total": "3515.85"
+  },
+  {
+    "order_id": "dc1149c8-adc0-5ffd-bde4-32d1c2082da0",
+    "customer_id": "C-068714",
+    "final_total": "3515.84"
+  },
+  {
+    "order_id": "6a5be044-f883-55bf-8731-7b905885e179",
+    "customer_id": "C-000318",
+    "final_total": "3515.81"
+  },
+  {
+    "order_id": "e5f2ba7e-6e24-5026-85e2-00910a82b35c",
+    "customer_id": "C-086217",
+    "final_total": "3515.38"
+  },
+  {
+    "order_id": "10fa147f-2e42-5643-8f2f-222e0f052c70",
+    "customer_id": "C-058215",
+    "final_total": "3515.24"
+  },
+  {
+    "order_id": "cd06f29c-a643-5c5c-a1a5-390ff2cef062",
+    "customer_id": "C-085289",
+    "final_total": "3514.71"
+  },
+  {
+    "order_id": "d84ea35b-3bae-5d9c-99e0-f3594dc6ead0",
+    "customer_id": "C-021202",
+    "final_total": "3514.43"
+  },
+  {
+    "order_id": "053beddf-ec0e-566a-b4e6-07cf8712d394",
+    "customer_id": "C-058979",
+    "final_total": "3514.25"
+  },
+  {
+    "order_id": "366b4d76-72f4-5be1-a59e-cee850814538",
+    "customer_id": "C-028961",
+    "final_total": "3514.05"
+  },
+  {
+    "order_id": "c2876349-6f74-57ec-8c10-328ec0f2b00b",
+    "customer_id": "C-054027",
+    "final_total": "3513.59"
+  },
+  {
+    "order_id": "7e7dc0fd-571d-5443-b9aa-e4e1a7e9f35c",
+    "customer_id": "C-064341",
+    "final_total": "3513.02"
+  },
+  {
+    "order_id": "23aa12f9-9da6-5e6a-a5c5-f23d057a3297",
+    "customer_id": "C-060685",
+    "final_total": "3512.63"
+  },
+  {
+    "order_id": "3926b53d-9918-5236-ab56-1744f9c73348",
+    "customer_id": "C-094428",
+    "final_total": "3512.5"
+  },
+  {
+    "order_id": "ebb92f1a-571c-5049-9b05-7a66be824b7b",
+    "customer_id": "C-087200",
+    "final_total": "3512.26"
+  },
+  {
+    "order_id": "9d4afd00-c6a6-552a-b2d3-22fa583c15d5",
+    "customer_id": "C-035290",
+    "final_total": "3511.29"
+  },
+  {
+    "order_id": "f7b7b69c-cb2b-581d-9fdd-c28f7c8f1d43",
+    "customer_id": "C-091782",
+    "final_total": "3510.94"
+  },
+  {
+    "order_id": "617d8411-b735-558c-98c3-b82e1ccc1cce",
+    "customer_id": "C-036439",
+    "final_total": "3510.89"
+  },
+  {
+    "order_id": "6e77486c-40c4-5730-b22b-a33cc6b02953",
+    "customer_id": "C-056743",
+    "final_total": "3510.23"
+  },
+  {
+    "order_id": "7a316ce5-c936-54d3-92d9-e7b14b7ab87a",
+    "customer_id": "C-066106",
+    "final_total": "3507.78"
+  },
+  {
+    "order_id": "353dcd54-d765-5bb0-89ef-ec06ad057a99",
+    "customer_id": "C-013775",
+    "final_total": "3507.31"
+  },
+  {
+    "order_id": "1d60f989-10f9-5a8e-9b9f-fd9899401b08",
+    "customer_id": "C-020696",
+    "final_total": "3507.03"
+  },
+  {
+    "order_id": "7c37187c-c346-59af-b334-f33cbefd7c92",
+    "customer_id": "C-094186",
+    "final_total": "3506.72"
+  },
+  {
+    "order_id": "a38a6841-2f55-5f88-b193-f15dad25f0c8",
+    "customer_id": "C-004729",
+    "final_total": "3506.7"
+  },
+  {
+    "order_id": "617e5dc2-b0a9-5ce1-9643-a92ebb31bce1",
+    "customer_id": "C-059500",
+    "final_total": "3506.38"
+  },
+  {
+    "order_id": "c5b99f95-c275-57db-88d2-abdf5a21ea6f",
+    "customer_id": "C-007221",
+    "final_total": "3506.36"
+  },
+  {
+    "order_id": "55f795d5-6a2d-5c96-ba99-0d8c3a53a21d",
+    "customer_id": "C-053834",
+    "final_total": "3506.22"
+  },
+  {
+    "order_id": "973b4240-239c-5186-b937-141800c62c68",
+    "customer_id": "C-016386",
+    "final_total": "3505.94"
+  },
+  {
+    "order_id": "74f2c797-da00-5a5c-b32c-046ca2250d15",
+    "customer_id": "C-076872",
+    "final_total": "3505.66"
+  },
+  {
+    "order_id": "bc229280-2cd8-5aa7-b7e2-134c4a39f291",
+    "customer_id": "C-098918",
+    "final_total": "3504.8"
+  },
+  {
+    "order_id": "7a99a431-9d4c-5cad-b1ca-353b5147d29f",
+    "customer_id": "C-089426",
+    "final_total": "3504.24"
+  },
+  {
+    "order_id": "4b087073-614c-56cf-96e9-50a7eebc919f",
+    "customer_id": "C-000219",
+    "final_total": "3503.85"
+  },
+  {
+    "order_id": "33f1f8e7-cf23-5531-8eed-1af963928190",
+    "customer_id": "C-091361",
+    "final_total": "3503.64"
+  },
+  {
+    "order_id": "4aed7ed9-5cf9-5ace-9db8-3d0e04ff4430",
+    "customer_id": "C-051878",
+    "final_total": "3503.63"
+  },
+  {
+    "order_id": "64dfdcf1-309c-500a-a9f7-60a000c2139f",
+    "customer_id": "C-083739",
+    "final_total": "3503.56"
+  },
+  {
+    "order_id": "87f5c481-73f6-5171-9ec9-16f5fbec0361",
+    "customer_id": "C-006300",
+    "final_total": "3503.35"
+  },
+  {
+    "order_id": "43989ccc-0cac-5e9b-9dc0-870758654353",
+    "customer_id": "C-025295",
+    "final_total": "3502.6"
+  },
+  {
+    "order_id": "6e213af8-14d4-5cc1-b703-5e5c22163750",
+    "customer_id": "C-003407",
+    "final_total": "3502.58"
+  },
+  {
+    "order_id": "0ec243e9-e74d-5aae-b065-e0cf747002b9",
+    "customer_id": "C-075913",
+    "final_total": "3502.56"
+  },
+  {
+    "order_id": "af5a5ae0-44d3-58f8-9c5b-de191d6111ce",
+    "customer_id": "C-021112",
+    "final_total": "3502.47"
+  },
+  {
+    "order_id": "fbc9f993-b8d3-55f6-8bd3-090ae6b76f0f",
+    "customer_id": "C-088676",
+    "final_total": "3502.26"
+  },
+  {
+    "order_id": "639dd7fb-b90b-54d8-8cb6-55805a4506bc",
+    "customer_id": "C-066560",
+    "final_total": "3501.53"
+  },
+  {
+    "order_id": "8819508d-1509-51e6-8064-6a24e84fe734",
+    "customer_id": "C-025972",
+    "final_total": "3500.84"
+  },
+  {
+    "order_id": "e85cc504-f184-5896-91bc-f1da85763073",
+    "customer_id": "C-066560",
+    "final_total": "3500.22"
+  },
+  {
+    "order_id": "c7ae3b19-a33d-52c4-8716-22730865ec80",
+    "customer_id": "C-086679",
+    "final_total": "3499.01"
+  },
+  {
+    "order_id": "7240e5ea-a212-5ff5-8d82-8ab613682866",
+    "customer_id": "C-072043",
+    "final_total": "3498.82"
+  },
+  {
+    "order_id": "793b9c97-04e8-5563-9d6b-048678885a24",
+    "customer_id": "C-092224",
+    "final_total": "3498.82"
+  },
+  {
+    "order_id": "2ddda8ee-589d-5c60-9a14-03089afb2eb2",
+    "customer_id": "C-079612",
+    "final_total": "3497.58"
+  },
+  {
+    "order_id": "618ffa19-03cc-5624-af30-44a8ba9e7d9f",
+    "customer_id": "C-057333",
+    "final_total": "3496.22"
+  },
+  {
+    "order_id": "24dc2510-7dac-503c-bbca-dc14a638267d",
+    "customer_id": "C-057664",
+    "final_total": "3496.15"
+  },
+  {
+    "order_id": "5c20666a-d425-5e9c-b03a-b65668ddfb78",
+    "customer_id": "C-076903",
+    "final_total": "3495.83"
+  },
+  {
+    "order_id": "4a977aea-43bf-5187-ab73-b9c57c06123d",
+    "customer_id": "C-051227",
+    "final_total": "3495.75"
+  },
+  {
+    "order_id": "2e6de474-360f-571a-88f5-07db2d5a1d6f",
+    "customer_id": "C-046514",
+    "final_total": "3494.99"
+  },
+  {
+    "order_id": "fcb0ea69-8108-59f9-8ad8-8950f3404095",
+    "customer_id": "C-061967",
+    "final_total": "3494.71"
+  },
+  {
+    "order_id": "2af5f69e-b370-56ee-8b82-22aaaf73b97f",
+    "customer_id": "C-054387",
+    "final_total": "3494.61"
+  },
+  {
+    "order_id": "3bb252e9-9877-5d6a-93cd-57efc8e46edc",
+    "customer_id": "C-056053",
+    "final_total": "3494.51"
+  },
+  {
+    "order_id": "8c9ff065-52d2-5a37-8c11-6db9ddc79f88",
+    "customer_id": "C-090582",
+    "final_total": "3493.26"
+  },
+  {
+    "order_id": "3979a6da-7e1b-532e-911c-9b8965cc4cd3",
+    "customer_id": "C-039477",
+    "final_total": "3492.97"
+  },
+  {
+    "order_id": "e7aad0f6-c63c-5c2d-a768-a32b6dd24407",
+    "customer_id": "C-041240",
+    "final_total": "3492.14"
+  },
+  {
+    "order_id": "63379e6c-3a97-5506-a326-188a42658e65",
+    "customer_id": "C-081192",
+    "final_total": "3491.74"
+  },
+  {
+    "order_id": "137055c6-adb7-53e9-a1f0-80f78df3ad04",
+    "customer_id": "C-036443",
+    "final_total": "3491.59"
+  },
+  {
+    "order_id": "8fd871e8-eb6f-5f68-a78c-067610bbe36b",
+    "customer_id": "C-076299",
+    "final_total": "3491.55"
+  },
+  {
+    "order_id": "6a076013-a5c2-50b2-9e92-4371ae462dd9",
+    "customer_id": "C-092435",
+    "final_total": "3491.47"
+  },
+  {
+    "order_id": "024095c5-4923-5d14-8952-bc80f6f5a78d",
+    "customer_id": "C-014080",
+    "final_total": "3491.34"
+  },
+  {
+    "order_id": "b367186a-60d2-57a2-995e-6f6bdc421731",
+    "customer_id": "C-097233",
+    "final_total": "3490.42"
+  },
+  {
+    "order_id": "b13ae5c9-1e1e-5fa2-8f03-9b4ce08ed950",
+    "customer_id": "C-078115",
+    "final_total": "3489.22"
+  },
+  {
+    "order_id": "25e85b7b-e7ab-584a-8b92-7228776be657",
+    "customer_id": "C-066615",
+    "final_total": "3488.5"
+  },
+  {
+    "order_id": "f42c8695-c267-5990-b801-da2e168f8ea8",
+    "customer_id": "C-092625",
+    "final_total": "3487.75"
+  },
+  {
+    "order_id": "f7a2cf27-ea41-5d44-9120-eda98c4ff876",
+    "customer_id": "C-022130",
+    "final_total": "3486.89"
+  },
+  {
+    "order_id": "81a4bf3a-9c17-5de4-96e5-8364c021feca",
+    "customer_id": "C-081873",
+    "final_total": "3486.25"
+  },
+  {
+    "order_id": "d609e769-3f89-51c0-a995-bc5dfbdf72f2",
+    "customer_id": "C-017633",
+    "final_total": "3485.82"
+  },
+  {
+    "order_id": "75f9f9d9-0280-5108-8e2b-3b0bffae3930",
+    "customer_id": "C-004976",
+    "final_total": "3485.33"
+  },
+  {
+    "order_id": "b93038c7-806c-5fcb-b96b-14d6ffa18d48",
+    "customer_id": "C-015055",
+    "final_total": "3484.84"
+  },
+  {
+    "order_id": "040865fd-5a23-5add-93c5-41313909a018",
+    "customer_id": "C-058199",
+    "final_total": "3483.69"
+  },
+  {
+    "order_id": "6c26ff9f-f44d-5968-a60a-083cfa9917e5",
+    "customer_id": "C-084168",
+    "final_total": "3483.54"
+  },
+  {
+    "order_id": "798278da-d6ff-5385-a4f2-0a7aa094b403",
+    "customer_id": "C-068742",
+    "final_total": "3482.92"
+  },
+  {
+    "order_id": "a0d484b6-f798-5f6c-b383-354ffa9393c7",
+    "customer_id": "C-014779",
+    "final_total": "3482.12"
+  },
+  {
+    "order_id": "46cbcabe-b23d-5350-a012-884ef50da3ca",
+    "customer_id": "C-033673",
+    "final_total": "3482.07"
+  },
+  {
+    "order_id": "6a6ead9b-68c7-549e-b4aa-2c2b2ac522ba",
+    "customer_id": "C-005269",
+    "final_total": "3481.67"
+  },
+  {
+    "order_id": "6274db1e-b99a-596b-823f-7cc61c500a92",
+    "customer_id": "C-022405",
+    "final_total": "3481.5"
+  },
+  {
+    "order_id": "6183b721-b32c-5dcb-bf1d-04b10ee2f7c0",
+    "customer_id": "C-016539",
+    "final_total": "3481.01"
+  },
+  {
+    "order_id": "13a22d69-1971-5340-9097-6e6ce1b89f83",
+    "customer_id": "C-009425",
+    "final_total": "3480.36"
+  },
+  {
+    "order_id": "020093c8-b87b-5511-92aa-dfd82c16281a",
+    "customer_id": "C-005876",
+    "final_total": "3480.25"
+  },
+  {
+    "order_id": "f96fcaf9-4138-5092-806a-0d01e6349cf9",
+    "customer_id": "C-061592",
+    "final_total": "3480.14"
+  },
+  {
+    "order_id": "033a973b-1d35-54ed-bf35-b482ea52948e",
+    "customer_id": "C-083077",
+    "final_total": "3479.24"
+  },
+  {
+    "order_id": "bdc730a8-d6fc-5b41-9e59-77674dac40de",
+    "customer_id": "C-075274",
+    "final_total": "3479.0"
+  },
+  {
+    "order_id": "e57ae25b-d90c-523b-8160-f91cb9ec8ed4",
+    "customer_id": "C-031016",
+    "final_total": "3478.93"
+  },
+  {
+    "order_id": "7d088b52-d63b-5d6c-bc3e-0fd75db99cfb",
+    "customer_id": "C-047031",
+    "final_total": "3477.42"
+  },
+  {
+    "order_id": "aca71fac-d7d2-56c7-a7f0-5c232a20792c",
+    "customer_id": "C-044448",
+    "final_total": "3477.42"
+  },
+  {
+    "order_id": "199960ef-0952-50b1-92bd-284db6ec4dde",
+    "customer_id": "C-083768",
+    "final_total": "3477.25"
+  },
+  {
+    "order_id": "67e998d5-9c7c-5150-acfd-d9baffbf0ddb",
+    "customer_id": "C-064315",
+    "final_total": "3477.06"
+  },
+  {
+    "order_id": "138c4bd5-7f1a-5f69-b26c-7ba8cf2c4164",
+    "customer_id": "C-004448",
+    "final_total": "3476.95"
+  },
+  {
+    "order_id": "1d9a363f-fcfb-50d6-94bb-264a71d6d22a",
+    "customer_id": "C-099665",
+    "final_total": "3476.81"
+  },
+  {
+    "order_id": "c1db2834-488a-5d75-9857-e6d967291472",
+    "customer_id": "C-068663",
+    "final_total": "3476.65"
+  },
+  {
+    "order_id": "ad33d1a4-507a-5c88-a43e-756703513a97",
+    "customer_id": "C-044695",
+    "final_total": "3476.43"
+  },
+  {
+    "order_id": "f61582b8-8356-52c7-b828-39d87b0aba68",
+    "customer_id": "C-062458",
+    "final_total": "3476.3"
+  },
+  {
+    "order_id": "41b181f2-13b4-5bfa-b556-a8269ae1d93f",
+    "customer_id": "C-049532",
+    "final_total": "3476.18"
+  },
+  {
+    "order_id": "17338a46-e50c-5532-98f0-e0e1b07c9727",
+    "customer_id": "C-019628",
+    "final_total": "3475.62"
+  },
+  {
+    "order_id": "a9e9f3af-86cb-5d7c-ac5f-ca49e06215d0",
+    "customer_id": "C-098211",
+    "final_total": "3474.67"
+  },
+  {
+    "order_id": "4faebb8f-3322-5ff3-94b1-0e6ea85616d6",
+    "customer_id": "C-010768",
+    "final_total": "3474.44"
+  },
+  {
+    "order_id": "aac887f0-aef1-5220-8c2d-160a21767931",
+    "customer_id": "C-039858",
+    "final_total": "3474.39"
+  },
+  {
+    "order_id": "b7256ce9-db98-5b59-881b-4a19005a4c91",
+    "customer_id": "C-095687",
+    "final_total": "3474.01"
+  },
+  {
+    "order_id": "9affa684-7c9c-5d7e-8752-c16d0b389299",
+    "customer_id": "C-017408",
+    "final_total": "3473.84"
+  },
+  {
+    "order_id": "c9069a21-2b4b-50f5-8cc8-05aece097535",
+    "customer_id": "C-079111",
+    "final_total": "3473.42"
+  },
+  {
+    "order_id": "a4af4e8c-3a12-55f5-8acc-f62821a14fe6",
+    "customer_id": "C-092916",
+    "final_total": "3473.42"
+  },
+  {
+    "order_id": "03e5a8e3-9f61-5964-9f59-f143cd725b2c",
+    "customer_id": "C-020259",
+    "final_total": "3472.9"
+  },
+  {
+    "order_id": "46c04b69-72b6-5009-a60b-d07107cdb083",
+    "customer_id": "C-075720",
+    "final_total": "3472.59"
+  },
+  {
+    "order_id": "3700a708-9977-5f64-b8f2-97e2c0eb4f40",
+    "customer_id": "C-042280",
+    "final_total": "3472.03"
+  },
+  {
+    "order_id": "9aeaa2d3-1b69-53ab-97fa-05bbc9a7298c",
+    "customer_id": "C-052181",
+    "final_total": "3471.73"
+  },
+  {
+    "order_id": "e06f909d-b113-5f0b-aaf6-6c10112d380a",
+    "customer_id": "C-006840",
+    "final_total": "3471.45"
+  },
+  {
+    "order_id": "9c93a9a4-9853-5f0f-8ce1-8da5c3e68728",
+    "customer_id": "C-060314",
+    "final_total": "3471.32"
+  },
+  {
+    "order_id": "3dd558fe-337b-5a63-becd-3b6eba2fe93b",
+    "customer_id": "C-005563",
+    "final_total": "3470.64"
+  },
+  {
+    "order_id": "e07028ba-9a21-5669-b1e1-2ffd231d714d",
+    "customer_id": "C-058924",
+    "final_total": "3470.56"
+  },
+  {
+    "order_id": "39a4986f-eef4-5721-86dc-db2baa690ba1",
+    "customer_id": "C-022199",
+    "final_total": "3470.38"
+  },
+  {
+    "order_id": "47b4e871-311f-5bdf-b23f-ebb87d806549",
+    "customer_id": "C-023845",
+    "final_total": "3470.38"
+  },
+  {
+    "order_id": "9dcb2f4d-8cde-507a-85ab-d8e4e3416036",
+    "customer_id": "C-077963",
+    "final_total": "3470.15"
+  },
+  {
+    "order_id": "f4718ea4-3632-5ed9-b862-c84384571829",
+    "customer_id": "C-014875",
+    "final_total": "3470.1"
+  },
+  {
+    "order_id": "fcb399ee-228a-5c93-acf8-0343bdc867c7",
+    "customer_id": "C-025364",
+    "final_total": "3469.46"
+  },
+  {
+    "order_id": "5649c375-06ed-5454-87f1-6fa5f64b4419",
+    "customer_id": "C-093007",
+    "final_total": "3469.27"
+  },
+  {
+    "order_id": "c26f25e4-c486-5594-955a-24218fb244d7",
+    "customer_id": "C-025620",
+    "final_total": "3469.24"
+  },
+  {
+    "order_id": "579d2afd-db7a-55da-947f-309e67c2acda",
+    "customer_id": "C-067992",
+    "final_total": "3467.07"
+  },
+  {
+    "order_id": "00082934-1ac6-5c0f-bea3-0f758dff048b",
+    "customer_id": "C-042472",
+    "final_total": "3466.97"
+  },
+  {
+    "order_id": "a617af8c-9380-56aa-a386-6913273b5c96",
+    "customer_id": "C-027938",
+    "final_total": "3466.85"
+  },
+  {
+    "order_id": "0f8f2809-3d1f-56c4-b037-d3d8f86efc64",
+    "customer_id": "C-003931",
+    "final_total": "3466.77"
+  },
+  {
+    "order_id": "a5971ba2-2d15-5d93-b3c4-7064ee4bef66",
+    "customer_id": "C-065000",
+    "final_total": "3466.61"
+  },
+  {
+    "order_id": "10cd4bb4-8ba9-591a-9e5a-d5e9c66e14c4",
+    "customer_id": "C-068784",
+    "final_total": "3466.45"
+  },
+  {
+    "order_id": "05eeb5cc-a836-55f7-8af6-7a005203b5dd",
+    "customer_id": "C-084253",
+    "final_total": "3465.83"
+  },
+  {
+    "order_id": "f2425578-810d-508d-bef8-5ff4b5dc0fc7",
+    "customer_id": "C-019599",
+    "final_total": "3465.58"
+  },
+  {
+    "order_id": "c95a64c4-a7cb-54dc-af3a-e67ff3c2f40b",
+    "customer_id": "C-072712",
+    "final_total": "3464.93"
+  },
+  {
+    "order_id": "ec7e6992-ba36-5e2a-bb8f-9ae9ab0bab54",
+    "customer_id": "C-081120",
+    "final_total": "3463.19"
+  },
+  {
+    "order_id": "eb38f2dc-9a28-59fc-ac86-5d505fea8909",
+    "customer_id": "C-095016",
+    "final_total": "3462.89"
+  },
+  {
+    "order_id": "5378a37b-3c16-516e-a176-d1afa909573f",
+    "customer_id": "C-044481",
+    "final_total": "3462.55"
+  },
+  {
+    "order_id": "b3544e75-16c9-5cfd-9da4-50e7416c073d",
+    "customer_id": "C-081297",
+    "final_total": "3462.43"
+  },
+  {
+    "order_id": "28beccdb-0cbf-59bd-a47d-321c7564f002",
+    "customer_id": "C-025779",
+    "final_total": "3462.4"
+  },
+  {
+    "order_id": "4f38699c-66e1-5f4c-a933-e325c808f94d",
+    "customer_id": "C-057239",
+    "final_total": "3461.6"
+  },
+  {
+    "order_id": "55c858d9-2323-5619-b251-885fc155a10e",
+    "customer_id": "C-062557",
+    "final_total": "3460.62"
+  },
+  {
+    "order_id": "0416f3de-5147-5575-843f-7de9a70f0b77",
+    "customer_id": "C-040036",
+    "final_total": "3460.3"
+  },
+  {
+    "order_id": "b7750497-9236-5cfb-a1c8-a8bb05802489",
+    "customer_id": "C-085289",
+    "final_total": "3460.02"
+  },
+  {
+    "order_id": "19c6660b-f293-5278-b36a-13cd3d9ea355",
+    "customer_id": "C-013407",
+    "final_total": "3459.93"
+  },
+  {
+    "order_id": "fee6ebee-bccc-51a7-b53f-6bf32824bd0f",
+    "customer_id": "C-008120",
+    "final_total": "3459.3"
+  },
+  {
+    "order_id": "0a0eda56-3b89-538d-be45-e01f9f44b974",
+    "customer_id": "C-025643",
+    "final_total": "3459.08"
+  },
+  {
+    "order_id": "b9fde79c-da70-5eed-a439-16571d64c98d",
+    "customer_id": "C-086117",
+    "final_total": "3458.48"
+  },
+  {
+    "order_id": "c6950141-4a27-5fff-91e3-4bcf2c52b408",
+    "customer_id": "C-062617",
+    "final_total": "3458.29"
+  },
+  {
+    "order_id": "2033b76b-2771-528e-b139-55a545a2aa08",
+    "customer_id": "C-034985",
+    "final_total": "3458.25"
+  },
+  {
+    "order_id": "45f2ba7e-67f3-5421-b3ef-dd6130628958",
+    "customer_id": "C-007701",
+    "final_total": "3458.03"
+  },
+  {
+    "order_id": "f19ac92e-7b39-5188-b9c3-831255c468f0",
+    "customer_id": "C-045030",
+    "final_total": "3457.96"
+  },
+  {
+    "order_id": "bbc7d934-9f7b-53e0-948e-ce083b8d0134",
+    "customer_id": "C-035636",
+    "final_total": "3457.78"
+  },
+  {
+    "order_id": "05d5394f-fc31-5f65-b3fc-95bcaaa92d3b",
+    "customer_id": "C-048942",
+    "final_total": "3457.68"
+  },
+  {
+    "order_id": "d19609a4-a4dc-5ec7-b2f3-3ec14690f676",
+    "customer_id": "C-015682",
+    "final_total": "3457.23"
+  },
+  {
+    "order_id": "7e56382d-4c2f-549a-a444-c46e248d2f34",
+    "customer_id": "C-017261",
+    "final_total": "3457.01"
+  },
+  {
+    "order_id": "b2273451-1ca6-5047-ac1b-3fed1439939f",
+    "customer_id": "C-056728",
+    "final_total": "3456.96"
+  },
+  {
+    "order_id": "b59dbebe-139c-5f30-94f1-bbdf601b13bc",
+    "customer_id": "C-084269",
+    "final_total": "3456.89"
+  },
+  {
+    "order_id": "163c670d-78e2-5862-9377-4b15e135a3b8",
+    "customer_id": "C-094030",
+    "final_total": "3456.58"
+  },
+  {
+    "order_id": "3ed387eb-1b21-5062-bf6a-6c956bea59d9",
+    "customer_id": "C-015612",
+    "final_total": "3455.67"
+  },
+  {
+    "order_id": "3ad26f8e-86df-5d02-a358-1e3f46d190c2",
+    "customer_id": "C-073734",
+    "final_total": "3455.5"
+  },
+  {
+    "order_id": "b7580fb6-be22-5854-a9a0-5617f0ef25c2",
+    "customer_id": "C-017826",
+    "final_total": "3454.89"
+  },
+  {
+    "order_id": "6de52369-adc8-5153-92e6-76ea7ef9c108",
+    "customer_id": "C-061181",
+    "final_total": "3454.63"
+  },
+  {
+    "order_id": "6fabafcc-13ae-5b82-8402-3da1fed29e4b",
+    "customer_id": "C-012699",
+    "final_total": "3453.21"
+  },
+  {
+    "order_id": "318bf525-668c-5032-94e6-5df83b3fb316",
+    "customer_id": "C-032752",
+    "final_total": "3453.12"
+  },
+  {
+    "order_id": "f6b916e1-9367-5e24-a30c-171365af077c",
+    "customer_id": "C-012673",
+    "final_total": "3452.97"
+  },
+  {
+    "order_id": "67619bcd-87d0-5867-a066-6a6d0b66e6f4",
+    "customer_id": "C-063724",
+    "final_total": "3452.76"
+  },
+  {
+    "order_id": "1e410d6a-db6f-5a0d-92c7-ea9a3ef2d935",
+    "customer_id": "C-010823",
+    "final_total": "3452.27"
+  },
+  {
+    "order_id": "82a92b0e-cde1-5782-aa85-38b0fd6017b2",
+    "customer_id": "C-063601",
+    "final_total": "3451.92"
+  },
+  {
+    "order_id": "a6b71013-c682-56e3-8595-8ea4d07c87eb",
+    "customer_id": "C-028577",
+    "final_total": "3451.87"
+  },
+  {
+    "order_id": "93d8080d-f697-5e38-bb5c-7ed3f73b317d",
+    "customer_id": "C-090433",
+    "final_total": "3451.69"
+  },
+  {
+    "order_id": "8a3c395d-bf76-5e24-8e77-a8c6cee331a1",
+    "customer_id": "C-066253",
+    "final_total": "3451.65"
+  },
+  {
+    "order_id": "2ff94e9d-2efc-5c05-958c-6f769f0c6d31",
+    "customer_id": "C-098020",
+    "final_total": "3451.31"
+  },
+  {
+    "order_id": "a82b9108-0292-5c09-aabf-80a2c38ccca9",
+    "customer_id": "C-059224",
+    "final_total": "3450.58"
+  },
+  {
+    "order_id": "21e0f10a-1cc6-5760-a975-a1783171fe05",
+    "customer_id": "C-042101",
+    "final_total": "3450.41"
+  },
+  {
+    "order_id": "ba2bd836-de9b-5739-96d4-fbefd32068d8",
+    "customer_id": "C-045518",
+    "final_total": "3450.27"
+  },
+  {
+    "order_id": "f6ea8c87-f8e1-5d70-ae47-8191e95ae034",
+    "customer_id": "C-021788",
+    "final_total": "3450.19"
+  },
+  {
+    "order_id": "c4d028f7-dfe7-5b57-a4f2-591e1f4f2b3e",
+    "customer_id": "C-070885",
+    "final_total": "3450.1"
+  },
+  {
+    "order_id": "bec28a72-e9a5-533d-b5cd-f7468ccfce49",
+    "customer_id": "C-048102",
+    "final_total": "3449.14"
+  },
+  {
+    "order_id": "021d6664-d32c-52cd-b2fb-bda527d99da1",
+    "customer_id": "C-085070",
+    "final_total": "3448.2"
+  },
+  {
+    "order_id": "218296ea-311d-55c8-9741-30ac5baa8e67",
+    "customer_id": "C-008954",
+    "final_total": "3447.14"
+  },
+  {
+    "order_id": "bd8dba1f-b6f5-56b9-8fcc-0b32fd701bd1",
+    "customer_id": "C-044137",
+    "final_total": "3447.09"
+  },
+  {
+    "order_id": "26770872-de35-5fb0-82a5-e8edc30b8a3b",
+    "customer_id": "C-045540",
+    "final_total": "3446.49"
+  },
+  {
+    "order_id": "2bd59ccc-02d9-5fea-a45a-41b77dc60ab1",
+    "customer_id": "C-060931",
+    "final_total": "3446.41"
+  },
+  {
+    "order_id": "1db4982a-291d-5fb6-8492-c473b4c99e68",
+    "customer_id": "C-010729",
+    "final_total": "3445.63"
+  },
+  {
+    "order_id": "30f4c513-0ecb-5e09-8957-a2169f2d54dc",
+    "customer_id": "C-054654",
+    "final_total": "3445.36"
+  },
+  {
+    "order_id": "aedec227-b44d-50ee-8ab6-0adfecacd52b",
+    "customer_id": "C-010445",
+    "final_total": "3445.34"
+  },
+  {
+    "order_id": "f57f9ed8-dea4-5d1f-92f3-1c85800575f5",
+    "customer_id": "C-034014",
+    "final_total": "3445.03"
+  },
+  {
+    "order_id": "28da326e-ba79-5d89-b315-26f262224863",
+    "customer_id": "C-062653",
+    "final_total": "3444.95"
+  },
+  {
+    "order_id": "b26033a2-a303-59d9-915e-a542aa7bb2b5",
+    "customer_id": "C-048260",
+    "final_total": "3444.79"
+  },
+  {
+    "order_id": "28199eaf-0ee2-5197-b568-e96544ef0b06",
+    "customer_id": "C-000569",
+    "final_total": "3444.0"
+  },
+  {
+    "order_id": "437744a6-1722-50be-8d20-48993a434c2a",
+    "customer_id": "C-088361",
+    "final_total": "3443.95"
+  }
+]
