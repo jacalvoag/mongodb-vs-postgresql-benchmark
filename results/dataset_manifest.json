@@ -1,0 +1,17 @@
+{
+  "dataset": "data/orders.jsonl",
+  "format": "jsonl/utf-8/LF",
+  "seed": 2026,
+  "python_version": "3.14.10",
+  "records": 500000,
+  "items": 1500000,
+  "average_items_per_order": 3.0,
+  "max_nested_container_depth": 3,
+  "depth_convention": "root=0; each nested object or array adds one level",
+  "minimum_timestamp": "2025-01-01T00:02:30Z",
+  "maximum_timestamp": "2026-12-31T23:54:40Z",
+  "q1_matching_items": 1203659,
+  "q2_matching_orders": 187506,
+  "size_bytes": 469126862,
+  "sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac"
+}

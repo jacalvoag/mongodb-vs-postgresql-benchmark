@@ -99,6 +99,16 @@ services:
       - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
       - prometheus_data:/prometheus
 
+  data-generator:
+    image: ${PYTHON_IMAGE:?Define PYTHON_IMAGE en .env}
+    profiles: [tools]
+    working_dir: /work
+    command: ["python", "-u", "synthetic_data_generator.py", "--records", "500000", "--seed", "2026"]
+    volumes:
+      - ./synthetic_data_generator.py:/work/synthetic_data_generator.py:ro
+      - ./data:/work/data
+      - ./results:/work/results
+
 volumes:
   mongo_data:
   postgres_data:
