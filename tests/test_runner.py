@@ -70,7 +70,7 @@ class Tests(unittest.TestCase):
     def test_positive_spill_needs_no_negative_inference(self):
         self.assertTrue(detect_spill('postgresql','t bench:measurement:w0 LOG: temporary file: path tmp','bench',5,'SELECT data')['value'])
     def test_mongo_actual_useddisk_and_comment(self):
-        r={'msg':'Slow query','attr':{'command':{'aggregate':'orders','comment':'bench:measurement'},'usedDisk':True}}
+        r={'msg':'Slow query','attr':{'command':{'aggregate':'envios','comment':'bench:measurement'},'usedDisk':True}}
         self.assertTrue(detect_spill('mongodb',json.dumps(r),'bench',1,'')['value'])
         self.assertIsNone(detect_spill('mongodb',json.dumps(r),'other',1,'')['value'])
     def test_docker_frames(self):
@@ -105,7 +105,7 @@ class PersistenceTests(unittest.TestCase):
         from types import SimpleNamespace
         from unittest.mock import patch
         from benchmark_runner import __main__ as app
-        config=dict(engine='postgresql',query='Q1',query_id='Q1',profile='PROFILE_A_BASELINE',tag='bench',marker='SELECT data')
+        config=dict(case='paqueteria',model_version='paqueteria-v1',source_sha256='test-source',engine='postgresql',query='Q1',query_id='Q1',profile='PROFILE_A_BASELINE',tag='bench',marker='SELECT data')
         snapshot=dict(epoch=0,cpu={'usage_usec':2000000,'throttled_usec':100000},memory_events={'oom_kill':0},memory_current=1)
         info=dict(Id='id',Name='/pg',Image='sha',Config={'Image':'pg'},State={'Running':True,'OOMKilled':oom},HostConfig={},RestartCount=0)
         class G:
@@ -129,13 +129,13 @@ class PersistenceTests(unittest.TestCase):
             old=os.getcwd()
             try:
                 os.chdir(directory)
-                Path('cache.json').write_text(json.dumps(dict(status='ok',run_id='sample',engine='postgresql',profile='PROFILE_A_BASELINE')))
-                args=SimpleNamespace(run_id='sample',cache_record=Path('cache.json'),concurrency=1,run_number=1,csv=Path('results/test.csv'))
+                Path('cache.json').write_text(json.dumps(dict(case='paqueteria',source_sha256='test-source',status='ok',run_id='sample',engine='postgresql',profile='PROFILE_A_BASELINE')))
+                args=SimpleNamespace(run_id='sample',cache_record=Path('cache.json'),concurrency=1,run_number=1,csv=Path('results/paqueteria/test.csv'))
                 with patch.object(app,'check',return_value=(D(),info,G(),P(),{})),patch.object(app,'Clients',C),patch.object(app.time,'sleep'),contextlib.redirect_stdout(io.StringIO()):app.run(args,config)
-                meta=json.loads(Path('evidence/runs/sample/metadata.json').read_text())
-                with Path('results/test.csv').open() as stream:rows=list(csv.DictReader(stream))
+                meta=json.loads(Path('evidence/paqueteria/runs/sample/metadata.json').read_text())
+                with Path('results/paqueteria/test.csv').open() as stream:rows=list(csv.DictReader(stream))
                 self.assertEqual(len(rows),1);self.assertEqual(list(rows[0]),FIELDS)
-                self.assertTrue(Path('evidence/runs/sample/engine.log.gz').is_file())
+                self.assertTrue(Path('evidence/paqueteria/runs/sample/engine.log.gz').is_file())
                 return meta,rows[0]
             finally:os.chdir(old)
     def test_partial_telemetry_records_one_spill_row(self):

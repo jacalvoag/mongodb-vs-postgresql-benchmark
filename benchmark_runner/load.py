@@ -35,7 +35,7 @@ class Session:
             options = {'comment': self.tag}
             if self.config['query'] == 'Q2':
                 options['allowDiskUse'] = self.config['variant'] == 'allowDiskUse_true'
-            with self.db.orders.aggregate(self.query, **options) as cursor:
+            with self.db['envios'].aggregate(self.query, **options) as cursor:
                 return sum(1 for _ in cursor)
         self.cursor.execute(self.query)
         return len(self.cursor.fetchall())

@@ -13,6 +13,13 @@ from .metrics import FIELDS, PROFILES, append_csv, counter_delta, require, rss_s
 from .observe import Docker, Group, Prometheus, detect_spill, public_info
 
 
+CASE = 'paqueteria'
+MODEL = 'paqueteria-v1'
+RESULTS = Path('results/paqueteria')
+EVIDENCE = Path('evidence/paqueteria')
+COUNT_KEYS = ('records', 'packages', 'q1_matching_packages', 'q2_matching_shipments')
+
+
 def read(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
 
@@ -26,6 +33,27 @@ def compressed(path, data):
         json.dump(data,stream,ensure_ascii=False)
 
 
+def sha256(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def canonical_hash(path):
+    return sha256(Path(path).read_bytes().replace(b'\r\n', b'\n'))
+
+
+def matches_hash(path, expected):
+    raw = Path(path).read_bytes()
+    lf = raw.replace(b'\r\n', b'\n')
+    # Git en Windows puede cambiar los saltos de linea sin cambiar el contenido.
+    return expected in {sha256(raw), sha256(lf), sha256(lf.replace(b'\n', b'\r\n'))}
+
+
+def method_files():
+    paths = ('benchmark_runner/__main__.py', 'benchmark_runner/load.py',
+             'benchmark_runner/metrics.py', 'benchmark_runner/observe.py', 'compose.runner.yml')
+    return {path: canonical_hash(path) for path in paths}
+
+
 def configuration(args):
     profile=os.environ.get('PROFILE_ID','PROFILE_A_BASELINE')
     require(profile in PROFILES,'Perfil desconocido.')
@@ -34,25 +62,62 @@ def configuration(args):
               ['work_mem_4MB','work_mem_64MB'])
     variant=args.variant or ('default' if args.query=='Q1' else None)
     require(variant in variants,f'Indica una variante de {variants}.')
-    manifest=read('results/dataset_manifest.json')
-    validation=read(f'results/validation_{args.engine}_PROFILE_A_BASELINE.json')
-    loaded=read(f'results/load_{args.engine}.json')
-    reference=read('results/query_reference.json')
-    require(manifest['records']==500000,'Dataset distinto al requerido.')
+    manifest=read(RESULTS/'dataset_manifest.json')
+    validation_path=RESULTS/f'validation_{args.engine}_PROFILE_A_BASELINE.json'
+    loaded_path=RESULTS/f'load_{args.engine}.json'
+    reference_path=RESULTS/'query_reference.json'
+    validation=read(validation_path)
+    loaded=read(loaded_path)
+    reference=read(reference_path)
+    require(manifest.get('case')==CASE and manifest.get('model_version')==MODEL,
+            'El manifiesto no corresponde al caso de paqueteria.')
+    require(manifest['records']==500000 and manifest['packages']==1500000,
+            'La escala del dataset no coincide con el caso definido.')
+    require(manifest.get('dataset')=='data/envios.jsonl' and manifest.get('seed')==2026,
+            'Archivo o semilla de otro dataset.')
+    require(manifest.get('max_nested_container_depth')==3 and manifest.get('average_packages_per_shipment')==3,
+            'La estructura del dataset no coincide con el caso definido.')
+    require(manifest.get('q2_interval')==dict(inclusive_start='2026-01-01T00:00:00Z',exclusive_end='2026-10-01T00:00:00Z'),
+            'Periodo de Q2 distinto al validado.')
     for report in (validation,loaded):
-        require(report['status']=='ok' and report['source_sha256']==manifest['sha256'],'Carga o validacion de fase 4 no acreditada.')
-    require(reference['source_sha256']==manifest['sha256'],'Referencia de otro dataset.')
+        require(report.get('case')==CASE and report.get('model_version')==MODEL and report.get('engine')==args.engine,
+                'La carga o validacion corresponde a otro caso, modelo o motor.')
+        require(report['status']=='ok' and report['source_sha256']==manifest['sha256'],
+                'Carga o validacion de paqueteria no acreditada.')
+    require(validation.get('profile')=='PROFILE_A_BASELINE','Falta la validacion base de las consultas.')
+    require(reference.get('case')==CASE and reference.get('model_version')==MODEL and
+            reference.get('reference_schema')=='paqueteria-q1-q2-v1', 'Referencia de otro caso o esquema.')
+    require(reference['source_sha256']==manifest['sha256'] and reference['source_records']==manifest['records'],
+            'Referencia de otro dataset.')
+    require(reference['q2']['limit']==1000 and reference.get('q2_interval')==manifest['q2_interval'],
+            'La referencia no corresponde al Top-1000 definido.')
+    require(matches_hash(reference_path,validation.get('reference_sha256')),
+            'La referencia cambio desde la validacion de las consultas.')
+    for key in COUNT_KEYS:
+        require(loaded['counts'][key]==reference['counts'][key]==manifest[key],
+                f'Conteos de fuente, carga y referencia diferentes: {key}.')
+    target_key,target=('collection','envios') if args.engine=='mongodb' else ('table','public.envios')
+    require(loaded.get(target_key)==target and validation.get(target_key)==target,
+            'La carga o validacion apunta a otro destino.')
+    require(all(c['status']=='ok' for c in validation['cases']), 'Hay variantes sin validar.')
     require(any(c['query_id']==args.query and c['variant']==variant and c['status']=='ok' for c in validation['cases']),'Consulta/variante no validada.')
     suffix='json' if args.engine=='mongodb' else 'sql'
-    raw=Path(f'queries/{args.engine}/{args.query}.{suffix}').read_bytes()
-    digest=lambda b:hashlib.sha256(b).hexdigest()
-    require(validation['query_sha256'][args.query] in (digest(raw),digest(raw.replace(b'\r\n',b'\n'))),'La consulta cambio desde la fase 4.')
-    return dict(engine=args.engine,query=args.query,variant=variant,profile=profile,
+    query_path=Path(f'queries/{args.engine}/{args.query}.{suffix}')
+    raw=query_path.read_bytes()
+    require(matches_hash(query_path,validation['query_sha256'][args.query]),'La consulta cambio desde la validacion.')
+    fingerprints=method_files()
+    return dict(case=CASE,model_version=MODEL,engine=args.engine,query=args.query,variant=variant,profile=profile,
                 query_id=args.query if args.query=='Q1' else 'Q2_'+variant,
                 expected_rows=len(reference['q1']) if args.query=='Q1' else reference['q2']['limit'],
-                source_records=manifest['records'],source_sha256=manifest['sha256'],query_sha256=digest(raw),
+                source_records=manifest['records'],source_packages=manifest['packages'],source_sha256=manifest['sha256'],
+                query_sha256=canonical_hash(query_path),query_file_sha256=sha256(raw),
+                validated_query_sha256=validation['query_sha256'][args.query],
+                reference_sha256=canonical_hash(reference_path),validation_file=str(validation_path),
+                validated_server_version=validation['server_version'],
+                method_files_sha256=fingerprints,
+                method_sha256=sha256(json.dumps(fingerprints,sort_keys=True,separators=(',',':')).encode()),
                 marker=raw.decode('utf-8').strip().splitlines()[0],
-                tag='bench_'+digest((args.run_id or 'check').encode())[:12])
+                tag='bench_parcel_'+sha256((args.run_id or 'check').encode())[:12])
 
 
 def check(config):
@@ -80,19 +145,25 @@ def check(config):
             settings['server_version']=session.client.server_info()['version']
     finally:
         session.close()
+    require(settings['server_version']==config['validated_server_version'],
+            'La version del motor cambio desde la validacion de las consultas.')
     return docker,info,group,prometheus,dict(container=public_info(info),cgroup_path=group.relative,settings=settings)
 
 
 def run(args,config):
     require(args.run_id is not None and re.fullmatch(r'[A-Za-z0-9_.-]{1,96}',args.run_id),'Identificador de corrida invalido.')
     require(args.cache_record is not None,'Falta el registro de limpieza de cache Linux.')
+    require(Path(args.csv).resolve().is_relative_to(RESULTS.resolve()),
+            'El CSV debe guardarse dentro de results/paqueteria para no mezclar casos.')
     cache=read(args.cache_record)
+    require(cache.get('case')==CASE and cache.get('source_sha256')==config['source_sha256'],
+            'El registro de cache pertenece a otro caso o dataset.')
     require(cache.get('status')=='ok' and cache.get('run_id')==args.run_id and cache.get('engine')==config['engine'] and cache.get('profile')==config['profile'],'Registro de cache incorrecto.')
     docker,info,group,prometheus,checks=check(config)
-    folder=Path('evidence/runs')/args.run_id
+    folder=EVIDENCE/'runs'/args.run_id
     folder.mkdir(parents=True,exist_ok=False)
     save(folder/'cache_flush.json',cache)
-    report=dict(run_id=args.run_id,configuration=config,checks=checks,
+    report=dict(case=CASE,model_version=MODEL,run_id=args.run_id,configuration=config,checks=checks,
                 protocol=dict(warmup_seconds=60,measurement_seconds=300,cooldown_seconds=60),
                 issues=[],notes=[],oom_killed=False)
     row=dict.fromkeys(FIELDS)
@@ -191,7 +262,7 @@ def main():
     parser.add_argument('--run-number',type=int,choices=(1,2,3),default=1)
     parser.add_argument('--run-id')
     parser.add_argument('--cache-record',type=Path)
-    parser.add_argument('--csv',type=Path,default=Path('results/measurements.csv'))
+    parser.add_argument('--csv',type=Path,default=RESULTS/'measurements.csv')
     args=parser.parse_args()
     config=configuration(args)
     if args.mode=='check':

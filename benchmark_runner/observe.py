@@ -154,9 +154,17 @@ def detect_spill(engine, logs, tag, successful, marker):
                 continue
             attr=record.get('attr',{})
             command=attr.get('command',{})
-            if command.get('comment')!=measurement:
+            origin=attr.get('originatingCommand',{})
+            aggregate=command.get('aggregate')=='envios'
+            more='getMore' in command and command.get('collection')=='envios'
+            if not (aggregate or more):
                 continue
-            if command.get('aggregate')=='orders' and record.get('msg')=='Slow query':
+            comment=command.get('comment',command.get('cursor',{}).get('comment'))
+            if comment is None and more and origin.get('aggregate')=='envios':
+                comment=origin.get('comment')
+            if comment!=measurement:
+                continue
+            if aggregate and record.get('msg')=='Slow query':
                 completed+=1
             if used_disk(attr):
                 evidence.append(record)

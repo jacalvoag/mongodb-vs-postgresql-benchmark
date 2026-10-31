@@ -1,4 +1,4 @@
-# Se combina con docker-compose.yml; datos y consultas de fase 4 se conservan.
+# Se combina con docker-compose.yml; reutiliza los envios y consultas validados.
 services:
   mongodb:
     command: [mongod, --bind_ip_all, --storageEngine, wiredTiger, --slowms, "0", --slowOpSampleRate, "1.0"]
@@ -35,9 +35,11 @@ services:
       BENCHMARK_PROJECT: mongodb-postgresql-benchmark
     volumes:
       - ./benchmark_runner:/work/benchmark_runner:ro
+      - ./compose.runner.yml:/work/compose.runner.yml:ro
       - ./queries:/work/queries:ro
       - ./results:/work/results
       - ./evidence:/work/evidence
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /sys/fs/cgroup:/host/cgroup:ro
       - /proc:/host/proc:ro
+      

@@ -1,0 +1,46 @@
+﻿{
+    "case":  "paqueteria",
+    "model_version":  "paqueteria-v1",
+    "batch_id":  "paqueteria_pilot_20261031T202641123Z",
+    "csv":  "results/paqueteria/paqueteria_pilot_20261031T202641123Z.csv",
+    "engine":  "postgresql",
+    "profile":  "PROFILE_A_BASELINE",
+    "query":  "Q1",
+    "variant":  "default",
+    "concurrency":  1,
+    "source_sha256":  "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+    "query_sha256":  "d4f35e087e4f4d68eb1381e934f34820aebe08313ccbe8beaac90bfa06026cc3",
+    "reference_sha256":  "e51502c26d7eca8edf56181517dcc563f475cd54bd37991d9319f2448da428f3",
+    "method_sha256":  "7b9985ae322eccff3d07e84cd31d48b419e246b94ece790df67832dc877812b3",
+    "expected_rows":  12,
+    "planned_repetitions":  3,
+    "protocol":  {
+                     "warmup_seconds":  60,
+                     "measurement_seconds":  300,
+                     "cooldown_seconds":  60
+                 },
+    "status":  "completed",
+    "created_at_utc":  "2026-10-31T20:26:41.1532914Z",
+    "completed_at_utc":  "2026-10-31T20:47:57.5537424Z",
+    "runs":  [
+                 {
+                     "run_id":  "paqueteria_pilot_20261031T202641123Z_r1",
+                     "run_number":  1,
+                     "status":  "spill",
+                     "metadata":  "evidence/paqueteria/runs/paqueteria_pilot_20261031T202641123Z_r1/metadata.json"
+                 },
+                 {
+                     "run_id":  "paqueteria_pilot_20261031T202641123Z_r2",
+                     "run_number":  2,
+                     "status":  "spill",
+                     "metadata":  "evidence/paqueteria/runs/paqueteria_pilot_20261031T202641123Z_r2/metadata.json"
+                 },
+                 {
+                     "run_id":  "paqueteria_pilot_20261031T202641123Z_r3",
+                     "run_number":  3,
+                     "status":  "spill",
+                     "metadata":  "evidence/paqueteria/runs/paqueteria_pilot_20261031T202641123Z_r3/metadata.json"
+                 }
+             ],
+    "failure":  null
+}
