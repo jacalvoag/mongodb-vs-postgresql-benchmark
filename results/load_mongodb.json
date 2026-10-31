@@ -1,0 +1,36 @@
+{
+  "server_version": "9.0.4",
+  "driver_version": "4.19.0",
+  "database": "benchmark",
+  "counts": {
+    "records": 500000,
+    "items": 1500000,
+    "q1_matching_items": 1203659,
+    "q2_matching_orders": 187506
+  },
+  "indexes": [
+    {
+      "name": "_id_",
+      "key": {
+        "_id": 1
+      }
+    },
+    {
+      "name": "orders_timestamp_idx",
+      "key": {
+        "timestamp": 1
+      }
+    },
+    {
+      "name": "orders_order_id_idx",
+      "key": {
+        "order_id": 1
+      }
+    }
+  ],
+  "engine": "mongodb",
+  "status": "ok",
+  "source_sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac",
+  "python_version": "3.14.10",
+  "verified_at_utc": "2026-10-31T04:50:24.470047+00:00"
+}

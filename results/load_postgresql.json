@@ -1,0 +1,26 @@
+{
+  "server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+  "driver_version": "3.3.6",
+  "database": "benchmark",
+  "counts": {
+    "records": 500000,
+    "items": 1500000,
+    "q1_matching_items": 1203659,
+    "q2_matching_orders": 187506
+  },
+  "indexes": [
+    {
+      "name": "orders_pkey",
+      "definition": "CREATE UNIQUE INDEX orders_pkey ON public.orders USING btree (id)"
+    },
+    {
+      "name": "orders_timestamp_idx",
+      "definition": "CREATE INDEX orders_timestamp_idx ON public.orders USING btree (((data ->> 'timestamp'::text)))"
+    }
+  ],
+  "engine": "postgresql",
+  "status": "ok",
+  "source_sha256": "6a0fa46f10a21f9022941d5b3fc060d4d993bededcc371b6bf81e0a873806eac",
+  "python_version": "3.14.10",
+  "verified_at_utc": "2026-10-31T04:52:39.762346+00:00"
+}
