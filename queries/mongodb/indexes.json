@@ -1,4 +1,4 @@
 [
-  {"key": {"timestamp": 1}, "name": "orders_timestamp_idx"},
-  {"key": {"order_id": 1}, "name": "orders_order_id_idx"}
+  {"key": {"fecha_cierre": 1}, "name": "envios_fecha_cierre_idx"},
+  {"key": {"envio_id": 1}, "name": "envios_envio_id_idx", "unique": true}
 ]

@@ -1,7 +1,7 @@
-CREATE TABLE IF NOT EXISTS public.orders (
+CREATE TABLE IF NOT EXISTS public.envios (
     id UUID PRIMARY KEY,
-    data JSONB
+    data JSONB NOT NULL
 );
 
-CREATE INDEX IF NOT EXISTS orders_timestamp_idx
-ON public.orders USING btree ((data->>'timestamp'));
+CREATE INDEX IF NOT EXISTS envios_fecha_cierre_idx
+ON public.envios USING btree ((data->>'fecha_cierre'));

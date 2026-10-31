@@ -1,0 +1,44 @@
+{
+  "server_version": "9.0.4",
+  "driver_version": "4.19.0",
+  "database": "benchmark",
+  "collection": "envios",
+  "counts": {
+    "records": 500000,
+    "packages": 1500000,
+    "q1_matching_packages": 488134,
+    "q2_matching_shipments": 160953
+  },
+  "indexes": [
+    {
+      "name": "_id_",
+      "key": {
+        "_id": 1
+      },
+      "unique": true
+    },
+    {
+      "name": "envios_fecha_cierre_idx",
+      "key": {
+        "fecha_cierre": 1
+      },
+      "unique": false
+    },
+    {
+      "name": "envios_envio_id_idx",
+      "key": {
+        "envio_id": 1
+      },
+      "unique": true
+    }
+  ],
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "engine": "mongodb",
+  "status": "ok",
+  "dataset": "data/envios.jsonl",
+  "source_records": 500000,
+  "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+  "python_version": "3.14.10",
+  "verified_at_utc": "2026-10-31T19:44:55.918724+00:00"
+}
