@@ -1,0 +1,64 @@
+{
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "dataset": "data/envios.jsonl",
+  "format": "jsonl/utf-8/LF",
+  "seed": 2026,
+  "python_version": "3.14.10",
+  "generator_sha256": "215723284e099a9d735a9132a97454a4776956739e61f7744e8bdb31e6637fca",
+  "records": 500000,
+  "packages": 1500000,
+  "average_packages_per_shipment": 3.0,
+  "max_nested_container_depth": 3,
+  "depth_convention": "root=0; each nested object or array adds one level",
+  "observation_cutoff": "2026-10-01T00:00:00Z",
+  "minimum_creation_timestamp": "2025-01-01T00:09:00Z",
+  "maximum_creation_timestamp": "2026-09-30T23:59:00Z",
+  "minimum_close_timestamp": "2025-01-01T12:10:00Z",
+  "maximum_close_timestamp": "2026-09-30T23:45:00Z",
+  "q1_matching_packages": 488134,
+  "q2_matching_shipments": 160953,
+  "q2_interval": {
+    "inclusive_start": "2026-01-01T00:00:00Z",
+    "exclusive_end": "2026-10-01T00:00:00Z"
+  },
+  "shipments_by_state": {
+    "cancelado": 25061,
+    "en_transito": 99983,
+    "finalizado": 374956
+  },
+  "packages_by_state": {
+    "cancelado": 75300,
+    "en_transito": 198506,
+    "entregado": 1226194
+  },
+  "shipments_by_center": {
+    "CD-01": 83867,
+    "CD-02": 83062,
+    "CD-03": 83168,
+    "CD-04": 83580,
+    "CD-05": 83258,
+    "CD-06": 83065
+  },
+  "shipments_by_service": {
+    "estandar": 350225,
+    "expres": 149775
+  },
+  "shipments_by_center_and_service": {
+    "CD-01/estandar": 58729,
+    "CD-01/expres": 25138,
+    "CD-02/estandar": 58154,
+    "CD-02/expres": 24908,
+    "CD-03/estandar": 58386,
+    "CD-03/expres": 24782,
+    "CD-04/estandar": 58559,
+    "CD-04/expres": 25021,
+    "CD-05/estandar": 58302,
+    "CD-05/expres": 24956,
+    "CD-06/estandar": 58095,
+    "CD-06/expres": 24970
+  },
+  "generation_assumptions": "docs/generacion_paqueteria.md",
+  "size_bytes": 512702428,
+  "sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920"
+}
