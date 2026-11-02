@@ -1,0 +1,218 @@
+{
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "run_id": "paqueteria_m1_mg_B_Q1_d_c1_r3",
+  "configuration": {
+    "case": "paqueteria",
+    "model_version": "paqueteria-v1",
+    "engine": "mongodb",
+    "query": "Q1",
+    "variant": "default",
+    "profile": "PROFILE_B_MEDIUM",
+    "query_id": "Q1",
+    "expected_rows": 12,
+    "source_records": 500000,
+    "source_packages": 1500000,
+    "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+    "query_sha256": "67caea11068eebc1bfc4ce938ffadfff145ab4168f438a497d997feee14c1a3e",
+    "query_file_sha256": "67caea11068eebc1bfc4ce938ffadfff145ab4168f438a497d997feee14c1a3e",
+    "validated_query_sha256": "67caea11068eebc1bfc4ce938ffadfff145ab4168f438a497d997feee14c1a3e",
+    "reference_sha256": "e51502c26d7eca8edf56181517dcc563f475cd54bd37991d9319f2448da428f3",
+    "validation_file": "results/paqueteria/validation_mongodb_PROFILE_A_BASELINE.json",
+    "validated_server_version": "9.0.4",
+    "method_files_sha256": {
+      "benchmark_runner/__main__.py": "29c02b0689908a993b22e514ee068be89fb7d9487ee7f0292ca2db561c5c96e2",
+      "benchmark_runner/load.py": "9e6667aa2a2889c403388c607c06d0588459a2a7aaa0b431772c8fb4fc46206d",
+      "benchmark_runner/metrics.py": "69f14c5a24a44c93da0522d45c954723f4c28a2beecc4f9f5f50a0bc2b2b9ac5",
+      "benchmark_runner/observe.py": "f837c461ed11cb0f8bf77cb215fdcc7547739c3e95dbe188521a9cccf7038701",
+      "compose.runner.yml": "e55815eb26629981b12de3064361726284799d602dbb41c58927dcea740ed87b"
+    },
+    "method_sha256": "7b9985ae322eccff3d07e84cd31d48b419e246b94ece790df67832dc877812b3",
+    "marker": "[",
+    "tag": "bench_parcel_a84db336f29f"
+  },
+  "checks": {
+    "container": {
+      "id": "3065f69cb8b9a8e0ecf0a3f7bcf5234919dab06f049db0a9e228db3207f44c4e",
+      "name": "mongodb-postgresql-benchmark-mongodb-1",
+      "image": "mongo:9.0.4",
+      "image_id": "sha256:452bdaf2127b8ff851e31410a267809b9829eded219979f2210e7c7efb85a058",
+      "state": {
+        "Running": true,
+        "OOMKilled": false,
+        "StartedAt": "2026-11-01T14:04:38.746313591Z",
+        "FinishedAt": "0001-01-01T00:00:00Z",
+        "ExitCode": 0
+      },
+      "restart_count": 0,
+      "limits": {
+        "NanoCpus": 2000000000,
+        "Memory": 2147483648,
+        "MemorySwap": 2147483648
+      },
+      "log_config": {
+        "Type": "local",
+        "Config": {
+          "max-file": "3",
+          "max-size": "20m"
+        }
+      }
+    },
+    "cgroup_path": "/docker/3065f69cb8b9a8e0ecf0a3f7bcf5234919dab06f049db0a9e228db3207f44c4e",
+    "settings": {
+      "was": 0,
+      "slowms": 0,
+      "sampleRate": 1.0,
+      "server_version": "9.0.4"
+    }
+  },
+  "protocol": {
+    "warmup_seconds": 60,
+    "measurement_seconds": 300,
+    "cooldown_seconds": 60
+  },
+  "issues": [],
+  "notes": [
+    "RSS es el maximo observado; revisar numero de muestras, extremos y huecos. No se interpolan valores."
+  ],
+  "oom_killed": false,
+  "warmup": {
+    "start_epoch": 1793542796.1374102,
+    "end_epoch": 1793542856.1374102,
+    "drain_seconds": 3.8383022860070923,
+    "totals": {
+      "successful": 4,
+      "failed": 0
+    },
+    "errors": [],
+    "cgroup_start": null,
+    "cgroup_end": null
+  },
+  "measurement": {
+    "start_epoch": 1793542860.1746001,
+    "end_epoch": 1793543160.1746001,
+    "drain_seconds": 0.02584953400946688,
+    "totals": {
+      "successful": 19,
+      "failed": 0
+    },
+    "errors": [],
+    "cgroup_start": {
+      "epoch": 1793542860.1752102,
+      "cpu": {
+        "usage_usec": 816112464,
+        "user_usec": 812922060,
+        "system_usec": 3190403,
+        "nr_periods": 9451,
+        "nr_throttled": 0,
+        "throttled_usec": 0,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current": 698408960
+    },
+    "cgroup_end": {
+      "epoch": 1793543160.1810179,
+      "cpu": {
+        "usage_usec": 1118617969,
+        "user_usec": 1114762673,
+        "system_usec": 3855295,
+        "nr_periods": 12452,
+        "nr_throttled": 0,
+        "throttled_usec": 0,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current": 715100160
+    }
+  },
+  "summary": {
+    "admitted": 19,
+    "successful": 19,
+    "failed": 0,
+    "completed_in_window": 18,
+    "completed_after_window": 1,
+    "throughput_qps": 0.06,
+    "latency_p50_ms": 15766.353496990632,
+    "latency_p95_ms": 15894.555326006957,
+    "latency_p99_ms": 16018.240101200645
+  },
+  "cpu_usage_seconds": 302.505505,
+  "rss_sampling": {
+    "samples": 195,
+    "nominal_interval_seconds": 1,
+    "samples_per_second": 0.65,
+    "first_offset_seconds": 1.5093998908996582,
+    "last_offset_seconds": 0.7196002006530762,
+    "max_gap_seconds": 1.996999979019165
+  },
+  "spill": {
+    "value": false,
+    "completed_query_logs": 19,
+    "expected_successful_queries": 19,
+    "evidence_events": 0
+  },
+  "oom_counters": {
+    "first": 0,
+    "last": 0
+  },
+  "container_after": {
+    "id": "3065f69cb8b9a8e0ecf0a3f7bcf5234919dab06f049db0a9e228db3207f44c4e",
+    "name": "mongodb-postgresql-benchmark-mongodb-1",
+    "image": "mongo:9.0.4",
+    "image_id": "sha256:452bdaf2127b8ff851e31410a267809b9829eded219979f2210e7c7efb85a058",
+    "state": {
+      "Running": true,
+      "OOMKilled": false,
+      "StartedAt": "2026-11-01T14:04:38.746313591Z",
+      "FinishedAt": "0001-01-01T00:00:00Z",
+      "ExitCode": 0
+    },
+    "restart_count": 0,
+    "limits": {
+      "NanoCpus": 2000000000,
+      "Memory": 2147483648,
+      "MemorySwap": 2147483648
+    },
+    "log_config": {
+      "Type": "local",
+      "Config": {
+        "max-file": "3",
+        "max-size": "20m"
+      }
+    }
+  },
+  "row": {
+    "timestamp_epoch": 1793542860.1746001,
+    "engine": "mongodb",
+    "profile": "PROFILE_B_MEDIUM",
+    "query_id": "Q1",
+    "concurrency": 1,
+    "run_number": 3,
+    "throughput_qps": 0.06,
+    "latency_p50_ms": 15766.353496990632,
+    "latency_p95_ms": 15894.555326006957,
+    "latency_p99_ms": 16018.240101200645,
+    "cpu_throttled_seconds": 0.0,
+    "max_rss_mb": 542.35546875,
+    "disk_spill": "false",
+    "status": "ok"
+  },
+  "completed_at_utc": "2026-11-01T14:27:00.797094+00:00"
+}

@@ -1,0 +1,222 @@
+{
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "run_id": "paqueteria_m1_pg_A_Q2_w4_c1_r3",
+  "configuration": {
+    "case": "paqueteria",
+    "model_version": "paqueteria-v1",
+    "engine": "postgresql",
+    "query": "Q2",
+    "variant": "work_mem_4MB",
+    "profile": "PROFILE_A_BASELINE",
+    "query_id": "Q2_work_mem_4MB",
+    "expected_rows": 1000,
+    "source_records": 500000,
+    "source_packages": 1500000,
+    "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+    "query_sha256": "8f7ea0190c93949e0eecc534e96b76cd3b2249fe10c07a6f8a2c5996579a54c7",
+    "query_file_sha256": "8f7ea0190c93949e0eecc534e96b76cd3b2249fe10c07a6f8a2c5996579a54c7",
+    "validated_query_sha256": "8f7ea0190c93949e0eecc534e96b76cd3b2249fe10c07a6f8a2c5996579a54c7",
+    "reference_sha256": "e51502c26d7eca8edf56181517dcc563f475cd54bd37991d9319f2448da428f3",
+    "validation_file": "results/paqueteria/validation_postgresql_PROFILE_A_BASELINE.json",
+    "validated_server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+    "method_files_sha256": {
+      "benchmark_runner/__main__.py": "29c02b0689908a993b22e514ee068be89fb7d9487ee7f0292ca2db561c5c96e2",
+      "benchmark_runner/load.py": "9e6667aa2a2889c403388c607c06d0588459a2a7aaa0b431772c8fb4fc46206d",
+      "benchmark_runner/metrics.py": "69f14c5a24a44c93da0522d45c954723f4c28a2beecc4f9f5f50a0bc2b2b9ac5",
+      "benchmark_runner/observe.py": "f837c461ed11cb0f8bf77cb215fdcc7547739c3e95dbe188521a9cccf7038701",
+      "compose.runner.yml": "e55815eb26629981b12de3064361726284799d602dbb41c58927dcea740ed87b"
+    },
+    "method_sha256": "7b9985ae322eccff3d07e84cd31d48b419e246b94ece790df67832dc877812b3",
+    "marker": "SELECT data->>'envio_id' AS envio_id,",
+    "tag": "bench_parcel_aee6424f8400"
+  },
+  "checks": {
+    "container": {
+      "id": "ab6e5c4d44bd88214acd776d4a9ca0ec35f20b14abbfbceb5422026943279705",
+      "name": "mongodb-postgresql-benchmark-postgresql-1",
+      "image": "postgres:18.6",
+      "image_id": "sha256:979bccfde35445db618c65107d27d08c6c21339d8dc3ad4c830c6633947be0e4",
+      "state": {
+        "Running": true,
+        "OOMKilled": false,
+        "StartedAt": "2026-10-31T20:21:54.037074241Z",
+        "FinishedAt": "0001-01-01T00:00:00Z",
+        "ExitCode": 0
+      },
+      "restart_count": 0,
+      "limits": {
+        "NanoCpus": 4000000000,
+        "Memory": 4294967296,
+        "MemorySwap": 4294967296
+      },
+      "log_config": {
+        "Type": "local",
+        "Config": {
+          "max-file": "3",
+          "max-size": "20m"
+        }
+      }
+    },
+    "cgroup_path": "/docker/ab6e5c4d44bd88214acd776d4a9ca0ec35f20b14abbfbceb5422026943279705",
+    "settings": {
+      "server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+      "work_mem": "4MB",
+      "shared_buffers": "128MB",
+      "max_parallel_workers_per_gather": "2",
+      "jit": "on",
+      "log_temp_files": "0",
+      "log_min_duration_statement": "0",
+      "log_line_prefix": "%m [%p] %a "
+    }
+  },
+  "protocol": {
+    "warmup_seconds": 60,
+    "measurement_seconds": 300,
+    "cooldown_seconds": 60
+  },
+  "issues": [],
+  "notes": [
+    "RSS es el maximo observado; revisar numero de muestras, extremos y huecos. No se interpolan valores."
+  ],
+  "oom_killed": false,
+  "warmup": {
+    "start_epoch": 1793487021.1217954,
+    "end_epoch": 1793487081.1217954,
+    "drain_seconds": 0.02254339501087088,
+    "totals": {
+      "successful": 401,
+      "failed": 0
+    },
+    "errors": [],
+    "cgroup_start": null,
+    "cgroup_end": null
+  },
+  "measurement": {
+    "start_epoch": 1793487081.3417,
+    "end_epoch": 1793487381.3417,
+    "drain_seconds": 0.07599344801565167,
+    "totals": {
+      "successful": 1932,
+      "failed": 0
+    },
+    "errors": [],
+    "cgroup_start": {
+      "epoch": 1793487081.3420722,
+      "cpu": {
+        "usage_usec": 16253717437,
+        "user_usec": 13683255891,
+        "system_usec": 2570461545,
+        "nr_periods": 50334,
+        "nr_throttled": 29688,
+        "throttled_usec": 26820228014,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 1023062,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current": 1071812608
+    },
+    "cgroup_end": {
+      "epoch": 1793487381.365979,
+      "cpu": {
+        "usage_usec": 17431711571,
+        "user_usec": 14516212417,
+        "system_usec": 2915499154,
+        "nr_periods": 53334,
+        "nr_throttled": 31139,
+        "throttled_usec": 26881743424,
+        "nr_bursts": 0,
+        "burst_usec": 0
+      },
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 1023062,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "memory_current": 1093910528
+    }
+  },
+  "summary": {
+    "admitted": 1932,
+    "successful": 1932,
+    "failed": 0,
+    "completed_in_window": 1931,
+    "completed_after_window": 1,
+    "throughput_qps": 6.4366666666666665,
+    "latency_p50_ms": 153.94090449990472,
+    "latency_p95_ms": 179.5443148985214,
+    "latency_p99_ms": 190.30360162665602
+  },
+  "cpu_usage_seconds": 1177.994134,
+  "rss_sampling": {
+    "samples": 199,
+    "nominal_interval_seconds": 1,
+    "samples_per_second": 0.6633333333333333,
+    "first_offset_seconds": 0.2152998447418213,
+    "last_offset_seconds": 0.8066999912261963,
+    "max_gap_seconds": 2.002000093460083
+  },
+  "spill": {
+    "value": false,
+    "completed_query_logs": 1932,
+    "expected_successful_queries": 1932,
+    "evidence_events": 0
+  },
+  "oom_counters": {
+    "first": 0,
+    "last": 0
+  },
+  "container_after": {
+    "id": "ab6e5c4d44bd88214acd776d4a9ca0ec35f20b14abbfbceb5422026943279705",
+    "name": "mongodb-postgresql-benchmark-postgresql-1",
+    "image": "postgres:18.6",
+    "image_id": "sha256:979bccfde35445db618c65107d27d08c6c21339d8dc3ad4c830c6633947be0e4",
+    "state": {
+      "Running": true,
+      "OOMKilled": false,
+      "StartedAt": "2026-10-31T20:21:54.037074241Z",
+      "FinishedAt": "0001-01-01T00:00:00Z",
+      "ExitCode": 0
+    },
+    "restart_count": 0,
+    "limits": {
+      "NanoCpus": 4000000000,
+      "Memory": 4294967296,
+      "MemorySwap": 4294967296
+    },
+    "log_config": {
+      "Type": "local",
+      "Config": {
+        "max-file": "3",
+        "max-size": "20m"
+      }
+    }
+  },
+  "row": {
+    "timestamp_epoch": 1793487081.3417,
+    "engine": "postgresql",
+    "profile": "PROFILE_A_BASELINE",
+    "query_id": "Q2_work_mem_4MB",
+    "concurrency": 1,
+    "run_number": 3,
+    "throughput_qps": 6.4366666666666665,
+    "latency_p50_ms": 153.94090449990472,
+    "latency_p95_ms": 179.5443148985214,
+    "latency_p99_ms": 190.30360162665602,
+    "cpu_throttled_seconds": 61.51541,
+    "max_rss_mb": 34.99609375,
+    "disk_spill": "false",
+    "status": "ok"
+  },
+  "completed_at_utc": "2026-10-31T22:57:21.525369+00:00"
+}

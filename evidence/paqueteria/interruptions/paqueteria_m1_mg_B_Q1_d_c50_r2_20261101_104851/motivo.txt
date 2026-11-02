@@ -1,0 +1,1 @@
+Intento incompleto tras congelamiento del equipo y reinicio forzado. Se conservan los archivos originales; se repetira esta medicion.

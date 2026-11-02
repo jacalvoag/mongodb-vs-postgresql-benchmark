@@ -1,0 +1,193 @@
+{
+  "case": "paqueteria",
+  "model_version": "paqueteria-v1",
+  "run_id": "paqueteria_m1_pg_C_Q1_d_c50_r1",
+  "configuration": {
+    "case": "paqueteria",
+    "model_version": "paqueteria-v1",
+    "engine": "postgresql",
+    "query": "Q1",
+    "variant": "default",
+    "profile": "PROFILE_C_SEVERE",
+    "query_id": "Q1",
+    "expected_rows": 12,
+    "source_records": 500000,
+    "source_packages": 1500000,
+    "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+    "query_sha256": "d4f35e087e4f4d68eb1381e934f34820aebe08313ccbe8beaac90bfa06026cc3",
+    "query_file_sha256": "d4f35e087e4f4d68eb1381e934f34820aebe08313ccbe8beaac90bfa06026cc3",
+    "validated_query_sha256": "d4f35e087e4f4d68eb1381e934f34820aebe08313ccbe8beaac90bfa06026cc3",
+    "reference_sha256": "e51502c26d7eca8edf56181517dcc563f475cd54bd37991d9319f2448da428f3",
+    "validation_file": "results/paqueteria/validation_postgresql_PROFILE_A_BASELINE.json",
+    "validated_server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+    "method_files_sha256": {
+      "benchmark_runner/__main__.py": "29c02b0689908a993b22e514ee068be89fb7d9487ee7f0292ca2db561c5c96e2",
+      "benchmark_runner/load.py": "9e6667aa2a2889c403388c607c06d0588459a2a7aaa0b431772c8fb4fc46206d",
+      "benchmark_runner/metrics.py": "69f14c5a24a44c93da0522d45c954723f4c28a2beecc4f9f5f50a0bc2b2b9ac5",
+      "benchmark_runner/observe.py": "f837c461ed11cb0f8bf77cb215fdcc7547739c3e95dbe188521a9cccf7038701",
+      "compose.runner.yml": "e55815eb26629981b12de3064361726284799d602dbb41c58927dcea740ed87b"
+    },
+    "method_sha256": "7b9985ae322eccff3d07e84cd31d48b419e246b94ece790df67832dc877812b3",
+    "marker": "WITH paquetes_entregados AS (",
+    "tag": "bench_parcel_cf9164d44311"
+  },
+  "checks": {
+    "container": {
+      "id": "926a4fa1719ef5658d737e374628e1eedc668c14c1e5a23a722ea46a13ac99d2",
+      "name": "mongodb-postgresql-benchmark-postgresql-1",
+      "image": "postgres:18.6",
+      "image_id": "sha256:979bccfde35445db618c65107d27d08c6c21339d8dc3ad4c830c6633947be0e4",
+      "state": {
+        "Running": true,
+        "OOMKilled": false,
+        "StartedAt": "2026-11-01T04:03:47.940759399Z",
+        "FinishedAt": "0001-01-01T00:00:00Z",
+        "ExitCode": 0
+      },
+      "restart_count": 0,
+      "limits": {
+        "NanoCpus": 1000000000,
+        "Memory": 1073741824,
+        "MemorySwap": 1073741824
+      },
+      "log_config": {
+        "Type": "local",
+        "Config": {
+          "max-file": "3",
+          "max-size": "20m"
+        }
+      }
+    },
+    "cgroup_path": "/docker/926a4fa1719ef5658d737e374628e1eedc668c14c1e5a23a722ea46a13ac99d2",
+    "settings": {
+      "server_version": "18.6 (Debian 18.6-1.pgdg13+2)",
+      "work_mem": "4MB",
+      "shared_buffers": "128MB",
+      "max_parallel_workers_per_gather": "2",
+      "jit": "on",
+      "log_temp_files": "0",
+      "log_min_duration_statement": "0",
+      "log_line_prefix": "%m [%p] %a "
+    }
+  },
+  "protocol": {
+    "warmup_seconds": 60,
+    "measurement_seconds": 300,
+    "cooldown_seconds": 60
+  },
+  "issues": [
+    "RuntimeError: Fallo durante el calentamiento: ['Cliente 21: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 19: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 23: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 41: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 47: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 6: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 16: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 28: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 2: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 42: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 9: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 15: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 37: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 30: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 12: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 20: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 48: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 4: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 22: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 38: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 13: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 39: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 3: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 24: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 11: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 1: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 45: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 33: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 27: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 8: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 44: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 49: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 14: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 10: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 7: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 17: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 34: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 46: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 26: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 36: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 32: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 29: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 25: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 43: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 40: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 18: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 0: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 5: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 35: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.', 'Cliente 31: OperationalError: consuming input failed: server closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.']"
+  ],
+  "notes": [],
+  "oom_killed": true,
+  "warmup": {
+    "start_epoch": 1793509224.532554,
+    "end_epoch": 1793509284.532554,
+    "drain_seconds": 0.01675129501381889,
+    "totals": {
+      "successful": 0,
+      "failed": 50
+    },
+    "errors": [
+      "Cliente 21: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 19: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 23: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 41: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 47: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 6: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 16: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 28: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 2: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 42: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 9: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 15: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 37: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 30: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 12: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 20: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 48: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 4: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 22: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 38: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 13: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 39: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 3: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 24: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 11: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 1: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 45: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 33: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 27: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 8: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 44: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 49: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 14: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 10: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 7: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 17: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 34: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 46: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 26: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 36: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 32: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 29: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 25: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 43: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 40: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 18: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 0: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 5: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 35: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.",
+      "Cliente 31: OperationalError: consuming input failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request."
+    ],
+    "cgroup_start": null,
+    "cgroup_end": null
+  },
+  "oom_counters": {
+    "first": 0,
+    "last": 4
+  },
+  "container_after": {
+    "id": "926a4fa1719ef5658d737e374628e1eedc668c14c1e5a23a722ea46a13ac99d2",
+    "name": "mongodb-postgresql-benchmark-postgresql-1",
+    "image": "postgres:18.6",
+    "image_id": "sha256:979bccfde35445db618c65107d27d08c6c21339d8dc3ad4c830c6633947be0e4",
+    "state": {
+      "Running": true,
+      "OOMKilled": true,
+      "StartedAt": "2026-11-01T04:03:47.940759399Z",
+      "FinishedAt": "0001-01-01T00:00:00Z",
+      "ExitCode": 0
+    },
+    "restart_count": 0,
+    "limits": {
+      "NanoCpus": 1000000000,
+      "Memory": 1073741824,
+      "MemorySwap": 1073741824
+    },
+    "log_config": {
+      "Type": "local",
+      "Config": {
+        "max-file": "3",
+        "max-size": "20m"
+      }
+    }
+  },
+  "row": {
+    "timestamp_epoch": 1793509223.0338547,
+    "engine": "postgresql",
+    "profile": "PROFILE_C_SEVERE",
+    "query_id": "Q1",
+    "concurrency": 50,
+    "run_number": 1,
+    "throughput_qps": null,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "latency_p99_ms": null,
+    "cpu_throttled_seconds": null,
+    "max_rss_mb": null,
+    "disk_spill": null,
+    "status": "oom"
+  },
+  "completed_at_utc": "2026-11-01T05:02:24.947697+00:00"
+}

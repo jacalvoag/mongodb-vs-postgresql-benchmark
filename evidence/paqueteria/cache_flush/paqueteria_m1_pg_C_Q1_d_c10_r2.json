@@ -1,0 +1,12 @@
+{
+  "case": "paqueteria",
+  "source_sha256": "bd0e8cc1c0875bfef50907a8180710cb6e01c08154d6115af2592e01495f6920",
+  "run_id": "paqueteria_m1_pg_C_Q1_d_c10_r2",
+  "engine": "postgresql",
+  "profile": "PROFILE_C_SEVERE",
+  "status": "ok",
+  "completed_at_utc": "2026-11-01T04:38:16.775338+00:00",
+  "command": "sync; echo 3 > /proc/sys/vm/drop_caches",
+  "scope": "Kernel Linux de Docker Desktop/WSL2",
+  "output": "CACHE_LINUX_OK"
+}
